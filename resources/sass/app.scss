@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "abstracts/font";
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "abstracts/base";
+@import "components/nav";
+@import "components/footer";
+@import "components/image-box";
+//@import "~glider-js/glider.min.css";
+/* purgecss start ignore */
+// Required Core Stylesheet
+@import "~@glidejs/glide/src/assets/sass/glide.core";
+
+// Optional Theme Stylesheet
+@import "~@glidejs/glide/src/assets/sass/glide.theme";
+/* purgecss end ignore */
+
+/* purgecss start ignore */
+@import "~@uppy/drag-drop/src/style";
+@import "~@uppy/progress-bar/src/style";
+@import "~simplebar/dist/simplebar";
+.simplebar-track.simplebar-horizontal {
+  height: 9px;
+}
+
+.simplebar-scrollbar {
+  &::before {
+    background-color: #000;
+  }
+}
+
+.simplebar-scrollbar.simplebar-visible:before {
+  opacity: 1;
+}
+
+.simplebar-track {
+  margin: auto;
+  background-color: #fff;
+  border-radius: 100px;
+  max-width: 35%;
+
+  @media (min-width: 1024px) {
+    max-width: 25%;
+  }
+}
+
+.simplebar-track.simplebar-horizontal .simplebar-scrollbar {
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.simplebar-track.simplebar-horizontal .simplebar-scrollbar:before {
+  left: 0;
+  right: 0;
+}
+
+.simplebar-scrollbar:before {
+  border-radius: 100px;
+}
+/* purgecss end ignore */
+
+@import "components/slider";
+@import "components/timeline";
+@import "components/post";
+@import "components/filter";

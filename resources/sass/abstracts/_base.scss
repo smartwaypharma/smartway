@@ -1,0 +1,170 @@
+html, body {
+  font-family: $font-family;
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+  overflow: hidden;
+
+  @media (min-width: 640px) {
+    max-height: 100vh;
+  }
+}
+
+.heading {
+  @media (min-width: 1024px) {
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+  }
+
+  bottom: 52px;
+  right: 0;
+  left: 0;
+}
+
+.quarto-font {
+  font-family: Quarto, serif;
+  font-weight: 300;
+}
+
+.animated-block {
+  .marker-line {
+    position: absolute;
+    height: 105%;
+    background-color: #fff;
+    width: 2px;
+    top: 0;
+    left: -14px;
+    z-index: 4;
+    opacity: 0;
+  }
+
+  .heading {
+    &:before {
+      content: "";
+      width: 35px;
+      height: 2px;
+      background-color: #fff;
+      position: absolute;
+      left: -44px;
+      top: 50%;
+      opacity: 0.5;
+
+      @media (max-width: 1023px) {
+        display: none;
+      }
+    }
+  }
+}
+
+.gray-radial-gradient {
+  @include radial-gradient(#0000005D, #000000C7);
+}
+
+.box-shadow {
+  box-shadow: 2px 3px 10px #7777771A;
+}
+
+.circle-box-shadow {
+  box-shadow: 0 3px 15px #0000004D;
+}
+
+.circle-shadow {
+  box-shadow: 0 3px 15px #00000029;
+}
+
+.form-checkbox {
+  box-shadow: none !important;
+}
+
+.w-49vw {
+  width: 49vw;
+}
+
+.linear-gradient {
+  background: transparent linear-gradient(180deg, #00000000 0%, #0000003C 35%, #000000 73%, #000000 100%) 0% 0% no-repeat padding-box;
+}
+
+.mh-1080px {
+  min-height: 1080px;
+}
+
+.transition-transform {
+  transition: transform .5s cubic-bezier(.165, .84, .44, 1);
+}
+
+.offscreen {
+  transform: translateX(100%);
+}
+
+.card-box-shadow {
+  box-shadow: 0 0 10px #0000001A;
+}
+
+.button {
+  box-shadow: 0 6px 12px #00000034;
+}
+
+.table-grid-template-columns {
+  grid-template-columns: 192px 191px 191px 191px 191px 191px 191px 192px;
+}
+
+.admin {
+  input,
+  select,
+  textarea {
+    @apply p-2;
+    @apply border;
+  }
+}
+
+.zoom {
+  transition: transform .2s;
+
+  &:hover {
+    transform: scale(1.035);
+  }
+}
+
+/* purgecss start ignore */
+.uppy-DragDrop {
+  &-label {
+    font-size: 20px;
+    letter-spacing: -0.5px;
+  }
+
+  &--isDragDropSupported {
+    border: 2px dashed #D2D2D7;
+  }
+
+  &-container {
+    border-radius: 5px;
+  }
+
+  &-inner {
+    @media (max-width: 640px) {
+      padding: 25px 20px !important;
+    }
+  }
+
+  &-arrow {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.uploaded-files {
+  > ol {
+    //color: #373737;
+    //margin: 0;
+    //padding-left: 18px;
+
+    > li {
+      //font-size: 15px;
+      //padding-top: 10px;
+      word-break: break-all;
+    }
+  }
+}
+/* purgecss end ignore */

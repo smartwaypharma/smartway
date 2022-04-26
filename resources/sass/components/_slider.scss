@@ -1,0 +1,104 @@
+.glide__bullets {
+  bottom: -5.5rem;
+
+  @media (max-width: 640px) {
+    bottom: -2.5rem;
+  }
+}
+
+.glide__bullet {
+  width: 45px;
+  height: 4px;
+  border-radius: 0;
+  background-color: #000;
+  opacity: 0.4;
+
+  &:focus,
+  &:hover {
+    background-color: #000;
+    opacity: 1;
+    border: none;
+  }
+
+  &--active {
+    background-color: #000;
+    opacity: 1;
+  }
+}
+
+.glide__arrow {
+  border: none;
+  box-shadow: none;
+  top: 53%;
+
+  @media (max-width: 639px) {
+    padding: 0;
+
+    &--left {
+      left: -15px;
+    }
+
+    &--right {
+      right: -15px;
+    }
+  }
+}
+
+.slider-container {
+  position: relative;
+
+  &:before {
+    content: '';
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    @include linear-gradient(90deg, #FFFFFF00, #FFFFFF);
+    z-index: 1;
+  }
+
+  &:after {
+    content: '';
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    @include linear-gradient(270deg, #FFFFFF00, #FFFFFF);
+    z-index: 1;
+  }
+}
+
+.team-slider {
+  .glide__track,
+  .glide__slides {
+    min-height: 800px;
+
+    @media (max-width: 1535px) {
+      min-height: auto;
+    }
+  }
+
+  .glide__slide {
+    height: auto;
+  }
+
+  .glide__bullets {
+    bottom: -2.5rem;
+  }
+}
+
+.why-partner-slider {
+  position: relative;
+
+  .glide__slide {
+    height: auto;
+  }
+
+  .glide__bullets {
+    bottom: -2.5rem;
+  }
+}

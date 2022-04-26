@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30">
+	<title>icn-svg</title>
+	<defs>
+		<image  width="21" height="15" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAPAQMAAAAxlBYoAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAA////pdmf3QAAAAJ0Uk5TAP9bkSK1AAAAMUlEQVR4nGNgAAE+IOYH4QYGBvYDDAzMDxj+//8AxD/ANAPjA6AYUJy9AaIOpJ6HAQCQKA19TNsqdAAAAABJRU5ErkJggg=="/>
+		<image  width="30" height="30" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeAQMAAAAB/jzhAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAA////pdmf3QAAAAJ0Uk5TAP9bkSK1AAAAYUlEQVR4nFWNsQ2AMAwED6WgzAheBMFaKSLBaBnFI7ikQBgHKKC56v4eVoPBD0jukHffkCYNYVRmklEZjAJ7R8FeTA/0D/uixibke1Z7YO6phaTIFvmsS2P0uEx+Ah46olzNUSuhIr3ZvwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="ic_call_made_24px" href="#img1" x="5" y="7" />
+	<use id="ic_radio_button_unchecked_24px" href="#img2" x="0" y="0" />
+</svg>

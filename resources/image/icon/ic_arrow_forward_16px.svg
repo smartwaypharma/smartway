@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 127" width="16" height="16">
+	<title>ic_arrow_forward</title>
+	<defs>
+		<image  width="128" height="128" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACABAMAAAAxEHz4AAAAAXNSR0IB2cksfwAAAA9QTFRFR3BM////////////////E+AxGgAAAAV0Uk5TAID/NPCXPYWMAAAAvklEQVR4nO3awQ2DQAxEUVAaQO7AriEVpP+iAiSEGyv5H6Iof88werCLL8M0Xa95GVwwWpHs/rmKEaIKEVYAI8QWAAg7gBDiFdAmvAF9QhwBTcIH0CXcz4Ae4faQIEGCBAkSJEiQIOGfCQXWQgOSBuwEFJA0YCOwgKQBKwEG5NcD6CPgl0i3ER8kepTxx9SaKHSm4ZEmQIAAAQIECBAgQMDPA3hVhss6XhfiwpJXpri05bUxLq55dY7L+/HvA08OhSnEGF+tLwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="-1" />
+</svg>

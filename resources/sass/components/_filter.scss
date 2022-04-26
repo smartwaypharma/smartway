@@ -1,0 +1,53 @@
+.filter-button-desktop {
+  @apply inline-flex items-center pl-8 pr-5 pt-2 pb-10.5px border-2 border-white m-3 relative cursor-pointer;
+
+  &:before {
+    content: '';
+    background-image: url(../../image/icon/plus_icn.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 15px;
+    bottom: 0;
+    left: 25px;
+    width: 19.79px;
+    height: 19.79px;
+    cursor: pointer;
+  }
+
+  &.selected {
+    @apply bg-white text-black;
+
+    &:before {
+      content: '';
+      background-image: url(../../image/icon/ic_check_24px.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 16px;
+      bottom: 0;
+      left: 25px;
+      width: 19.79px;
+      height: 19.79px;
+      cursor: pointer;
+    }
+  }
+
+  input {
+    opacity: 0;
+    cursor: pointer;
+  }
+}
+
+.filter-button-mobile {
+  @apply pr-3 pl-4 pt-1 pb-2 border-2 border-white mb-5 inline-block relative;
+
+  input {
+    opacity: 0;
+    position: absolute;
+  }
+
+  &.selected {
+    @apply bg-white text-black;
+  }
+}

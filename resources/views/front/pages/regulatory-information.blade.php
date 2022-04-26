@@ -1,0 +1,69 @@
+@extends('layouts.front')
+
+@section('meta')
+  <title>Regulatory Information</title>
+@endsection
+
+@section('header-content')
+  <img class="hidden sm:inline-block w-full"
+       src="{{ asset('/image/Regulatory_Information_hero.jpeg') }}">
+  <img class="sm:hidden inline-block w-full"
+       src="{{ asset('/image/Regulatory_Information_hero_mobile.jpeg') }}">
+  <div class="gray-radial-gradient opacity-60 absolute top-0 bottom-0 right-0 left-0"></div>
+  <div class="container 3xl:max-w-3xl absolute heading text-white lg:px-36 px-4 sm:mb-0 mb-32">
+    <h1 class="quarto-font 4xl:text-120px xl:text-85px md:text-6xl sm:text-4xl text-42px leading-none text-42px -mb-5">
+      Regulatory Information
+    </h1>
+  </div>
+@endsection
+
+@section('content')
+  <section class="container 3xl:max-w-3xl px-4 xl:my-40 mt-11 mb-20">
+    <h2 class="quarto-font xl:text-48px xl:leading-53px text-2xl leading-32px sm:pr-0 pr-3">Smartway Pharmaceuticals Limited is registered in England &
+      Wales with
+      registration number 08481191 and having
+      its registered office at The Old Mill, 9 Soar Lane, Leicester, Leicestershire,LE3 5DE. Our business address is 10
+      Lyon Road, London, SW19 2RL.</h2>
+    <h3 class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold lg:mt-16 mt-6 mb-7">Our regulators</h3>
+    <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px">
+      <p class="lg:mb-9 mb-5 4xl:pr-6 pr-2">We are regulated by the Medicines and Healthcare products Regulatory Agency (“MHRA”) and
+        have been issued a WDA(H)
+        42332 for regulating our pharmaceutical distribution activities for human medicines. We also hold a WDA(V) 42332
+        for regulating our pharmaceutical distribution activities relating to veterinary medicines. In respect of our
+        WDA(H) and WDA(V), we are authorised to [procure], hold and supply medicinal products from our authorised site
+        at
+        10 Lyon Road, London, SW19 2RL.</p>
+      <p class="lg:mb-9 mb-5">
+        We hold MS License No: 42332.
+      </p>
+      <p class="4xl 4xl:pr-40 pr-4">We are also authorised by the Home Office in respect
+        of controlled drugs, for which we are authorised to deal in Schedule 2, 3, 4 [Part I & II] & 5 medicines.</p>
+    </div>
+    <h3 class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold mt-16 mb-7">GPhC</h3>
+    <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px">
+      <p class="4xl:pr-6">
+        Smartway Pharma Limited T/A Smartway Pharma is our onsite online pharmacy registered with the General
+        Pharmaceutical Council, GPHC registration number: 9010774.
+      </p>
+    </div>
+    <h3 class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold mt-16 mb-7">Authenticity of documents</h3>
+    <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px">
+      <p class="4xl:pr-16">
+        If you require verification of documents that have been sent you purporting to be licences held by Smartway, you
+        can verify their authenticity by contacting the Regulatory Department on the following email address:
+        regulatory@smartwaypharma.co.uk.
+      </p>
+    </div>
+    <h3 class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold mt-16 mb-7">Emergency</h3>
+    <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px">
+      <p class="lg:mb-9 mb-5 4xl:-mr-4 sm:pr-0 pr-2">
+        If you are a professional involved in the supply chain and require urgent assistance, including in respect of
+        recalls, you can contact +44 20 8545 7711 or email regulatory@smartwaypharma.co.uk
+      </p>
+      <p>
+        Any notification of recalls
+        should be sent to (regulatory@smartwaypharma.co.uk)
+      </p>
+    </div>
+  </section>
+@endsection

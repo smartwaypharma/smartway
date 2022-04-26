@@ -1,0 +1,40 @@
+.post-content {
+ p, ul {
+   @apply 4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px xl:mb-9 mb-5;
+ }
+
+  h1, h2, h3 {
+    @apply font-bold 4xl:text-32px xl:text-2xl md:text-xl text-22px 4xl:leading-36px leading-28px mt-16 xl:mb-9 mb-5;
+  }
+
+  a {
+    @apply text-persian-green;
+  }
+
+  blockquote {
+    @apply xl:mt-24 mt-20 xl:mb-14 mb-7 relative;
+
+    &:before {
+      content: '';
+      background-image: url(/image/quote-persian-green.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: absolute;
+      left: 0;
+      @apply 4xl:w-16 4xl:h-14 w-10 h-9 4xl:-top-16 -top-11;
+    }
+  }
+
+  ul {
+    > li {
+      @apply mb-6 relative pl-8;
+
+      &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        @apply mr-2.5 w-19px h-19px rounded-full border-6px border-persian-green xl:top-2.5 top-1.5;
+      }
+    }
+  }
+}
