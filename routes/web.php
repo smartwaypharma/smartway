@@ -83,6 +83,12 @@ Route::group(['prefix' => 'who-we-are', 'as' => 'who-we-are.'] ,function () {
     Route::post('speculative-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'speculativeApplicationFormSubmit'])->name('speculative-application-form.submit');
     Route::post('upload-file', [\App\Http\Controllers\Front\WhoWeAreController::class, 'uploadFile'])->name('upload-file');
     Route::get('social-responsibility', [\App\Http\Controllers\Front\WhoWeAreController::class, 'socialResponsibility'])->name('social-responsibility');
+    Route::get('quality-manager-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'qualityManagerApplication'])->name('quality-manager-application');
+    Route::post('quality-manager-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'qualityManagerApplicationFormSubmit'])->name('quality-manager-application-form.submit');
+    Route::post('quality-manager-upload-file', [\App\Http\Controllers\Front\WhoWeAreController::class, 'qualityManagerUploadFile'])->name('quality-manager-upload-file');
+    Route::get('administration-associate-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'administrationAssociateApplication'])->name('administration-associate-application');
+    Route::post('administration-associate-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'administrationAssociateApplicationFormSubmit'])->name('administration-associate-application-form.submit');
+    Route::post('administration-associate-upload-file', [\App\Http\Controllers\Front\WhoWeAreController::class, 'administrationAssociateUploadFile'])->name('administration-associate-upload-file');
 
     Route::group(['prefix' => 'media-and-resource-centre', 'as' => 'media-and-resource-centre.'], function () {
         Route::get('/', [\App\Http\Controllers\Front\PostController::class, 'blog'])->name('index');
