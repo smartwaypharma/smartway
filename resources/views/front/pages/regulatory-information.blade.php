@@ -64,6 +64,23 @@
         Any notification of recalls
         should be sent to (regulatory@smartwaypharma.co.uk)
       </p>
+      <h3 class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold mt-16 mb-7">Regulatory/Legal Documents</h3>
+      <p class="mt-10 text-left">
+      <ul class="font-semibold 4xl:text-32px text-2xl lg:-tracking-0.8px -tracking-0.4px">
+        <li class="flex lg:items-center items-baseline mb-4">
+          <div class="mr-2.5 4xl:w-19px w-3 4xl:h-19px h-3 rounded-full 4xl:border-6px border-3.5px border-lochmara mt-9 sm:mt-0"></div>
+          <a href="{{ asset('pdf/Modern_Slavery_Statement.pdf') }}" target="_blank" class="underline">Download our modern slavery statement</a>
+        </li>
+        <li class="flex lg:items-center items-baseline mb-4">
+          <div class="mr-2.5 4xl:w-19px w-3 4xl:h-19px h-3 rounded-full 4xl:border-6px border-3.5px border-lochmara mt-9 sm:mt-0"></div>
+          <a href="{{ asset('pdf/Privacy_Notice.pdf') }}" target="_blank" class="underline">Download our website privacy notice</a>
+        </li>
+        <li class="flex lg:items-center items-baseline mb-4">
+          <div class="mr-2.5 4xl:w-19px w-3 4xl:h-19px h-3 rounded-full 4xl:border-6px border-3.5px border-lochmara mt-9 sm:mt-0"></div>
+          <a href="{{ asset('pdf/Terms_and_conditions_of_supply.pdf') }}" target="_blank" class="underline">Download our terms and conditions of supply</a>
+        </li>
+      </ul>
+      </p>
     </div>
   </section>
 @endsection
