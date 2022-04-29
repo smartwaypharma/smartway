@@ -9,10 +9,14 @@
   <img class="inline-block sm:hidden w-full" src="{{ asset('/image/International_Supply.jpg') }}">
   <div class="gray-radial-gradient opacity-60 absolute top-0 bottom-0 right-0 left-0"></div>
   <div class="container 3xl:max-w-3xl absolute heading text-white lg:px-36 px-4">
-    <h1 class="quarto-font 4xl:text-120px xl:text-85px md:text-6xl sm:text-4xl text-42px leading-none sm:mr-0 -mr-2 sm:mb-0 mb-5">
+    <h1 class="quarto-font 4xl:text-120px xl:text-85px md:text-6xl sm:text-4xl text-42px leading-none mb-10 sm:mr-0 -mr-2 ">
       <span class="xl:block"> International Supply &</span>
       <span class="xl:block">Unlicensed Imports</span>
     </h1>
+    <p class="4xl:text-34px sm:text-2xl text-22px 4xl:leading-44px leading-tight font-semibold -mt-1 w-11/12 sm:w-full">
+      <span class="xl:block">Shortages, Unlicensed Medicines, Imported Medicines, Specials, Not yet</span>
+      <span class="xl:block">Launched Medicines</span>
+    </p>
   </div>
 @endsection
 
@@ -24,7 +28,7 @@
       <span class="4xl:block">your country.</span>
     </h2>
     <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px">
-      In the last almost 30 years, we’ve built a global supply network for a wide range of products.
+      Sourcing global medications and supplying to wholesalers and specialist importers on a global basis where the product is not commercially available.
     </p>
     <div class="grid lg:grid-cols-2 grid-cols-1 gap-5 lg:mt-44 mt-9 lg:mb-40 mb-16">
       <div>
@@ -75,28 +79,26 @@
         to medicines.
       </p>
       <p class="lg:mb-10 mb-6">
-        We can also deliver quickly and securely, distributing directly to hospitals, pharmacies and
-        global wholesalers from our centrally located hubs.
-      </p>
-      <p class="4xl:pr-16">
-        Smartway’s been directly supplying hospitals in the UK,
-        Ireland and UAE for over 25 years. We’re an approved supplier and registered under all relevant
-        tenders/framework agreements. And we use our distribution knowledge to help you get supplies when and where you
-        want them.
+        We deliver quickly and securely to wholesalers and specialist importers from our centrally located hubs.
       </p>
     </div>
     <h2 class="lg:block hidden 4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold mt-14">We are dedicated to empowering access to medicines.</h2>
-    <div class="text-center lg:my-40 mt-16">
-      <a href="{{ route('connect-with-us') }}"
-         class="button 4xl:text-28px lg:text-xl text-2xl font-semibold bg-persian-green text-white rounded-full 4xl:py-5 py-3 px-10 block sm:inline-block">How
-        can we help?</a>
+    <div class="lg:block hidden sm:inline-block  lg:my-40 mt-16 text-center">
+      <a href="{{ route('how-we-help.eap.index') }}"
+         class="button 4xl:text-28px lg:text-xl text-2xl font-semibold bg-persian-green text-white rounded-full 4xl:py-5 py-3 px-10 block sm:inline-block">Click here to access our exclusive distribution programs for innovative new products
+      </a>
+    </div>
+    <div class="inline-block sm:hidden text-center lg:my-40 mt-16">
+      <a href="{{ route('how-we-help.eap.index') }}"
+         class="button 4xl:text-28px lg:text-xl text-sm font-semibold bg-persian-green text-white rounded-full 4xl:py-5 py-3 px-10 block sm:inline-block">Click here to access our exclusive distribution programs for innovative new products
+      </a>
     </div>
     <hr class="h-0.5 bg-black lg:my-40 my-20">
   </section>
   <section class="container 3xl:max-w-3xl px-4">
     <p class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold text-center">Why partner with Smartway?</p>
-    <div class="xl:grid hidden grid-cols-5 gap-6 lg:mt-16 mt-7 4xl:text-22px text-lg pb-4 xl:px-0 px-6">
-      <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-5">
+    <div class="4xl:flex hidden lg:mt-16 mt-7 text-22px pb-4 xl:px-0 px-6">
+      <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-5 min-w-308px mr-6">
         <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/isui-icn1.svg') }}"/>
         <p class="font-bold leading-tight mb-10">
           Approved supplier
@@ -105,7 +107,7 @@
           Audited and approved by NHS, MHRA and MoH.
         </p>
       </div>
-      <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4">
+      <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4 min-w-308px mr-6">
         <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/isui-icn2.svg') }}"/>
         <p class="font-bold leading-tight mb-3 px-6">
           End-to-end supply chain management
@@ -114,7 +116,7 @@
           Regular deliveries to over 98 countries. Own hubs in EU, UK, UAE, India.
         </p>
       </div>
-      <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4">
+      <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4 min-w-308px mr-6">
         <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5"
              src="{{ asset('image/isui-icn3.svg') }}"/>
         <p class="font-bold leading-tight mb-3">
@@ -127,7 +129,7 @@
           Widest range of product availability.
         </p>
       </div>
-      <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4">
+      <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4 min-w-308px mr-6">
         <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/isui-icn4.svg') }}"/>
         <p class="font-bold leading-tight mb-10">
           Project management
@@ -136,7 +138,7 @@
           Designated account managers with specialist expertise on hand.
         </p>
       </div>
-      <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4">
+      <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4 min-w-308px">
         <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/isui-icn5.svg') }}"/>
         <p class="font-bold leading-tight mb-10">
           Global procurement
@@ -146,7 +148,7 @@
         </p>
       </div>
     </div>
-    <div class="xl:hidden lg:mt-16 mt-7 4xl:text-22px text-lg xl:px-0 px-4">
+    <div class="4xl:hidden lg:mt-16 mt-7 text-22px xl:px-0 px-4">
       <div class="why-partner-slider">
         <div class="glide__track" data-glide-el="track">
           <div class="glide__slides">
@@ -198,7 +200,7 @@
               </p>
             </div>
             <div
-                class="glide__slide bg-alabaster bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4 min-w-308px">
+                class="glide__slide bg-alabaster bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4 mr-6">
               <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5"
                    src="{{ asset('image/isui-icn5.svg') }}"/>
               <p class="font-bold leading-tight mb-10">
@@ -237,10 +239,6 @@
           <p class="mb-9">
             Smartway’s become known for reliable consistent supply of branded and generic pharmaceuticals, unlicensed
             medicines, specials, veterinarian supplies and supplements.
-          </p>
-          <p>
-            Our unrivalled supply network covers 25
-            countries worldwide.
           </p>
         </div>
         <a class="4xl:text-2xl xl:text-xl text-md font-bold flex items-center"

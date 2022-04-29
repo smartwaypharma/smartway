@@ -6,7 +6,7 @@
 
 @section('header-content')
   <img class="hidden sm:inline-block w-full" src="{{ asset('/image/hero-spec-distr.jpg') }}">
-  <img class="inline-block sm:hidden w-full" src="{{ asset('/image/Reliable_Supply_mobile_hero.jpeg') }}">
+  <img class="inline-block sm:hidden w-full" src="{{ asset('/image/IS_Global_Distribution.jpg') }}">
   <div class="gray-radial-gradient opacity-60 absolute top-0 bottom-0 right-0 left-0"></div>
   <div class="container 3xl:max-w-3xl absolute heading text-white lg:px-36 px-4">
     <h1 class="quarto-font 4xl:text-120px xl:text-85px md:text-6xl sm:text-4xl text-42px leading-none mb-2">
@@ -79,8 +79,8 @@
   </section>
   <section class="container 3xl:max-w-3xl px-4">
     <p class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold text-center">Why partner with Smartway?</p>
-    <div class="xl:grid hidden grid-cols-5 gap-6 lg:mt-16 mt-7 4xl:text-22px text-lg pb-4 xl:px-0 px-6">
-      <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-6">
+    <div class="4xl:flex hidden lg:mt-16 mt-7 text-22px pb-4 xl:px-0 px-6">
+      <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-6 min-w-308px mr-6">
         <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/d-icn1.svg') }}"/>
         <p class="font-bold leading-tight mb-3">
           <span class="block">Global distribution/</span>
@@ -93,7 +93,7 @@
           Own hubs in EU, UK, UAE, India.
         </p>
       </div>
-      <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4">
+      <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4 min-w-308px mr-6">
         <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5"
              src="{{ asset('image/d-icn2.svg') }}"/>
         <p class="font-bold leading-tight mb-3">
@@ -105,7 +105,7 @@
           collection portal.
         </p>
       </div>
-      <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4">
+      <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4 min-w-308px mr-6">
         <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/d-icn3.svg') }}"/>
         <p class="font-bold leading-tight mb-10">
           Regulatory expertise
@@ -117,7 +117,7 @@
           <span class="block">to drive quality.</span>
         </p>
       </div>
-      <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-6">
+      <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-6 min-w-308px mr-6">
         <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/d-icn4.svg') }}"/>
         <p class="font-bold leading-tight mb-10">
           Approved supplier
@@ -129,7 +129,7 @@
           Approved NHS supplier.
         </p>
       </div>
-      <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-2">
+      <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-2 min-w-308px">
         <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/d-icn5.svg') }}"/>
         <p class="font-bold leading-tight mb-10">
           Proven experienced team
@@ -139,7 +139,7 @@
         </p>
       </div>
     </div>
-    <div class="xl:hidden lg:mt-16 mt-7 4xl:text-22px text-lg xl:px-0 px-4">
+    <div class="4xl:hidden lg:mt-16 mt-7 text-22px xl:px-0 px-4">
       <div class="why-partner-slider">
         <div class="glide__track" data-glide-el="track">
           <div class="glide__slides">
@@ -184,7 +184,7 @@
               </p>
             </div>
             <div
-                class="glide__slide bg-alabaster bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-6 min-w-308px">
+                class="glide__slide bg-alabaster bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-6 mr-6">
               <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/d-icn4.svg') }}"/>
               <p class="font-bold leading-tight mb-10">
                 Approved supplier

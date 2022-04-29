@@ -71,34 +71,44 @@
     </div>
     <div class="grid xl:grid-cols-3 md:grid-cols-2 gap-x-5 lg:gap-y-20 gap-y-8 mt-28">
       <div class="4xl:text-2xl text-xl">
-        <img class="mb-3" src="{{asset('image/Judith-team.jpg')}}">
-        <p class="text-lochmara font-bold mb-1.5">Judith Asiimwe</p>
-        <p class="font-bold">Project Manager</p>
-      </div>
-      <div class="4xl:text-2xl text-xl">
-        <img class="mb-3" src="{{ asset('image/Ritesh-team.jpg') }}">
-        <p class="text-lochmara font-bold mb-1.5">Ritesh Limbachiya</p>
-        <p class="font-bold">Purchase and Sales Executive</p>
-      </div>
-      <div class="4xl:text-2xl text-xl">
-        <img class="mb-3" src="{{asset('image/Jigar-team.jpg')}}">
-        <p class="text-lochmara font-bold mb-1.5">Jigar Sharma</p>
-        <p class="font-bold">Key Account Manager</p>
-      </div>
-      <div class="4xl:text-2xl text-xl">
         <img class="mb-3" src="{{ asset('image/Maysa-team.jpg') }}">
         <p class="text-lochmara font-bold mb-1.5">Maysa Gamal</p>
-        <p class="font-bold">Regional Sales Manager – MENA region</p>
-      </div>
-      <div class="4xl:text-2xl text-xl">
-        <img class="mb-3" src="{{ asset('image/Amish-team.jpg') }}">
-        <p class="text-lochmara font-bold mb-1.5">Amish Patel</p>
-        <p class="font-bold">Business Development Manager</p>
+        <p class="font-bold">Pharmacist – Regional Director - MENA</p>
       </div>
       <div class="4xl:text-2xl text-xl">
         <img class="mb-3" src="{{ asset('image/Andre_Censi.jpeg') }}">
         <p class="text-lochmara font-bold mb-1.5">Andre Censi</p>
-        <p class="font-bold">Global Sales Director</p>
+        <p class="font-bold">Global Sales Director – S. America</p>
+      </div>
+      <div class="4xl:text-2xl text-xl">
+        <img class="mb-3" src="{{ asset('image/Ross_team.jpg') }}">
+        <p class="text-lochmara font-bold mb-1.5">Ross Hemson</p>
+        <p class="font-bold">Associate Account Director – Low & Middle Income Countries</p>
+      </div>
+      <div class="4xl:text-2xl text-xl">
+        <img class="mb-3" src="{{ asset('image/Amish-team.jpg') }}">
+        <p class="text-lochmara font-bold mb-1.5">Amish Patel</p>
+        <p class="font-bold">Associate Account Director – EU/UK Supply Chain</p>
+      </div>
+      <div class="4xl:text-2xl text-xl">
+        <img class="mb-3" src="{{ asset('image/SmartBot.jpg') }}">
+        <p class="text-lochmara font-bold mb-1.5">Arun Dholariya</p>
+        <p class="font-bold">Group Manager – EU/UK Supply Chain</p>
+      </div>
+      <div class="4xl:text-2xl text-xl">
+        <img class="mb-3" src="{{asset('image/Judith-team.jpg')}}">
+        <p class="text-lochmara font-bold mb-1.5">Judith Asiimwe</p>
+        <p class="font-bold">Senior Account Manager – N. America, Asia, Australasia</p>
+      </div>
+      <div class="4xl:text-2xl text-xl">
+        <img class="mb-3" src="{{asset('image/Jigar-team.jpg')}}">
+        <p class="text-lochmara font-bold mb-1.5">Jigar Sharma</p>
+        <p class="font-bold">Senior Account Manager – EU/UK Supply Chain</p>
+      </div>
+      <div class="4xl:text-2xl text-xl">
+        <img class="mb-3" src="{{asset('image/Amy_team.jpg')}}">
+        <p class="text-lochmara font-bold mb-1.5">Amy Searle</p>
+        <p class="font-bold">Regulatory Lead, Responsible Person</p>
       </div>
     </div>
     <div class="text-center lg:my-40 mt-16 mb-20">

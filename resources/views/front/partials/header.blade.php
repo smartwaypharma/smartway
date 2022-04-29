@@ -38,6 +38,7 @@
               <li><a href="{{ route('how-we-help.eap.index') }}">Early Access Programs</a></li>
               <li><a href="{{ route('how-we-help.cts.index') }}">Comparator/RLD Supply</a></li>
               <li><a href="{{ route('how-we-help.aid-dev.index') }}">Aid & Development</a></li>
+              <li><a href="{{ route('how-we-help.hospital-and-pharmacy-supply.index') }}">Hospital & Pharmacy Supply</a></li>
               <li><a href="{{ route('how-we-help.international-supply-and-unlicensed-imports.index') }}">International
                   Supply & Unlicensed Imports</a></li>
               <li><a href="{{ route('how-we-help.sexual-health.index') }}">Sexual Health Supply</a></li>
@@ -114,6 +115,8 @@
             <li class="mb-18px"><a href="{{ route('how-we-help.eap.index') }}">Early Access Programs</a></li>
             <li class="mb-18px"><a href="{{ route('how-we-help.cts.index') }}">Comparator/RLD Supply</a></li>
             <li class="mb-18px"><a href="{{ route('how-we-help.aid-dev.index') }}">Aid & Development</a></li>
+            <li class="mb-18px"><a href="{{ route('how-we-help.hospital-and-pharmacy-supply.index') }}">Hospital & Pharmacy Supply</a></li>
+
             <li class="mb-18px"><a href="{{ route('how-we-help.international-supply-and-unlicensed-imports.index') }}">International
                 Supply & Unlicensed Imports</a></li>
             <li class="mb-18px"><a href="{{ route('how-we-help.sexual-health.index') }}">Sexual Health Supply</a></li>

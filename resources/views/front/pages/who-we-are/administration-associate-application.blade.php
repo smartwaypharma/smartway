@@ -38,7 +38,7 @@
                     <div class="2xl:max-w-6xl xl:max-w-4xl 2xl:pl-0 xl:pl-0 post-content xl:pr-0">
                         <ul>
                             <li>Highly organised</li>
-                            <li>Able to manage multiple tasks concurrent</li>
+                            <li>Able to manage multiple tasks</li>
                             <li>Excellent at communicating with other parties within the business, at all levels including Director level</li>
                             <li>Confident to liaise with external regulatory authorities within the UK, Europe and RoW</li>
                         </ul>
@@ -46,7 +46,7 @@
                     <p class="lg:mb-9 mb-6 lg:pr-0 pr-4">An example of tasks includes:</p>
                     <div class="2xl:max-w-6xl xl:max-w-4xl 2xl:pl-0 xl:pl-0 post-content xl:pr-0">
                         <ul>
-                            <li>Updating internal parties on the status of new customer and supplier accounts</li>
+                            <li>Updating internal parties on the status of new customer and supplier accounts.</li>
                             <li>Completing forms for clients</li>
                             <li>Recording and checking product recalls alongside the QA manager</li>
                             <li>Monitoring tasks delegated to other departments</li>

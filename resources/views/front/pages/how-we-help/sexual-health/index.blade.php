@@ -36,8 +36,8 @@
   </section>
   <section class="container 3xl:max-w-3xl px-4">
     <p class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold text-center">Why partner with Smartway?</p>
-    <div class="xl:grid hidden grid-cols-5 gap-6 lg:mt-16 mt-7 4xl:text-22px text-lg pb-4 xl:px-0 px-6">
-      <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-5">
+    <div class="4xl:flex hidden lg:mt-16 mt-7 text-22px pb-4 xl:px-0 px-6">
+      <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-5 min-w-308px mr-6">
         <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/sh-icn1.svg') }}"/>
         <p class="font-bold leading-tight mb-10">
           Approved supplier
@@ -49,7 +49,7 @@
           Approved NHS supplier.
         </p>
       </div>
-      <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4">
+      <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4 min-w-308px mr-6">
         <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5"
              src="{{ asset('image/sh-icn2.svg') }}"/>
         <p class="font-bold leading-tight mb-10">
@@ -59,7 +59,7 @@
           Designated account managers will ensure all projects pulled through to completion.
         </p>
       </div>
-      <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4">
+      <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4 min-w-308px mr-6">
         <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/sh-icn3.svg') }}"/>
         <p class="font-bold leading-tight mb-3">
           Regulatory expertise/ knowledge
@@ -69,7 +69,7 @@
           quality.
         </p>
       </div>
-      <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-6">
+      <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-6 min-w-308px mr-6">
         <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/sh-icn4.svg') }}"/>
         <p class="font-bold leading-tight mb-10">
           Quality is our priority
@@ -79,7 +79,7 @@
           end user.
         </p>
       </div>
-      <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-2">
+      <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-2 min-w-308px">
         <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/sh-icn5.svg') }}"/>
         <p class="font-bold leading-tight mb-10">
           Proven experienced team
@@ -89,7 +89,7 @@
         </p>
       </div>
     </div>
-    <div class="xl:hidden lg:mt-16 mt-7 4xl:text-22px text-lg xl:px-0 px-4">
+    <div class="4xl:hidden lg:mt-16 mt-7 text-22px xl:px-0 px-4">
       <div class="why-partner-slider">
         <div class="glide__track" data-glide-el="track">
           <div class="glide__slides">
@@ -307,7 +307,7 @@
         <p class="font-bold">Head of Sexual Health</p>
       </div>
       <div class="4xl:text-2xl text-xl">
-        <img class="mb-3" src="{{ asset('image/Sharan_Sanghera.jpeg') }}">
+        <img class="mb-3" src="{{ asset('image/Sharan-team.jpg') }}">
         <p class="text-lochmara font-bold mb-1.5">Sharan Sanghera</p>
         <p class="font-bold">Senior Procurement Manager</p>
       </div>
