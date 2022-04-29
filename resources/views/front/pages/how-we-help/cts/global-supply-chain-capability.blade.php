@@ -6,7 +6,7 @@
 
 @section('header-content')
   <img class="hidden sm:inline-block w-full" src="{{ asset('/image/hero.jpg') }}">
-  <img class="sm:hidden inline-block w-full" src="{{ asset('/image/Global_Supply-mobile.jpg') }}">
+  <img class="sm:hidden inline-block w-full" src="{{ asset('/image/IS_Global_Distribution.jpg') }}">
   <div class="gray-radial-gradient opacity-60 absolute top-0 bottom-0 right-0 left-0"></div>
   <div class="container 3xl:max-w-3xl absolute heading text-white lg:px-36 px-4">
     <h1 class="quarto-font 4xl:text-120px xl:text-85px md:text-6xl sm:text-4xl text-42px leading-none sm:mb-0 mb-6">

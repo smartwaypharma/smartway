@@ -9,7 +9,7 @@
        src="{{ Illuminate\Support\Facades\Storage::url($post->hero_image_for_desktop) }}">
   <img class="inline-block sm:hidden w-full" src="{{ Illuminate\Support\Facades\Storage::url($post->hero_image_for_mobile) }}">
   <div class="gray-radial-gradient opacity-60 absolute top-0 bottom-0 right-0 left-0"></div>
-  <div class="container 3xl:max-w-3xl absolute heading text-white lg:px-36 px-4 sm:mb-0 mb-44">
+  <div class="hidden sm:inline-block container 3xl:max-w-3xl absolute heading text-white lg:px-36 px-4 sm:mb-0 mb-44">
     <h1 class="quarto-font 4xl:text-120px xl:text-85px md:text-6xl sm:text-4xl text-42px font-medium -tracking-0.55px leading-none xl:max-w-6xl">
       {{ $post->title }}
     </h1>

@@ -69,10 +69,11 @@
                 <a href="#trigger1" class="block anchor" id="heading1">Early Access Programs</a>
                 <a href="#trigger2" class="block anchor" id="heading2">Comparator/RLD Supply</a>
                 <a href="#trigger3" class="block anchor" id="heading3">Aid & Development</a>
-                <a href="#trigger4" class="block anchor" id="heading4">International Supply & <br> Unlicensed
+                <a href="#trigger4" class="block anchor" id="heading4">Hospital &<br> Pharmacy Supply</a>
+                <a href="#trigger5" class="block anchor" id="heading5">International Supply & <br> Unlicensed
                   Imports</a>
-                <a href="#trigger5" class="block anchor" id="heading5">Sexual Health Supply</a>
-                <a href="#trigger6" class="block anchor" id="heading6">Specialist Distribution</a>
+                <a href="#trigger6" class="block anchor" id="heading6">Sexual Health Supply</a>
+                <a href="#trigger7" class="block anchor" id="heading7">Specialist Distribution</a>
               </div>
             </div>
           </div>
@@ -126,6 +127,20 @@
             </div>
             <div id="trigger4" class="lg:pt-40 pt-20">
               <p class="heading 4xl:text-34px lg:text-2xl text-22px font-bold lg:mb-3 mb-7">
+                Hospital & Pharmacy Supply
+              </p>
+              <p class="4xl:text-42px lg:text-2xl text-22px 4xl:leading-none lg:leading-32px leading-28px quarto-font lg:mb-20 mb-3">
+                Thanks to our global sourcing network, we supply products that are in shortage, unlicensed medicines, imported medicines, specials, and not yet launched medicines to hospitals, pharmacies and globally.
+              </p>
+              <a class="4xl:text-2xl text-md font-bold flex items-center"
+                 href="{{ route('how-we-help.hospital-and-pharmacy-supply.index') }}">
+                <img class="inline 4xl:w-auto 4xl:h-auto w-5 h-5 mr-3" src="{{ asset('image/icon/icn-white.svg') }}">Explore
+                more</a>
+
+              <img class="mt-5 lg:w-auto sm:w-3/4" src="{{ asset('image/hero-hospital-pharmacy.jpg') }}">
+            </div>
+            <div id="trigger5" class="lg:pt-40 pt-20">
+              <p class="heading 4xl:text-34px lg:text-2xl text-22px font-bold lg:mb-3 mb-7">
                 <span class="2xl:block">International Supply &</span>
                 <span class="2xl:block">Unlicensed Imports</span>
               </p>
@@ -143,7 +158,7 @@
 
               <img class="mt-5 lg:w-auto sm:w-3/4" src="{{ asset('image/International.jpg') }}">
             </div>
-            <div id="trigger5" class="lg:pt-40 pt-20">
+            <div id="trigger6" class="lg:pt-40 pt-20">
               <p class="heading 4xl:text-34px lg:text-2xl text-22px font-bold lg:mb-3 mb-7">
                 Sexual Health Supply
               </p>
@@ -159,7 +174,7 @@
 
               <img class="mt-5 lg:w-auto sm:w-3/4" src="{{ asset('/image/hero-sexual-health.jpg') }}">
             </div>
-            <div id="trigger6" class="lg:pt-40 pt-20">
+            <div id="trigger7" class="lg:pt-40 pt-20">
               <p class="heading 4xl:text-34px lg:text-2xl text-22px font-bold lg:mb-3 mb-7">
                 Specialist Distribution
               </p>

@@ -40,8 +40,8 @@
         <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px lg:pr-0 pr-2">
           <span class="xl:block">Smartway is looking to appoint a Quality Assurance Manager to help facilitate continuous improvement through handling the management reviews, internal audits, third parties and product recalls alongside our regulatory department.</span>
         </p>
-    <p class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold lg:my-5 mt-6 mb-6 mb-7">Application closes - 12:00am, 27th of May 2022 BST</p>
-    <a href="{{ route('who-we-are.quality-manager-application') }}" class="font-semibold bg-white-ice text-black rounded-md 4xl:text-28px lg:text-xl text-2xl  4xl:py-4 px-10 px-10 mt-5 xl:py-4 py-4" type="submit">Apply</a>
+    <p class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold lg:my-5 mb-16 mb-7">Application closes - 12:00am, 27th of May 2022 BST</p>
+    <a href="{{ route('who-we-are.quality-manager-application') }}" class="4xl:text-28px lg:text-xl text-2xl font-semibold bg-white-ice text-black rounded-md 4xl:py-0 xl:py-4 py-3 4xl:px-20 px-10  mt-5" type="submit">Apply</a>
   </div>
   </section>
   <section class="bg-persian-green 3xl:lg:py-36 pt-2 pb-10 mb-5 text-white">
@@ -52,8 +52,8 @@
       <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px lg:pr-0 pr-2">
         <span class="xl:block">Smartway is looking to appoint an Administration Associate to handle day-to-day tasks alongside our regulatory department.</span>
       </p>
-      <p class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold lg:g:my-5 mt-6 mb-6 mb-7">Application closes - 12:00am, 27th of May 2022 BST</p>
-      <a href="{{ route('who-we-are.administration-associate-application') }}" class="font-semibold bg-white-ice text-black rounded-md 4xl:text-28px lg:text-xl text-2xl 4xl:py-4 px-10 px-10 mt-5 xl:py-4 py-4" type="submit">Apply</a>
+      <p class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold lg:my-5 mb-16 mb-7">Application closes - 12:00am, 27th of May 2022 BST</p>
+      <a href="{{ route('who-we-are.administration-associate-application') }}" class="4xl:text-28px lg:text-xl text-2xl font-semibold bg-white-ice text-black rounded-md 4xl:py-0 xl:py-4 py-3 4xl:px-20 px-10  mt-5" type="submit">Apply</a>
     </div>
   </section>
   <section class="container 3xl:max-w-3xl px-4 xl:pb-40 pb-20">

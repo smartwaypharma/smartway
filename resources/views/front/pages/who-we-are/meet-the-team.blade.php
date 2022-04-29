@@ -140,15 +140,15 @@
         </div>
       </div>
       <div class="overflow-hidden js-team-modal-open cursor-pointer md:w-full sm:w-3/4"
-           data-modal="himanshuModal"
+           data-modal="purveshModal"
            data-slide="7">
         <div class="4xl:h-581px 2xl:h-520px lg:h-420px md:h-390px">
-          <img class="zoom w-full h-auto" src="{{ asset('image/Himanshu.jpg') }}">
+          <img class="zoom w-full h-auto" src="{{ asset('image/Purvesh.jpg') }}">
         </div>
         <div
             class="bg-lochmara text-white flex flex-col items-center justify-center transform 4xl:h-185px h-120px scale-100 text-center  ">
-          <p class="4xl:text-52px text-28px font-bold leading-none lg:mb-0 mb-2.5 mb-2">Himanshu Patel</p>
-          <p class="4xl:text-4xl text-2xl font-medium -tracking-0.55px">Operations Manager – Ireland</p>
+          <p class="4xl:text-52px text-28px font-bold leading-none lg:mb-0 mb-2.5 mb-2">Purvesh Patel</p>
+          <p class="4xl:text-4xl text-2xl font-medium -tracking-0.55px">Head of Supply Chain UK</p>
         </div>
       </div>
       <div class="overflow-hidden js-team-modal-open cursor-pointer md:w-full sm:w-3/4" data-modal="gilesModal"
@@ -314,7 +314,7 @@
                         class="5xl:text-2xl 2xl:text-22px text-xl 5xl:leading-34px 2xl:leading-28px leading-24px font-light">
                       <p class="2xl:mb-9 mb-5">
                         With over 30 years as a pharmacist and working in senior healthcare management at Wallgreen
-                        Boots Alliance, Rupi joined Smartway in 2021 as Patient Services Director. Leveraging his
+                        Boots Alliance, Rupi joined Smartway in 2021 as Director of Digital Health. Leveraging his
                         experience in patient safety, governance and personnel management, Rupi leads the Smartway
                         Pharmacy and offering for direct to patient and home delivery.
                       </p>
@@ -497,31 +497,23 @@
                     <div
                         class="5xl:text-2xl 2xl:text-22px text-xl 5xl:leading-34px 2xl:leading-28px leading-24px font-light -tracking-0.5px">
                       <p class="2xl:mb-9 mb-5">
-                        With experience in engineering and the practicalities of manufacturing, Himanshu manages
-                        operations for our HPRA-approved site in Ireland. This experience includes GMP projects, plant
-                        utilities, clean utilities and clean rooms, supporting businesses to improve their end-to-end
-                        manufacturing processes.
+                        Following on-the-ground experience in India as a hospital pharmacist, Purvesh came to the UK to study for an MBA in Business Administration (International). He first joined Smartway in 2012 as a warehouse operative, securing valuable insight into how we work, our values, our compliance practices and our supply management processes.
                       </p>
                       <p>
-                        Within Smartway, Himanshu monitors and maintains the processes inside
-                        our Ireland location, continually looking for improvements to how we work, safeguard quality,
-                        and deliver for our customers on a global scale.
+                        After a short break to get more experience in a community pharmacy in the UK, Purvesh returned to Smartway in a new role inside our procurement team. His in-depth knowledge of the pharmacy business underpins his current role as our Head of UK Supply Chain. Today, Purvesh leads our various supply chain initiatives, spends time optimising our distribution network and maintains close relationships with various partners across the globe. Ultimately, he helps guarantee continued supply by building and managing a resilient, thriving ecosystem of suppliers and manufacturers.
                       </p>
                     </div>
                     <div class="pl-16 pr-5">
                       <img class="mt-8 mb-4" src="{{asset('image/quote-persian-green.svg')}}">
                       <p class="quarto-font 5xl:text-44px 2xl:text-40px text-34px 5xl:leading-53px leading-none">
-                        My passion is understanding how complex systems come together – and our operations can certainly
-                        be complex. I feel supported to uncover inefficiencies, make improvements, and make sure we’re
-                        always hitting our high standards.”
+                        In my varied experience across Smartway, I have noticed that our values are incredibly consistent. Everyone is committed to quality and protecting supply for practitioners and patients. It’s great to work at a place where we all share the same vision and priorities.”
                       </p>
-                      <p class="italic 2xl:text-26px text-2xl font-semibold -tracking-0.55px mt-5">Himanshu Patel,
-                        Operations Manager
-                        (Ireland)</p>
+                      <p class="italic 2xl:text-26px text-2xl font-semibold -tracking-0.55px mt-5">Purvesh Patel,
+                        Head of Supply Chain UK </p>
                     </div>
                   </div>
                   <img class="absolute bottom-0 left-0 5xl:h-full 5xl:max-w-55% max-w-47% h-auto w-auto z-0"
-                       src="{{ asset('image/Himanshu-details.jpg') }}">
+                       src="{{ asset('image/Purvesh-details.jpg') }}">
                 </div>
               </div>
               <div
@@ -1092,7 +1084,7 @@
       </div>
     </div>
   </div>
-  <div id="himanshuModal" class="js-team-modal fixed z-999999 inset-0 overflow-y-auto hidden"
+  <div id="purveshModal" class="js-team-modal fixed z-999999 inset-0 overflow-y-auto hidden"
        aria-labelledby="modal-title"
        role="dialog"
        aria-modal="true">
@@ -1106,31 +1098,25 @@
           class="inline-block align-bottom text-left transform transition-all sm:align-middle w-full pt-9 pb-16 px-5">
         <p class="text-22px font-semibold text-center text-white">Meet some of our 100+ employees</p>
         <div class="relative -mr-20 pr-5">
-          <img class="mx-auto max-w-400px w-full" src="{{ asset('image/Himanshu-details.jpg') }}">
+          <img class="mx-auto max-w-400px w-full" src="{{ asset('image/Purvesh-details.jpg') }}">
           <div class="h-10 absolute bottom-0 left-0 right-0"
                style="background: linear-gradient(180deg, #BED9EF00, #BED9EF80, #BED9EFEB, #BED9EF);"></div>
         </div>
         <div class="text-lg leading-24px mt-8">
           <p class="mb-6">
-            With experience in engineering and the practicalities of manufacturing, Himanshu manages operations for our
-            HPRA-approved site in Ireland. This experience includes GMP projects, plant utilities, clean utilities and
-            clean rooms, supporting businesses to improve their end-to-end manufacturing processes.
+            Following on-the-ground experience in India as a hospital pharmacist, Purvesh came to the UK to study for an MBA in Business Administration (International). He first joined Smartway in 2012 as a warehouse operative, securing valuable insight into how we work, our values, our compliance practices and our supply management processes.
           </p>
           <p>
-            Within Smartway,
-            Himanshu monitors and maintains the processes inside our Ireland location, continually looking for
-            improvements to how we work, safeguard quality, and deliver for our customers on a global scale.
+            After a short break to get more experience in a community pharmacy in the UK, Purvesh returned to Smartway in a new role inside our procurement team. His in-depth knowledge of the pharmacy business underpins his current role as our Head of UK Supply Chain. Today, Purvesh leads our various supply chain initiatives, spends time optimising our distribution network and maintains close relationships with various partners across the globe. Ultimately, he helps guarantee continued supply by building and managing a resilient, thriving ecosystem of suppliers and manufacturers.
           </p>
         </div>
         <img class="my-8" src="{{asset('image/quote-persian-green.svg')}}">
         <p class="quarto-font text-34px leading-40px">
-          My passion is understanding how complex systems come together – and our operations can certainly be complex. I
-          feel supported to uncover inefficiencies, make improvements, and make sure we’re always hitting our high
-          standards.”
+          In my varied experience across Smartway, I have noticed that our values are incredibly consistent. Everyone is committed to quality and protecting supply for practitioners and patients. It’s great to work at a place where we all share the same vision and priorities.”
         </p>
         <p class="italic text-22px leading-28px font-semibold -tracking-0.5px mt-5">
-          <span class="block">Himanshu Patel,</span>
-          <span class="block">Operations Manager (Ireland)</span>
+          <span class="block">Purvesh Patel,</span>
+          <span class="block">Head of Supply Chain UK</span>
         </p>
       </div>
     </div>

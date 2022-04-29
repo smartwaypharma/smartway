@@ -307,6 +307,9 @@
             with regulators and take legal action of our own. We have legal protection in place which allows us to take
             robust action against those who engage in such conduct within the supply chain.
           </p>
+          <p class="mt-10 4xl:pr-10 text-center">
+            <a href="{{ asset('pdf/Modern_Slavery_Statement.pdf') }}" class="button 4xl:text-28px lg:text-xl text-2xl font-semibold bg-lochmara text-white rounded-full 4xl:py-5 py-3 px-10 block sm:inline-block" target="_blank">Download our modern slavery statement</a>
+          </p>
         </div>
       </div>
       <hr class="h-0.5 bg-black lg:mt-40 mt-20">

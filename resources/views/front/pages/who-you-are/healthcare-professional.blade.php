@@ -8,16 +8,25 @@
   <img class="hidden sm:inline-block w-full" src="{{ asset('/image/muslim-female-doctor-with-stethoscope-on-neck-posi-CQW7DU5-header.png') }}">
   <img class="inline-block sm:hidden w-full" src="{{ asset('/image/Healthcare_Professional.jpg') }}">
   <div class="gray-radial-gradient opacity-60 absolute top-0 bottom-0 right-0 left-0"></div>
-  <div class="container 3xl:max-w-3xl absolute heading text-white lg:px-40 px-4 sm:mt-4 sm:mb-0 -mb-3">
+  <div class="container 3xl:max-w-3xl absolute heading text-white lg:px-36 px-8 sm:mt-12 sm:mb-0 -mb-3">
     <h1 class="quarto-font 4xl:text-120px xl:text-85px md:text-6xl sm:text-4xl text-42px leading-none mb-2">
-      <span class="block">Healthcare</span>
-      <span class="block">Professional</span></h1>
-    <p class="4xl:text-34px sm:text-2xl text-22px font-semibold -mt-1 4xl:leading-44px leading-tight">
-      <span class="xl:block">We help healthcare professionals on a global</span>
-      <span class="xl:block">basis, enabling access to the medicines they</span>
-      <span class="xl:block">require to treat their patients.</span>
+      <span class="block">Healthcare Professional</span>
+      </h1>
+    <p class="4xl:text-34px sm:text-2xl text-22px 4xl:leading-44px leading-tight font-semibold -mt-1 w-11/12 sm:w-full">
+      <span class="xl:block">We help healthcare professionals on a global basis, enabling access to the medicines they require to treat their patients.</span>
     </p>
+    <div class="hidden sm:inline-block text-left mt-12">
+      <a href="mailto:ulm@smartwaypharma.co.uk"
+         class="button 4xl:text-28px lg:text-xl text-2xl font-semibold bg-persian-green text-white text-center rounded-full 4xl:py-5 py-3 px-10 block sm:inline-block">Click here for help with a shortage or unavailable product
+      </a>
+    </div>
+    <div class="inline-block sm:hidden text-left mt-12">
+      <a href="mailto:ulm@smartwaypharma.co.uk"
+         class="button 4xl:text-28px lg:text-xl text-sm font-semibold bg-persian-green text-white text-center rounded-full 4xl:py-5 py-3 px-10 block sm:inline-block">Click here for help with a shortage or unavailable product
+      </a>
+    </div>
   </div>
+
 @endsection
 
 @section('content')
@@ -49,6 +58,26 @@
     <div class="blocks-slider text-white">
       <div class="glide__track" data-glide-el="track">
         <div class="glide__slides">
+
+          <a href="{{ route('how-we-help.hospital-and-pharmacy-supply.index') }}" class="image-box relative block">
+            <div class="bg-persian-green absolute top-0 bottom-0 right-0 left-0"></div>
+            <div class="image-container relative w-full h-full">
+              <div class="gray-radial-gradient opacity-70 absolute top-0 bottom-0 right-0 left-0"></div>
+              <div class="image w-full h-full" style="background-image: url({{ asset('image/Unlicensed_Medicines.jpg') }});background-position: center;background-repeat: no-repeat;background-size: cover;"></div>
+            </div>
+            <p class="title 3xl:text-4xl xl:text-2xl text-22px font-bold absolute">Shortages</p>
+            <p class="text 3xl:text-34px 2xl:text-2xl xl:text-22px lg:text-2xl text-31px quarto-font leading-tight absolute pr-14">
+              <span class="block">We can supply with</span>
+              <span class="block">many products that</span>
+              <span class="block">are currently in shortage</span>
+              <span class="block">due to our global</span>
+              <span class="block">sourcing network.</span>
+            </p>
+            <button class="link 4xl:text-2xl lg:text-17px text-2xl font-bold flex items-center absolute"><img
+                  class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}">Explore
+              more
+            </button>
+          </a>
           <a href="{{ route('how-we-help.international-supply-and-unlicensed-imports.index') }}" class="image-box relative block">
             <div class="bg-lochmara absolute top-0 bottom-0 right-0 left-0"></div>
             <div class="image-container relative w-full h-full">
@@ -65,7 +94,7 @@
               <span class="block">UAE and globally.</span>
             </p>
             <button class="link 4xl:text-2xl lg:text-17px text-2xl font-bold flex items-center absolute"><img
-                  class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}">Explore
+                      class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}">Explore
               more
             </button>
           </a>
@@ -85,6 +114,45 @@
             </p>
             <button class="link 4xl:text-2xl lg:text-17px text-2xl font-bold flex items-center absolute"><img
                   class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}">Explore
+              more
+            </button>
+          </a>
+          <a href="{{ route('how-we-help.hospital-and-pharmacy-supply.index') }}" class="image-box relative block">
+            <div class="bg-lochmara absolute top-0 bottom-0 right-0 left-0"></div>
+            <div class="image-container relative w-full h-full">
+              <div class="gray-radial-gradient opacity-70 absolute top-0 bottom-0 right-0 left-0"></div>
+              <div class="image w-full h-full" style="background-image: url({{ asset('image/Innovative_New_Therapies.jpg') }});background-position: center;background-repeat: no-repeat;background-size: cover;"></div>
+            </div>
+            <p class="title 3xl:text-4xl xl:text-2xl text-22px font-bold absolute">Imports</p>
+            <p class="text 3xl:text-34px 2xl:text-2xl xl:text-22px lg:text-2xl text-31px quarto-font leading-tight absolute pr-14">
+              <span class="block">Smartway imports medicines</span>
+              <span class="block">and has been directly</span>
+              <span class="block">supplying hospitals in</span>
+              <span class="block">the UK, Ireland</span>
+              <span class="block">and the UAE for</span>
+              <span class="block">over 25 years.</span>
+            </p>
+            <button class="link 4xl:text-2xl lg:text-17px text-2xl font-bold flex items-center absolute"><img
+                      class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}">Explore
+              more
+            </button>
+          </a>
+          <a href="{{ route('how-we-help.international-supply-and-unlicensed-imports.index') }}" class="image-box relative block">
+            <div class="bg-persian-green absolute top-0 bottom-0 right-0 left-0"></div>
+            <div class="image-container relative w-full h-full">
+              <div class="gray-radial-gradient opacity-70 absolute top-0 bottom-0 right-0 left-0"></div>
+              <div class="image w-full h-full" style="background-image: url({{ asset('image/Innovative_New_Therapies.jpg') }});background-position: center;background-repeat: no-repeat;background-size: cover;"></div>
+            </div>
+            <p class="title 3xl:text-4xl xl:text-2xl text-22px font-bold absolute">Specials</p>
+            <p class="text 3xl:text-34px 2xl:text-2xl xl:text-22px lg:text-2xl text-31px quarto-font leading-tight absolute pr-14">
+              <span class="block">Our extensive links</span>
+              <span class="block">with Specials manufacturers</span>
+              <span class="block">mean that we can</span>
+              <span class="block">supply at lower than</span>
+              <span class="block">market prices.</span>
+            </p>
+            <button class="link 4xl:text-2xl lg:text-17px text-2xl font-bold flex items-center absolute"><img
+                      class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}">Explore
               more
             </button>
           </a>
@@ -168,12 +236,30 @@
               more
             </button>
           </a>
+
         </div>
       </div>
     </div>
   </section>
   <section class="lg:block hidden container 3xl:max-w-3xl px-4 mb-40">
     <div class="grid xl:grid-cols-3 grid-cols-2 gap-5 flex text-white">
+      <a href="{{ route('how-we-help.hospital-and-pharmacy-supply.index') }}" class="image-box relative block">
+        <div class="bg-persian-green absolute top-0 bottom-0 right-0 left-0"></div>
+        <div class="image-container relative w-full h-full">
+          <div class="gray-radial-gradient opacity-70 absolute top-0 bottom-0 right-0 left-0"></div>
+          <div class="image w-full h-full" style="background-image: url({{ asset('image/Shortages.jpg') }});background-position: center;background-repeat: no-repeat;background-size: cover;"></div>
+        </div>
+        <p class="title 3xl:text-4xl xl:text-2xl text-22px font-bold absolute">Shortages</p>
+        <p class="text 3xl:text-34px 2xl:text-2xl xl:text-22px lg:text-2xl text-31px quarto-font 4xl:leading-40px leading-tight absolute">
+          <span class="block">We can supply with many products</span>
+          <span class="block">that are currently in shortage due</span>
+          <span class="block">to our global sourcing network.</span>
+        </p>
+        <button class="link 4xl:text-2xl lg:text-17px text-2xl font-bold flex items-center absolute"><img
+                  class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}">Explore
+          more
+        </button>
+      </a>
       <a href="{{ route('how-we-help.international-supply-and-unlicensed-imports.index') }}" class="image-box relative block">
         <div class="bg-lochmara absolute top-0 bottom-0 right-0 left-0"></div>
         <div class="image-container relative w-full h-full">
@@ -210,6 +296,43 @@
           more
         </button>
       </a>
+      <a href="{{ route('how-we-help.hospital-and-pharmacy-supply.index') }}" class="image-box relative block">
+        <div class="bg-lochmara absolute top-0 bottom-0 right-0 left-0"></div>
+        <div class="image-container relative w-full h-full">
+          <div class="gray-radial-gradient opacity-70 absolute top-0 bottom-0 right-0 left-0"></div>
+          <div class="image w-full h-full" style="background-image: url({{ asset('image/Imports.jpg') }});background-position: center;background-repeat: no-repeat;background-size: cover;"></div>
+        </div>
+        <p class="title 3xl:text-4xl xl:text-2xl text-22px font-bold absolute">Imports</p>
+        <p class="text 3xl:text-34px 2xl:text-2xl xl:text-22px lg:text-2xl text-31px quarto-font 4xl:leading-40px leading-tight absolute">
+          <span class="block">Smartway imports medicines and </span>
+          <span class="block">has been directly supplying hospitals</span>
+          <span class="block">in the UK, Ireland and the UAE</span>
+          <span class="block">for over 25 years.</span>
+        </p>
+        <button class="link 4xl:text-2xl lg:text-17px text-2xl font-bold flex items-center absolute"><img
+                  class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}">Explore
+          more
+        </button>
+      </a>
+
+      <a href="{{ route('how-we-help.international-supply-and-unlicensed-imports.index') }}" class="image-box relative block">
+        <div class="bg-persian-green absolute top-0 bottom-0 right-0 left-0"></div>
+        <div class="image-container relative w-full h-full">
+          <div class="gray-radial-gradient opacity-70 absolute top-0 bottom-0 right-0 left-0"></div>
+          <div class="image w-full h-full" style="background-image: url({{ asset('image/Specials.jpg') }});background-position: center;background-repeat: no-repeat;background-size: cover;"></div>
+        </div>
+        <p class="title 3xl:text-4xl xl:text-2xl text-22px font-bold absolute">Specials</p>
+        <p class="text 3xl:text-34px 2xl:text-2xl xl:text-22px lg:text-2xl text-31px quarto-font 4xl:leading-40px leading-tight absolute">
+          <span class="block">Our extensive links with specials</span>
+          <span class="block">manufacturers mean that we</span>
+          <span class="block">can supply at lower than market prices.</span>
+        </p>
+        <button class="link 4xl:text-2xl lg:text-17px text-2xl font-bold flex items-center absolute"><img
+                  class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}">Explore
+          more
+        </button>
+      </a>
+
       <a href="{{ route('how-we-help.eap.index') }}" class="image-box relative block">
         <div class="bg-lochmara absolute top-0 bottom-0 right-0 left-0"></div>
         <div class="image-container relative w-full h-full">
