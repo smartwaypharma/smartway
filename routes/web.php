@@ -52,9 +52,9 @@ Route::group(['prefix' => 'how-we-help', 'as' => 'how-we-help.'] ,function () {
 
     Route::group(['prefix' => 'hospital-and-pharmacy-supply', 'as' => 'hospital-and-pharmacy-supply.'], function () {
         Route::get('/', [\App\Http\Controllers\Front\HospitalAndPharmacySupplyController::class, 'index'])->name('index');
-        Route::get('/project-management', [\App\Http\Controllers\Front\HospitalAndPharmacySupply::class, 'projectManagement'])->name('project-management');
-        Route::get('/reliable-supply', [\App\Http\Controllers\Front\HospitalAndPharmacySupply::class, 'reliableSupply'])->name('reliable-supply');
-        Route::get('/global-distributions', [\App\Http\Controllers\Front\HospitalAndPharmacySupply::class, 'globalDistributions'])->name('global-distributions');
+        Route::get('/project-management', [\App\Http\Controllers\Front\HospitalAndPharmacySupplyController::class, 'projectManagement'])->name('project-management');
+        Route::get('/reliable-supply', [\App\Http\Controllers\Front\HospitalAndPharmacySupplyController::class, 'reliableSupply'])->name('reliable-supply');
+        Route::get('/global-distributions', [\App\Http\Controllers\Front\HospitalAndPharmacySupplyController::class, 'globalDistributions'])->name('global-distributions');
     });
 
     Route::group(['prefix' => 'sexual-health', 'as' => 'sexual-health.'], function () {
