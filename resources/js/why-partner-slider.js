@@ -3,7 +3,7 @@ import Glide from '@glidejs/glide'
 window.addEventListener('load', function () {
   new Glide('.why-partner-slider', {
     type: 'slider',
-    perView: 3,
+    perView: 5,
     breakpoints: {
       1250: {
         perView: 2.6
