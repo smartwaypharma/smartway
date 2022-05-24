@@ -318,8 +318,7 @@
                         experience in patient safety, governance and personnel management, Rupi leads the Smartway
                         Pharmacy and offering for direct to patient and home delivery.
                       </p>
-                      <p>After qualifying as a
-                        Rupi qualified as a Pharmacist in 1997 from Kings’ College London before holding a portfolio of
+                      <p>Rupi qualified as a Pharmacist in 1997 from Kings’ College London before holding a portfolio of
                         management positions covering multiple roles in the UK. He has spent time developing new
                         healthcare partnerships with the NHS and others in the private sectors. Rupi chairs Local
                         Pharmaceutical Committee (LPC), an independent and representative group of pharmacy
