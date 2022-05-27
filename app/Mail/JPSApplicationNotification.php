@@ -8,7 +8,7 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\Storage;
 
-class AdministrationAssociateApplicationNotification extends Mailable
+class JPSApplicationNotification extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -30,8 +30,8 @@ class AdministrationAssociateApplicationNotification extends Mailable
      */
     public function build()
     {
-        $mail = $this->subject('A message from Administration Associate Application page')
-            ->view('mail.administration-associate-application-notification')
+        $mail = $this->subject('A message from Junior Procurement Specialist Application page')
+            ->view('mail.JPS-application-notification')
             ->attach(Storage::path('public/' . $this->details['cv']));
 
         return $mail;
