@@ -56,6 +56,18 @@
       <a href="{{ route('who-we-are.administration-associate-application') }}" class="4xl:text-28px lg:text-xl text-2xl font-semibold bg-white-ice text-black rounded-md 4xl:py-0 xl:py-4 py-3 4xl:px-20 px-10  mt-5" type="submit">Apply</a>
     </div>
   </section>
+  <section class="bg-lochmara 3xl:lg:py-36 pt-2 pb-10 mb-5 text-white">
+    <div class="container 3xl:max-w-3xl px-4 lg:mt-0 mt-8">
+      <h2 class="quarto-font 4xl:text-93px xl:text-62px lg:text-44px text-34px lg:text-44px text-34px lg:my-5 mt-0 mb-5">
+        Junior Procurement Specialist
+      </h2>
+      <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px lg:pr-0 pr-2">
+        <span class="xl:block">Smartway is looking to appoint a Junior Procurement Specialist</span>
+      </p>
+      <p class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold lg:my-5 mb-16 mb-7">Application closes - 12:00am, 17th of June 2022 BST</p>
+      <a href="{{ route('who-we-are.jps-application') }}" class="4xl:text-28px lg:text-xl text-2xl font-semibold bg-white-ice text-black rounded-md 4xl:py-0 xl:py-4 py-3 4xl:px-20 px-10  mt-5" type="submit">Apply</a>
+    </div>
+  </section>
   <section class="container 3xl:max-w-3xl px-4 xl:pb-40 pb-20">
     <hr class="h-0.5 bg-black lg:my-30 mt-16 mb-16">
     <div class="grid lg:grid-cols-2 grid-cols-1 xl:gap-y-40 gap-y-20">
@@ -69,8 +81,7 @@
             a good fit for our business, send us your CV and cover letter.
           </p>
           <p class="lg:mb-9 mb-5 sm:pr-0 pr-4">
-            We will respond to your enquiry within 4-5
-            working days.
+            We will review your enquiry and will be in touch if we have any open roles suitable to your skills and experience.
           </p>
           <p>
             <span class="sm:inline block">In the meantime, take a look at</span>

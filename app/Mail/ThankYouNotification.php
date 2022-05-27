@@ -8,19 +8,19 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\Storage;
 
-class AdministrationAssociateApplicationNotification extends Mailable
+class ThankYouNotification extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $details;
+   // public $details;
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($details)
+    public function __construct()
     {
-        $this->details = $details;
+        //$this->details = $details;
     }
 
     /**
@@ -30,10 +30,8 @@ class AdministrationAssociateApplicationNotification extends Mailable
      */
     public function build()
     {
-        $mail = $this->subject('A message from Administration Associate Application page')
-            ->view('mail.administration-associate-application-notification')
-            ->attach(Storage::path('public/' . $this->details['cv']));
-
+        $mail = $this->subject('Thank you for your interest in working with Smartway')
+            ->view('mail.thankyou-notification');
         return $mail;
     }
 }

@@ -1,16 +1,15 @@
 @extends('layouts.front')
 
 @section('meta')
-    <title>Who we are - Careers & Internships - Speculative Application</title>
+    <title>Who we are - Careers & Internships - Junior Procurement Specialist Application</title>
 @endsection
 
 @section('header-content')
-    <img class="hidden sm:inline-block w-full" src="{{ asset('image/Speculative_Application.jpg') }}">
+    <img class="hidden sm:inline-block w-full" src="{{ asset('image/JPS.jpg') }}">
     <img class="sm:hidden inline-block w-full" src="{{ asset('image/iStock-642501464.png') }}">
     <div class="gray-radial-gradient opacity-60 absolute top-0 bottom-0 right-0 left-0"></div>
     <h1 class="container 3xl:max-w-3xl absolute heading quarto-font 4xl:text-120px xl:text-85px md:text-6xl sm:text-4xl text-42px text-white leading-none lg:px-36 px-4 mb-2">
-        <span class="block">Speculative</span>
-        <span class="block">Application</span>
+        <span class="block">Join our team</span>
     </h1>
 @endsection
 
@@ -23,22 +22,58 @@
             <img class="filter invert pr-6" src="{{ asset('image/icon/linkedin-icon.png') }}">
         </div>
         <div class="lg:flex">
-            <div class="lg:w-7/12 lg:pr-16">
+            <div class="lg:w-7/12 lg:pr-16 ">
                 <h2 class="quarto-font 4xl:text-93px xl:text-62px lg:text-44px text-34px 4xl:leading-102px xl:leading-70px lg:leading-48px leading-40px lg:mb-12 mb-6 lg:pr-0 pr-3">
-                    We are always interested in people who believe that they share our values and purpose.
+                    Become our <br> Junior Procurement Specialist
                 </h2>
                 <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px">
                     <p class="lg:mb-9 mb-6">
-                        If you think you are a good fit for our business, send us your CV and cover letter.</p>
-                    <p class="lg:mb-9 mb-6 lg:pr-0 pr-4">We will review your enquiry and will be in touch if we have any open roles suitable to your skills and experience.</p>
-                    <p class="lg:pr-10 pr-3">In the meantime, take a look at our history and social responsibility pages
-                        and find out more about our culture and business.
-                    </p>
+                        <b>Location:</b> London office</p>
+                    <p class="lg:mb-9 mb-6 lg:pr-0 pr-4"><b>Application deadline:</b> 12:00am, 17th June 2022 BST</p>
+                    <h2 class="quarto-font 4xl:text-93px xl:text-62px lg:text-44px text-34px 4xl:leading-102px xl:leading-70px lg:leading-48px leading-40px lg:mb-12 mb-6 lg:pr-0 pr-3">
+                        Job description
+                    </h2>
+                    <p class="lg:mb-9 mb-6 lg:pr-0 pr-4">We are looking for a <b>Junior Procurement Specialist</b> to handle day-to-day tasks alongside our Global Sales Director.</p>
+                    <p class="lg:mb-4 mb-2 lg:pr-0 pr-4 bold">Your main responsibilities in relation to Sourcing, Procurement and CS support include:   </p>
+                    <div class="2xl:max-w-6xl xl:max-w-4xl 2xl:pl-0 xl:pl-0 post-content xl:pr-0">
+                        <ul>
+                            <li>Database management</li>
+                            <li>Enquiry management</li>
+                            <li>Quote management</li>
+                            <li>Order management</li>
+                            <li>Order delivery management</li>
+                        </ul>
+                    </div>
+                    <p class="lg:mb-9 mb-6 lg:pr-0 pr-4">Your day-to-day tasks will include (but will be not limited to):  </p>
+                    <div class="2xl:max-w-6xl xl:max-w-4xl 2xl:pl-0 xl:pl-0 post-content xl:pr-0">
+                        <ul>
+                            <li>Contacting suppliers </li>
+                            <li>Updating database</li>
+                            <li>Market research</li>
+                        </ul>
+                    </div>
+                    <p class="lg:mb-9 mb-6 lg:pr-0 pr-4">All candidates must be competent in:</p>
+                    <div class="2xl:max-w-6xl xl:max-w-4xl 2xl:pl-0 xl:pl-0 post-content xl:pr-0">
+                        <ul>
+                            <li>Excel (intermediate level)</li>
+                            <li>MS Suite </li>
+                            <li>Teams </li>
+                        </ul>
+                    </div>
+                    <p class="lg:mb-9 mb-6 lg:pr-0 pr-4">This role requires the following skills:</p>
+                    <div class="2xl:max-w-6xl xl:max-w-4xl 2xl:pl-0 xl:pl-0 post-content xl:pr-0">
+                        <ul>
+                            <li>Organisation </li>
+                            <li>Managing expectations </li>
+                            <li>Networking</li>
+                            <li>Time management </li>
+                        </ul>
+                    </div>
                 </div>
                 <hr class="h-0.1 mt-8 mb-3 bg-black lg:hidden">
             </div>
             <div>
-                <form action="{{ route('who-we-are.speculative-application-form.submit') }}" method="POST" id="contactForm" class="lg:max-w-xl mx-auto lg:px-4">
+                <form action="{{ route('who-we-are.jps-application-form.submit') }}" method="POST" id="contactForm" class="lg:max-w-xl mx-auto lg:px-4">
                     @csrf
                     <input id="cv" name="cv" type="hidden">
                     <div class="w-full mb-11">
@@ -66,7 +101,7 @@
                                 name="job_title"
                                 type="text"
                                 class="w-full appearance-none outline-none py-4 border-b border-black text-xl font-semibold text-black placeholder-dove-gray focus:placeholder-black js-field"
-                                placeholder="Job Title*"
+                                placeholder="Current Job Title*"
                                 value="{{ old('job_title', '') }}"
                                 />
                         <div class="text-red-500 text-xs js-error-message hidden" data-field="job_title"></div>
@@ -86,14 +121,14 @@
                                 name="work_email"
                                 type="text"
                                 class="w-full appearance-none outline-none py-4 border-b border-black text-xl font-semibold text-black placeholder-dove-gray focus:placeholder-black js-field"
-                                placeholder="Work Email*"
+                                placeholder="Email*"
                                 value="{{ old('work_email', '') }}"
                                 />
                         <div class="text-red-500 text-xs js-error-message hidden" data-field="work_email"></div>
                     </div>
                     <div class="w-full pt-7 mb-11">
                         <label class="w-full appearance-none outline-none text-xl font-semibold text-dove-gray">
-                            Message*
+                            Cover Letter*
                         </label>
             <textarea
                     name="message" rows="4"
@@ -127,7 +162,6 @@
         </div>
     </section>
     @include('front.partials.who-we-are-link')
-
     <div class="js-success-modal fixed z-999999 inset-0 overflow-y-auto hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true">
         <div class="flex lg:items-end items-start justify-center min-h-screen pt-4 px-5 pb-20 text-center sm:block">
             <div class="fixed inset-0"
@@ -142,9 +176,9 @@
                 </svg>
                 <div class="text-center xl:py-36 lg:py-16 py-10 px-5">
                     <img class="w-auto mx-auto px-5" src="{{ asset('image/Main_Logo_black.svg') }}" alt="Logo">
-                    <p class="quarto-font xl:text-64px xl:leading-70px sm:text-54px sm:leading-53px text-42px leading-41px lg:my-10 my-7">Thank you for contacting us!</p>
+                    <p class="quarto-font xl:text-64px xl:leading-70px sm:text-54px sm:leading-53px text-42px leading-41px lg:my-10 my-7">Thank you for applying!</p>
                     <div class="lg:text-2xl sm:text-xl text-lg lg:leading-37px leading-24px max-w-810px mx-auto">
-                        <p class="lg:mb-10 mb-6 lg:px-16 px-2">We’ve received your enquiry and will be in touch if we have any open roles suitable to your skills and experience.</p>
+                        <p class="lg:mb-10 mb-6 lg:px-16 px-2">We’ve received your enquiry and one of our team members will respond to you within 4-5 working days.</p>
                         <p>In the
                             meantime, read our news via our <a class="text-lochmara" href="{{ route('who-we-are.media-and-resource-centre.index') }}">blogs</a> and follow us on <a
                                     class="text-lochmara" href="https://www.linkedin.com/company/smartway-pharmaceuticals/?viewAsMember=true">LinkedIn</a>.</p>
@@ -156,5 +190,5 @@
 @endsection
 
 @push('scripts')
-<script src="{{ mix('js/speculative-application.js') }}" defer></script>
+<script src="{{ mix('js/jps-application.js') }}" defer></script>
 @endpush
