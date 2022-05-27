@@ -93,16 +93,6 @@ Route::group(['prefix' => 'who-we-are', 'as' => 'who-we-are.'] ,function () {
 
     Route::get('social-responsibility', [\App\Http\Controllers\Front\WhoWeAreController::class, 'socialResponsibility'])->name('social-responsibility');
 
-    // Quality Manager Application
-    Route::get('quality-manager-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'qualityManagerApplication'])->name('quality-manager-application');
-    Route::post('quality-manager-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'qualityManagerApplicationFormSubmit'])->name('quality-manager-application-form.submit');
-    Route::post('quality-manager-upload-file', [\App\Http\Controllers\Front\WhoWeAreController::class, 'qualityManagerUploadFile'])->name('quality-manager-upload-file');
-
-    // Administration Associate Application
-    Route::get('administration-associate-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'administrationAssociateApplication'])->name('administration-associate-application');
-    Route::post('administration-associate-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'administrationAssociateApplicationFormSubmit'])->name('administration-associate-application-form.submit');
-    Route::post('administration-associate-upload-file', [\App\Http\Controllers\Front\WhoWeAreController::class, 'administrationAssociateUploadFile'])->name('administration-associate-upload-file');
-
     // Junior Procurement Specialist Application
     Route::get('jps-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'jpsApplication'])->name('jps-application');
     Route::post('jps-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'jpsApplicationFormSubmit'])->name('jps-application-form.submit');
