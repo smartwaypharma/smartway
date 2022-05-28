@@ -64,7 +64,7 @@
         <div
             class="mr-2.5 4xl:w-19px w-3 4xl:h-19px h-3 rounded-full 4xl:border-6px border-3.5px border-persian-green mt-9 sm:mt-0"></div>
         <span>© Copyright Smartway {{ now()->format('Y') }}. All rights reserved.</span></div>
-      <a href="https://www.linkedin.com/company/smartway-pharmaceuticals/?viewAsMember=true">
+      <a href="https://www.linkedin.com/company/smartway-pharmaceuticals/?viewAsMember=true" target="_blank">
         <img class="2xl:w-auto 2xl:h-auto w-7 h-7" src="{{ asset('image/icon/linkedin-icon.png') }}">
       </a>
     </div>
