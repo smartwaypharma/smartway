@@ -19,7 +19,7 @@
             <a class="hidden lg:block text-lg font-bold flex items-center" href="{{ route('who-we-are.careers') }}">
                 <img class="inline transform rotate-180 mr-3 w-5 h-5"
                      src="{{ asset('image/icon/icn.svg') }}">Back</a>
-            <img class="filter invert pr-6" src="{{ asset('image/icon/linkedin-icon.png') }}">
+            <a href="https://www.linkedin.com/company/smartway-pharmaceuticals/?viewAsMember=true" target="_blank"><img class="filter invert pr-6" src="{{ asset('image/icon/linkedin-icon.png') }}"></a>
         </div>
         <div class="lg:flex">
             <div class="lg:w-7/12 lg:pr-16 ">
