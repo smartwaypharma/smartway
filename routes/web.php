@@ -98,6 +98,16 @@ Route::group(['prefix' => 'who-we-are', 'as' => 'who-we-are.'] ,function () {
     Route::post('jps-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'jpsApplicationFormSubmit'])->name('jps-application-form.submit');
     Route::post('jps-upload-file', [\App\Http\Controllers\Front\WhoWeAreController::class, 'jpsUploadFile'])->name('jps-upload-file');
 
+    // UK Admin Associate
+    Route::get('uk-admin-associate-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'UKAdminAssociateApplication'])->name('uk-admin-associate-application');
+    Route::post('uk-admin-associate-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'UKAdminAssociateApplicationFormSubmit'])->name('uk-admin-associate-application-form.submit');
+    Route::post('uk-admin-associate-upload-file', [\App\Http\Controllers\Front\WhoWeAreController::class, 'UKAdminAssociateUploadFile'])->name('uk-admin-associate-upload-file');
+
+    // India Admin Associate
+    Route::get('ind-admin-associate-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'INDAdminAssociateApplication'])->name('ind-admin-associate-application');
+    Route::post('ind-admin-associate-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'INDAdminAssociateApplicationFormSubmit'])->name('ind-admin-associate-application-form.submit');
+    Route::post('ind-admin-associate-upload-file', [\App\Http\Controllers\Front\WhoWeAreController::class, 'INDAdminAssociateUploadFile'])->name('ind-admin-associate-upload-file');
+
     Route::group(['prefix' => 'media-and-resource-centre', 'as' => 'media-and-resource-centre.'], function () {
         Route::get('/', [\App\Http\Controllers\Front\PostController::class, 'blog'])->name('index');
         Route::get('{category}/{slug}', [\App\Http\Controllers\Front\PostController::class, 'post'])->name('post');
