@@ -53,7 +53,7 @@
         Admin Associate
       </h2>
       <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px lg:pr-0 pr-2 mb-5">
-        <span class="xl:block">Smartway is looking to appoint a Admin Associate</span>
+        <span class="xl:block">Smartway is looking to appoint an Admin Associate</span>
       </p>
       <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px lg:pr-0 pr-2 mb-5">
         Location: London, UK Office
@@ -69,7 +69,7 @@
         Admin Associate
       </h2>
       <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px lg:pr-0 pr-2 mb-5">
-        <span class="xl:block">Smartway is looking to appoint a Admin Associate</span>
+        <span class="xl:block">Smartway is looking to appoint an Admin Associate</span>
       </p>
       <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px lg:pr-0 pr-2 mb-5">
         Location: Surat, India office
