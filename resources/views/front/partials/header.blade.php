@@ -128,7 +128,7 @@
     </div>
     <div class="flex justify-center items-end absolute bottom-10 left-0 right-0">
       <p class="text-lg text-white font-light mr-5">Follow Us:</p>
-      <a href=""><img src="{{ asset('image/icon/linkedin-icon.png') }}"></a>
+      <a href="https://www.linkedin.com/company/smartway-pharmaceuticals/?viewAsMember=true"><img src="{{ asset('image/icon/linkedin-icon.png') }}"></a>
     </div>
   </div>
   @yield('header-content')
