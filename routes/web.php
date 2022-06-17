@@ -94,9 +94,9 @@ Route::group(['prefix' => 'who-we-are', 'as' => 'who-we-are.'] ,function () {
     Route::get('social-responsibility', [\App\Http\Controllers\Front\WhoWeAreController::class, 'socialResponsibility'])->name('social-responsibility');
 
     // Junior Procurement Specialist Application
-    Route::get('jps-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'jpsApplication'])->name('jps-application');
+   /* Route::get('jps-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'jpsApplication'])->name('jps-application');
     Route::post('jps-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'jpsApplicationFormSubmit'])->name('jps-application-form.submit');
-    Route::post('jps-upload-file', [\App\Http\Controllers\Front\WhoWeAreController::class, 'jpsUploadFile'])->name('jps-upload-file');
+    Route::post('jps-upload-file', [\App\Http\Controllers\Front\WhoWeAreController::class, 'jpsUploadFile'])->name('jps-upload-file');*/
 
     // UK Admin Associate
     Route::get('uk-admin-associate-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'UKAdminAssociateApplication'])->name('uk-admin-associate-application');
