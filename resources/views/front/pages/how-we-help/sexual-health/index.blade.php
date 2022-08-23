@@ -32,7 +32,17 @@
       By offering the complete range of oral contraceptives – both branded and generic – as well as many of the leading
       IUCDs and IUSs, we can offer both competitive pricing and excellent customer service.
     </p>
-    <hr class="h-0.5 bg-black lg:my-40 my-20">
+    <div class="text-center mb-12">
+      <div class="hidden sm:inline-block mt-12">
+        <a href="{{ asset('pdf/Smartway_SHS_Catalogue_2022.pdf') }}" target="_blank"
+           class="button 4xl:text-28px lg:text-xl text-2xl font-semibold bg-persian-green text-white text-center rounded-full 4xl:py-5 py-3 px-10 block sm:inline-block">Download our Sexual Health Supply Catalogue</a>
+      </div>
+      <div class="inline-block sm:hidden mt-12">
+        <a href="{{ asset('pdf/Smartway_SHS_Catalogue_2022.pdf') }}" target="_blank"
+           class="button 4xl:text-28px lg:text-xl text-sm font-semibold bg-persian-green text-white text-center rounded-full 4xl:py-5 py-3 px-10 block sm:inline-block">Download our Sexual Health Supply Catalogue</a>
+      </div>
+    </div>
+    <hr class="h-0.5 bg-black lg:my-20 my-10">
   </section>
   <section class="container 3xl:max-w-3xl px-4">
     <p class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold text-center">Why partner with Smartway?</p>
