@@ -43,7 +43,7 @@ uppyOne
     .use(ProgressBar, {target: '.uppy-progress-bar', hideAfterFinish: true})
     .use(XHRUpload, {
       limit: 1,
-      endpoint: '/who-we-are/uk-admin-associate-upload-file',
+      endpoint: '/who-we-are/uk-regulatory-assistant-upload-file',
       formData: true,
       fieldName: 'file',
       headers: {

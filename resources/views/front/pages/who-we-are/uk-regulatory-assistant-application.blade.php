@@ -1,12 +1,12 @@
 @extends('layouts.front')
 
 @section('meta')
-    <title>Who we are - Careers & Internships - Admin Associate Application</title>
+    <title>Who we are - Careers & Internships - Regulatory Assistant Application</title>
 @endsection
 
 @section('header-content')
-    <img class="hidden sm:inline-block w-full" src="{{ asset('image/India.jpg') }}">
-    <img class="sm:hidden inline-block w-full" src="{{ asset('image/IndiaMobileNew.jpg') }}">
+    <img class="hidden sm:inline-block w-full" src="{{ asset('image/UK.jpg') }}">
+    <img class="sm:hidden inline-block w-full" src="{{ asset('image/UKMobileNew.jpg') }}">
     <div class="gray-radial-gradient opacity-60 absolute top-0 bottom-0 right-0 left-0"></div>
     <h1 class="container 3xl:max-w-3xl absolute heading quarto-font 4xl:text-120px xl:text-85px md:text-6xl sm:text-4xl text-42px text-white leading-none lg:px-36 px-4 mb-2">
         <span class="block">Join our team</span>
@@ -24,41 +24,42 @@
         <div class="lg:flex">
             <div class="lg:w-7/12 lg:pr-16 ">
                 <h2 class="quarto-font 4xl:text-93px xl:text-62px lg:text-44px text-34px 4xl:leading-102px xl:leading-70px lg:leading-48px leading-40px lg:mb-12 mb-6 lg:pr-0 pr-3">
-                    Become our <br> Admin Associate
+                    Become our <br> Regulatory Assistant
                 </h2>
                 <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px">
                     <p class="lg:mb-9 mb-6">
-                        <b>Location:</b> Surat, India office</p>
+                        <b>Location:</b> London office</p>
 
                     <h2 class="quarto-font 4xl:text-93px xl:text-62px lg:text-44px text-34px 4xl:leading-102px xl:leading-70px lg:leading-48px leading-40px lg:mb-12 mb-6 lg:pr-0 pr-3">
                         Job description
                     </h2>
-                    <p class="lg:mb-9 mb-6 lg:pr-0 pr-4">Smartway Pharmaceuticals is a pharmaceutical distributor that strives to empower access to medicines globally.</p>
-                    <p class="lg:mb-9 mb-6 lg:pr-0 pr-4">We are looking for an <b>admin associate</b> to facilitate day-to-day tasks alongside our regulatory department.</p>
+                    <p class="lg:mb-9 mb-6 lg:pr-0 pr-4">Smartway is a specialist distributor, partnering with healthcare professionals, pharmaceutical and biotech companies, aid organisations and charities to ensure medicines access to patients all over the world.</p>
+                    <p class="lg:mb-9 mb-6 lg:pr-0 pr-4">We are looking for a full-time Regulatory Assistant based at our UK Head Office to support continued business expansion. Day-to-day, the role will involve using our electronic Quality Management System and other custom-built systems to monitor and record compliance within the business.</p>
+                    <p class="lg:mb-9 mb-6 lg:pr-0 pr-4">Working directly with Responsible Persons and Quality Officer, there is scope to learn and further progress within the group of companies for the right candidate, with external training being provided as needed.</p>
                     <p class="lg:mb-4 mb-2 lg:pr-0 pr-4 bold">The ideal candidate is:  </p>
                     <div class="2xl:max-w-6xl xl:max-w-4xl 2xl:pl-0 xl:pl-0 post-content xl:pr-0">
                         <ul>
-                            <li>Organised</li>
-                            <li>Good at time keeping</li>
-                            <li>Excellent at communicating and updating other parties within the business, at all levels including Director level</li>
-                            <li>Able to liaise with external regulatory authorities within the UK, Europe and worldwide</li>
+                            <li>Excellent at communicating with other parties within the business, at all levels including Director level;</li>
+                            <li>Organised and able to prioritise tasks by due date and importance;</li>
+                            <li>Confident to liaise with external regulatory authorities within the UK, Europe and worldwide;</li>
+                            <li>Enthusiastic and eager to learn.</li>
                         </ul>
                     </div>
                     <p class="lg:mb-9 mb-6 lg:pr-0 pr-4">An example of tasks includes:  </p>
                     <div class="2xl:max-w-6xl xl:max-w-4xl 2xl:pl-0 xl:pl-0 post-content xl:pr-0">
                         <ul>
-                            <li>Updating internal parties on the status of new customer and supplier accounts. </li>
-                            <li>Completing client forms.</li>
-                            <li>Recording and checking product recalls onto the electronic system.</li>
-                            <li>Monitoring tasks delegated to other departments.</li>
+                            <li>Recording recalls on our electronic system;</li>
+                            <li>Ensuring issues are escalated to the Regulatory Manager as required;</li>
+                            <li>Creating training material for the wider business;</li>
+                            <li>Collecting information for account opening as required.</li>
                         </ul>
                     </div>
-                    <p class="lg:mb-9 mb-6 lg:pr-0 pr-4">The role sits within the regulatory department but would involve working alongside the commercial, and finance teams within the wider business. </p>
+                    <p class="lg:mb-9 mb-6 lg:pr-0 pr-4">A degree in a life science and pharmacy experience is desirable but candidates will be assessed on an individual basis.</p>
                 </div>
                 <hr class="h-0.1 mt-8 mb-3 bg-black lg:hidden">
             </div>
             <div>
-                <form action="{{ route('who-we-are.ind-admin-associate-application-form.submit') }}" method="POST" id="contactForm" class="lg:max-w-xl mx-auto lg:px-4">
+                <form action="{{ route('who-we-are.uk-regulatory-assistant-application-form.submit') }}" method="POST" id="contactForm" class="lg:max-w-xl mx-auto lg:px-4">
                     @csrf
                     <input id="cv" name="cv" type="hidden">
                     <div class="w-full mb-11">
@@ -175,5 +176,5 @@
 @endsection
 
 @push('scripts')
-<script src="{{ mix('js/ind-application.js') }}" defer></script>
+<script src="{{ mix('js/uk-application.js') }}" defer></script>
 @endpush
