@@ -103,10 +103,10 @@ Route::group(['prefix' => 'who-we-are', 'as' => 'who-we-are.'] ,function () {
     Route::post('uk-regulatory-assistant-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'UKRegulatoryAssistantApplicationFormSubmit'])->name('uk-regulatory-assistant-application-form.submit');
     Route::post('uk-regulatory-assistant-upload-file', [\App\Http\Controllers\Front\WhoWeAreController::class, 'UKRegulatoryAssistantUploadFile'])->name('uk-regulatory-assistant-upload-file');
 
-    // India Admin Associate
-    /*Route::get('ind-admin-associate-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'INDAdminAssociateApplication'])->name('ind-admin-associate-application');
-    Route::post('ind-admin-associate-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'INDAdminAssociateApplicationFormSubmit'])->name('ind-admin-associate-application-form.submit');
-    Route::post('ind-admin-associate-upload-file', [\App\Http\Controllers\Front\WhoWeAreController::class, 'INDAdminAssociateUploadFile'])->name('ind-admin-associate-upload-file');*/
+    // UK Responsible Person
+    Route::get('responsible-person-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'ResponsiblePersonApplication'])->name('responsible-person-application');
+    Route::post('responsible-person-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'ResponsiblePersonApplicationFormSubmit'])->name('responsible-person-application-form.submit');
+    Route::post('responsible-person-upload-file', [\App\Http\Controllers\Front\WhoWeAreController::class, 'ResponsiblePersonUploadFile'])->name('responsible-person-upload-file');
 
     Route::group(['prefix' => 'media-and-resource-centre', 'as' => 'media-and-resource-centre.'], function () {
         Route::get('/', [\App\Http\Controllers\Front\PostController::class, 'blog'])->name('index');

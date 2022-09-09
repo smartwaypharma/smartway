@@ -8,7 +8,7 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\Storage;
 
-class INDApplicationNotification extends Mailable
+class ResponsiblePersonApplicationNotification extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -30,7 +30,7 @@ class INDApplicationNotification extends Mailable
      */
     public function build()
     {
-        $mail = $this->subject('A message from Admin Associate INDIA Application page')
+        $mail = $this->subject('A message from Responsible Person Application page')
             ->view('mail.JPS-application-notification')
             ->attach(Storage::path('public/' . $this->details['cv']));
 
