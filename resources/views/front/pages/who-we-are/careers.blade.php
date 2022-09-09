@@ -48,6 +48,22 @@
       <a href="{{ route('who-we-are.uk-regulatory-assistant-application') }}" class="button pt-3 pb-4 px-10 bg-white-ice rounded-md transition duration-300 font-semibold text-black text-22px" type="submit">Apply</a>
     </div>
   </section>
+  <section class="bg-lochmara 3xl:lg:py-36 pt-2 pb-10 mb-5 text-white">
+    <div class="container 3xl:max-w-3xl px-4 lg:mt-0 mt-8">
+      <h2 class="quarto-font 4xl:text-93px xl:text-62px lg:text-44px text-34px lg:text-44px text-34px lg:my-5 mt-0 mb-5">
+        Responsible Person
+      </h2>
+      <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px lg:pr-0 pr-2 mb-5">
+        <span class="xl:block">Smartway is looking to appoint a Responsible Person</span>
+      </p>
+      <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px lg:pr-0 pr-2 mb-5">
+        Location: London, UK Office
+      </p>
+      <p class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold lg:my-5 mb-16 mb-7">Applications are accepted on a rolling basis
+      </p>
+      <a href="{{ route('who-we-are.responsible-person-application') }}" class="button pt-3 pb-4 px-10 bg-white-ice rounded-md transition duration-300 font-semibold text-black text-22px" type="submit">Apply</a>
+    </div>
+  </section>
   <section class="container 3xl:max-w-3xl px-4 xl:pb-40 pb-20">
     <hr class="h-0.5 bg-black lg:my-30 mt-16 mb-16">
     <div class="grid lg:grid-cols-2 grid-cols-1 xl:gap-y-40 gap-y-20">

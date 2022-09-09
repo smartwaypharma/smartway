@@ -30,7 +30,7 @@ class UKApplicationNotification extends Mailable
      */
     public function build()
     {
-        $mail = $this->subject('A message from Admin Associate UK Application page')
+        $mail = $this->subject('A message from Regulatory Assistant Application page')
             ->view('mail.JPS-application-notification')
             ->attach(Storage::path('public/' . $this->details['cv']));
 
