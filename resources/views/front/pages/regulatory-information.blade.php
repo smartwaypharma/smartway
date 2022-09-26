@@ -26,18 +26,11 @@
       Lyon Road, London, SW19 2RL.</h2>
     <h3 class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold lg:mt-16 mt-6 mb-7">Our regulators</h3>
     <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px">
-      <p class="lg:mb-9 mb-5 4xl:pr-6 pr-2">We are regulated by the Medicines and Healthcare products Regulatory Agency (“MHRA”) and
-        have been issued a WDA(H)
-        42332 for regulating our pharmaceutical distribution activities for human medicines. We also hold a WDA(V) 42332
-        for regulating our pharmaceutical distribution activities relating to veterinary medicines. In respect of our
-        WDA(H) and WDA(V), we are authorised to [procure], hold and supply medicinal products from our authorised site
-        at
-        10 Lyon Road, London, SW19 2RL.</p>
+      <p class="lg:mb-9 mb-5 4xl:pr-6 pr-2">We are regulated by the Medicines and Healthcare products Regulatory Agency (“MHRA”) and have been issued a Wholesale Distribution Authority (Human) (WDA(H)) 42332 for regulating our pharmaceutical distribution activities for human medicines. We also hold a WDA(V) 42332 for regulating our pharmaceutical distribution activities relating to veterinary and animal medicines. We also hold a Manufacturing Specials authorisation (MS) 42332 for regulating our manufacturing and import activities.</p>
       <p class="lg:mb-9 mb-5">
-        We hold MS License No: 42332.
+        In respect of our WDA(H), WDA(V) and MS, we are authorised to procure, hold, import, export and supply medicinal products from our authorised site at 10 Lyon Road, London, SW19 2RL.
       </p>
-      <p class="4xl 4xl:pr-40 pr-4">We are also authorised by the Home Office in respect
-        of controlled drugs, for which we are authorised to deal in Schedule 2, 3, 4 [Part I & II] & 5 medicines.</p>
+      <p class="4xl 4xl:pr-40 pr-4">We are also authorised by the Home Office in respect of controlled drugs, for which we are authorised to deal in Schedule 2, 3, 4 (Part I & II) and 5 medicines.</p>
     </div>
     <h3 class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold mt-16 mb-7">GPhC</h3>
     <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px">
