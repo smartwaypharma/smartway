@@ -1,4 +1,4 @@
-$('#downloadButton').on('click', function () {
+$('#postButton').on('click', function () {
   $('#formModal').removeClass('hidden')
 })
 
@@ -6,10 +6,10 @@ $('.js-modal-close').on('click', function () {
   $(this).closest('.js-modal').addClass('hidden')
 })
 
-$('#smartnoteSubmit').on('click', function (e) {
+$('#postSubmit').on('click', function (e) {
   e.preventDefault()
 
-  var form = $('#smartnoteForm')
+  var form = $('#postForm')
 
   $('.js-errors').addClass('hidden')
 
@@ -30,3 +30,5 @@ $('#smartnoteSubmit').on('click', function (e) {
 $('.js-modal-close').on('click', function () {
   window.location.reload()
 })
+
+

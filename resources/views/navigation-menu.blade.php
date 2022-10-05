@@ -27,6 +27,9 @@
                     <x-jet-nav-link href="{{ route('admin.smartnotes-form-data') }}" :active="request()->routeIs('admin.smartnotes-form-data')">
                         SmartNotes Form Data
                     </x-jet-nav-link>
+                    <x-jet-nav-link href="{{ route('admin.contact-form-data') }}" :active="request()->routeIs('admin.contact-form-data')">
+                        Contact Us Data
+                    </x-jet-nav-link>
                 </div>
             </div>
 

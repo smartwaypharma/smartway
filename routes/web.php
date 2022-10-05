@@ -118,6 +118,7 @@ Route::group(['prefix' => 'who-we-are', 'as' => 'who-we-are.'] ,function () {
 Route::get('connect-with-us', [\App\Http\Controllers\Front\ConnectWithUsController::class, 'index'])->name('connect-with-us');
 Route::post('connect-with-us', [\App\Http\Controllers\Front\ConnectWithUsController::class, 'submit'])->name('connect-with-us-form.submit');
 Route::post('smartnote-download', [\App\Http\Controllers\Front\PostController::class, 'smartnoteDownload'])->name('smartnote.download');
+Route::post('post-download', [\App\Http\Controllers\Front\PostController::class, 'postDownload'])->name('post.download');
 
 Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => 'auth'] ,function () {
     Route::get('/dashboard', function () {
@@ -134,4 +135,5 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => 'auth'] ,fu
     Route::get('post/create', \App\Http\Livewire\CreatePost::class)->name('post.create');
     Route::get('post/{id}/edit', \App\Http\Livewire\EditPost::class)->name('post.edit');
     Route::get('smartnotes-form-data', \App\Http\Livewire\SmartNotesFormDataTable::class)->name('smartnotes-form-data');
+    Route::get('contact-form-data', \App\Http\Livewire\ContactUsFormDataTable::class)->name('contact-form-data');
 });
