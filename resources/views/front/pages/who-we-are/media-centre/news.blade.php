@@ -41,8 +41,19 @@
            class="button text-white mt-6 sm:mt-0 block text-center sm:inline-block 4xl:text-28px lg:text-xl text-2xl font-semibold 4xl:py-5 py-3.5 4xl:px-11 px-8 bg-persian-green rounded-full"">Get
           in touch</a>
       </div>
-      <div class="2xl:max-w-6xl xl:max-w-4xl 2xl:pl-40 xl:pl-20 post-content xl:pr-12">
+      <div class="lg\:justify-center align-content-center 2xl:max-w-6xl xl:max-w-4xl 2xl:pl-40 xl:pl-20 post-content xl:pr-12">
         {!! $post->post_body !!}
+        @if($post->contactus_popup == 1)
+              <div class="hidden sm:inline-block xl:block ml-auto mr-auto" style="width: 83%;">
+                  <button id="postButton" class="button 4xl:text-28px lg:text-xl text-2xl font-semibold bg-persian-green text-white text-center  rounded-full 4xl:py-5 py-3 px-10 block sm:inline-block ">Sign up to receive regular updates on medicine shortages</button>
+              </div>
+              <div class="inline-block sm:hidden 2xl:max-w-6xl xl:max-w-4xl 2xl:pl-40 xl:pl-20 text-center mt-12">
+                  <button id="postButton" class="button 4xl:text-28px lg:text-xl text-sm font-semibold bg-persian-green text-white text-center rounded-full 4xl:py-5 py-3 px-10 block sm:inline-block ">Sign up to receive regular updates on medicine shortages</button>
+              </div>
+            {{--<div class="2xl:max-w-6xl xl:max-w-4xl 2xl:pl-40 xl:pl-20 post-content xl:pr-12 text-center">
+          <button id="postButton" class="button text-white mt-6 sm:mt-0 block text-center sm:inline-block 4xl:text-28px lg:text-xl text-2xl font-semibold 4xl:py-5 py-3.5 4xl:px-11 px-8 bg-persian-green rounded-full ">Sign up to receive regular updates on medical shortages</button>
+            </div>--}}
+        @endif
       </div>
       <div class="xl:block hidden ml-auto mr-0">
         <img class="mb-4" src="{{ asset('image/icon/fb_icn.svg') }}">
@@ -70,4 +81,102 @@
     </div>
   </section>
   @endif
+  <div class="js-modal fixed z-999999 inset-0 overflow-y-auto hidden" id="formModal" aria-labelledby="modal-title" role="dialog"
+       aria-modal="true">
+    <div class="flex lg:items-end items-start justify-center min-h-screen lg:pt-4 lg:px-5 lg:pb-20 text-center lg:h-auto h-full">
+      <div class="fixed inset-0"
+           style="background: rgba(0, 173, 164, 0.44); backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px); filter: brightness(1);"
+           aria-hidden="true"></div>
+      <div
+              class="inline-block bg-white lg:rounded-3xl text-left overflow-hidden shadow-xl transform transition-all lg::mb-8 lg:mt-12 sm:max-w-1120px w-full lg:h-auto h-full overflow-y-scroll max-h-100vh">
+        <svg style="fill: black;"
+             class="js-modal-close w-4 h-4 absolute lg:top-5 top-3 lg:right-5 right-4 cursor-pointer z-10"
+             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <path
+                  d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"></path>
+        </svg>
+        <div class="text-center lg:py-20 py-9 lg:px-28 px-4">
+          <img class="w-auto mx-auto lg:px-5 px-10" src="{{ asset('image/Main_Logo_black.svg') }}" alt="Logo">
+          <p class="quarto-font xl:text-44px text-34px xl:leading-48px leading-40px lg:my-4 mt-6 mb-2 sm:mx-0 -mx-4">In order to sign up for our medicine shortages updates, please share your details below.</p>
+          <p class="lg:text-22px lg:leading-37px text-lg leading-24px">Smartway will never share your email address without your permission.</p>
+          <form id="postForm" class="max-w-xl mx-auto lg:mt-12 mt-2 lg:px-4" method="post" action="{{ route('post.download') }}">
+            @csrf
+            <input name="post_id" value="{{$post->id}}" hidden>
+            <input name="post_title" value="{{$post->title}}" hidden>
+            <div class="w-full mb-11">
+              <input
+                      name="firstname"
+                      type="text"
+                      class="w-full appearance-none outline-none py-4 border-b border-black lg:text-xl text-lg font-semibold text-black placeholder-dove-gray focus:placeholder-black"
+                      placeholder="First name*"
+                      />
+              <p class="js-errors js-error-firstname font-semibold lg:text-xl text-lg leading-22px text-right text-red-600"></p>
+            </div>
+            <div class="w-full mb-11">
+              <input
+                      name="lastname"
+                      type="text"
+                      class="w-full appearance-none outline-none py-4 border-b border-black lg:text-xl text-lg font-semibold text-black placeholder-dove-gray focus:placeholder-black"
+                      placeholder="Last name*"
+                      />
+              <p class="js-errors js-error-lastname font-semibold lg:text-xl text-lg leading-22px text-right text-red-600"></p>
+            </div>
+            <div class="w-full mb-11">
+              <input
+                      name="email"
+                      type="text"
+                      class="w-full appearance-none outline-none py-4 border-b border-black lg:text-xl text-lg font-semibold text-black placeholder-dove-gray focus:placeholder-black"
+                      placeholder="Business Email*"
+                      />
+              <p class="js-errors js-error-email font-semibold lg:text-xl text-lg leading-22px text-right text-red-600"></p>
+            </div>
+            <div class="w-full mb-11">
+              <input
+                      name="company"
+                      type="text"
+                      class="w-full appearance-none outline-none py-4 border-b border-black lg:text-xl text-lg font-semibold text-black placeholder-dove-gray focus:placeholder-black"
+                      placeholder="Company"
+                      />
+            </div>
+            <button id="postSubmit" class="button w-full lg:mt-4 lg:text-28px text-2xl font-semibold bg-persian-green text-white rounded-full py-3"
+                    type="submit">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="js-modal fixed z-999999 inset-0 overflow-y-auto hidden" id="messageModal" aria-labelledby="modal-title" role="dialog"
+       aria-modal="true">
+    <div class="flex lg:items-end items-start justify-center min-h-screen lg:pt-4 lg:px-5 lg:pb-20 text-center lg:h-auto h-full">
+      <div class="fixed inset-0"
+           style="background: rgba(0, 173, 164, 0.44); backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px); filter: brightness(1);"
+           aria-hidden="true"></div>
+      <div
+              class="inline-block bg-white lg:rounded-3xl text-left overflow-hidden shadow-xl transform transition-all lg:mb-8 lg:mt-12 lg:max-w-1120px lg:h-auto w-full h-full">
+        <svg style="fill: black;"
+             class="js-modal-close w-4 h-4 absolute lg:top-5 top-3 lg:right-5 right-4 cursor-pointer z-10"
+             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <path
+                  d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"></path>
+        </svg>
+        <div class="text-center lg:py-20 py-10 lg:px-24 px-4">
+          <img class="w-auto mx-auto lg:px-5 px-10" src="{{ asset('image/Main_Logo_black.svg') }}" alt="Logo">
+          <p class="quarto-font xl:text-64px xl:leading-70px sm:text-54px sm:leading-53px text-34px leading-41px mt-5 lg:mb-3 mb-1">
+            Thank you!</p>
+          <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px">
+            <p class="lg:mb-6 mb-8 lg:px-16 px-2 max-w-810px mx-auto">We've received your details and we'll let you know when your email address has been added to our medicine shortages updates.</p>
+              <p>In the
+                  meantime, read our news via our <a class="text-lochmara" href="{{ route('who-we-are.media-and-resource-centre.index') }}">blogs</a> and follow us on <a
+                          class="text-lochmara" href="https://www.linkedin.com/company/smartway-pharmaceuticals/?viewAsMember=true">LinkedIn</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 @endsection
+
+@push('scripts')
+<script src="{{ mix('js/post.js') }}" defer></script>
+@endpush

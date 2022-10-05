@@ -21,17 +21,19 @@ class EditPost extends Component
     public $firstTeamMemberImage;
     public $secondTeamMemberImage;
     public $pdf;
+    public $post_body;
+    public $text_under_pdf;
 
     public $rules = [
         'model.title' => 'required|string|max:255|unique:posts,title',
         'model.slug' => 'required|string|max:255|unique:posts,slug',
         'model.category_id' => 'required',
         'tags' => 'required',
-        'moreArticles' => 'array|size:3',
+        'moreArticles' => 'nullable|array|max:3',
         'heroImageForDesktop' => 'nullable|image|max:5000',
         'heroImageForMobile' => 'nullable|image|max:5000',
-        'model.post_body' => 'required',
-        'model.text_under_pdf' => 'nullable|string|max:65535',
+        'post_body' => 'required',
+        'text_under_pdf' => 'nullable|string|max:65535',
         'firstTeamMemberImage' => 'nullable|image|max:5000',
         'model.first_team_member_name' => 'nullable|string',
         'model.first_team_member_position' => 'nullable|string',
@@ -41,7 +43,8 @@ class EditPost extends Component
         'model.second_team_member_position' => 'nullable|string',
         'model.second_team_member_text' => 'nullable|string|max:65535',
         'pdf' => 'nullable|mimes:pdf|max:2000',
-        'model.webinar_link' => 'nullable|url'
+        'model.webinar_link' => 'nullable|url',
+        'model.contactus_popup' => 'nullable'
     ];
 
     public function render()
@@ -61,7 +64,8 @@ class EditPost extends Component
             $this->model->second_post_id,
             $this->model->third_post_id,
         ]);
-
+        $this->post_body = $this->model->post_body;
+        $this->text_under_pdf = $this->model->text_under_pdf;
         $this->articlesData = \App\Models\Post::select('id', 'title as text')
             ->whereIn('id', $this->moreArticles)
             ->get()
@@ -137,6 +141,11 @@ class EditPost extends Component
             $filename = uniqid() . '.' . $this->pdf->getClientOriginalExtension();
             $this->model->pdf = $this->pdf->storeAs('pdf', $filename, 'public');
         }
+        if($this->post_body){
+            $this->model->post_body = $this->post_body;
+        }
+
+        $this->model->text_under_pdf = $this->text_under_pdf;
 
         if ($this->moreArticles) {
             foreach ($this->moreArticles as $key => $value) {
@@ -153,7 +162,12 @@ class EditPost extends Component
                 }
             }
         }
+        if($this->model->contactus_popup == ""){
+            $this->model->contactus_popup = Null;
+        }
 
+        /*$this->model->post_body = $this->post_body;
+        $this->model->text_under_pdf = $this->text_under_pdf;*/
         if ($this->model->save()) {
             $this->model->tags()->sync($this->tags);
         }

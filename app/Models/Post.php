@@ -29,7 +29,8 @@ class Post extends Model
         'second_post_id',
         'third_post_id',
         'pdf',
-        'webinar_link'
+        'webinar_link',
+        'contactus_popup'
     ];
 
     public function tags()

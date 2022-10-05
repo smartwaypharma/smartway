@@ -20,6 +20,8 @@ class CreatePost extends Component
     public $firstTeamMemberImage;
     public $secondTeamMemberImage;
     public $pdf;
+    public $post_body;
+    public $text_under_pdf;
 
     public $rules = [
         'model.title' => 'required|string|max:255|unique:posts,title',
@@ -29,8 +31,8 @@ class CreatePost extends Component
         'moreArticles' => 'nullable|array|max:3',
         'heroImageForDesktop' => 'required|image|max:5000',
         'heroImageForMobile' => 'required|image|max:5000',
-        'model.post_body' => 'required',
-        'model.text_under_pdf' => 'nullable|string|max:65535',
+        'post_body' => 'required',
+        'text_under_pdf' => 'nullable|string|max:65535',
         'firstTeamMemberImage' => 'nullable|image|max:5000',
         'model.first_team_member_name' => 'nullable|string',
         'model.first_team_member_position' => 'nullable|string',
@@ -40,7 +42,8 @@ class CreatePost extends Component
         'model.second_team_member_position' => 'nullable|string',
         'model.second_team_member_text' => 'nullable|string|max:65535',
         'pdf' => 'nullable|mimes:pdf|max:2000',
-        'model.webinar_link' => 'nullable|url'
+        'model.webinar_link' => 'nullable|url',
+        'model.contactus_popup' => 'nullable|string'
     ];
 
     public function render()
@@ -131,6 +134,12 @@ class CreatePost extends Component
                 }
             }
         }
+
+        if($this->post_body){
+            $this->model->post_body = $this->post_body;
+        }
+
+        $this->model->text_under_pdf = $this->text_under_pdf;
 
         if ($this->model->save()) {
             $this->model->tags()->sync($this->tags);

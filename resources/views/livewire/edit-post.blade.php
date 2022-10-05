@@ -107,10 +107,10 @@
           <div class="my-3">
             <div wire:ignore>
               <label class="block font-medium text-sm text-gray-700">Post body</label>
-              <textarea class="form-control" id="post-body"
-                        wire:key="ckeditor-post-body">{{$model->post_body}}</textarea>
+              <textarea class="form-control" id="post_body"
+                         wire:model="post_body" name="post_body">{{$post_body}}</textarea>
             </div>
-            @error('model.post_body') <span class="text-sm text-red-600 mt-2">{{ $message }}</span> @enderror
+            @error('post_body') <span class="text-sm text-red-600 mt-2">{{ $message }}</span> @enderror
           </div>
 
           <div class="my-3">
@@ -131,9 +131,9 @@
             <div wire:ignore>
               <label class="block font-medium text-sm text-gray-700">Text under PDF</label>
               <textarea class="form-control" id="text-under-pdf"
-                        wire:key="ckeditor-text-under-pdf">{{$model->text_under_pdf}}</textarea>
+                        wire:model="text_under_pdf" name="text_under_pdf">{{$text_under_pdf}}</textarea>
             </div>
-            @error('model.text_under_pdf') <span class="text-sm text-red-600 mt-2">{{ $message }}</span> @enderror
+            @error('text_under_pdf') <span class="text-sm text-red-600 mt-2">{{ $message }}</span> @enderror
           </div>
 
           <div class="my-3">
@@ -252,7 +252,12 @@
               </div>
             </div>
           </div>
-
+          <div class="my-3">
+            <label class="cursor-pointer"><input type="checkbox" wire:model="model.contactus_popup"
+                                                 class="border-gray-300 cursor-pointer"
+                                                 id="contactUsPopup" value="1"> Do you want to capture contact details for this post?</label>
+            @error('model.contactus_popup') <span class="text-sm text-red-600 mt-2">{{ $message }}</span> @enderror
+          </div>
           <div class="my-3">
             <div wire:ignore>
               <label for="moreArticles" class="block font-medium text-sm text-gray-700">More articles</label>
@@ -287,8 +292,21 @@
 
 @push('scripts')
   <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+<script src="https://cdn.ckeditor.com/4.16.1/full/ckeditor.js"></script>
   <script>
-    ClassicEditor.create(document.getElementById("post-body"))
+  const editor = CKEDITOR.replace('post_body');
+  editor.on('change', function(event){
+    console.log(event.editor.getData())
+            @this.set('post_body', event.editor.getData());
+  })
+
+  const editorPdf = CKEDITOR.replace('text_under_pdf');
+  editorPdf.on('change', function(event){
+    console.log(event.editor.getData())
+            @this.set('text_under_pdf', event.editor.getData());
+  })
+
+   /* ClassicEditor.create(document.getElementById("post-body"))
       .then((editor) => {
         editor.model.document.on("change:data", (e, data) => {
         @this.set('model.post_body', editor.getData())
@@ -297,8 +315,8 @@
       .catch((error) => {
         console.error(error);
       });
-
-    ClassicEditor.create(document.getElementById("text-under-pdf"))
+*/
+   /* ClassicEditor.create(document.getElementById("text-under-pdf"))
       .then((editor) => {
         editor.model.document.on("change:data", (e, data) => {
         @this.set('model.text_under_pdf', editor.getData())
@@ -306,7 +324,7 @@
       })
       .catch((error) => {
         console.error(error);
-      });
+      });*/
 
     $(document).ready(function () {
       var tags = '<?php echo json_encode($tags) ;?>'
