@@ -4,11 +4,13 @@ namespace App\Http\Controllers\Front;
 
 use App\Http\Controllers\Controller;
 use App\Mail\SendSmartNote;
+use App\Mail\SendPost;
 use App\Models\Category;
 use App\Models\Filter;
 use App\Models\Post;
 use App\Models\Settings;
 use App\Models\SmartNotesFormData;
+use App\Models\ContactUsFormData;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Storage;
@@ -127,5 +129,22 @@ class PostController extends Controller
             ->send(new SendSmartNote($request->all()));
 
         SmartNotesFormData::create($request->except('_token'));
+    }
+
+    public function postDownload(Request $request)
+    {
+        $request->validate([
+            'firstname' => 'required|string|max:255',
+            'lastname' => 'required|string|max:255',
+            'email' => 'required|email',
+            'company' => 'nullable|string|max:255'
+        ]);
+
+        Mail::to([
+            ['email' => env('SMARTNOTE_COPY_TO_ADDRESS')]
+        ])
+            ->send(new SendPost($request->all()));
+
+        ContactUsFormData::create($request->except('_token'));
     }
 }
