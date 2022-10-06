@@ -1,6 +1,9 @@
 $('#postButton').on('click', function () {
   $('#formModal').removeClass('hidden')
 })
+$('#postButtonMb').on('click', function () {
+  $('#formModal').removeClass('hidden')
+})
 
 $('.js-modal-close').on('click', function () {
   $(this).closest('.js-modal').addClass('hidden')

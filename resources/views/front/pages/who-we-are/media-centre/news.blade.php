@@ -48,11 +48,8 @@
                   <button id="postButton" class="button 4xl:text-28px lg:text-xl text-2xl font-semibold bg-persian-green text-white text-center  rounded-full 4xl:py-5 py-3 px-10 block sm:inline-block ">Sign up to receive regular updates on medicine shortages</button>
               </div>
               <div class="inline-block sm:hidden 2xl:max-w-6xl xl:max-w-4xl 2xl:pl-40 xl:pl-20 text-center mt-12">
-                  <button id="postButton" class="button 4xl:text-28px lg:text-xl text-sm font-semibold bg-persian-green text-white text-center rounded-full 4xl:py-5 py-3 px-10 block sm:inline-block ">Sign up to receive regular updates on medicine shortages</button>
+                  <button id="postButtonMb" class="button 4xl:text-28px lg:text-xl text-sm font-semibold bg-persian-green text-white text-center rounded-full 4xl:py-5 py-3 px-10 block sm:inline-block ">Sign up to receive regular updates on medicine shortages</button>
               </div>
-            {{--<div class="2xl:max-w-6xl xl:max-w-4xl 2xl:pl-40 xl:pl-20 post-content xl:pr-12 text-center">
-          <button id="postButton" class="button text-white mt-6 sm:mt-0 block text-center sm:inline-block 4xl:text-28px lg:text-xl text-2xl font-semibold 4xl:py-5 py-3.5 4xl:px-11 px-8 bg-persian-green rounded-full ">Sign up to receive regular updates on medical shortages</button>
-            </div>--}}
         @endif
       </div>
       <div class="xl:block hidden ml-auto mr-0">
