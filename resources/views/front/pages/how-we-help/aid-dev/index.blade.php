@@ -25,7 +25,7 @@
     <h2 class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold lg:mb-14 mb-6">We’re dedicated to empowering that access to
       medicines.</h2>
     <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px">
-      We use our knowledge, procurement and distribution networks built up over our 15 years of working in the Aid Dev
+      We use our knowledge, procurement and distribution networks built up over our 20 years of working in the Aid Dev
       sector to source and deliver pharmaceuticals, medical disposables, medical equipment, and hospital and doctors’
       furniture.
     </p>
