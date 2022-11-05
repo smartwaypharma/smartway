@@ -4,7 +4,8 @@
       <div class="flex justify-between">
         <div class="flex space-x-4">
           <a href="{{ route('home') }}">
-            <img class="4xl:w-full md:w-64 w-32 ml-2" src="{{ asset('image/Smartway_main_logo.svg') }}" alt="Logo">
+            {{--<img class="4xl:w-full md:w-64 w-32 ml-2" src="{{ asset('image/Smartway_main_logo.svg') }}" alt="Logo">--}}
+            <img class="4xl:w-full md:w-64 w-32 ml-2" src="{{ asset('image/smartwayLogo.svg') }}" alt="Logo">
           </a>
         </div>
         <div class="hidden lg:flex items-center space-x-1 text-white -mb-4">
