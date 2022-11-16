@@ -92,8 +92,7 @@
           <p class="4xl:text-4xl text-2xl font-medium -tracking-0.55px">Chief Commercial Officer</p>
         </div>
       </div>
-      <div class="overflow-hidden js-team-modal-open cursor-pointer md:w-full sm:w-3/4" data-modal="dhruvModal"
-           data-slide="3">
+      <div class="overflow-hidden js-team-modal-open cursor-pointer md:w-full sm:w-3/4" data-modal="dhruvModal"           data-slide="3">
         <div class="4xl:h-581px 2xl:h-520px lg:h-420px md:h-390px">
           <img class="zoom w-full h-auto" src="{{ asset('image/Dhruv.jpg') }}">
         </div>
@@ -968,48 +967,32 @@
       </div>
     </div>
   </div>
-  <div id="rupiModal" class="js-team-modal fixed z-999999 inset-0 overflow-y-auto hidden" aria-labelledby="modal-title"
+  <div id="kaushikModal" class="js-team-modal fixed z-999999 inset-0 overflow-y-auto hidden" aria-labelledby="modal-title"
        role="dialog"
        aria-modal="true">
     <div class="flex items-start justify-center min-h-screen text-center bg-midnight">
       <svg style="fill: white;" class="js-modal-close w-6 h-6 absolute top-5 right-5 cursor-pointer z-10"
            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
         <path
-            d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"></path>
+                d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"></path>
       </svg>
       <div
-          class="inline-block align-bottom text-left transform transition-all sm:align-middle w-full text-white pt-9 pb-16 px-5">
+              class="inline-block align-bottom text-left transform transition-all sm:align-middle w-full text-white pt-9 pb-16 px-5">
         <p class="text-22px font-semibold text-center">Meet some of our 100+ employees</p>
         <div class="relative">
-          <img class="mx-auto max-w-400px w-full" src="{{ asset('image/Rupi_profile.jpeg') }}">
+          <img class="mx-auto max-w-400px w-full" src="{{ asset('image/Kaushik_detail.jpg') }}">
           <div class="h-10 absolute bottom-0 left-0 right-0"
                style="background: linear-gradient(180deg, #01213B00, #01213B7E, #01213B, #01213B);"></div>
         </div>
-        <div class="text-lg leading-24px mt-8 pr-2">
-          <p class="mb-6">
-            With over 30 years as a pharmacist and working in senior healthcare management at Wallgreen Boots Alliance,
-            Rupi joined Smartway in 2021 as Patient Services Director. Leveraging his experience in patient safety,
-            governance and personnel management, Rupi leads the Smartway Pharmacy and offering for direct to patient and
-            home delivery.
-          </p>
-          <p>
-            Rupi qualified as a Pharmacist in 1997 from Kings’ College London before holding a portfolio of management
-            positions covering multiple roles in the UK. He has spent time developing new healthcare partnerships with
-            the NHS and others in the private sectors. Rupi chairs Local Pharmaceutical Committee (LPC), an independent
-            and representative group of pharmacy professionals which negotiates and discusses pharmacy services with
-            commissioners.
-          </p>
+        <div class="text-lg leading-24px mt-8">
+          <p class="mb-6 pr-2">With a long history at Smartway as our first employee and then a stakeholder in the business, Kaushik has a uniquely in-depth perspective on everything we do, including our investment priorities. He shares our values, priorities and commitment to quality, informing our strategic direction and ongoing growth.</p>
+          <p>Throughout his time at Smartway, Kaushik has experienced the business as a Warehouse Manager and, later, a successful Sales Executive and Manager. Now, as our Chief Commercial Officer, Kaushik spearheads our initiatives to deliver for patients and healthcare professionals on a global scale, develop new markets and maximise profitability.</p>
         </div>
         <img class="my-8" src="{{asset('image/quote-persian-green.svg')}}">
         <p class="quarto-font text-34px leading-40px">
-          I am firmly committed to using all of my healthcare experience to help patients get access to the medicines
-          they need. I firmly believe in using technology and digital automation has serious value in improving the
-          patient journey.”
+          Smartway is defined by its commitment to quality, something I’ve seen first-hand at every level of the business. As CCO, I help lead our growth in a way that makes sense for the competitive landscape and emerging global priorities, without compromising on those core values that make us unique.”</span>
         </p>
-        <p class="italic text-22px leading-28px font-semibold -tracking-0.5px mt-5">
-          <span class="block">Rupi Bhasin,</span>
-          <span class="block">Director of Digital Health</span>
-        </p>
+        <p class="italic text-22px leading-28px font-semibold -tracking-0.5px mt-5">Kaushik Patel, Chief Commercial Officer</p>
       </div>
     </div>
   </div>
@@ -1111,48 +1094,47 @@
       </div>
     </div>
   </div>
-  <div id="rossModal" class="js-team-modal fixed z-999999 inset-0 overflow-y-auto hidden" aria-labelledby="modal-title"
+  <div id="rupiModal" class="js-team-modal fixed z-999999 inset-0 overflow-y-auto hidden" aria-labelledby="modal-title"
        role="dialog"
        aria-modal="true">
     <div class="flex items-start justify-center min-h-screen text-center bg-french-gray">
       <svg style="fill: white;" class="js-modal-close w-6 h-6 absolute top-5 right-5 cursor-pointer z-10"
            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
         <path
-            d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"></path>
+                d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"></path>
       </svg>
       <div
-          class="inline-block align-bottom text-left transform transition-all sm:align-middle w-full pt-9 pb-16 px-5">
-        <p class="text-22px font-semibold text-center text-white">Meet some of our 100+ employees</p>
-        <div class="relative -mx-5">
-          <img class="mx-auto max-w-400px w-full" src="{{ asset('image/Ross-details.jpg') }}">
-          <div class="h-10 absolute -bottom-1 left-0 right-0"
-               style="background: linear-gradient(180deg, #BFC3CB00, #BFC3CB80, #BFC3CBEB, #BFC3CB);"></div>
+              class="inline-block align-bottom text-left transform transition-all sm:align-middle w-full text-white pt-9 pb-16 px-5">
+        <p class="text-22px font-semibold text-center">Meet some of our 100+ employees</p>
+        <div class="relative">
+          <img class="mx-auto max-w-400px w-full" src="{{ asset('image/Rupi_detail.jpg') }}">
+          <div class="h-10 absolute bottom-0 left-0 right-0"
+               style="background: linear-gradient(180deg, #01213B00, #01213B7E, #01213B, #01213B);"></div>
         </div>
-        <div class="text-lg leading-24px mt-8">
+        <div class="text-lg leading-24px mt-8 pr-2">
           <p class="mb-6">
-            Ross qualified as an Electrical and Mechanical Engineer starting his career in large scale public sector
-            works. He then transferred to the logistics sector before moving into Healthcare.
+            With over 30 years as a pharmacist and working in senior healthcare management at Wallgreen Boots Alliance,
+            Rupi joined Smartway in 2021 as Patient Services Director. Leveraging his experience in patient safety,
+            governance and personnel management, Rupi leads the Smartway Pharmacy and offering for direct to patient and
+            home delivery.
           </p>
           <p>
-            Ross has worked in
-            Medicines Access for over 5 years and specialises in building long term strategic partnerships with
-            organisations. He brings both his engineering background and logistics experience to the Health and
-            Medicines Access sector. He is very active in the voluntary sector leading several community and development
-            organisations. At Smartway he leads our Account & Project Management function within the Aid and Development
-            sector.
+            Rupi qualified as a Pharmacist in 1997 from Kings’ College London before holding a portfolio of management
+            positions covering multiple roles in the UK. He has spent time developing new healthcare partnerships with
+            the NHS and others in the private sectors. Rupi chairs Local Pharmaceutical Committee (LPC), an independent
+            and representative group of pharmacy professionals which negotiates and discusses pharmacy services with
+            commissioners.
           </p>
         </div>
-        <img class="my-8" style="filter: brightness(0)" src="{{asset('image/quote-persian-green.svg')}}">
+        <img class="my-8" src="{{asset('image/quote-persian-green.svg')}}">
         <p class="quarto-font text-34px leading-40px">
-          The ability to make a real difference to people’s lives by working with NGOs and charities to get them the
-          medicines and equipment the patients need is an amazing opportunity. We see the difference we allow others to
-          make and it is
-          <span class="block">so rewarding.”</span>
+          I am firmly committed to using all of my healthcare experience to help patients get access to the medicines
+          they need. I firmly believe in using technology and digital automation has serious value in improving the
+          patient journey.”
         </p>
         <p class="italic text-22px leading-28px font-semibold -tracking-0.5px mt-5">
-          <span class="block">Ross Hemson,</span>
-          <span class="block">Associate Account Executive –</span>
-          <span class="block">Aid & Development</span>
+          <span class="block">Rupi Bhasin,</span>
+          <span class="block">Director of Digital Health</span>
         </p>
       </div>
     </div>
@@ -1285,45 +1267,39 @@
       </div>
     </div>
   </div>
-  <div id="annaModal" class="js-team-modal fixed z-999999 inset-0 overflow-y-auto hidden" aria-labelledby="modal-title"
+  <div id="andreModal" class="js-team-modal fixed z-999999 inset-0 overflow-y-auto hidden"
+       aria-labelledby="modal-title"
        role="dialog"
        aria-modal="true">
     <div class="flex items-start justify-center min-h-screen text-center bg-spindle">
       <svg style="fill: white;" class="js-modal-close w-6 h-6 absolute top-5 right-5 cursor-pointer z-10"
            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
         <path
-            d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"></path>
+                d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"></path>
       </svg>
       <div
-          class="inline-block align-bottom text-left transform transition-all sm:align-middle w-full pt-9 pb-16 px-5">
+              class="inline-block align-bottom text-left transform transition-all sm:align-middle w-full pt-9 pb-16 px-5">
         <p class="text-22px font-semibold text-center text-white">Meet some of our 100+ employees</p>
-        <div class="relative">
-          <img class="mx-auto max-w-400px w-full" src="{{ asset('image/Anna-details.jpg') }}">
+        <div class="relative -mr-20 pr-5">
+          <img class="mx-auto max-w-400px w-full" src="{{ asset('image/Andre_detail.jpg') }}">
           <div class="h-10 absolute bottom-0 left-0 right-0"
                style="background: linear-gradient(180deg, #BED9EF00, #BED9EF80, #BED9EFEB, #BED9EF);"></div>
         </div>
         <div class="text-lg leading-24px mt-8">
           <p class="mb-6">
-            Anna came to the UK from Slovakia to study BSc (Hons) Psychology and has since gained over four years’
-            experience working in marketing and communications. From campaigns to brand strategy, social media and
-            market research, her degree gives her unique insight into how people think and make decisions.
+            Since starting in unlicensed medicines over a decade ago, Andre has spearheaded numerous Hospital Market Entry projects and access routes in countries where direct to hospital isn’t possible. He brings a uniquely global perspective, not just managing shortages in Europe and the UK, but also unlicensed medicines and contract licensing in Latin America.
           </p>
           <p>
-            At Smartway,
-            Anna is focused on helping people make better decisions with the aim to improve their lives and wellbeing.
-            She consistently improves our brand identity and communication strategy, looking for new ways to inform and
-            engage the people we can help. She is also currently completing her MSc in Behaviour Change at University
-            College London.
+            As our Global Sales Director working closely with our COO, Andre is a patient-centric, ethically-minded leader to define and deliver our global sales strategy. Throughout, he leverages his unparalleled knowledge in unlicensed medicines to solve complex challenges for our customers worldwide.
           </p>
         </div>
         <img class="my-8" src="{{asset('image/quote-persian-green.svg')}}">
-        <p class="quarto-font text-34px leading-40px -mr-3">
-          I’m very interested in the healthcare sector and, at Smartway, I’m able to help people make informed
-          decisions, while also getting the opportunity to learn and develop. We all share the same commitment to hard
-          work, dedication and innovation.”
+        <p class="quarto-font text-34px leading-40px">
+          The medicines supply chain is often really complex and, throughout my experience, my passion has been solving those big challenges. I look for ways to get patients what they need – and go above and beyond to add value wherever I can.”
         </p>
-        <p class="italic text-22px leading-28px font-semibold -tracking-0.5px mt-5 -mr-3">
-          Anna Vassova, Marketing Manager
+        <p class="italic text-22px leading-28px font-semibold -tracking-0.5px mt-5">
+          <span class="block">Andre Censi,</span>
+          <span class="block">Global Sales Director</span>
         </p>
       </div>
     </div>
@@ -1368,6 +1344,131 @@
         </p>
         <p class="italic text-22px leading-28px font-semibold -tracking-0.5px mt-5">
           Judith Aslimwe, Project Manager
+        </p>
+      </div>
+    </div>
+  </div>
+  <div id="rossModal" class="js-team-modal fixed z-999999 inset-0 overflow-y-auto hidden" aria-labelledby="modal-title"
+       role="dialog"
+       aria-modal="true">
+    <div class="flex items-start justify-center min-h-screen text-center bg-french-gray">
+      <svg style="fill: white;" class="js-modal-close w-6 h-6 absolute top-5 right-5 cursor-pointer z-10"
+           xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+        <path
+                d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"></path>
+      </svg>
+      <div
+              class="inline-block align-bottom text-left transform transition-all sm:align-middle w-full pt-9 pb-16 px-5">
+        <p class="text-22px font-semibold text-center text-white">Meet some of our 100+ employees</p>
+        <div class="relative -mx-5">
+          <img class="mx-auto max-w-400px w-full" src="{{ asset('image/Ross-details.jpg') }}">
+          <div class="h-10 absolute -bottom-1 left-0 right-0"
+               style="background: linear-gradient(180deg, #BFC3CB00, #BFC3CB80, #BFC3CBEB, #BFC3CB);"></div>
+        </div>
+        <div class="text-lg leading-24px mt-8">
+          <p class="mb-6">
+            Ross qualified as an Electrical and Mechanical Engineer starting his career in large scale public sector
+            works. He then transferred to the logistics sector before moving into Healthcare.
+          </p>
+          <p>
+            Ross has worked in
+            Medicines Access for over 5 years and specialises in building long term strategic partnerships with
+            organisations. He brings both his engineering background and logistics experience to the Health and
+            Medicines Access sector. He is very active in the voluntary sector leading several community and development
+            organisations. At Smartway he leads our Account & Project Management function within the Aid and Development
+            sector.
+          </p>
+        </div>
+        <img class="my-8" style="filter: brightness(0)" src="{{asset('image/quote-persian-green.svg')}}">
+        <p class="quarto-font text-34px leading-40px">
+          The ability to make a real difference to people’s lives by working with NGOs and charities to get them the
+          medicines and equipment the patients need is an amazing opportunity. We see the difference we allow others to
+          make and it is
+          <span class="block">so rewarding.”</span>
+        </p>
+        <p class="italic text-22px leading-28px font-semibold -tracking-0.5px mt-5">
+          <span class="block">Ross Hemson,</span>
+          <span class="block">Associate Account Executive –</span>
+          <span class="block">Aid & Development</span>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div id="annaModal" class="js-team-modal fixed z-999999 inset-0 overflow-y-auto hidden" aria-labelledby="modal-title"
+       role="dialog"
+       aria-modal="true">
+    <div class="flex items-start justify-center min-h-screen text-center bg-spindle">
+      <svg style="fill: white;" class="js-modal-close w-6 h-6 absolute top-5 right-5 cursor-pointer z-10"
+           xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+        <path
+                d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"></path>
+      </svg>
+      <div
+              class="inline-block align-bottom text-left transform transition-all sm:align-middle w-full pt-9 pb-16 px-5">
+        <p class="text-22px font-semibold text-center text-white">Meet some of our 100+ employees</p>
+        <div class="relative">
+          <img class="mx-auto max-w-400px w-full" src="{{ asset('image/Anna-details.jpg') }}">
+          <div class="h-10 absolute bottom-0 left-0 right-0"
+               style="background: linear-gradient(180deg, #BED9EF00, #BED9EF80, #BED9EFEB, #BED9EF);"></div>
+        </div>
+        <div class="text-lg leading-24px mt-8">
+          <p class="mb-6">
+            Anna came to the UK from Slovakia to study BSc (Hons) Psychology and has since gained over four years’
+            experience working in marketing and communications. From campaigns to brand strategy, social media and
+            market research, her degree gives her unique insight into how people think and make decisions.
+          </p>
+          <p>
+            At Smartway,
+            Anna is focused on helping people make better decisions with the aim to improve their lives and wellbeing.
+            She consistently improves our brand identity and communication strategy, looking for new ways to inform and
+            engage the people we can help. She is also currently completing her MSc in Behaviour Change at University
+            College London.
+          </p>
+        </div>
+        <img class="my-8" src="{{asset('image/quote-persian-green.svg')}}">
+        <p class="quarto-font text-34px leading-40px -mr-3">
+          I’m very interested in the healthcare sector and, at Smartway, I’m able to help people make informed
+          decisions, while also getting the opportunity to learn and develop. We all share the same commitment to hard
+          work, dedication and innovation.”
+        </p>
+        <p class="italic text-22px leading-28px font-semibold -tracking-0.5px mt-5 -mr-3">
+          Anna Vassova, Marketing Manager
+        </p>
+      </div>
+    </div>
+  </div>
+  <div id="arunModal" class="js-team-modal fixed z-999999 inset-0 overflow-y-auto hidden"
+       aria-labelledby="modal-title"
+       role="dialog"
+       aria-modal="true">
+    <div class="flex items-start justify-center min-h-screen text-center bg-midnight">
+      <svg style="fill: white;" class="js-modal-close w-6 h-6 absolute top-5 right-5 cursor-pointer z-10"
+           xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+        <path
+                d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"></path>
+      </svg>
+      <div
+              class="inline-block align-bottom text-left transform transition-all sm:align-middle w-full text-white pt-9 pb-16 px-5">
+        <p class="text-22px font-semibold text-center">Meet some of our 100+ employees</p>
+        <div class="relative">
+          <img class="mx-auto max-w-400px w-full" src="{{ asset('image/Arun_detail.jpg') }}">
+          <div class="h-10 absolute bottom-0 left-0 right-0"
+               style="background: linear-gradient(180deg, #01213B00, #01213B7E, #01213B, #01213B);"></div>
+        </div>
+        <div class="text-lg leading-24px mt-8">
+          <p class="mb-6">
+            With diverse experience including managing a team of 18 people in the food production space, Arun intimately understands the importance of a robust supply chain where access, control and quality are paramount. As the Senior Manager for the EU Supply Chain, Arun leads the team in sales and purchasing, developing strong relationships with the partners and suppliers that make our work possible.
+          </p>
+          <p>
+            Before becoming a Senior Manager, Arun spent over a decade within Smartway with roles including Warehouse Operative, Goods Out Supervisor, and Warehouse Manager. He brings a pragmatic, practical sensibility that ensures our supply chain is always running smoothly.
+          </p>
+        </div>
+        <img class="my-8" src="{{asset('image/quote-persian-green.svg')}}">
+        <p class="quarto-font text-34px leading-40px pr-1">
+          I’ve grown throughout my experience at Smartway and now, leading and managing the EU supply chain for PI, I help make sure our customers can help patients get what they need.”</span>
+        </p>
+        <p class="italic text-22px leading-28px font-semibold -tracking-0.5px mt-5">
+          Arun Dholariya, Senior Manager, EU Supply Chain
         </p>
       </div>
     </div>
