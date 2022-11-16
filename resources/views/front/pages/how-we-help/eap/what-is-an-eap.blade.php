@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>How we help - EAP - What is an EAP?</title>
+  <title>Early Access to Innovative Therapies</title>
+  <meta name="description" content="Discover what an Early Access Program is and learn everything you need about the EAP program. Access to innovative new therapies for your patients via Clinical Trial Participating Sites. Learn about the advantages of EAPs.">
 @endsection
 
 @section('header-content')

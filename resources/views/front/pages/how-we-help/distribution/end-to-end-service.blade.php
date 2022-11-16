@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>How we help - Distribution - End to End service</title>
+  <title>Your One Source for End-to-End Supply Chain Solutions</title>
+  <meta name="description" content="Smartway offers excellent and efficient services within the distribution network, taking away all of the complexities involved.">
 @endsection
 
 @section('header-content')

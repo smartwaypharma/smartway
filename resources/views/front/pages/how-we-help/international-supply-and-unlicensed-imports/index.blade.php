@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>How we help - International Supply & Unlicensed Medicines</title>
+  <title>Working with International Supply and Unlicensed Medicines</title>
+  <meta name="description" content="Smartway provides access to shortages, emergency supply, and veterinary medication supply of pharmaceuticals at a comparateble price.">
 @endsection
 
 @section('header-content')

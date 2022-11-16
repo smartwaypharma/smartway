@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>Regulatory Information</title>
+  <title>We are Regulated by MHRA for the Distribution of Medicines</title>
+  <meta name="description" content="Smartway (UK) Ltd holds a WDA (human medicines) and a WDA (veterinary medicine) issued by the Medicines and Healthcare products Regulatory Agency (MHRA). We are a leading international wholesale distributor of pharmaceuticals in the UK.">
 @endsection
 
 @section('header-content')

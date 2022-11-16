@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>How we help - Hospital And Pharmacy Supply - Project Management</title>
+  <title>We are Your Dedicated Program Manager</title>
+  <meta name="description" content="Your dedicated project manager will lead your program from concept to fruition, bring in expertise from all Smartway functions. From concept to commercialization. Let Smartway streamline your pharmaceutical project management and regulatory journey.">
 @endsection
 
 @section('header-content')

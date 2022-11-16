@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>How we help - EAP - Program Strategy & Design</title>
+  <title>Regulatory Strategy and Program Design</title>
+  <meta name="description" content="Smartway has an excellent regulatory expertise and is a trusted resource for regulatory and market intelligence. We serve clients across the world for their global regulatory needs, strategy and program design, as well as compliance monitoring.">
 @endsection
 
 @section('header-content')

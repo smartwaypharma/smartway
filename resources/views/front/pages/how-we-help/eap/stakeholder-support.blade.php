@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>How we help - EAP - Stakeholder support</title>
+  <title>We Provide Stakeholder Support</title>
+  <meta name="description" content="We offer a full range of support designed around the needs of each particular stakeholder to ensure you meet your objectives for the patients. We are an international team of highly skilled professionals dedicated to supporting the needs of stakeholders. We help valued partners to succeed.">
 @endsection
 
 @section('header-content')

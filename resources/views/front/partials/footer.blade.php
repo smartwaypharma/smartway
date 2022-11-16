@@ -22,7 +22,7 @@
             London SW19 2RL
           </address>
           <p class="mb-7">Telephone <a class="text-lochmara" href="tel:+44 20 8545 7711">+44 20 8545 7711</a></p>
-          <p>Email <a href="mailto:helpme@smartwaypharma.co.uk" class="text-lochmara">support</a></p>
+          <p>Email <a href="mailto:info@smartwaypharma.co.uk" class="text-lochmara">support</a></p>
         </div>
         <hr class="sm:hidden divide-white my-9">
         <div class="4xl:pl-10 lg:pl-4 pl-0">

@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>How we help - EAP - Project Management</title>
+  <title>Your Projects, Our Expertise</title>
+  <meta name="description" content="Smartway's project management teams ensure that your enquiry is handled professionally, smoothly, and on scheduled.">
 @endsection
 
 @section('header-content')

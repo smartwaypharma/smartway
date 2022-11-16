@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>How we help - International Supply & Unlicensed Medicines - Project Management</title>
+  <title>The Project Management Experts, Making Pharmaceutical Projects Easy</title>
+  <meta name="description" content="With a dedicated healthcare project manager, you will get the benefits of integrated expertise in medical education and regulatory affairs. We are specialists in Project Management, Strategy and Marketing Communications with clients spanning the clinical development to pharmacy markets.">
 @endsection
 
 @section('header-content')

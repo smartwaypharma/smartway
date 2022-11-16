@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>Home</title>
+  <title>Your Trusted Global Pharmaceutical Wholesaler</title>
+  <meta name="description" content="Smartway is a global pharmaceutical wholesaler and distributor supplying pharmaceutical/generic medicines worldwide. Every day, our experts help to make medicines available to consumers across the world.">
 @endsection
 
 @section('header-content')
@@ -116,7 +117,7 @@
                 multi-lateral organizations to provide
                 pharmaceuticals, medical disposables,
                 medical equipment and hospital and
-                doctor’s furniture.
+                doctors’ furniture.
               </p>
               <a class="4xl:text-2xl text-md font-bold flex items-center"
                  href="{{ route('how-we-help.aid-dev.index') }}">
@@ -181,7 +182,7 @@
               <p class="4xl:text-42px lg:text-2xl text-22px 4xl:leading-none lg:leading-32px leading-28px quarto-font lg:mb-20 mb-3">
                 We work with Pharma and Biotech companies to deliver
                 specialist distribution services. We operate in therapeutic and geographic areas that
-                need specialist expertise and expertise.
+                need specialist expertise.
               </p>
               <a class="4xl:text-2xl text-md font-bold flex items-center"
                  href="{{ route('how-we-help.distribution.index') }}">

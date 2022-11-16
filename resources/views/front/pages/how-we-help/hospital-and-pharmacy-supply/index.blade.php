@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>How we help - Hospital & Pharmacy Supply</title>
+  <title>A Trusted & Reliable Supplier of Hospitals and Pharmacies</title>
+  <meta name="description" content="Smartway provides a variety of unlicensed medicines, medicine on shortage, emergency medicine, and other hospital and pharmacy supply worldwide. Smartway is a trusted and reliable supplier of hospital and healthcare supplies, unlicensed medicines, and emergency medical supplies.">
 @endsection
 
 @section('header-content')

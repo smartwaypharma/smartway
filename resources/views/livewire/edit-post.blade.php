@@ -273,6 +273,27 @@
             </div>
             @error('moreArticles') <span class="text-sm text-red-600 mt-2">{{ $message }}</span> @enderror
           </div>
+            <div class="my-3">
+                <label for="metaTitle" class="block font-medium text-sm text-gray-700">Meta Title</label>
+                <input type="text" wire:model="model.metaTitle"
+                       class="border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm mt-1 block w-full"
+                       id="metaTitle">
+                @error('model.metaTitle') <span class="text-sm text-red-600 mt-2">{{ $message }}</span> @enderror
+            </div>
+            <div class="my-3">
+                <label for="metaDescription" class="block font-medium text-sm text-gray-700">Meta Description</label>
+                <input type="text" wire:model="model.metaDescription"
+                       class="border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm mt-1 block w-full"
+                       id="metaDescription">
+                @error('model.metaDescription') <span class="text-sm text-red-600 mt-2">{{ $message }}</span> @enderror
+            </div>
+            <div class="my-3">
+                <label for="metaKeyword" class="block font-medium text-sm text-gray-700">Meta Keywords</label>
+                <input type="text" wire:model="model.metaKeyword"
+                       class="border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm mt-1 block w-full"
+                       id="metaKeyword">
+                @error('model.metaKeyword') <span class="text-sm text-red-600 mt-2">{{ $message }}</span> @enderror
+            </div>
 
           <a class="inline-flex items-center justify-center px-4 py-2 bg-red-600 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-red-500 focus:outline-none focus:border-red-700 focus:ring focus:ring-red-200 active:bg-red-600 disabled:opacity-25 transition"
              href="{{ route('admin.post') }}">Cancel</a>

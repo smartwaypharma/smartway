@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>How we help - AID Dev - Project management</title>
+  <title>Project Management Solutions for the Aid & Development Sector</title>
+  <meta name="description" content="With our specialized project management services, Smartway will monitor and manage your pharmaceutical programs from start to finish. Smartway has regulatory expetise, sound marketing, and bioanalytical consulting for pharmaceuticals and medical devices.">
 @endsection
 
 @section('header-content')

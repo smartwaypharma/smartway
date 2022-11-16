@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>How we help - Distribution - UK Network</title>
+  <title>A Trusted Supplier to the NHS</title>
+  <meta name="description" content="Smartway is the UK and Ireland's largest supplier of Prescription Medicines to the NHS, Healthcare professionals, independent pharmacies and more.">
 @endsection
 
 @section('header-content')

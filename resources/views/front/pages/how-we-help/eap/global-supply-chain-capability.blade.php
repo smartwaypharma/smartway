@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>How we help - EAP - Global Supply Chain capability</title>
+  <title>Your Global Supply Chain Partner</title>
+  <meta name="description" content="Our distribution network is designed to support global supply chain capability. We’ve developed a Distribution Network to power the supply chains for the industry, and are pre-approved for global pharmaceutical suppliers.">
 @endsection
 
 @section('header-content')

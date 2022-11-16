@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>Who we are – Media Centre</title>
+  <title>News, Resources, Articles, Insights & White Papers</title>
+  <meta name="description" content="Stay up to date with Smartway's latest blogs, news, whitepapers, and webinars. Rich and informative content part of our media and resource centre.">
 @endsection
 
 @section('header-content')

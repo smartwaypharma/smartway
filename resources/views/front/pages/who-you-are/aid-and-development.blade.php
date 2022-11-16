@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>Who you are - Aid & Development</title>
+  <title>A Global Aid & Development Distributor</title>
+  <meta name="description" content="With over 20 years of experience, we've been supporting NGOs, governments, and multi-lateral organizations providing aid and development. Smartway is a global distributor of high quality medicines and medical supplies directly to NGOs.">
 @endsection
 
 @section('header-content')

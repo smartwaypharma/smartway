@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>How we help - CTS - Global Supply Chain capability</title>
+  <title>One Place to Manage All Your Global Supply Chain Needs</title>
+  <meta name="description" content="Smartway provides a global supply chain service for pharmaceutical companies, helping them to manage their deliveries all over the world. Smartway has been proven to be very effective in providing a supply chain solution for the shipping of medicines.">
 @endsection
 
 @section('header-content')

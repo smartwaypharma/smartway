@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>How we help - EAP - Real World Data</title>
+  <title>A Smarter Way to Manage Real-World Data</title>
+  <meta name="description" content="Smartway creates a bridge between biologics and real world information. Let's talk about how you can harness the power of EAPs for Real World Data (RWD) and Real World Evidence (RWE).">
 @endsection
 
 @section('header-content')

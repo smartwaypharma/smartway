@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>How we help - EAP</title>
+  <title>Your Global Partner for Early Access Programs</title>
+  <meta name="description" content="Find out about our early and expanded access programs, compassionate use and named patient programs for innovative new medicines. We have a pool of experts to help you with early access program.">
 @endsection
 
 @section('header-content')

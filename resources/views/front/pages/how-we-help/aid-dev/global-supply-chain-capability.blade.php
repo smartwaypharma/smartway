@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>How we help - AID Dev - Global Supply Chain capability</title>
+  <title>Your Network for Global Distribution and Storage</title>
+  <meta name="description" content="Our Global Distribution Network and Storage Network has a track record of over 60 million shipments delivered. We use our knowledge of distribution and storage to provide the very best for our customers, in every country.">
 @endsection
 
 @section('header-content')

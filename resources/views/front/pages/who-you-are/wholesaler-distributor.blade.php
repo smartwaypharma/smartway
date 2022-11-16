@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>Who you are - Wholesaler/ Distributor</title>
+  <title>Working with the Aid & Development Sector</title>
+  <meta name="description" content="We are a leading UK based pharmacy wholesaler and distributor of pharmaceuticals and branded medicines supplies.">
 @endsection
 
 @section('header-content')

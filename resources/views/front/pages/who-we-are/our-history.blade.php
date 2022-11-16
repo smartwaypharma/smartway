@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>Who we are - Our History</title>
+  <title>Smartway's History Timeline</title>
+  <meta name="description" content="Smartway is the leading supplier and distributor of pharmaceuticals. We have a long history in helping patients in need of medicine worldwide. Learn about our history, mission and values.">
 @endsection
 
 @section('header-content')
