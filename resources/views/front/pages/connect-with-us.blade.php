@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>Connect with us</title>
+  <title>Contact Us, So We Can Help</title>
+  <meta name="description" content="Connect with us for professional advice and to explore how Smartway can help enhance your business. We look forward to speaking with you. If you have any enquiries don’t hesitate to contact us.">
 @endsection
 
 @section('header-content')

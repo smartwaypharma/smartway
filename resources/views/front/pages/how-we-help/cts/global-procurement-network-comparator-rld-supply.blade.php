@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>How we help - CTS - Global Procurement network - Comparator, RLD, supply</title>
+  <title>A Trusted Global Procurement Network for Comparator and RLD Supply</title>
+  <meta name="description" content="Smartway is a leading provider of comparators and RLDs, biosimilars and specialty products to the pharmaceutical and other healthcare industries worldwide. We're your trusted Global Procurement Network.">
 @endsection
 
 @section('header-content')

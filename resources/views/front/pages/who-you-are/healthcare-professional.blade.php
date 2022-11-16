@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>Who you are - Healthcare Professional</title>
+  <title>Helping Healthcare Professionals So They Can Access the Medicine They Require</title>
+  <meta name="description" content="Smartway is a leading wholesale medicine supplier for licensed and unlicensed medicines, sexual health products, over-the-counter medications and more. We provide medicines to healthcare professionals globally, at the best prices on the market, in a safe and secure way.">
 @endsection
 
 @section('header-content')

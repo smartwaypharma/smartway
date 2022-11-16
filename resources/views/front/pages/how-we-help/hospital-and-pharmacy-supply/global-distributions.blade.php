@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>How we help - International Supply & Unlicensed Medicines - Global Distribution</title>
+  <title>Global Distribution of Life-saving Therapies</title>
+  <meta name="description" content="Improving accessibility to high quality healthcare. Smartway is one of the largest distributors of life-saving therapies & medical products globally. Smartway, a leader in global healthcare logistics, has over 50 years of experience in distributing lifesaving medications, devices, and supplies.">
 @endsection
 
 @section('header-content')

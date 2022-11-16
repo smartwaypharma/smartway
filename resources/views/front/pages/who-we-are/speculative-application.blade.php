@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
 @section('meta')
-    <title>Who we are - Careers & Internships - Speculative Application</title>
+    <title>Send Your Speculative Application</title>
 @endsection
 
 @section('header-content')

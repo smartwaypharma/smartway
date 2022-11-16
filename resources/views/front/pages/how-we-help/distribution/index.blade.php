@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>How we help - Distribution</title>
+  <title>A Specialist Medical and Healthcare Distributor</title>
+  <meta name="description" content="Smartway is a specialist medical and healthcare distributors with over 20 years of experience and expertise. We provide unrivaled customer service to medical wholesalers across the UK and globally.">
 @endsection
 
 @section('header-content')

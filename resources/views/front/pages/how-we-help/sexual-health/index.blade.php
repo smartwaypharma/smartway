@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>How we help - Sexual Health</title>
+  <title>A One Stop Solution for All Your Sexual Health Supply Needs</title>
+  <meta name="description" content="Smartway is the go to NHS provider for contraceptive medicine and medical disposable instruments. We specialize in providing the best quality Sexual Health Supplies at a reasonable price.">
 @endsection
 
 @section('header-content')

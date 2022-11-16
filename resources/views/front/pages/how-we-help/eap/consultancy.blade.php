@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>How we help - EAP - Consultancy</title>
+  <title>We Provide Smart Consultancy to Manage EAPs Easier</title>
+  <meta name="description" content="Smartway is a consultancy specializing in EAPs. Our experience provides a solid foundation for success. We bring state-of-the-art knowledge of the EU ETS and its market design to support your business.">
 @endsection
 
 @section('header-content')

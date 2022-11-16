@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>How we help - CTS</title>
+  <title>Supplying Comparators, RLDs and Biosimilars Worldwide </title>
+  <meta name="description" content="Smartway is a full-service comparator, RLD, and biosimilar supplier. We supply reliable custom-made products for medical research, clinical trials and commercialization.">
 @endsection
 
 @section('header-content')

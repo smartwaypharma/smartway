@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>How we help - CTS - Project Management</title>
+  <title>Value-driven Project Management with CTS Knowledge</title>
+  <meta name="description" content="The team at Smartway provides sound CTS knowledge and is focused on providing value-added supply chain and project management solutions to the biopharmaceutical industry. Your dedicated project managers will lead your program from concept to fruition, bringing in expertise from all Smartway functions.">
 @endsection
 
 @section('header-content')

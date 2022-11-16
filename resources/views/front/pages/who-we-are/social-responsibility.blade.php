@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>Who we are – Environmental,Social & Corporate Responsibility</title>
+  <title>Fostering Environmental and Social Responsibility</title>
+  <meta name="description" content="We not only ensure our patients continue to receive their medication and treatments for the years to come, we are also committed to our social and environmental responsibility.">
 @endsection
 
 @section('header-content')

@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>How we help - AID Dev - Kitting</title>
+  <title>Providing Pharmaceuticals, Medical Supply and Emergency Kits</title>
+  <meta name="description" content="We're on a mission to improve health and healthcare in the world. Find out more about Smartway and its combined expertise as a partner in Aid and Development. Smartway works with partners in Aid and Development. See how we work together to help Global Health, Development, and Humanitarian Assistance.">
 @endsection
 
 @section('header-content')

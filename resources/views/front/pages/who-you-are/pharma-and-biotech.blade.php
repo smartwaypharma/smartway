@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>Who you are - Pharma & Biotech</title>
+  <title>A Trusted Partner to Pharmaceutical and Biotech Companies</title>
+  <meta name="description" content="Smartway is a leading source of Scientific and Medical Equipment for Pharmaceutical and Biotech companies. We provide EAP, Comparator supply provider and Distributor to Pharmaceuticals and Biotechs.">
 @endsection
 
 @section('header-content')

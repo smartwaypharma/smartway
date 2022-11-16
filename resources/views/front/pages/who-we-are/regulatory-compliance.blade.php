@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>Who we are - Regulatory Compliance</title>
+  <title>We are Experts in Regulatory Compliance</title>
+  <meta name="description" content="Where regulatory compliance solutions do not exist, we make them. Where they do exist, we work to improve them. We've expertise and knowledge to help you. We make it easy to understand your options and find the regulatory compliance solutions that will work best for you.">
 @endsection
 
 @section('header-content')

@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>Who we are – Leadership team & meet the team</title>
+  <title>Meet Some of Our Employees</title>
+  <meta name="description" content="Learn about some of Smartway's diverse and dynamic team. Over 100 employees worldwide.">
 @endsection
 
 @section('header-content')
@@ -80,15 +81,15 @@
           <p class="4xl:text-4xl text-2xl font-medium -tracking-0.55px">Chair</p>
         </div>
       </div>
-      <div class="overflow-hidden js-team-modal-open cursor-pointer md:w-full sm:w-3/4" data-modal="rupiModal"
+      <div class="overflow-hidden js-team-modal-open cursor-pointer md:w-full sm:w-3/4" data-modal="kaushikModal"
            data-slide="2">
         <div class="4xl:h-581px 2xl:h-520px lg:h-420px md:h-390px">
-          <img class="zoom w-full h-auto" src="{{ asset('image/Rupi_profile.jpeg') }}">
+          <img class="zoom w-full h-auto" src="{{ asset('image/Kaushik.jpg') }}">
         </div>
         <div
             class="bg-persian-green text-white flex flex-col items-center justify-center transform 4xl:h-185px h-120px scale-100 text-center  ">
-          <p class="4xl:text-52px text-28px font-bold leading-none lg:mb-0 mb-2.5">Rupi Bhasin</p>
-          <p class="4xl:text-4xl text-2xl font-medium -tracking-0.55px">Director of Digital Health</p>
+          <p class="4xl:text-52px text-28px font-bold leading-none lg:mb-0 mb-2.5">Kaushik Patel</p>
+          <p class="4xl:text-4xl text-2xl font-medium -tracking-0.55px">Chief Commercial Officer</p>
         </div>
       </div>
       <div class="overflow-hidden js-team-modal-open cursor-pointer md:w-full sm:w-3/4" data-modal="dhruvModal"
@@ -113,20 +114,20 @@
           <p class="4xl:text-4xl text-2xl font-medium -tracking-0.55px">EVP – Medicines Access</p>
         </div>
       </div>
-      <div class="overflow-hidden js-team-modal-open cursor-pointer md:w-full sm:w-3/4" data-modal="rossModal"
+      <div class="overflow-hidden js-team-modal-open cursor-pointer md:w-full sm:w-3/4" data-modal="rupiModal"
            data-slide="5">
         <div class="4xl:h-581px 2xl:h-520px lg:h-420px md:h-390px">
-          <img class="zoom w-full h-auto" src="{{ asset('image/Ross.jpg') }}">
+          <img class="zoom w-full h-auto" src="{{ asset('image/Rupi.jpg') }}">
         </div>
         <div
-            class="bg-lochmara text-white flex flex-col items-center justify-center transform 4xl:h-185px h-120px scale-100 text-center  ">
-          <p class="4xl:text-52px text-28px font-bold leading-none lg:mb-0 mb-2.5 mb-3">Ross Hemson</p>
+                class="bg-lochmara text-white flex flex-col items-center justify-center transform 4xl:h-185px h-120px scale-100 text-center  ">
+          <p class="4xl:text-52px text-28px font-bold leading-none lg:mb-0 mb-2.5 mb-3">Rupi Bhasin</p>
           <p class="4xl:text-28px text-2xl leading-28px font-medium">
-            <span class="block">Associate Account Director</span>
-            <span class="block">Aid & Development</span>
+            <span class="block">Director of Digital Health</span>
           </p>
         </div>
       </div>
+
       <div class="overflow-hidden js-team-modal-open cursor-pointer md:w-full sm:w-3/4"
            data-modal="nicoleModal"
            data-slide="6">
@@ -162,15 +163,16 @@
           <p class="4xl:text-4xl text-2xl font-medium -tracking-0.55px">Head of Sexual Health</p>
         </div>
       </div>
-      <div class="overflow-hidden js-team-modal-open cursor-pointer md:w-full sm:w-3/4" data-modal="annaModal"
+      <div class="overflow-hidden js-team-modal-open cursor-pointer md:w-full sm:w-3/4"
+           data-modal="andreModal"
            data-slide="9">
         <div class="4xl:h-581px 2xl:h-520px lg:h-420px md:h-390px">
-          <img class="zoom w-full h-auto" src="{{ asset('image/Anna.jpg') }}">
+          <img class="zoom w-full h-auto" src="{{ asset('image/Andre.jpg') }}">
         </div>
         <div
-            class="bg-lochmara text-white flex flex-col items-center justify-center transform 4xl:h-185px h-120px scale-100 text-center  ">
-          <p class="4xl:text-52px text-28px font-bold leading-none lg:mb-0 mb-2.5 mb-2">Anna Vassova</p>
-          <p class="4xl:text-4xl text-2xl font-medium -tracking-0.55px">Marketing Manager</p>
+                class="bg-lochmara text-white flex flex-col items-center justify-center transform 4xl:h-185px h-120px scale-100 text-center  ">
+          <p class="4xl:text-52px text-28px font-bold leading-none lg:mb-0 mb-2.5 mb-2">Andre Censi</p>
+          <p class="4xl:text-4xl text-2xl font-medium -tracking-0.55px">Global Sales Director</p>
         </div>
       </div>
       <div class="overflow-hidden js-team-modal-open cursor-pointer md:w-full sm:w-3/4"
@@ -180,13 +182,49 @@
           <img class="zoom w-full h-auto" src="{{ asset('image/Judith.jpg') }}">
         </div>
         <div
-            class="bg-lochmara text-white flex flex-col items-center justify-center transform 4xl:h-185px h-120px scale-100 text-center  ">
+                class="bg-lochmara text-white flex flex-col items-center justify-center transform 4xl:h-185px h-120px scale-100 text-center  ">
           <p class="4xl:text-52px text-28px font-bold leading-none lg:mb-0 mb-2.5 mb-2">Judith Asiimwe</p>
           <p class="4xl:text-4xl text-2xl font-medium -tracking-0.55px">Project Manager</p>
         </div>
       </div>
-      <div class="overflow-hidden js-team-modal-open cursor-pointer md:w-full sm:w-3/4" data-modal="maysaModal"
+      <div class="overflow-hidden js-team-modal-open cursor-pointer md:w-full sm:w-3/4" data-modal="rossModal"
            data-slide="11">
+        <div class="4xl:h-581px 2xl:h-520px lg:h-420px md:h-390px">
+          <img class="zoom w-full h-auto" src="{{ asset('image/Ross.jpg') }}">
+        </div>
+        <div
+                class="bg-lochmara text-white flex flex-col items-center justify-center transform 4xl:h-185px h-120px scale-100 text-center  ">
+          <p class="4xl:text-52px text-28px font-bold leading-none lg:mb-0 mb-2.5 mb-3">Ross Hemson</p>
+          <p class="4xl:text-28px text-2xl leading-28px font-medium">
+            <span class="block">Associate Account Director</span>
+            <span class="block">Aid & Development</span>
+          </p>
+        </div>
+      </div>
+      <div class="overflow-hidden js-team-modal-open cursor-pointer md:w-full sm:w-3/4" data-modal="annaModal"
+           data-slide="12">
+        <div class="4xl:h-581px 2xl:h-520px lg:h-420px md:h-390px">
+          <img class="zoom w-full h-auto" src="{{ asset('image/Anna.jpg') }}">
+        </div>
+        <div
+            class="bg-lochmara text-white flex flex-col items-center justify-center transform 4xl:h-185px h-120px scale-100 text-center  ">
+          <p class="4xl:text-52px text-28px font-bold leading-none lg:mb-0 mb-2.5 mb-2">Anna Vassova</p>
+          <p class="4xl:text-4xl text-2xl font-medium -tracking-0.55px">Marketing Manager</p>
+        </div>
+      </div>
+      <div class="overflow-hidden js-team-modal-open cursor-pointer md:w-full sm:w-3/4" data-modal="arunModal"
+           data-slide="13">
+        <div class="4xl:h-581px 2xl:h-520px lg:h-420px md:h-390px">
+          <img class="zoom w-full h-auto" src="{{ asset('image/Arun.jpg') }}">
+        </div>
+        <div
+                class="bg-lochmara text-white flex flex-col items-center justify-center transform 4xl:h-185px h-120px scale-100 text-center  ">
+          <p class="4xl:text-52px text-28px font-bold leading-none lg:mb-0 mb-2.5 mb-2">Arun Dholariya</p>
+          <p class="4xl:text-4xl text-2xl font-medium -tracking-0.55px">Senior Manager, EU Supply Chain</p>
+        </div>
+      </div>
+      <div class="overflow-hidden js-team-modal-open cursor-pointer md:w-full sm:w-3/4" data-modal="maysaModal"
+           data-slide="14">
         <div class="4xl:h-581px 2xl:h-520px lg:h-420px md:h-390px">
           <img class="zoom w-full h-auto" src="{{ asset('image/Maysa.jpg') }}">
         </div>
@@ -200,7 +238,7 @@
         </div>
       </div>
       <div class="overflow-hidden js-team-modal-open cursor-pointer md:w-full sm:w-3/4"
-           data-modal="andrewModal" data-slide="12">
+           data-modal="andrewModal" data-slide="15">
         <div class="4xl:h-581px 2xl:h-520px lg:h-420px md:h-390px">
           <img class="zoom w-full h-auto" src="{{ asset('image/Andrew.jpg') }}">
         </div>
@@ -211,7 +249,7 @@
         </div>
       </div>
       <div class="overflow-hidden js-team-modal-open cursor-pointer md:w-full sm:w-3/4"
-           data-modal="harshadModal" data-slide="13">
+           data-modal="harshadModal" data-slide="16">
         <div class="4xl:h-581px 2xl:h-520px lg:h-420px md:h-390px">
           <img class="zoom w-full h-auto" src="{{ asset('image/Harshad.jpg') }}">
         </div>
@@ -241,6 +279,7 @@
         <div class="team-slider">
           <div class="glide__track" data-glide-el="track">
             <div class="glide__slides">
+              {{--1.Josh--}}
               <div class="glide__slide bg-midnight text-white px-20 py-5 relative overflow-hidden flex items-center">
                 <div>
                   <div class="ml-auto mr-0 relative z-20" style="width: 67%;">
@@ -273,6 +312,7 @@
                        src="{{ asset('image/Josh-details.jpg') }}">
                 </div>
               </div>
+              {{--2.Kirti--}}
               <div class="glide__slide bg-outer-space text-white px-20 py-5 relative overflow-hidden flex items-center">
                 <div>
                   <div class="ml-auto mr-0 relative z-20" style="width: 67%;">
@@ -307,38 +347,29 @@
                        src="{{ asset('image/Kirti_new_modal.jpeg') }}">
                 </div>
               </div>
+              {{--3.Kaushik--}}
               <div class="glide__slide bg-midnight text-white px-20 py-5 relative overflow-hidden flex items-center">
                 <div>
                   <div class="ml-auto mr-0 relative z-20" style="width: 67%;">
                     <div
                         class="5xl:text-2xl 2xl:text-22px text-xl 5xl:leading-34px 2xl:leading-28px leading-24px font-light">
                       <p class="2xl:mb-9 mb-5">
-                        With over 30 years as a pharmacist and working in senior healthcare management at Wallgreen
-                        Boots Alliance, Rupi joined Smartway in 2021 as Director of Digital Health. Leveraging his
-                        experience in patient safety, governance and personnel management, Rupi leads the Smartway
-                        Pharmacy and offering for direct to patient and home delivery.
+                        With a long history at Smartway as our first employee and then a stakeholder in the business, Kaushik has a uniquely in-depth perspective on everything we do, including our investment priorities. He shares our values, priorities and commitment to quality, informing our strategic direction and ongoing growth.
                       </p>
-                      <p>Rupi qualified as a Pharmacist in 1997 from Kings’ College London before holding a portfolio of
-                        management positions covering multiple roles in the UK. He has spent time developing new
-                        healthcare partnerships with the NHS and others in the private sectors. Rupi chairs Local
-                        Pharmaceutical Committee (LPC), an independent and representative group of pharmacy
-                        professionals which negotiates and discusses pharmacy services with commissioners.</p>
+                      <p>Throughout his time at Smartway, Kaushik has experienced the business as a Warehouse Manager and, later, a successful Sales Executive and Manager. Now, as our Chief Commercial Officer, Kaushik spearheads our initiatives to deliver for patients and healthcare professionals on a global scale, develop new markets and maximise profitability.</p>
                     </div>
                     <img class="mt-8 mb-4" src="{{asset('image/quote-persian-green.svg')}}">
                     <p class="quarto-font 5xl:text-44px 2xl:text-40px text-34px 5xl:leading-53px leading-none">
-                      I am firmly committed to using all of my healthcare experience to help patients get access to the
-                      medicines they need. I firmly believe in using technology and digital automation has serious value
-                      in improving the patient journey.”
+                      Smartway is defined by its commitment to quality, something I’ve seen first-hand at every level of the business. As CCO, I help lead our growth in a way that makes sense for the competitive landscape and emerging global priorities, without compromising on those core values that make us unique.”
                     </p>
-                    <p class="italic 2xl:text-26px text-2xl font-semibold -tracking-0.55px mt-5">Rupi Bhasin,
-                      Director of Digital Health</p>
+                    <p class="italic 2xl:text-26px text-2xl font-semibold -tracking-0.55px mt-5">Kaushik Patel, Chief Commercial Officer</p>
                   </div>
                   <img class="absolute bottom-0 left-0 5xl:h-full 5xl:max-w-55% max-w-47% h-auto w-auto z-0"
-                       src="{{ asset('image/Rupi_detail.jpeg') }}">
+                       src="{{ asset('image/Kaushik_detail.jpg') }}">
                 </div>
               </div>
-              <div
-                  class="glide__slide bg-outer-space text-white px-20 py-5 relative overflow-hidden flex items-center">
+              {{--4.Dhruv--}}
+              <div class="glide__slide bg-outer-space text-white px-20 py-5 relative overflow-hidden flex items-center">
                 <div>
                   <div class="ml-auto mr-0 relative z-20" style="width: 67%;">
                     <div
@@ -368,6 +399,7 @@
                        src="{{ asset('image/Dhruv-details.jpg') }}">
                 </div>
               </div>
+              {{--5.Robert--}}
               <div class="glide__slide bg-french-gray pl-20 pr-8 py-5 relative overflow-hidden flex items-center">
                 <div>
                   <div class="ml-auto mr-0 relative z-20" style="width: 73%;">
@@ -415,44 +447,39 @@
                        src="{{ asset('image/Robert-details.jpg') }}">
                 </div>
               </div>
-              <div class="glide__slide bg-french-gray pl-20 pr-10 py-5 relative overflow-hidden flex items-center">
+              {{--6.Rupi--}}
+              <div class="glide__slide bg-french-gray pl-20 pr-8 py-5 relative overflow-hidden flex items-center">
                 <div>
                   <div class="ml-auto mr-0 relative z-20" style="width: 67%;">
                     <div
-                        class="5xl:text-2xl 2xl:text-22px text-xl 5xl:leading-34px 2xl:leading-28px leading-24px font-light">
+                            class="5xl:text-2xl 2xl:text-22px text-xl 5xl:leading-34px 2xl:leading-28px leading-24px font-light">
                       <p class="2xl:mb-9 mb-5">
-                        Ross qualified as an Electrical and Mechanical Engineer starting his career in large scale
-                        public
-                        sector works. He then transferred to the logistics sector before moving into Healthcare. </p>
-                      <p>
-                        Ross
-                        has worked in Medicines Access for over 5 years and specialises in building long term strategic
-                        partnerships with organisations. He brings both his engineering background and logistics
-                        experience to the Health and Medicines Access sector. He is very active in the voluntary sector
-                        leading several community and development organisations. At Smartway he leads our Account &
-                        Project Management function within the Aid and Development sector.
+                        With over 30 years as a pharmacist and working in senior healthcare management at Wallgreen
+                        Boots Alliance, Rupi joined Smartway in 2021 as Director of Digital Health. Leveraging his
+                        experience in patient safety, governance and personnel management, Rupi leads the Smartway
+                        Pharmacy and offering for direct to patient and home delivery.
                       </p>
+                      <p>Rupi qualified as a Pharmacist in 1997 from Kings’ College London before holding a portfolio of
+                        management positions covering multiple roles in the UK. He has spent time developing new
+                        healthcare partnerships with the NHS and others in the private sectors. Rupi chairs Local
+                        Pharmaceutical Committee (LPC), an independent and representative group of pharmacy
+                        professionals which negotiates and discusses pharmacy services with commissioners.</p>
                     </div>
-                    <div class="pl-36 pr-1">
-                      <img class="mt-8 mb-4" src="{{asset('image/quote-persian-green.svg')}}">
-                      <p class="quarto-font 5xl:text-44px 2xl:text-40px text-34px 5xl:leading-53px leading-none">
-                        The ability to make a real difference to people’s lives by working with NGOs and charities to
-                        get
-                        them the medicines and equipment the patients need is an amazing opportunity. We see the
-                        difference we allow others to make and it is so rewarding.”
-                      </p>
-                      <p class="italic 2xl:text-26px text-2xl font-semibold -tracking-0.55px mt-5">Ross Hemson,
-                        Associate Account
-                        Executive – Aid &
-                        Development</p>
-                    </div>
+                    <img class="mt-8 mb-4" src="{{asset('image/quote-persian-green.svg')}}">
+                    <p class="quarto-font 5xl:text-44px 2xl:text-40px text-34px 5xl:leading-53px leading-none">
+                      I am firmly committed to using all of my healthcare experience to help patients get access to the
+                      medicines they need. I firmly believe in using technology and digital automation has serious value
+                      in improving the patient journey.”
+                    </p>
+                    <p class="italic 2xl:text-26px text-2xl font-semibold -tracking-0.55px mt-5 ">Rupi Bhasin,
+                      Director of Digital Health</p>
                   </div>
                   <img class="absolute bottom-0 left-0 5xl:h-full 5xl:max-w-55% max-w-47% h-auto w-auto z-0"
-                       src="{{ asset('image/Ross-details.jpg') }}">
+                       src="{{ asset('image/Rupi_detail.jpg') }}">
                 </div>
               </div>
-              <div
-                  class="glide__slide bg-midnight text-white pl-20 pr-6 py-5 relative overflow-hidden flex items-center">
+              {{--7.Nicole--}}
+              <div class="glide__slide bg-midnight text-white pl-20 pr-6 py-5 relative overflow-hidden flex items-center">
                 <div>
                   <div class="ml-auto mr-0 relative z-20" style="width: 71%;">
                     <div
@@ -489,8 +516,8 @@
                        src="{{ asset('image/Nicole-details.jpg') }}">
                 </div>
               </div>
-              <div
-                  class="glide__slide bg-spindle pl-20 pr-6 py-5 relative overflow-hidden flex items-center">
+              {{--8.Purvesh--}}
+              <div class="glide__slide bg-spindle pl-20 pr-6 py-5 relative overflow-hidden flex items-center">
                 <div>
                   <div class="ml-auto mr-0 relative z-20" style="width: 67%;">
                     <div
@@ -515,8 +542,8 @@
                        src="{{ asset('image/Purvesh-details.jpg') }}">
                 </div>
               </div>
-              <div
-                  class="glide__slide bg-french-gray pl-20 pr-6 py-5 relative overflow-hidden flex items-center">
+              {{--9.Giles--}}
+              <div class="glide__slide bg-french-gray pl-20 pr-6 py-5 relative overflow-hidden flex items-center">
                 <div>
                   <div class="ml-auto mr-0 relative z-20" style="width: 70%;">
                     <div
@@ -552,8 +579,106 @@
                        src="{{ asset('image/Giles-details.jpg') }}">
                 </div>
               </div>
-              <div
-                  class="glide__slide bg-spindle pl-20 pr-6 py-5 relative overflow-hidden flex items-center">
+              {{--10.Andre--}}
+              <div class="glide__slide bg-spindle pl-20 pr-6 py-5 relative overflow-hidden flex items-center">
+                <div>
+                  <div class="ml-auto mr-0 relative z-20" style="width: 70%;">
+                    <div
+                            class="5xl:text-2xl 2xl:text-22px text-xl 5xl:leading-34px 2xl:leading-28px leading-24px font-light -tracking-0.5px">
+                      <p class="2xl:mb-9 mb-5">
+                        Since starting in unlicensed medicines over a decade ago, Andre has spearheaded numerous Hospital Market Entry projects and access routes in countries where direct to hospital isn’t possible. He brings a uniquely global perspective, not just managing shortages in Europe and the UK, but also unlicensed medicines and contract licensing in Latin America.
+                      </p>
+                      <p>
+                        As our Global Sales Director working closely with our COO, Andre is a patient-centric, ethically-minded leader to define and deliver our global sales strategy. Throughout, he leverages his unparalleled knowledge in unlicensed medicines to solve complex challenges for our customers worldwide.
+                      </p>
+                    </div>
+                    <div class="pl-28 pr-12">
+                      <img class="mt-8 mb-4" src="{{asset('image/quote-persian-green.svg')}}">
+                      <p class="quarto-font 5xl:text-44px 2xl:text-40px text-34px 5xl:leading-53px leading-none">
+                        The medicines supply chain is often really complex and, throughout my experience, my passion has been solving those big challenges. I look for ways to get patients what they need – and go above and beyond to add value wherever I can.”
+                      </p>
+                      <p class="italic 2xl:text-26px text-2xl font-semibold -tracking-0.55px mt-5">Andre Censi,
+                        Global Sales Director</p>
+                    </div>
+                  </div>
+                  <img class="absolute bottom-0 left-0 5xl:h-full 5xl:max-w-55% max-w-47% h-auto w-auto z-0"
+                       src="{{ asset('image/Andre_detail.jpg') }}">
+                </div>
+              </div>
+              {{--11.Judith--}}
+              <div class="glide__slide bg-midnight text-white pl-20 pr-16 py-5 relative overflow-hidden flex items-center">
+                <div>
+                  <div class="ml-auto mr-0 relative z-20" style="width: 69%;">
+                    <div
+                            class="5xl:text-2xl 2xl:text-22px text-xl 5xl:leading-34px 2xl:leading-28px leading-24px font-light -tracking-0.5px">
+                      <p class="2xl:mb-9 mb-5">
+                        With a passion for helping patients around the world get the best therapies and treatments,
+                        Judith joined the pharmaceutical industry following postgraduate studies in Law. Today, she uses
+                        her legal knowledge and over a decade’s pharmaceutical experience to help customers source the
+                        niche therapies they need.
+                      </p>
+                      <p>
+                        Judith’s strengths are in building long-term, sustainable partnership
+                        with stakeholders, delivering consistently high levels of project management for her clients.
+                        Day-to-day, she specialises in solving complex supply and regulatory in an efficient, effective
+                        way.
+                      </p>
+                    </div>
+                    <div class="pl-52">
+                      <img class="mt-8 mb-4" src="{{asset('image/quote-persian-green.svg')}}">
+                      <p class="quarto-font 5xl:text-44px 2xl:text-40px text-34px 5xl:leading-53px leading-none">
+                        Smartway has a global reach and is always willing to go further for practitioners and patients.
+                        I joined because it’s an opportunity to use my expertise in a way that genuinely helps people
+                        get the medicines they need.”
+                      </p>
+                      <p class="italic 2xl:text-26px text-2xl font-semibold -tracking-0.55px mt-5">Judith Aslimwe,
+                        Project
+                        Manager</p>
+                    </div>
+                  </div>
+                  <img class="absolute bottom-0 left-0 5xl:h-full 5xl:max-w-55% max-w-47% h-auto w-auto z-0"
+                       src="{{ asset('image/Judith-details.jpg') }}">
+                </div>
+              </div>
+              {{--12.Ross--}}
+              <div class="glide__slide bg-french-gray pl-20 pr-10 py-5 relative overflow-hidden flex items-center">
+                <div>
+                  <div class="ml-auto mr-0 relative z-20" style="width: 67%;">
+                    <div
+                            class="5xl:text-2xl 2xl:text-22px text-xl 5xl:leading-34px 2xl:leading-28px leading-24px font-light">
+                      <p class="2xl:mb-9 mb-5">
+                        Ross qualified as an Electrical and Mechanical Engineer starting his career in large scale
+                        public
+                        sector works. He then transferred to the logistics sector before moving into Healthcare. </p>
+                      <p>
+                        Ross
+                        has worked in Medicines Access for over 5 years and specialises in building long term strategic
+                        partnerships with organisations. He brings both his engineering background and logistics
+                        experience to the Health and Medicines Access sector. He is very active in the voluntary sector
+                        leading several community and development organisations. At Smartway he leads our Account &
+                        Project Management function within the Aid and Development sector.
+                      </p>
+                    </div>
+                    <div class="pl-36 pr-1">
+                      <img class="mt-8 mb-4" src="{{asset('image/quote-persian-green.svg')}}">
+                      <p class="quarto-font 5xl:text-44px 2xl:text-40px text-34px 5xl:leading-53px leading-none">
+                        The ability to make a real difference to people’s lives by working with NGOs and charities to
+                        get
+                        them the medicines and equipment the patients need is an amazing opportunity. We see the
+                        difference we allow others to make and it is so rewarding.”
+                      </p>
+                      <p class="italic 2xl:text-26px text-2xl font-semibold -tracking-0.55px mt-5">Ross Hemson,
+                        Associate Account
+                        Executive – Aid &
+                        Development</p>
+                    </div>
+                  </div>
+                  <img class="absolute bottom-0 left-0 5xl:h-full 5xl:max-w-55% max-w-47% h-auto w-auto z-0"
+                       src="{{ asset('image/Ross-details.jpg') }}">
+                </div>
+              </div>
+              {{--13.Anna--}}
+              <div class="glide__slide bg-spindle pl-20 pr-6 py-5 relative overflow-hidden flex items-center">
                 <div>
                   <div class="ml-auto mr-0 relative z-20" style="width: 70%;">
                     <div
@@ -587,43 +712,34 @@
                        src="{{ asset('image/Anna-details.jpg') }}">
                 </div>
               </div>
-              <div
-                  class="glide__slide bg-midnight text-white pl-20 pr-16 py-5 relative overflow-hidden flex items-center">
+              {{--14.Arun--}}
+              <div class="glide__slide bg-midnight text-white px-20 py-5 relative overflow-hidden flex items-center">
                 <div>
                   <div class="ml-auto mr-0 relative z-20" style="width: 69%;">
                     <div
-                        class="5xl:text-2xl 2xl:text-22px text-xl 5xl:leading-34px 2xl:leading-28px leading-24px font-light -tracking-0.5px">
+                            class="5xl:text-2xl 2xl:text-22px text-xl 5xl:leading-34px 2xl:leading-28px leading-24px font-light">
                       <p class="2xl:mb-9 mb-5">
-                        With a passion for helping patients around the world get the best therapies and treatments,
-                        Judith joined the pharmaceutical industry following postgraduate studies in Law. Today, she uses
-                        her legal knowledge and over a decade’s pharmaceutical experience to help customers source the
-                        niche therapies they need.
+                        With diverse experience including managing a team of 18 people in the food production space, Arun intimately understands the importance of a robust supply chain where access, control and quality are paramount. As the Senior Manager for the EU Supply Chain, Arun leads the team in sales and purchasing, developing strong relationships with the partners and suppliers that make our work possible.
                       </p>
                       <p>
-                        Judith’s strengths are in building long-term, sustainable partnership
-                        with stakeholders, delivering consistently high levels of project management for her clients.
-                        Day-to-day, she specialises in solving complex supply and regulatory in an efficient, effective
-                        way.
+                        Before becoming a Senior Manager, Arun spent over a decade within Smartway with roles including Warehouse Operative, Goods Out Supervisor, and Warehouse Manager. He brings a pragmatic, practical sensibility that ensures our supply chain is always running smoothly.
                       </p>
                     </div>
-                    <div class="pl-52">
+                    <div class="pl-28">
                       <img class="mt-8 mb-4" src="{{asset('image/quote-persian-green.svg')}}">
                       <p class="quarto-font 5xl:text-44px 2xl:text-40px text-34px 5xl:leading-53px leading-none">
-                        Smartway has a global reach and is always willing to go further for practitioners and patients.
-                        I joined because it’s an opportunity to use my expertise in a way that genuinely helps people
-                        get the medicines they need.”
+                        I’ve grown throughout my experience at Smartway and now, leading and managing the EU supply chain for PI, I help make sure our customers can help patients get what they need.”
                       </p>
-                      <p class="italic 2xl:text-26px text-2xl font-semibold -tracking-0.55px mt-5">Judith Aslimwe,
-                        Project
-                        Manager</p>
+                      <p class="italic 2xl:text-26px text-2xl font-semibold -tracking-0.55px mt-5">Arun Dholariya,
+                        Senior Manager, EU Supply Chain</p>
                     </div>
                   </div>
                   <img class="absolute bottom-0 left-0 5xl:h-full 5xl:max-w-55% max-w-47% h-auto w-auto z-0"
-                       src="{{ asset('image/Judith-details.jpg') }}">
+                       src="{{ asset('image/Arun_detail.jpg') }}">
                 </div>
               </div>
-              <div
-                  class="glide__slide bg-outer-space text-white pl-20 pr-16 py-5 relative overflow-hidden flex items-center">
+              {{--15.Maysa--}}
+              <div class="glide__slide bg-outer-space text-white pl-20 pr-16 py-5 relative overflow-hidden flex items-center">
                 <div>
                   <div class="ml-auto mr-0 relative z-20" style="width: 68%;">
                     <div
@@ -656,8 +772,8 @@
                        src="{{ asset('image/Maysa-details.jpg') }}">
                 </div>
               </div>
-              <div
-                  class="glide__slide bg-spindle pl-20 pr-12 py-5 relative overflow-hidden flex items-center">
+              {{--16.Andrew--}}
+              <div class="glide__slide bg-spindle pl-20 pr-12 py-5 relative overflow-hidden flex items-center">
                 <div>
                   <div class="ml-auto mr-0 relative z-20" style="width: 69%;">
                     <div
@@ -691,8 +807,8 @@
                        src="{{ asset('image/Andrew-details.jpg') }}">
                 </div>
               </div>
-              <div
-                  class="glide__slide bg-french-gray pl-20 pr-16 py-5 relative overflow-hidden flex items-center">
+              {{--17.Harshad--}}
+              <div class="glide__slide bg-french-gray pl-20 pr-16 py-5 relative overflow-hidden flex items-center">
                 <div>
                   <div class="ml-auto mr-0 relative z-20" style="width: 68%;">
                     <div
@@ -717,7 +833,7 @@
                         What gets me excited is learning something new or discovering a new technology. At Smartway, I’m
                         always looking for new ways that we can innovate everything we offer our customers.”
                       </p>
-                      <p class="italic 2xl:text-26px text-2xl font-semibold -tracking-0.55px mt-5">Harshad Chotaliva,
+                      <p class="italic 2xl:text-26px text-2xl font-semibold -tracking-0.55px mt-5">Harshad Chotaliya,
                         Software
                         Engineer & Web Application Developer</p>
                     </div>
@@ -743,6 +859,9 @@
               <button class="glide__bullet" data-glide-dir="=11"></button>
               <button class="glide__bullet" data-glide-dir="=12"></button>
               <button class="glide__bullet" data-glide-dir="=13"></button>
+              <button class="glide__bullet" data-glide-dir="=14"></button>
+              <button class="glide__bullet" data-glide-dir="=15"></button>
+              <button class="glide__bullet" data-glide-dir="=16"></button>
             </div>
           </div>
           <div class="glide__arrows" data-glide-el="controls">

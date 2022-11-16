@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>How we help - Distribution - Global Supply Chain capability</title>
+  <title>An Extensive and Reliable Global Supply Chain</title>
+  <meta name="description" content="Smartway offers flexible and innovative solutions for the NHS, pharmacists, and other healthcare professionals. Putting our global, decades-long supply chain expertise to work for you.">
 @endsection
 
 @section('header-content')

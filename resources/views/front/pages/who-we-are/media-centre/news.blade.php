@@ -1,7 +1,9 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>Who we are – Media Centre - News</title>
+  <title>{{ $post->metaTitle }}</title>
+  <meta name="description" content="{{ $post->metaDescription }}">
+  <meta name="keywords" content="{{ $post->metaKeyword }}">
 @endsection
 
 @section('header-content')

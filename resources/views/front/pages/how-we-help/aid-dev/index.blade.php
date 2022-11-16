@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>How we help - Aid & Development</title>
+  <title>Solving Challenges with the Aid & Development Sector</title>
+  <meta name="description" content="Smartway is committed to providing a full-service medical and pharmacy supply chain management to deliver safe and effective healthcare solutions. We are your trusted provider for hospital and pharmacy supply, medical supply, and lab equipment.">
 @endsection
 
 @section('header-content')

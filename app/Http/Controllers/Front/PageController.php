@@ -16,9 +16,8 @@ class PageController extends Controller
         if ($settings) {
             $articles = json_decode($settings->value);
         }
-
         $posts = \App\Models\Post::with('category')
-            ->whereIn('id', $articles)
+            ->whereIn('id', $articles)->orderBy('created_at', 'desc')
             ->get();
 
         return view('front.pages.home', compact('posts'));

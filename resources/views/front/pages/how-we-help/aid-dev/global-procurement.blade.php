@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>How we help - AID Dev - Global procurement</title>
+  <title>Sourcing Solutions for Medical, Pharmaceutical and Surgical Supplies</title>
+  <meta name="description" content="We're the leading distributor that offers a wide choice of pharmaceuticals, medical devices & equipment supplies. Let Smartway help you find the best value. We are a leading supplier of pharmaceuticals, medical devices, disposables, and equipment. We provide better stock management services and supply solutions.">
 @endsection
 
 @section('header-content')

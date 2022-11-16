@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>How we help - International Supply & Unlicensed Medicines - Reliable supply</title>
+  <title>Your Reliable Partner in the Supply of Medicines Worldwide</title>
+  <meta name="description" content="We ensure reliable supply of medicines worldwide. Smartway provides both branded and generic medicines to healthcare professionals, carers and patients. We are your reliable partner, committed to sourcing and supplying medicines and healthcare products both online and offline.">
 @endsection
 
 @section('header-content')

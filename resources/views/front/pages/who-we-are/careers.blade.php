@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>Who we are – Careers</title>
+  <title>Start Your Career with Smartway</title>
+  <meta name="description" content="Smartway is growing and expanding. Explore careers and internships at one of the most innovative companies in healthcare. Join the team.">
 @endsection
 
 @section('header-content')

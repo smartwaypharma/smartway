@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>How we help - International Supply & Unlicensed Medicines - Global Distribution</title>
+  <title>Your Global Distribution Partner</title>
+  <meta name="description" content="Smartway is a global distribution specialist supplying the NHS with unlicensed imports, specials and over labelling. Smartway is a leading global supplier of lifesaving therapies.">
 @endsection
 
 @section('header-content')

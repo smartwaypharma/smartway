@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>Who you are - Patient</title>
+  <title>A Patient-centric Licensed Supplier of Pharmaceuticals</title>
+  <meta name="description" content="Smartway is a patient-centric UK based licensed supplier of pharmaceuticals who offers high quality and safe access to affordable generic drugs.">
 @endsection
 
 @section('header-content')

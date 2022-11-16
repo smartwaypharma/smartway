@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>How we help - Distribution - Stakeholder support</title>
+  <title>Supporting Stakeholders and Supporting Patients</title>
+  <meta name="description" content="We work with you to develop your patient engagement program from scratch, or support you in its implementation. We are the patient's advocate. We work with stakeholders to develop and deliver programs that have a real positive impact on patients.">
 @endsection
 
 @section('header-content')

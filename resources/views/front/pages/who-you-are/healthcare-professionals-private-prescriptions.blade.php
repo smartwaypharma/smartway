@@ -1,7 +1,8 @@
 @extends('layouts.front')
 
 @section('meta')
-  <title>Who you are - Healthcare Professionals - Private Prescriptions</title>
+  <title>Fast and Efficient Private Prescription Service</title>
+  <meta name="description" content="Smartway offers fast and efficient private prescription service for medicines for healthcare professionals.">
 @endsection
 
 @section('header-content')

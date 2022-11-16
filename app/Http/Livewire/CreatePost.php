@@ -43,7 +43,10 @@ class CreatePost extends Component
         'model.second_team_member_text' => 'nullable|string|max:65535',
         'pdf' => 'nullable|mimes:pdf|max:2000',
         'model.webinar_link' => 'nullable|url',
-        'model.contactus_popup' => 'nullable|string'
+        'model.contactus_popup' => 'nullable|string',
+        'model.metaTitle' => 'required|nullable|string',
+        'model.metaDescription' => 'required|nullable|string',
+        'model.metaKeyword' => 'required|nullable|string'
     ];
 
     public function render()
