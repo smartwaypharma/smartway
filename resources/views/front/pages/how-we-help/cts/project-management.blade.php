@@ -106,9 +106,9 @@
         <p class="font-bold">Business Development Manager</p>
       </div>
       <div class="4xl:text-2xl text-xl">
-        <img class="lg:mb-3 mb-2" src="{{ asset('image/Andrew-team.jpg') }}">
-        <p class="text-lochmara leading-37px font-bold mb-1">Andrew Tunstell</p>
-        <p class="font-bold">Regulatory Assistant</p>
+        <img class="lg:mb-3 mb-2" src="{{ asset('image/Miral-team.jpg') }}">
+        <p class="text-lochmara leading-37px font-bold mb-1">Miral Patel</p>
+        <p class="font-bold">Regulatory Lead</p>
       </div>
     </div>
     <div class="text-center lg:my-40 mt-16 mb-20">

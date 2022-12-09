@@ -82,34 +82,36 @@
         <p class="font-bold">Global Sales Director – S. America</p>
       </div>
       <div class="4xl:text-2xl text-xl">
-        <img class="mb-3" src="{{ asset('image/Ross_team.jpg') }}">
-        <p class="text-lochmara font-bold mb-1.5">Ross Hemson</p>
-        <p class="font-bold">Associate Account Director – Low & Middle Income Countries</p>
+        <img class="mb-3" src="{{asset('image/Kaushik_Patel.jpeg')}}">
+        <p class="text-lochmara font-bold mb-1.5">Kaushik Patel</p>
+        <p class="font-bold">Chief Commercial Officer</p>
+      </div>
+      <div class="4xl:text-2xl text-xl">
+        <img class="mb-3" src="{{ asset('image/Arun_Dholariya.jpeg') }}">
+        <p class="text-lochmara font-bold mb-1.5">Arun Dholariya</p>
+        <p class="font-bold">Group Manager – EU/UK Supply Chain</p>
       </div>
       <div class="4xl:text-2xl text-xl">
         <img class="mb-3" src="{{ asset('image/Amish-team.jpg') }}">
         <p class="text-lochmara font-bold mb-1.5">Amish Patel</p>
         <p class="font-bold">Associate Account Director – EU/UK Supply Chain</p>
       </div>
-      <div class="4xl:text-2xl text-xl">
-        <img class="mb-3" src="{{ asset('image/SmartBot.jpg') }}">
-        <p class="text-lochmara font-bold mb-1.5">Arun Dholariya</p>
-        <p class="font-bold">Group Manager – EU/UK Supply Chain</p>
-      </div>
+
       <div class="4xl:text-2xl text-xl">
         <img class="mb-3" src="{{asset('image/Judith-team.jpg')}}">
         <p class="text-lochmara font-bold mb-1.5">Judith Asiimwe</p>
         <p class="font-bold">Senior Account Manager – N. America, Asia, Australasia</p>
       </div>
+
+      <div class="4xl:text-2xl text-xl">
+        <img class="mb-3" src="{{ asset('image/Ross_team.jpg') }}">
+        <p class="text-lochmara font-bold mb-1.5">Ross Hemson</p>
+        <p class="font-bold">Associate Account Director – Low & Middle Income Countries</p>
+      </div>
       <div class="4xl:text-2xl text-xl">
         <img class="mb-3" src="{{asset('image/Jigar-team.jpg')}}">
         <p class="text-lochmara font-bold mb-1.5">Jigar Sharma</p>
         <p class="font-bold">Senior Account Manager – EU/UK Supply Chain</p>
-      </div>
-      <div class="4xl:text-2xl text-xl">
-        <img class="mb-3" src="{{asset('image/Amy_team.jpg')}}">
-        <p class="text-lochmara font-bold mb-1.5">Amy Searle</p>
-        <p class="font-bold">Regulatory Lead, Responsible Person</p>
       </div>
     </div>
     <div class="text-center lg:my-40 mt-16 mb-20">
