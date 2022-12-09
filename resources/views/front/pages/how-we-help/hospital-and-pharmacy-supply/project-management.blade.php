@@ -82,9 +82,9 @@
         <p class="font-bold">Global Sales Director – Hospital Supply</p>
       </div>
       <div class="4xl:text-2xl text-xl">
-        <img class="mb-3" src="{{ asset('image/Giles-team.jpg') }}">
-        <p class="text-lochmara font-bold mb-1.5">Giles Holford</p>
-        <p class="font-bold">Head of Sexual Health Supply</p>
+        <img class="mb-3" src="{{ asset('image/Kaushik_Patel.jpeg') }}">
+        <p class="text-lochmara font-bold mb-1.5">Kaushik Patel</p>
+        <p class="font-bold">Chief Commercial Officer</p>
       </div>
       <div class="4xl:text-2xl text-xl">
         <img class="mb-3" src="{{ asset('image/Ross_team.jpg') }}">
@@ -97,9 +97,9 @@
         <p class="font-bold">Senior Manager – UK Specialist Supply Chain (Retail Pharmacy)</p>
       </div>
       <div class="4xl:text-2xl text-xl">
-        <img class="mb-3" src="{{ asset('image/Amy_team.jpg') }}">
-        <p class="text-lochmara font-bold mb-1.5">Amy Searle</p>
-        <p class="font-bold">Regulatory Lead, Responsible Person</p>
+        <img class="mb-3" src="{{ asset('image/Giles-team.jpg') }}">
+        <p class="text-lochmara font-bold mb-1.5">Giles Holford</p>
+        <p class="font-bold">Head of Sexual Health Supply</p>
       </div>
     </div>
     <div class="text-center lg:my-40 mt-16 mb-20">

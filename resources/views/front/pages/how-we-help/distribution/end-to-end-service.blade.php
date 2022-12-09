@@ -116,11 +116,11 @@
         <p class="text-lochmara font-bold mb-1.5">Nicole Lyons</p>
         <p class="font-bold">Regulatory Director</p>
       </div>
-      <div class="4xl:text-2xl text-xl">
+      {{--<div class="4xl:text-2xl text-xl">
         <img class="mb-3" src="{{ asset('image/Amy-team.jpg') }}">
         <p class="text-lochmara font-bold mb-1.5">Amy Searle</p>
         <p class="font-bold">Project Manager</p>
-      </div>
+      </div>--}}
       <div class="4xl:text-2xl text-xl">
         <img class="mb-3" src="{{ asset('image/Maysa-team.jpg') }}">
         <p class="text-lochmara font-bold mb-1.5">Maysa Gamal</p>

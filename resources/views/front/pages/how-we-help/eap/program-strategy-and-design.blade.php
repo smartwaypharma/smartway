@@ -142,11 +142,11 @@
         <p class="text-lochmara leading-37px font-bold mb-1">Maysa Gamal</p>
         <p class="font-bold">Regional Sales Manager – MENA region</p>
       </div>
-      <div class="4xl:text-2xl text-xl">
+      {{--<div class="4xl:text-2xl text-xl">
         <img class="lg:mb-3 mb-2" src="{{ asset('image/Amy-team.jpg') }}">
         <p class="text-lochmara leading-37px font-bold mb-1">Amy Searle</p>
         <p class="font-bold">Project Manager</p>
-      </div>
+      </div>--}}
     </div>
     <div class="text-center lg:my-40 mt-16 mb-20">
       <a href="{{ route('connect-with-us') }}" class="button 4xl:text-28px lg:text-xl text-2xl font-semibold bg-persian-green text-white rounded-full 4xl:py-5 py-3 4xl:px-16 px-10 block sm:inline-block">Talk to the team</a>
