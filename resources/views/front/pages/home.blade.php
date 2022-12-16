@@ -67,9 +67,9 @@
                 Over two decades of focused expertise.
               </p>
               <div class="sm:block hidden">
-                <a href="#trigger1" class="block anchor" id="heading1">Early Access Programs</a>
+                <a href="#trigger1" class="block anchor" id="heading1">Aid & Development</a>
                 <a href="#trigger2" class="block anchor" id="heading2">Comparator/RLD Supply</a>
-                <a href="#trigger3" class="block anchor" id="heading3">Aid & Development</a>
+                <a href="#trigger3" class="block anchor" id="heading3">Early Access Programs</a>
                 <a href="#trigger4" class="block anchor" id="heading4">Hospital &<br> Pharmacy Supply</a>
                 <a href="#trigger5" class="block anchor" id="heading5">International Supply & <br> Unlicensed
                   Imports</a>
@@ -80,35 +80,7 @@
           </div>
           <div class="lg:pt-136px pt-28 lg:pl-8 pl-4 relative">
             <div class="lg:block hidden marker-line"></div>
-            <div id="trigger1" class="lg:pt-20">
-              <p class="heading 4xl:text-34px lg:text-2xl text-22px font-bold lg:mb-3 mb-7">Early Access
-                Programs (EAP)</p>
-              <p class="4xl:text-42px lg:text-2xl text-22px 4xl:leading-none lg:leading-32px leading-28px quarto-font lg:mb-20 mb-3 4xl:-mr-4">
-                We’ll partner with innovative Pharma and Biotech companies to design and manage global Early Access,
-                Expanded Access, Named Patient and Compassionate Use Programs.
-              </p>
-              <a class="4xl:text-2xl text-md font-bold flex items-center" href="{{ route('how-we-help.eap.index') }}">
-                <img class="inline 4xl:w-auto 4xl:h-auto w-5 h-5 mr-3" src="{{ asset('image/icon/icn-white.svg') }}">Explore
-                more</a>
-
-              <img class="mt-5 lg:w-auto sm:w-3/4" src="{{ asset('image/EAP.jpg') }}">
-            </div>
-            <div id="trigger2" class="lg:pt-40 pt-20">
-              <p class="heading 4xl:text-34px lg:text-2xl text-22px font-bold lg:mb-3 mb-7">
-                Comparator/RLD Supply
-              </p>
-              <p class="4xl:text-42px lg:text-2xl text-22px 4xl:leading-none lg:leading-32px leading-28px quarto-font lg:mb-20 mb-3">
-                We support manufacturers, CROs and CDMOs
-                with supply of comparator,
-                RLDs, samples and biosimilar samples.
-              </p>
-              <a class="4xl:text-2xl text-md font-bold flex items-center" href="{{ route('how-we-help.cts.index') }}">
-                <img class="inline 4xl:w-auto 4xl:h-auto w-5 h-5 mr-3" src="{{ asset('image/icon/icn-white.svg') }}">Explore
-                more</a>
-
-              <img class="mt-5 lg:w-auto sm:w-3/4" src="{{ asset('/image/hero-cts.jpg') }}">
-            </div>
-            <div id="trigger3" class="lg:pt-40 pt-20">
+            <div id="trigger1" class="lg:pt-40 pt-20">
               <p class="heading 4xl:text-34px lg:text-2xl text-22px font-bold lg:mb-3 mb-7">
                 Aid & Development
               </p>
@@ -125,6 +97,34 @@
                 more</a>
 
               <img class="mt-5 lg:w-auto sm:w-3/4" src="{{ asset('image/Aid_Dev.jpg') }}">
+            </div>
+            <div id="trigger2" class="lg:pt-40 pt-20">
+              <p class="heading 4xl:text-34px lg:text-2xl text-22px font-bold lg:mb-3 mb-7">
+                Comparator/RLD Supply
+              </p>
+              <p class="4xl:text-42px lg:text-2xl text-22px 4xl:leading-none lg:leading-32px leading-28px quarto-font lg:mb-20 mb-3">
+                We support manufacturers, CROs and CDMOs
+                with supply of comparator,
+                RLDs, samples and biosimilar samples.
+              </p>
+              <a class="4xl:text-2xl text-md font-bold flex items-center" href="{{ route('how-we-help.cts.index') }}">
+                <img class="inline 4xl:w-auto 4xl:h-auto w-5 h-5 mr-3" src="{{ asset('image/icon/icn-white.svg') }}">Explore
+                more</a>
+
+              <img class="mt-5 lg:w-auto sm:w-3/4" src="{{ asset('/image/hero-cts.jpg') }}">
+            </div>
+            <div id="trigger3" class="lg:pt-20">
+              <p class="heading 4xl:text-34px lg:text-2xl text-22px font-bold lg:mb-3 mb-7">Early Access
+                Programs (EAP)</p>
+              <p class="4xl:text-42px lg:text-2xl text-22px 4xl:leading-none lg:leading-32px leading-28px quarto-font lg:mb-20 mb-3 4xl:-mr-4">
+                We’ll partner with innovative Pharma and Biotech companies to design and manage global Early Access,
+                Expanded Access, Named Patient and Compassionate Use Programs.
+              </p>
+              <a class="4xl:text-2xl text-md font-bold flex items-center" href="{{ route('how-we-help.eap.index') }}">
+                <img class="inline 4xl:w-auto 4xl:h-auto w-5 h-5 mr-3" src="{{ asset('image/icon/icn-white.svg') }}">Explore
+                more</a>
+
+              <img class="mt-5 lg:w-auto sm:w-3/4" src="{{ asset('image/EAP.jpg') }}">
             </div>
             <div id="trigger4" class="lg:pt-40 pt-20">
               <p class="heading 4xl:text-34px lg:text-2xl text-22px font-bold lg:mb-3 mb-7">
