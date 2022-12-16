@@ -4,7 +4,7 @@
       <div class="flex justify-between">
         <div class="flex space-x-4">
           <a href="{{ route('home') }}">
-            <img class="4xl:w-full md:w-64 w-32 ml-2" src="{{ asset('image/Smartway_main_logo.svg') }}" alt="Logo">
+            <img class="4xl:w-full md:w-64 w-32 ml-2" src="{{ asset('image/Smartway_Christmas_Logo.svg') }}" alt="Logo">
           </a>
         </div>
         <div class="hidden lg:flex items-center space-x-1 text-white -mb-4">
@@ -35,9 +35,9 @@
               class="dropdown 3xl:p-4 p-3 sm:text leading-40px relative {{ str_starts_with(request()->route()->getPrefix(), 'how-we-help') ? 'active' : '' }}">
             <span>How we help</span>
             <ul class="dropdown-menu text-lg bg-persian-green absolute px-5 py-6 rounded-lg">
-              <li><a href="{{ route('how-we-help.eap.index') }}">Early Access Programs</a></li>
-              <li><a href="{{ route('how-we-help.cts.index') }}">Comparator/RLD Supply</a></li>
               <li><a href="{{ route('how-we-help.aid-dev.index') }}">Aid & Development</a></li>
+              <li><a href="{{ route('how-we-help.cts.index') }}">Comparator/RLD Supply</a></li>
+              <li><a href="{{ route('how-we-help.eap.index') }}">Early Access Programs</a></li>
               <li><a href="{{ route('how-we-help.hospital-and-pharmacy-supply.index') }}">Hospital & Pharmacy Supply</a></li>
               <li><a href="{{ route('how-we-help.international-supply-and-unlicensed-imports.index') }}">International
                   Supply & Unlicensed Imports</a></li>
@@ -112,9 +112,9 @@
             class="dropdown mb-18px relative">
           <span>How we help</span>
           <ul class="dropdown-menu px-5 pt-10 pb-4 hidden">
-            <li class="mb-18px"><a href="{{ route('how-we-help.eap.index') }}">Early Access Programs</a></li>
-            <li class="mb-18px"><a href="{{ route('how-we-help.cts.index') }}">Comparator/RLD Supply</a></li>
             <li class="mb-18px"><a href="{{ route('how-we-help.aid-dev.index') }}">Aid & Development</a></li>
+            <li class="mb-18px"><a href="{{ route('how-we-help.cts.index') }}">Comparator/RLD Supply</a></li>
+            <li class="mb-18px"><a href="{{ route('how-we-help.eap.index') }}">Early Access Programs</a></li>
             <li class="mb-18px"><a href="{{ route('how-we-help.hospital-and-pharmacy-supply.index') }}">Hospital & Pharmacy Supply</a></li>
 
             <li class="mb-18px"><a href="{{ route('how-we-help.international-supply-and-unlicensed-imports.index') }}">International
