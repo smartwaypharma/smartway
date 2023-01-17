@@ -237,14 +237,14 @@
         </div>
       </div>
       <div class="overflow-hidden js-team-modal-open cursor-pointer md:w-full sm:w-3/4"
-           data-modal="andrewModal" data-slide="15">
+           data-modal="miralModal" data-slide="15">
         <div class="4xl:h-581px 2xl:h-520px lg:h-420px md:h-390px">
-          <img class="zoom w-full h-auto" src="{{ asset('image/Andrew.jpg') }}">
+          <img class="zoom w-full h-auto" src="{{ asset('image/Miral.jpg') }}">
         </div>
         <div
             class="bg-lochmara text-white flex flex-col items-center justify-center transform 4xl:h-185px h-120px scale-100 text-center  ">
-          <p class="4xl:text-52px text-28px font-bold leading-none lg:mb-0 mb-2.5 mb-2">Andrew Tunstell</p>
-          <p class="4xl:text-4xl text-2xl font-medium -tracking-0.55px">Regulatory Assistant</p>
+          <p class="4xl:text-52px text-28px font-bold leading-none lg:mb-0 mb-2.5 mb-2">Miral Patel</p>
+          <p class="4xl:text-4xl text-2xl font-medium -tracking-0.55px">Regulatory Lead</p>
         </div>
       </div>
       <div class="overflow-hidden js-team-modal-open cursor-pointer md:w-full sm:w-3/4"
@@ -771,39 +771,31 @@
                        src="{{ asset('image/Maysa-details.jpg') }}">
                 </div>
               </div>
-              {{--16.Andrew--}}
-              <div class="glide__slide bg-spindle pl-20 pr-12 py-5 relative overflow-hidden flex items-center">
+              {{--16.Miral--}}
+              <div class="glide__slide bg-black pl-20 pr-12 py-5 relative overflow-hidden flex items-center text-white">
                 <div>
                   <div class="ml-auto mr-0 relative z-20" style="width: 69%;">
                     <div
                         class="5xl:text-2xl 2xl:text-22px text-xl 5xl:leading-34px 2xl:leading-28px leading-24px font-light">
                       <p class="2xl:mb-9 mb-5">
-                        After studying Chemistry at the University of Nottingham, Andrew joined Smartway immediately
-                        after graduating. He uses his interest in medicinal chemistry and passion for helping patients
-                        in his role as a Regulatory Assistant, working closely with an experienced and supportive
-                        regulatory team.
+                        Miral has an MSc in Pharmaceutical Sciences and experience in community and hospital pharmacy. Since joining Smartway over seven years ago, he has focussed on quality assurance and compliance, becoming a named Responsible Person and Responsible Person (import) in 2020.
                       </p>
                       <p>
-                        Andrew is also focused on keeping our internal systems and processes efficient,
-                        up-to-date, and in-line with new technology – a key element of regulatory compliance and
-                        continually improving quality in everything we do. His important work helps protect the
-                        pharmaceutical supply chain and, ultimately, patients.
+                        Miral has built up an exceptional knowledge of all areas of the business and uses this to assist with new projects and business ideas, advising on improvement strategies carried out in all corners of the globe to ensure compliance is upheld.
                       </p>
                     </div>
                     <div class="pl-28">
                       <img class="mt-8 mb-4" src="{{asset('image/quote-persian-green.svg')}}">
                       <p class="quarto-font 5xl:text-44px 2xl:text-40px text-34px 5xl:leading-53px leading-none">
-                        Working at Smartway is fast-paced, but also supportive. I feel encouraged to further my career
-                        as a regulatory professional, particularly with so much development and recruitment happening at
-                        Smartway.”
+                        I respect the magnitude of research and development that has gone into manufacturing each medicinal product, and the trust patients have in us to deliver quality products. I appreciate being able to link the two together and ensure standards are consistently upheld as Smartway's presence expands across the globe.”
                       </p>
-                      <p class="italic 2xl:text-26px text-2xl font-semibold -tracking-0.55px mt-5">Andrew Tunstell,
+                      <p class="italic 2xl:text-26px text-2xl font-semibold -tracking-0.55px mt-5">Miral Patel,
                         Regulatory
-                        Assistant</p>
+                        Lead</p>
                     </div>
                   </div>
                   <img class="absolute bottom-0 left-0 5xl:h-full 5xl:max-w-55% max-w-47% h-auto w-auto z-0"
-                       src="{{ asset('image/Andrew-details.jpg') }}">
+                       src="{{ asset('image/Miral-details.jpg') }}">
                 </div>
               </div>
               {{--17.Harshad--}}
@@ -1514,11 +1506,11 @@
       </div>
     </div>
   </div>
-  <div id="andrewModal" class="js-team-modal fixed z-999999 inset-0 overflow-y-auto hidden"
+  <div id="miralModal" class="js-team-modal fixed z-999999 inset-0 overflow-y-auto hidden"
        aria-labelledby="modal-title"
        role="dialog"
        aria-modal="true">
-    <div class="flex items-start justify-center min-h-screen text-center bg-spindle">
+    <div class="flex items-start justify-center min-h-screen text-center bg-black text-white">
       <svg style="fill: white;" class="js-modal-close w-6 h-6 absolute top-5 right-5 cursor-pointer z-10"
            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
         <path
@@ -1528,32 +1520,25 @@
           class="inline-block align-bottom text-left transform transition-all sm:align-middle w-full pt-9 pb-16 px-5">
         <p class="text-22px font-semibold text-center text-white">Meet some of our 100+ employees</p>
         <div class="relative">
-          <img class="mx-auto max-w-400px w-full" src="{{ asset('image/Andrew-details.jpg') }}">
-          <div class="h-10 absolute -bottom-1 left-0 right-0"
-               style="background: linear-gradient(180deg, #BED9EF00, #BED9EF80, #BED9EFEB, #BED9EF);"></div>
+          <img class="mx-auto max-w-400px w-full" src="{{ asset('image/Miral-details.jpg') }}">
+          {{--<div class="h-10 absolute -bottom-1 left-0 right-0"
+               style="background: linear-gradient(180deg, #BED9EF00, #BED9EF80, #BED9EFEB, #BED9EF);"></div>--}}
         </div>
         <div class="text-lg leading-24px mt-8">
           <p class="mb-6">
-            After studying Chemistry at the University of Nottingham, Andrew joined Smartway immediately after
-            graduating. He uses his interest in medicinal chemistry and passion for helping patients in his role as a
-            Regulatory Assistant, working closely with an experienced and supportive regulatory team.
+            Miral has an MSc in Pharmaceutical Sciences and experience in community and hospital pharmacy. Since joining Smartway over seven years ago, he has focussed on quality assurance and compliance, becoming a named Responsible Person and Responsible Person (import) in 2020.
           </p>
           <p>
-            Andrew is also
-            focused on keeping our internal systems and processes efficient, up-to-date, and in-line with new technology
-            – a key element of regulatory compliance and continually improving quality in everything we do. His
-            important work helps protect the pharmaceutical supply chain and, ultimately, patients.
+            Miral has built up an exceptional knowledge of all areas of the business and uses this to assist with new projects and business ideas, advising on improvement strategies carried out in all corners of the globe to ensure compliance is upheld.
           </p>
         </div>
         <img class="my-8" src="{{asset('image/quote-persian-green.svg')}}">
         <p class="quarto-font text-34px leading-40px -mr-1">
-          Working at Smartway is fast-paced, but also supportive. I feel encouraged to further
-          <span class="block">my career as a regulatory</span>
-          professional, particularly with so much development and recruitment happening at Smartway.”
+          I respect the magnitude of research and development that has gone into manufacturing each medicinal product, and the trust patients have in us to deliver quality products. I appreciate being able to link the two together and ensure standards are consistently upheld as Smartway's presence expands across the globe.”
         </p>
         <p class="italic text-22px leading-28px font-semibold -tracking-0.5px mt-5">
-          <span class="block">Andrew Tunstell,</span>
-          <span class="block">Regulatory Assistant</span>
+          <span class="block">Miral Patel,</span>
+          <span class="block">Regulatory Lead</span>
         </p>
       </div>
     </div>
