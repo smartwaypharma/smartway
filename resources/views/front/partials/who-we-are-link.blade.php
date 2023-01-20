@@ -3,13 +3,14 @@
     <div class="lg:grid grid-cols-2 gap-20">
       <div class="flex items-center 4xl:justify-center lg:justify-end justify-center lg:mb-0 mb-12">
         <p class="4xl:text-64px lg:text-44px text-38px quarto-font 4xl:leading-70px lg:leading-48px leading-41px sm:pr-0 pr-14">
-          <span class="lg:block hidden">Please take a</span>
-          <span class="lg:block hidden">look at how</span>
-          <span class="lg:block hidden">else we can</span>
-          <span class="lg:block hidden">help you.</span>
-          <span class="lg:hidden">Please take a look at</span>
-          <span class="lg:hidden">how else we can</span>
-          <span class="lg:hidden">help you</span>
+          <span class="lg:block hidden">Please look at</span>
+          <span class="lg:block hidden">our other pages</span>
+          <span class="lg:block hidden">to learn more</span>
+          <span class="lg:block hidden">about us.</span>
+          <span class="lg:hidden">Please look at</span>
+          <span class="lg:hidden">our other pages</span>
+          <span class="lg:hidden">to learn more</span>
+          <span class="lg:hidden">about us.</span>
         </p>
       </div>
       <div class="4xl:text-2xl sm:text-lg text-xl font-bold flex items-center -tracking-0.5px">
