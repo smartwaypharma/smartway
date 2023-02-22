@@ -45,10 +45,16 @@ class WhoWeAreController extends Controller
         return view('front.pages.who-we-are.social-responsibility');
     }
 
-    public function UKRegulatoryAssistantApplication()
+    /*public function UKRegulatoryAssistantApplication()
     {
         return view('front.pages.who-we-are.uk-regulatory-assistant-application');
+    }*/
+
+    public function BilingualCustomerServiceRepresentative()
+    {
+        return view('front.pages.who-we-are.bilingual-customer-service-representative');
     }
+
     public function ResponsiblePersonApplication()
     {
         return view('front.pages.who-we-are.responsible-person-application');
@@ -88,7 +94,7 @@ class WhoWeAreController extends Controller
         return response()->json(['url' => $file]);
     }
 
-    public function UKRegulatoryAssistantApplicationFormSubmit(Request $request)
+    public function BilingualCustomerServiceRepresentativeSubmit(Request $request)
     {
         $request->validate([
             'name' => 'required',
@@ -113,10 +119,10 @@ class WhoWeAreController extends Controller
         return response()->json(['status' => 'ok']);
     }
 
-    public function UKRegulatoryAssistantUploadFile(Request $request)
+    public function BilingualCustomerServiceUploadFile(Request $request)
     {
         if ($request->hasFile('file')) {
-            $file = $request->file('file')->store('uk-regulatory-assistant-files', 'public');
+            $file = $request->file('file')->store('bilingual-customer-service-files', 'public');
         }
 
         return response()->json(['url' => $file]);
