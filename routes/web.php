@@ -98,10 +98,15 @@ Route::group(['prefix' => 'who-we-are', 'as' => 'who-we-are.'] ,function () {
     Route::post('jps-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'jpsApplicationFormSubmit'])->name('jps-application-form.submit');
     Route::post('jps-upload-file', [\App\Http\Controllers\Front\WhoWeAreController::class, 'jpsUploadFile'])->name('jps-upload-file');*/
 
-    // UK Admin Associate
+    /*// UK Admin Associate
     Route::get('uk-regulatory-assistant-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'UKRegulatoryAssistantApplication'])->name('uk-regulatory-assistant-application');
     Route::post('uk-regulatory-assistant-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'UKRegulatoryAssistantApplicationFormSubmit'])->name('uk-regulatory-assistant-application-form.submit');
-    Route::post('uk-regulatory-assistant-upload-file', [\App\Http\Controllers\Front\WhoWeAreController::class, 'UKRegulatoryAssistantUploadFile'])->name('uk-regulatory-assistant-upload-file');
+    Route::post('uk-regulatory-assistant-upload-file', [\App\Http\Controllers\Front\WhoWeAreController::class, 'UKRegulatoryAssistantUploadFile'])->name('uk-regulatory-assistant-upload-file');*/
+
+    // Bilingual Customer Service Representative
+    Route::get('bilingual-customer-service-representative', [\App\Http\Controllers\Front\WhoWeAreController::class, 'BilingualCustomerServiceRepresentative'])->name('bilingual-customer-service-representative');
+    Route::post('bilingual-customer-service-representative', [\App\Http\Controllers\Front\WhoWeAreController::class, 'BilingualCustomerServiceRepresentativeSubmit'])->name('bilingual-customer-service-representative-form.submit');
+    Route::post('bilingual-customer-upload-file', [\App\Http\Controllers\Front\WhoWeAreController::class, 'BilingualCustomerServiceUploadFile'])->name('bilingual-customer-upload-file');
 
     // UK Responsible Person
     Route::get('responsible-person-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'ResponsiblePersonApplication'])->name('responsible-person-application');
@@ -119,6 +124,9 @@ Route::get('connect-with-us', [\App\Http\Controllers\Front\ConnectWithUsControll
 Route::post('connect-with-us', [\App\Http\Controllers\Front\ConnectWithUsController::class, 'submit'])->name('connect-with-us-form.submit');
 Route::post('smartnote-download', [\App\Http\Controllers\Front\PostController::class, 'smartnoteDownload'])->name('smartnote.download');
 Route::post('post-download', [\App\Http\Controllers\Front\PostController::class, 'postDownload'])->name('post.download');
+Route::post('enquiry-save', [\App\Http\Controllers\Front\PostController::class, 'enquiry'])->name('enquiry.save');
+
+
 
 Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => 'auth'] ,function () {
     Route::get('/dashboard', function () {
@@ -136,4 +144,5 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => 'auth'] ,fu
     Route::get('post/{id}/edit', \App\Http\Livewire\EditPost::class)->name('post.edit');
     Route::get('smartnotes-form-data', \App\Http\Livewire\SmartNotesFormDataTable::class)->name('smartnotes-form-data');
     Route::get('contact-form-data', \App\Http\Livewire\ContactUsFormDataTable::class)->name('contact-form-data');
+    Route::get('enquiry', \App\Http\Livewire\EnquiryTable::class)->name('enquiry');
 });
