@@ -47,10 +47,10 @@
                                     <li class="pt-1">Promote the company's brand</li>
                                 </ul>
                             </li>
-                            <li class="pt-1">Process and follow quotes
+                            <li class="pt-1">Process and follow up quotes
                                 <ul class="mt-3">
-                                    <li class="pt-1">Issue quotes to costumers</li>
-                                    <li class="pt-1">Follow up quotes with costumers</li>
+                                    <li class="pt-1">Issue quotes to customers</li>
+                                    <li class="pt-1">Follow up quotes with customers</li>
                                     <li class="pt-1">Track and report quote conversion rate</li>
                                 </ul>
                             </li>
