@@ -117,14 +117,14 @@
         <p class="text-lochmara font-bold mb-1.5">Miral Patel</p>
         <p class="font-bold">Regulatory Lead</p>
       </div>
-      <div class="4xl:text-2xl text-xl">
+     {{-- <div class="4xl:text-2xl text-xl">
         <img class="mb-3" src="{{ asset('image/Ross-team.png') }}">
         <p class="text-lochmara font-bold mb-1.5">Ross Hemson</p>
         <p class="font-bold">
           <span class="block">Associate Account Director</span>
           <span class="block">Aid & Development</span>
         </p>
-      </div>
+      </div>--}}
     </div>
     <div class="text-center lg:my-40 mt-16 mb-20">
       <a href="{{ route('connect-with-us') }}"

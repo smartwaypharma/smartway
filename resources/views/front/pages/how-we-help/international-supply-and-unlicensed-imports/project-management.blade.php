@@ -103,11 +103,11 @@
         <p class="font-bold">Senior Account Manager – N. America, Asia, Australasia</p>
       </div>
 
-      <div class="4xl:text-2xl text-xl">
+      {{--<div class="4xl:text-2xl text-xl">
         <img class="mb-3" src="{{ asset('image/Ross_team.jpg') }}">
         <p class="text-lochmara font-bold mb-1.5">Ross Hemson</p>
         <p class="font-bold">Associate Account Director – Low & Middle Income Countries</p>
-      </div>
+      </div>--}}
       <div class="4xl:text-2xl text-xl">
         <img class="mb-3" src="{{asset('image/Jigar-team.jpg')}}">
         <p class="text-lochmara font-bold mb-1.5">Jigar Sharma</p>

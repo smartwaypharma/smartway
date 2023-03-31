@@ -317,11 +317,11 @@
         <p class="text-lochmara font-bold mb-1.5">Giles Holford</p>
         <p class="font-bold">Head of Sexual Health</p>
       </div>
-      <div class="4xl:text-2xl text-xl">
+      {{--<div class="4xl:text-2xl text-xl">
         <img class="mb-3" src="{{ asset('image/Sharan-team.jpg') }}">
         <p class="text-lochmara font-bold mb-1.5">Sharan Sanghera</p>
         <p class="font-bold">Senior Procurement Manager</p>
-      </div>
+      </div>--}}
       <div class="4xl:text-2xl text-xl">
         <img class="mb-3" src="{{ asset('image/Miral-team.jpg') }}">
         <p class="text-lochmara font-bold mb-1.5">Miral Patel</p>
