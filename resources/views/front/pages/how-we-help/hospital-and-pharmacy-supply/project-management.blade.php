@@ -86,11 +86,11 @@
         <p class="text-lochmara font-bold mb-1.5">Kaushik Patel</p>
         <p class="font-bold">Chief Commercial Officer</p>
       </div>
-      <div class="4xl:text-2xl text-xl">
+      {{--<div class="4xl:text-2xl text-xl">
         <img class="mb-3" src="{{ asset('image/Ross_team.jpg') }}">
         <p class="text-lochmara font-bold mb-1.5">Ross Hemson</p>
         <p class="font-bold">Associate Account Director – Low & Middle Income Countries</p>
-      </div>
+      </div>--}}
       <div class="4xl:text-2xl text-xl">
         <img class="mb-3" src="{{ asset('image/Ritesh-team.jpg') }}">
         <p class="text-lochmara font-bold mb-1.5">Ritesh Patel</p>

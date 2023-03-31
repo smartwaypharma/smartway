@@ -186,7 +186,7 @@
           <p class="4xl:text-4xl text-2xl font-medium -tracking-0.55px">Project Manager</p>
         </div>
       </div>
-      <div class="overflow-hidden js-team-modal-open cursor-pointer md:w-full sm:w-3/4" data-modal="rossModal"
+      {{--<div class="overflow-hidden js-team-modal-open cursor-pointer md:w-full sm:w-3/4" data-modal="rossModal"
            data-slide="11">
         <div class="4xl:h-581px 2xl:h-520px lg:h-420px md:h-390px">
           <img class="zoom w-full h-auto" src="{{ asset('image/Ross.jpg') }}">
@@ -199,7 +199,7 @@
             <span class="block">Aid & Development</span>
           </p>
         </div>
-      </div>
+      </div>--}}
       <div class="overflow-hidden js-team-modal-open cursor-pointer md:w-full sm:w-3/4" data-modal="annaModal"
            data-slide="12">
         <div class="4xl:h-581px 2xl:h-520px lg:h-420px md:h-390px">
@@ -640,7 +640,7 @@
                 </div>
               </div>
               {{--12.Ross--}}
-              <div class="glide__slide bg-french-gray pl-20 pr-10 py-5 relative overflow-hidden flex items-center">
+              {{--<div class="glide__slide bg-french-gray pl-20 pr-10 py-5 relative overflow-hidden flex items-center">
                 <div>
                   <div class="ml-auto mr-0 relative z-20" style="width: 67%;">
                     <div
@@ -675,7 +675,7 @@
                   <img class="absolute bottom-0 left-0 5xl:h-full 5xl:max-w-55% max-w-47% h-auto w-auto z-0"
                        src="{{ asset('image/Ross-details.jpg') }}">
                 </div>
-              </div>
+              </div>--}}
               {{--13.Anna--}}
               <div class="glide__slide bg-spindle pl-20 pr-6 py-5 relative overflow-hidden flex items-center">
                 <div>
@@ -1340,7 +1340,7 @@
       </div>
     </div>
   </div>
-  <div id="rossModal" class="js-team-modal fixed z-999999 inset-0 overflow-y-auto hidden" aria-labelledby="modal-title"
+  {{--<div id="rossModal" class="js-team-modal fixed z-999999 inset-0 overflow-y-auto hidden" aria-labelledby="modal-title"
        role="dialog"
        aria-modal="true">
     <div class="flex items-start justify-center min-h-screen text-center bg-french-gray">
@@ -1385,7 +1385,7 @@
         </p>
       </div>
     </div>
-  </div>
+  </div>--}}
   <div id="annaModal" class="js-team-modal fixed z-999999 inset-0 overflow-y-auto hidden" aria-labelledby="modal-title"
        role="dialog"
        aria-modal="true">
