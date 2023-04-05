@@ -1,3 +1,4 @@
+@@ -1,375 +0,0 @@
 @extends('layouts.front')
 
 @section('meta')
@@ -9,7 +10,7 @@
   <img class="hidden sm:inline-block w-full" src="{{ asset('/image/hero-hospital-pharmacy.jpg') }}">
   <img class="inline-block sm:hidden w-full" src="{{ asset('/image/hero-hospital-pharmacy-mobile.jpg') }}">
   <div class="gray-radial-gradient opacity-60 absolute top-0 bottom-0 right-0 left-0"></div>
-  <div class="container 3xl:max-w-3xl absolute heading text-white lg:px-36 px-4">
+  <div class="container 3xl:max-w-3xl absolute heading text-white lg:px-36 px-4 mt-16">
     <h1 class="quarto-font 4xl:text-120px xl:text-85px md:text-6xl sm:text-4xl text-42px leading-none mb-3">
       Hospital & Pharmacy Supply
     </h1>
@@ -40,19 +41,19 @@
         <ul class="font-semibold 4xl:text-32px text-2xl lg:-tracking-0.8px -tracking-0.4px">
           <li class="flex lg:items-center items-baseline">
             <div class="h-14px w-14px bg-persian-green rounded-full ml-3 mr-5"></div>
-              Shortage & Emergency Supply
+            Shortage & Emergency Supply
           </li>
           <li class="4xl:my-11 my-5 flex lg:items-center items-baseline">
             <div class="h-14px w-14px bg-persian-green rounded-full ml-3 mr-5"></div>
-              Imports to UK & UAE
+            Imports to UK & UAE
           </li>
           <li class="4xl:my-11 my-5 flex lg:items-center items-baseline">
             <div class="h-14px w-14px bg-persian-green rounded-full ml-3 mr-5"></div>
-              Unlicensed medicines
+            Unlicensed medicines
           </li>
           <li class="4xl:my-11 my-5 flex lg:items-center items-baseline">
             <div class="h-14px w-14px bg-persian-green rounded-full ml-3 mr-5"></div>
-              Specials
+            Specials
           </li>
           <li class="4xl:my-11 my-5 flex lg:items-center items-baseline">
             <div class="h-14px w-14px bg-persian-green rounded-full ml-3 mr-5"></div>
@@ -159,7 +160,7 @@
         <div class="glide__track" data-glide-el="track">
           <div class="glide__slides">
             <div
-                class="glide__slide bg-alabaster bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-5 mr-6">
+                    class="glide__slide bg-alabaster bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-5 mr-6">
               <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5"
                    src="{{ asset('image/isui-icn1.svg') }}"/>
               <p class="font-bold leading-tight mb-10">
@@ -170,7 +171,7 @@
               </p>
             </div>
             <div
-                class="glide__slide bg-alabaster bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4 mr-6">
+                    class="glide__slide bg-alabaster bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4 mr-6">
               <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5"
                    src="{{ asset('image/isui-icn2.svg') }}"/>
               <p class="font-bold leading-tight mb-3 px-6">
@@ -181,7 +182,7 @@
               </p>
             </div>
             <div
-                class="glide__slide bg-alabaster bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4 mr-6">
+                    class="glide__slide bg-alabaster bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4 mr-6">
               <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5"
                    src="{{ asset('image/isui-icn3.svg') }}"/>
               <p class="font-bold leading-tight mb-3">
@@ -195,7 +196,7 @@
               </p>
             </div>
             <div
-                class="glide__slide bg-alabaster bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4 mr-6">
+                    class="glide__slide bg-alabaster bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4 mr-6">
               <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5"
                    src="{{ asset('image/isui-icn4.svg') }}"/>
               <p class="font-bold leading-tight mb-10">
@@ -206,7 +207,7 @@
               </p>
             </div>
             <div
-                class="glide__slide bg-alabaster bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4 mr-6">
+                    class="glide__slide bg-alabaster bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4 mr-6">
               <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5"
                    src="{{ asset('image/isui-icn5.svg') }}"/>
               <p class="font-bold leading-tight mb-10">
@@ -249,7 +250,7 @@
         </div>
         <a class="4xl:text-2xl xl:text-xl text-md font-bold flex items-center"
            href="{{ route('how-we-help.hospital-and-pharmacy-supply.reliable-supply') }}"><img
-              class="inline mr-4" src="{{ asset('image/icon/icn.svg') }}">Explore
+                  class="inline mr-4" src="{{ asset('image/icon/icn.svg') }}">Explore
           more</a>
       </div>
       <div class="xl:flex hidden items-center">
@@ -319,8 +320,8 @@
         </div>
         <a class="4xl:text-2xl xl:text-xl text-md font-bold flex items-centerr"
            href="{{ route('how-we-help.hospital-and-pharmacy-supply.project-management') }}"><img
-              class="inline mr-4"
-              src="{{ asset('image/icon/icn.svg') }}">Explore
+                  class="inline mr-4"
+                  src="{{ asset('image/icon/icn.svg') }}">Explore
           more</a>
       </div>
 
@@ -371,5 +372,5 @@
 @endsection
 
 @push('scripts')
-  <script src="{{ mix('js/why-partner-slider.js') }}" defer></script>
+<script src="{{ mix('js/why-partner-slider.js') }}" defer></script>
 @endpush
