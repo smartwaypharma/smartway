@@ -1,4 +1,3 @@
-@@ -1,375 +0,0 @@
 @extends('layouts.front')
 
 @section('meta')
