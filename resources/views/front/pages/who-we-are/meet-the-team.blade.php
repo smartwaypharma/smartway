@@ -162,18 +162,7 @@
           <p class="4xl:text-4xl text-2xl font-medium -tracking-0.55px">Head of Sexual Health</p>
         </div>
       </div>
-      <div class="overflow-hidden js-team-modal-open cursor-pointer md:w-full sm:w-3/4"
-           data-modal="andreModal"
-           data-slide="9">
-        <div class="4xl:h-581px 2xl:h-520px lg:h-420px md:h-390px">
-          <img class="zoom w-full h-auto" src="{{ asset('image/Andre.jpg') }}">
-        </div>
-        <div
-                class="bg-lochmara text-white flex flex-col items-center justify-center transform 4xl:h-185px h-120px scale-100 text-center  ">
-          <p class="4xl:text-52px text-28px font-bold leading-none lg:mb-0 mb-2.5 mb-2">Andre Censi</p>
-          <p class="4xl:text-4xl text-2xl font-medium -tracking-0.55px">Global Sales Director</p>
-        </div>
-      </div>
+
       <div class="overflow-hidden js-team-modal-open cursor-pointer md:w-full sm:w-3/4"
            data-modal="judithModal"
            data-slide="10">
@@ -578,32 +567,7 @@
                        src="{{ asset('image/Giles-details.jpg') }}">
                 </div>
               </div>
-              {{--10.Andre--}}
-              <div class="glide__slide bg-spindle pl-20 pr-6 py-5 relative overflow-hidden flex items-center">
-                <div>
-                  <div class="ml-auto mr-0 relative z-20" style="width: 70%;">
-                    <div
-                            class="5xl:text-2xl 2xl:text-22px text-xl 5xl:leading-34px 2xl:leading-28px leading-24px font-light -tracking-0.5px">
-                      <p class="2xl:mb-9 mb-5">
-                        Since starting in unlicensed medicines over a decade ago, Andre has spearheaded numerous Hospital Market Entry projects and access routes in countries where direct to hospital isn’t possible. He brings a uniquely global perspective, not just managing shortages in Europe and the UK, but also unlicensed medicines and contract licensing in Latin America.
-                      </p>
-                      <p>
-                        As our Global Sales Director working closely with our COO, Andre is a patient-centric, ethically-minded leader to define and deliver our global sales strategy. Throughout, he leverages his unparalleled knowledge in unlicensed medicines to solve complex challenges for our customers worldwide.
-                      </p>
-                    </div>
-                    <div class="pl-28 pr-12">
-                      <img class="mt-8 mb-4" src="{{asset('image/quote-persian-green.svg')}}">
-                      <p class="quarto-font 5xl:text-44px 2xl:text-40px text-34px 5xl:leading-53px leading-none">
-                        The medicines supply chain is often really complex and, throughout my experience, my passion has been solving those big challenges. I look for ways to get patients what they need – and go above and beyond to add value wherever I can.”
-                      </p>
-                      <p class="italic 2xl:text-26px text-2xl font-semibold -tracking-0.55px mt-5">Andre Censi,
-                        Global Sales Director</p>
-                    </div>
-                  </div>
-                  <img class="absolute bottom-0 left-0 5xl:h-full 5xl:max-w-55% max-w-47% h-auto w-auto z-0"
-                       src="{{ asset('image/Andre_detail.jpg') }}">
-                </div>
-              </div>
+
               {{--11.Judith--}}
               <div class="glide__slide bg-midnight text-white pl-20 pr-16 py-5 relative overflow-hidden flex items-center">
                 <div>
@@ -1259,43 +1223,7 @@
       </div>
     </div>
   </div>
-  <div id="andreModal" class="js-team-modal fixed z-999999 inset-0 overflow-y-auto hidden"
-       aria-labelledby="modal-title"
-       role="dialog"
-       aria-modal="true">
-    <div class="flex items-start justify-center min-h-screen text-center bg-spindle">
-      <svg style="fill: white;" class="js-modal-close w-6 h-6 absolute top-5 right-5 cursor-pointer z-10"
-           xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-        <path
-                d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"></path>
-      </svg>
-      <div
-              class="inline-block align-bottom text-left transform transition-all sm:align-middle w-full pt-9 pb-16 px-5">
-        <p class="text-22px font-semibold text-center text-white">Meet some of our 100+ employees</p>
-        <div class="relative -mr-20 pr-5">
-          <img class="mx-auto max-w-400px w-full" src="{{ asset('image/Andre_detail.jpg') }}">
-          <div class="h-10 absolute bottom-0 left-0 right-0"
-               style="background: linear-gradient(180deg, #BED9EF00, #BED9EF80, #BED9EFEB, #BED9EF);"></div>
-        </div>
-        <div class="text-lg leading-24px mt-8">
-          <p class="mb-6">
-            Since starting in unlicensed medicines over a decade ago, Andre has spearheaded numerous Hospital Market Entry projects and access routes in countries where direct to hospital isn’t possible. He brings a uniquely global perspective, not just managing shortages in Europe and the UK, but also unlicensed medicines and contract licensing in Latin America.
-          </p>
-          <p>
-            As our Global Sales Director working closely with our COO, Andre is a patient-centric, ethically-minded leader to define and deliver our global sales strategy. Throughout, he leverages his unparalleled knowledge in unlicensed medicines to solve complex challenges for our customers worldwide.
-          </p>
-        </div>
-        <img class="my-8" src="{{asset('image/quote-persian-green.svg')}}">
-        <p class="quarto-font text-34px leading-40px">
-          The medicines supply chain is often really complex and, throughout my experience, my passion has been solving those big challenges. I look for ways to get patients what they need – and go above and beyond to add value wherever I can.”
-        </p>
-        <p class="italic text-22px leading-28px font-semibold -tracking-0.5px mt-5">
-          <span class="block">Andre Censi,</span>
-          <span class="block">Global Sales Director</span>
-        </p>
-      </div>
-    </div>
-  </div>
+
   <div id="judithModal" class="js-team-modal fixed z-999999 inset-0 overflow-y-auto hidden"
        aria-labelledby="modal-title"
        role="dialog"

@@ -77,11 +77,6 @@
         <p class="font-bold">Pharmacist – Regional Director - MENA</p>
       </div>
       <div class="4xl:text-2xl text-xl">
-        <img class="mb-3" src="{{ asset('image/Andre_Censi.jpeg') }}">
-        <p class="text-lochmara font-bold mb-1.5">Andre Censi</p>
-        <p class="font-bold">Global Sales Director – Hospital Supply</p>
-      </div>
-      <div class="4xl:text-2xl text-xl">
         <img class="mb-3" src="{{ asset('image/Kaushik_Patel.jpeg') }}">
         <p class="text-lochmara font-bold mb-1.5">Kaushik Patel</p>
         <p class="font-bold">Chief Commercial Officer</p>
