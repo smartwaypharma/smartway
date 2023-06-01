@@ -30,6 +30,9 @@
           <span class="2xl:block">build and scale a</span>
           <span class="2xl:block">solution together.</span>
         </h2>
+          <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px 4xl:pr-10 lg:mb-5 mb-3 mt-14">To get in touch with our <b>pharmacy</b>, please use the contact <br>details provided below:</p>
+          <p class="text-persian-green 4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px 4xl:pr-10 lg:mb-5 mb-3"><i class="fa fa-envelope"></i> <a href="mailto:info@smartwaypharmacy.co.uk" class="ml-4">info@smartwaypharmacy.co.uk</a></p>
+          <p class="text-persian-green 4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px 4xl:pr-10 lg:mb-5 mb-3"><i class="fa fa-phone"></i> <a class=" ml-4" href="tel:+442085457731">0208 545 7731</a></p>
       </div>
       <div>
         <form class="max-w-xl mx-auto px-4" method="post" action="{{ route('connect-with-us-form.submit') }}">
