@@ -23,7 +23,7 @@
       <img class="inline transform rotate-180 mr-3 w-5 h-5"
            src="{{ asset('image/icon/icn.svg') }}">Back</a>
     <h2 class="quarto-font 4xl:text-93px xl:text-44px text-34px 4xl:leading-102px xl:leading-48px leading-40px sm:mb-12 mb-6 4xl:-mr-4">
-      The Smartway Pharmacy specialises in fulfilling private prescriptions for patients in an efficient and quality
+      <a href="https://smartwaypharmacy.co.uk/" target="_blank" class="underline">Smartway Pharmacy</a> specialises in fulfilling private prescriptions for patients in an efficient and quality
       driven manner. We offer a full home delivery service.
     </h2>
     <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px lg:pr-0 pr-6">

@@ -45,6 +45,9 @@
               <li><a href="{{ route('how-we-help.distribution.index') }}">Specialist Distribution</a></li>
             </ul>
           </div>
+          <div class="3xl:p-4 p-3">
+            <a href="https://smartwaypharmacy.co.uk/" target="_blank">Pharmacy</a>
+          </div>
           <div class="pl-4">
             <a href="{{ route('connect-with-us') }}"
                class="button pt-3 pb-4 px-5 bg-persian-green rounded-full transition duration-300">Connect with
