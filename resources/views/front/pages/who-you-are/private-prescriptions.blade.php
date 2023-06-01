@@ -109,7 +109,7 @@
         </div>
         <p>Once you receive your prescription from your clinician, contact Smartway Pharmacy. We can provide you with
           a quote for your prescription. Either call us on
-          <span class="sm:inline block"><a href="tel:+44 208 545 7718">+44 208 545 7718</a> or
+          <span class="sm:inline block"><a href="tel:+44 208 545 7731">+44 208 545 7731</a> or
           email us on
           <a class="text-lochmara -tracking-0.6px sm:inline block sm:mt-0 lg:mt-4 mt-2"
              href="mailto:info@smartwaypharmacy.co.uk">info@smartwaypharmacy.co.uk</a></span>
@@ -153,7 +153,7 @@
       </div>
       <p class="4xl:text-32px sm:text-xl text-2xl lg:font-normal font-semibold text-center lg:mt-28 mt-6">
         For further details or queries please contact Smartway Pharmacy by phone on
-        <a class="sm:inline block" href="tel:+44 208 545 7718">+44 208 545 7718</a></p>
+        <a class="sm:inline block" href="tel:+44 208 545 7731">+44 208 545 7731</a></p>
     </div>
     <div class="text-center lg:mt-20 mt-20 lg:mb-40 mb-20">
       <a href="{{ route('connect-with-us')}}"

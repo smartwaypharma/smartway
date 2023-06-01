@@ -49,12 +49,12 @@
   <section class="container 3xl:max-w-3xl px-4 xl:mb-40 mb-20">
     <div class="grid xl:grid-cols-2 grid-cols-1 xl:gap-y-40 gap-y-20">
       <div class="xl:flex hidden items-center">
-        <img class="my-auto" src="{{ asset('image/Private_Prescriptions-patients.jpg') }}">
+        <img class="my-auto mt-2" src="{{ asset('image/Private_Prescriptions-patients.jpg') }}">
       </div>
       <div class="xl:pl-28">
         <a href="{{ route('who-you-are.private-prescriptions') }}"
            class="quarto-font 4xl:text-62px text-44px leading-none sm:mr-0 -mr-4 block">
-          The Smartway Pharmacy specialises in fulfilling private prescriptions for patients in an efficient and quality
+          Smartway Pharmacy specialises in fulfilling private prescriptions for patients in an efficient and quality
           driven manner. We offer a full home delivery service.
         </a>
         <img class="xl:hidden 4xl:w-auto sm:w-3/4 my-7" src="{{ asset('image/Private_Prescriptions-patients.jpg') }}">
