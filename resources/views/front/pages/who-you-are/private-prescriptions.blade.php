@@ -152,13 +152,13 @@
         </p>
       </div>
       <p class="4xl:text-32px sm:text-xl text-2xl lg:font-normal font-semibold text-center lg:mt-28 mt-6">
-        For further details or queries please contact Smartway Pharmacy by phone on
-        <a class="sm:inline block" href="tel:+44 208 545 7731">+44 208 545 7731</a></p>
+        For further details or queries, please contact Smartway Pharmacy at
+        <a href="tel:+442085457731" class="underline">+44 208 545 7731</a> or email us.</p>
     </div>
-    <div class="text-center lg:mt-20 mt-20 lg:mb-40 mb-20">
-      <a href="{{ route('connect-with-us')}}"
-         class="button 4xl:text-28px lg:text-xl text-2xl font-semibold bg-persian-green text-white rounded-full 4xl:py-5 py-3 4xl:px-20 px-10 block sm:inline-block">Contact
-        us</a>
+    <div class="text-center lg:my-20 mt-16 mb-20">
+      <a href="https://smartwaypharmacy.co.uk/connect-with-us"
+         class="button 4xl:text-28px lg:text-xl text-2xl font-semibold bg-persian-green text-white rounded-full 4xl:py-5 py-3 4xl:px-20 px-10 block sm:inline-block" target="_blank">Contact
+        Smartway Pharmacy</a>
     </div>
   </section>
 @endsection
