@@ -25,13 +25,10 @@
       <img class="inline transform rotate-180 mr-3 w-5 h-5"
            src="{{ asset('image/icon/icn.svg') }}">Back</a>
     <h2 class="quarto-font 4xl:text-93px xl:text-44px text-34px 4xl:leading-102px xl:leading-48px leading-40px sm:mb-12 mb-6 4xl:-mr-2">
-      The Smartway Pharmacy specialises in fulfilling private prescriptions for patients in an efficient and quality
-      driven manner. We offer a full home delivery service.
+      <a href="https://www.smartwaypharmacy.co.uk/" target="_blank" class="underline">Smartway Pharmacy</a>  specialises in efficiently fulfilling private prescriptions, ensuring high-quality service for patients. We offer a comprehensive home delivery service, ensuring medications reach patients fast and securely.
     </h2>
     <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px 4xl:pr-24 pr-4">
-      A fully licenced UK Pharmacy, we have the strength of our global supply chain giving you the confidence in the
-      supply integrity and passing on the cost savings to the patient. Our continued aim is to deliver exceptional
-      pharmacy services to patients and healthcare professionals across the UK.
+      As a fully licensed UK Pharmacy, we benefit from a robust global supply chain. This enables us to maintain the integrity of our supplies and pass on cost savings to our patients. Our unwavering commitment is to deliver exceptional pharmacy services to patients and healthcare professionals across the UK.
     </p>
     <hr class="h-0.5 bg-black lg:my-36 mt-16 mb-20">
     <div class="lg:grid grid-cols-2">
@@ -41,10 +38,7 @@
             SmartRx</h3>
           <img class="lg:hidden lg:w-auto sm:w-3/4 my-8" src="{{ asset('image/SmartRx.jpg') }}">
           <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px lg:pr-0 pr-1">
-            SmartRx is an e-prescribing module developed by Smartway to enable seamless prescribing of private
-            prescriptions by healthcare practitioners. SmartRx removes the need for hand-written, paper-based
-            prescriptions to be posted to the patient or pharmacy and allows for healthcare practitioners to incorporate
-            the cost of medicines into patient’s treatment plan.
+            SmartRx is an e-prescribing module developed by Smartway to enable seamless prescribing of private prescriptions by healthcare practitioners. It removes the need for hand-written, paper-based prescriptions to be posted to the patient or pharmacy and allows healthcare practitioners to incorporate the cost of medicines into patients' treatment plans.
           </p>
         </div>
       </div>
@@ -57,20 +51,23 @@
         Join SmartRx and discover why healthcare professionals in the UK trust us as their supply chain partner. Once you
         have registered, you will be able to login to your online account and start e-prescribing for your patients.
       </p>
+      <div class="text-center lg:my-20 mt-16 mb-20">
+        <a href="https://www.smartrx.co.uk/"
+           class="button 4xl:text-28px lg:text-xl text-2xl font-semibold bg-persian-green text-white rounded-full 4xl:py-5 py-3 4xl:px-20 px-10 block sm:inline-block" target="_blank">Register with SmartRx</a>
+      </div>
       <p class="lg:mb-5 mb-2">
-        You can also speak with a member of our pharmacy team today on +44 208 545 7731 to discuss the full range of
-        products and services available to you, your clinic, and patients.
+        You can also speak with a member of our pharmacy team today at <a href="tel:+442085457731" class="underline">+44 208 545 7731</a> or by emailing to <a href="mailto:info@smartwaypharmacy.co.uk" class="underline">info@smartwaypharmacy.co.uk</a>  to discuss the full range of products and services available to you, your clinic, and your patients.
       </p>
-      <a class="text-lochmara lg:mb-14 mb-7 block" href="https://www.smartrx.co.uk/" target="_blank">https://www.smartrx.co.uk/</a>
+      {{--<a class="text-lochmara lg:mb-14 mb-7 block" href="https://www.smartrx.co.uk/" target="_blank">https://www.smartrx.co.uk/</a>--}}
       <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px font-bold lg:pr-24">
         Our pharmacy team is available from 9am to 5.30pm. If we are closed and you have an urgent medical query, please
         call 111 for out-of-hours NHS services.
       </p>
     </div>
-    <div class="text-center lg:my-40 mt-16 mb-20">
-      <a href="{{ route('connect-with-us') }}"
-         class="button 4xl:text-28px lg:text-xl text-2xl font-semibold bg-persian-green text-white rounded-full 4xl:py-5 py-3 4xl:px-20 px-10 block sm:inline-block">Contact
-        Us</a>
+    <div class="text-center lg:my-20 mt-16 mb-20">
+      <a href="https://smartwaypharmacy.co.uk/connect-with-us"
+         class="button 4xl:text-28px lg:text-xl text-2xl font-semibold bg-persian-green text-white rounded-full 4xl:py-5 py-3 4xl:px-20 px-10 block sm:inline-block" target="_blank">Contact
+        Smartway Pharmacy</a>
     </div>
   </section>
 @endsection
