@@ -38,11 +38,11 @@
       <div class="lg:pr-10">
         <div>
           <h3 class="4xl:text-32px xl:text-2xl md:text-xl text-22px font-bold mb-6">
-            RXPad</h3>
-          <img class="lg:hidden lg:w-auto sm:w-3/4 my-8" src="{{ asset('image/RXPad.jpg') }}">
+            SmartRx</h3>
+          <img class="lg:hidden lg:w-auto sm:w-3/4 my-8" src="{{ asset('image/SmartRx.jpg') }}">
           <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px lg:pr-0 pr-1">
-            RXPad is an e-prescribing module developed by Smartway to enable seamless prescribing of private
-            prescriptions by healthcare practitioners. RXPad removes the need for hand-written, paper-based
+            SmartRx is an e-prescribing module developed by Smartway to enable seamless prescribing of private
+            prescriptions by healthcare practitioners. SmartRx removes the need for hand-written, paper-based
             prescriptions to be posted to the patient or pharmacy and allows for healthcare practitioners to incorporate
             the cost of medicines into patient’s treatment plan.
           </p>
@@ -54,14 +54,14 @@
     </div>
     <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px lg:mt-20 mt-7">
       <p class="lg:mb-9 mb-6 lg:pr-6 pr-2">
-        Join RXPad and discover why healthcare professionals in the UK trust us as their supply chain partner. Once you
+        Join SmartRx and discover why healthcare professionals in the UK trust us as their supply chain partner. Once you
         have registered, you will be able to login to your online account and start e-prescribing for your patients.
       </p>
       <p class="lg:mb-5 mb-2">
         You can also speak with a member of our pharmacy team today on +44 208 545 7731 to discuss the full range of
         products and services available to you, your clinic, and patients.
       </p>
-      <a class="text-lochmara lg:mb-14 mb-7 block" href="https://www.rxpad.co.uk/">https://www.rxpad.co.uk/</a>
+      <a class="text-lochmara lg:mb-14 mb-7 block" href="https://www.smartrx.co.uk/" target="_blank">https://www.smartrx.co.uk/</a>
       <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px font-bold lg:pr-24">
         Our pharmacy team is available from 9am to 5.30pm. If we are closed and you have an urgent medical query, please
         call 111 for out-of-hours NHS services.
