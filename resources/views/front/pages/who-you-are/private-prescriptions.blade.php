@@ -72,7 +72,7 @@
     </div>
     <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px lg:font-bold lg:pr-5">
       We are committed to making our dispensing procedure efficient by investing in the development of our people and
-      systems. An example of this is the recent launch of our innovative e-prescribing platform, RXPad, which enables
+      systems. An example of this is the recent launch of our innovative e-prescribing platform, SmartRx, which enables
       clinicians to send prescriptions electronically to Smartway Pharmacy, eliminating the need for paper prescriptions
       to be posted to us, enabling patients to receive their medicines faster.
     </p>
