@@ -6,6 +6,7 @@
   <meta name="csrf-token" content="{{ @csrf_token() }}">
   <meta name="google-site-verification" content="Oamekb-kg2TL0a1zpQHfaWkAmRl2kiF9r479bEKHZpk" />
   @yield('meta')
+  <link rel="canonical" href="https://www.smartwaypharma.co.uk">
   <link rel="icon" href="{{ asset('image/favicon.png') }}" sizes="16x16" type="image/png">
   <link rel="stylesheet" href="{{ mix('css/app.css') }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
