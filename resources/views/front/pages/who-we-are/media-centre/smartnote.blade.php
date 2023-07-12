@@ -33,12 +33,12 @@
       {{ $post->title }}</h2>
   </section>
   <section class="container 3xl:max-w-3xl px-4 xl:mt-36">
-    <div class="xl:hidden flex mt-8 mb-9">
+    {{--<div class="xl:hidden flex mt-8 mb-9">
       <img class="mr-5" src="{{ asset('image/icon/fb_icn.svg') }}">
       <img class="mr-5" src="{{ asset('image/icon/twitter_icn.svg') }}">
       <img class="mr-5" src="{{ asset('image/icon/linkedin_icn.svg') }}">
       <img src="{{ asset('image/icon/email_icn.svg') }}">
-    </div>
+    </div>--}}
     <div class="xl:flex">
       <div class="text-center">
         <a href="{{ route('connect-with-us') }}"
@@ -83,12 +83,12 @@
           </div>
         </div>
       </div>
-      <div class="xl:block hidden ml-auto mr-0">
+      {{--<div class="xl:block hidden ml-auto mr-0">
         <img class="mb-4" src="{{ asset('image/icon/fb_icn.svg') }}">
         <img class="mb-4" src="{{ asset('image/icon/twitter_icn.svg') }}">
         <img class="mb-4" src="{{ asset('image/icon/linkedin_icn.svg') }}">
         <img src="{{ asset('image/icon/email_icn.svg') }}">
-      </div>
+      </div>--}}
     </div>
     <hr class="h-0.5 bg-black lg:my-36 my-16">
   </section>
