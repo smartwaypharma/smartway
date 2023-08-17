@@ -5,7 +5,10 @@ namespace App\Http\Controllers\Front;
 use App\Http\Controllers\Controller;
 use App\Mail\SendSmartNote;
 use App\Mail\SendPost;
+use App\Mail\SendEnquiry;
+use App\Mail\SendAutomatedResponse;
 use App\Models\Category;
+use App\Models\EnquiryData;
 use App\Models\Filter;
 use App\Models\Post;
 use App\Models\Settings;
@@ -107,7 +110,7 @@ class PostController extends Controller
             $post->first_post_id,
             $post->second_post_id,
             $post->third_post_id,
-        ]))
+        ]))->orderBy('created_at', 'desc')
             ->get();
 
         return view('front.pages.who-we-are.media-centre.' . $category->slug, compact('post', 'moreArticles'));
@@ -146,5 +149,28 @@ class PostController extends Controller
             ->send(new SendPost($request->all()));
 
         ContactUsFormData::create($request->except('_token'));
+    }
+
+    public function enquiry(Request $request)
+    {
+        $request->validate([
+            'name' => 'required',
+            'email' => 'required|email',
+            'subject' => 'required',
+            'phoneNumber' => 'nullable|phone:AF,AX,AL,DZ,AS,AD,AO,AI,AQ,AG,AR,AM,AW,AU,AT,AZ,BS,BH,BD,BB,BY,BE,BZ,BJ,BM,BT,BO,BA,BW,BV,BR,IO,BN,BG,BF,BI,KH,CM,CA,CV,KY,CF,TD,CL,CN,CX,CC,CO,KM,CG,CD,CK,CR,CI,HR,CU,CY,CZ,DK,DJ,DM,DO,EC,EG,SV,GQ,ER,EE,ET,FK,FO,FJ,FI,FR,GF,PF,TF,GA,GM,GE,DE,GH,GI,GR,GL,GD,GP,GU,GT,GG,GN,GW,GY,HT,HM,VA,HN,HK,HU,IS,IN,ID,IR,IQ,IE,IM,IL,IT,JM,JP,JE,JO,KZ,KE,KI,KR,KW,KG,LA,LV,LB,LS,LR,LY,LI,LT,LU,MO,MK,MG,MW,MY,MV,ML,MT,MH,MQ,MR,MU,YT,MX,FM,MD,MC,MN,ME,MS,MA,MZ,MM,NA,NR,NP,NL,AN,NC,NZ,NI,NE,NG,NU,NF,MP,NO,OM,PK,PW,PS,PA,PG,PY,PE,PH,PN,PL,PT,PR,QA,RE,RO,RU,RW,BL,SH,KN,LC,MF,PM,VC,WS,SM,ST,SA,SN,RS,SC,SL,SG,SK,SI,SB,SO,ZA,GS,ES,LK,SD,SR,SJ,SZ,SE,CH,SY,TW,TJ,TZ,TH,TL,TG,TK,TO,TT,TN,TR,TM,TC,TV,UG,UA,AE,GB,US,UM,UY,UZ,VU,VE,VN,VG,VI,WF,EH,YE,ZM,ZW',
+            'message' => 'required',
+            'regularUpdate' => 'required',
+            'policy' => 'required'
+        ]);
+
+        Mail::to([
+            ['email' => "ulm@smartwaypharma.co.uk"]
+        ])->send(new SendEnquiry($request->all()));
+
+        Mail::to([
+            ['email' => $request['email']]
+        ])->send(new SendAutomatedResponse($request->all()));
+
+       EnquiryData::create($request->except('_token'));
     }
 }
