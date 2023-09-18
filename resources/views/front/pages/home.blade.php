@@ -218,6 +218,25 @@
       @endif
     </section>
   </main>
+  <div class="fixed left-0 top-0 z-999999 h-full w-full overflow-y-auto overflow-x-hidden outline-none hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true" id="expopharm">
+    <div class="fixed inset-0 bg-black opacity-50 transition-opacity"></div>
+    <div class="fixed inset-0 z-10 overflow-y-auto">
+      <div class="sm:w-full sm:max-w-lg h-full flex flex-col items-center justify-center p-4 sm:p-4 mx-auto">
+        <div class="relative transform overflow-hidden rounded-3xl text-center shadow-xl transition-all w-full bg-lochmara border-2">
+          <div class="text-center mt-3 ml-3 mr-3 mb-3">
+            <h1 class="text-21px font-semibold text-white" id="modal-title">Are you going to Expopharm <br/> this September?</h1>
+            <div class="mt-3">
+              <p class="text-sm text-white font-semibold">You can book a one-on-one meeting with our commercial team and explore how we can collaborate and create a profitable partnership that benefits both of our businesses.</p>
+            </div>
+          </div>
+          <div class="sm:px-6 flex items-center justify-center ml-3 mr-3 mb-5">
+            <a type="button" href="https://calendly.com/smartway-commercial/smartway-expopharm23?month=2023-09" class="bg-persian-green text-white rounded-3xl border-2 py-2 px-4 text-xs font-bold mr-2">Book a meeting via Calendly</a>
+            <a type="button" href="#!" class="js-modal-close bg-lochmara text-white rounded-3xl border-2 py-2 px-4 text-xs font-bold">Dismiss</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 @endsection
 
 @push('scripts')
