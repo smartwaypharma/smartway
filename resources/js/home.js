@@ -152,19 +152,19 @@ window.addEventListener("load", function () {
   // });
 
   /*if (document.cookie.indexOf("FooBar=true") == -1) {
-    document.cookie = "FooBar=true; max-age=86400"; // 86400: seconds in a day
-    $('#MyModal').modal('show');
-  }*/
+   document.cookie = "FooBar=true; max-age=86400"; // 86400: seconds in a day
+   $('#MyModal').modal('show');
+   }*/
 
-  setTimeout(function(){
+  /*setTimeout(function(){
     if (document.cookie.indexOf("FooBar=true") == -1) {
-      document.cookie = "FooBar=true; max-age=86400;"; // max-age=86400 86400: seconds in a day
+      document.cookie = "FooBar=true; max-age=86400;";
       $('#expopharm').removeClass("hidden");
     }
   },3000);
 
   $('.js-modal-close').on('click', function () {
     $('#expopharm').addClass('hidden');
-  })
+  })*/
 
 });
