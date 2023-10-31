@@ -77,6 +77,10 @@
           <div class="mr-2.5 4xl:w-19px w-3 4xl:h-19px h-3 rounded-full 4xl:border-6px border-3.5px border-lochmara mt-9 sm:mt-0"></div>
           <a href="{{ asset('pdf/ABC_policy.pdf') }}" target="_blank" class="underline">Download our anti-bribery and corruption policy</a>
         </li>
+        <li class="flex lg:items-center items-baseline mb-4">
+          <div class="mr-2.5 4xl:w-19px w-3 4xl:h-19px h-3 rounded-full 4xl:border-6px border-3.5px border-lochmara mt-9 sm:mt-0"></div>
+          <a href="{{ asset('pdf/Environmental_Social_Corporate_Responsibility.pdf') }}" target="_blank" class="underline">Download our environmental, social, and corporate responsibility statement</a>
+        </li>
       </ul>
       </p>
     </div>
