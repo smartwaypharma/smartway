@@ -23,16 +23,16 @@
     </a>
     <div class="grid lg:grid-cols-2">
       <div>
-        <h2 class="quarto-font 4xl:text-93px xl:text-54px text-4xl 4xl:leading-102px xl:leading-59px leading-40px lg:mb-0 mb-16">
+        <h2 class="quarto-font 4xl:text-93px xl:text-54px text-4xl 4xl:leading-102px xl:leading-59px leading-40px lg:mb-10 mb-16">
           <span class="2xl:block">Let’s talk about</span>
           <span class="2xl:block">your needs, and</span>
           <span class="2xl:block">how we can help</span>
           <span class="2xl:block">build and scale a</span>
           <span class="2xl:block">solution together.</span>
         </h2>
-          <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px 4xl:pr-10 lg:mb-5 mb-3 mt-14">To get in touch with our <b>pharmacy</b>, please use the contact <br>details provided below:</p>
-          <p class="text-persian-green 4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px 4xl:pr-10 lg:mb-5 mb-3"><i class="fa fa-envelope"></i> <a href="mailto:info@smartwaypharmacy.co.uk" class="ml-4">info@smartwaypharmacy.co.uk</a></p>
-          <p class="text-persian-green 4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px 4xl:pr-10 lg:mb-5 mb-3"><i class="fa fa-phone"></i> <a class=" ml-4" href="tel:+442085457731">0208 545 7731</a></p>
+          {{--<p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px 4xl:pr-10 lg:mb-5 mb-3 mt-14">To get in touch with our <b>pharmacy</b>, please use the contact <br>details provided below:</p>--}}
+          <p class="text-persian-green 4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px 4xl:pr-10 lg:mb-5 mb-3 "><i class="fa fa-envelope"></i> <a href="mailto:info@smartwaypharma.co.uk" class="ml-4">info@smartwaypharma.co.uk</a></p>
+          <p class="text-persian-green 4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px 4xl:pr-10 lg:mb-5 mb-3"><i class="fa fa-phone"></i> <a class=" ml-4" href="tel:+442085457711">0208 545 7711</a></p>
       </div>
       <div>
         <form class="max-w-xl mx-auto px-4" method="post" action="{{ route('connect-with-us-form.submit') }}">
