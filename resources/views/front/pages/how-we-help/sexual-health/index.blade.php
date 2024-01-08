@@ -35,11 +35,11 @@
     </p>
     <div class="text-center mb-12">
       <div class="hidden sm:inline-block mt-12">
-        <a href="{{ asset('pdf/Smartway_SHS_Catalogue_2022.pdf') }}" target="_blank"
+        <a href="{{ asset('pdf/Smartway_SHS_Catalogue.pdf') }}" target="_blank"
            class="button 4xl:text-28px lg:text-xl text-2xl font-semibold bg-persian-green text-white text-center rounded-full 4xl:py-5 py-3 px-10 block sm:inline-block">Download our Sexual Health Supplies Catalogue</a>
       </div>
       <div class="inline-block sm:hidden mt-12">
-        <a href="{{ asset('pdf/Smartway_SHS_Catalogue_2022.pdf') }}" target="_blank"
+        <a href="{{ asset('pdf/Smartway_SHS_Catalogue.pdf') }}" target="_blank"
            class="button 4xl:text-28px lg:text-xl text-sm font-semibold bg-persian-green text-white text-center rounded-full 4xl:py-5 py-3 px-10 block sm:inline-block">Download our Sexual Health Supplies Catalogue</a>
       </div>
     </div>
