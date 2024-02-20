@@ -104,14 +104,19 @@ Route::group(['prefix' => 'who-we-are', 'as' => 'who-we-are.'] ,function () {
     Route::post('uk-regulatory-assistant-upload-file', [\App\Http\Controllers\Front\WhoWeAreController::class, 'UKRegulatoryAssistantUploadFile'])->name('uk-regulatory-assistant-upload-file');*/
 
     // Bilingual Customer Service Representative
-    Route::get('bilingual-customer-service-representative', [\App\Http\Controllers\Front\WhoWeAreController::class, 'BilingualCustomerServiceRepresentative'])->name('bilingual-customer-service-representative');
+    /*Route::get('bilingual-customer-service-representative', [\App\Http\Controllers\Front\WhoWeAreController::class, 'BilingualCustomerServiceRepresentative'])->name('bilingual-customer-service-representative');
     Route::post('bilingual-customer-service-representative', [\App\Http\Controllers\Front\WhoWeAreController::class, 'BilingualCustomerServiceRepresentativeSubmit'])->name('bilingual-customer-service-representative-form.submit');
-    Route::post('bilingual-customer-upload-file', [\App\Http\Controllers\Front\WhoWeAreController::class, 'BilingualCustomerServiceUploadFile'])->name('bilingual-customer-upload-file');
+    Route::post('bilingual-customer-upload-file', [\App\Http\Controllers\Front\WhoWeAreController::class, 'BilingualCustomerServiceUploadFile'])->name('bilingual-customer-upload-file');*/
 
     // UK Responsible Person
     Route::get('responsible-person-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'ResponsiblePersonApplication'])->name('responsible-person-application');
     Route::post('responsible-person-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'ResponsiblePersonApplicationFormSubmit'])->name('responsible-person-application-form.submit');
     Route::post('responsible-person-upload-file', [\App\Http\Controllers\Front\WhoWeAreController::class, 'ResponsiblePersonUploadFile'])->name('responsible-person-upload-file');
+
+    // Unlicensed Medicines Executive
+    Route::get('unlicensed-medicines-executive', [\App\Http\Controllers\Front\WhoWeAreController::class, 'UnlicensedMedicinesExecutive'])->name('unlicensed-medicines-executive');
+    Route::post('unlicensed-medicines-executive', [\App\Http\Controllers\Front\WhoWeAreController::class, 'UnlicensedMedicinesExecutiveFormSubmit'])->name('unlicensed-medicines-executive-form.submit');
+    Route::post('unlicensed-medicines-executive-upload-file', [\App\Http\Controllers\Front\WhoWeAreController::class, 'UnlicensedMedicinesExecutiveUploadFile'])->name('unlicensed-medicines-executive-upload-file');
 
     Route::group(['prefix' => 'media-and-resource-centre', 'as' => 'media-and-resource-centre.'], function () {
         Route::get('/', [\App\Http\Controllers\Front\PostController::class, 'blog'])->name('index');
