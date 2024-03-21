@@ -6,11 +6,6 @@
 </section>
 <header id="top" class="w-full relative">
   <nav class="inset-x-0 z-50 absolute 4xl:text-2xl text-lg mt-2 sm:mt-10">
-    <div class="container 3xl:max-w-3xl px-4 text-center text-white">
-      <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px max-w-6xl mx-auto">
-        Our telephone lines are currently down. Please email us with any enquiries you may have.
-      </p>
-    </div>
     <div class="container 3xl:max-w-3xl 4xl:pl-3 px-4">
       <div class="flex justify-between">
         <div class="flex space-x-4">
