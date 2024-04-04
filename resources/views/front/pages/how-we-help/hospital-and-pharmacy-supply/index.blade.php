@@ -44,7 +44,7 @@
           </li>
           <li class="4xl:my-11 my-5 flex lg:items-center items-baseline">
             <div class="h-14px w-14px bg-persian-green rounded-full ml-3 mr-5"></div>
-            Imports to UK & UAE
+            Imports to UK, EU and UAE
           </li>
           <li class="4xl:my-11 my-5 flex lg:items-center items-baseline">
             <div class="h-14px w-14px bg-persian-green rounded-full ml-3 mr-5"></div>
@@ -77,7 +77,7 @@
       </p>
       <p class="4xl:pr-16">
         Smartway’s been directly supplying hospitals in the UK,
-        Ireland and UAE for over 25 years. We’re an approved supplier and registered under all relevant
+        EU and UAE for over 25 years. We’re an approved supplier and registered under all relevant
         tenders/framework agreements and we use our distribution knowledge to help you get supplies when and where you
         want them.
       </p>
