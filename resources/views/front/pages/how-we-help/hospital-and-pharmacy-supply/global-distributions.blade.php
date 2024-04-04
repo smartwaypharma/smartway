@@ -32,7 +32,7 @@
     <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px 4xl:pr-16">
       <p class="lg:mb-10 mb-6">
         Smartway is an audited and approved supplier to the NHS and supplies unlicensed imports and specials to all UK
-        NHS Trusts. We also supply wholesalers and specialist importers on a global level.
+        NHS Trusts. We also supply hospitals, wholesalers and specialist importers on a global level.
       </p>
       <p class="lg:mb-10 mb-6">
         With in-house relabelling

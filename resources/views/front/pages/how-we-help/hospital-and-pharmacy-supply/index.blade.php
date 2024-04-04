@@ -288,7 +288,7 @@
           </p>
           <p class="xl:pr-10">
             Smartway is an audited and approved supplier to the NHS and supplies
-            unlicensed imports and specials to all UK NHS Trusts. We also supply wholesalers and specialist importers on
+            unlicensed imports and specials to all UK NHS Trusts. We also supply importers on
             a global level.
           </p>
         </div>
