@@ -7,8 +7,8 @@
 
 @section('header-content')
   <img class="hidden sm:inline-block w-full"
-       src="{{ asset('/image/businesspeople-brainstorming-in-a-meeting-WH57EEX-1080.png') }}">
-  <img class="sm:hidden inline-block w-full" src="{{ asset('/image/Aid_dev_project_management.jpg') }}">
+       src="{{ asset('/image/businesspeople-brainstorming-in-a-meeting-WH57EEX-1080.png') }}" alt="Smartway Pharmaceuticals - Project management" title="Smartway Pharmaceuticals - Project management">
+  <img class="sm:hidden inline-block w-full" src="{{ asset('/image/Aid_dev_project_management.jpg') }}" alt="Smartway Pharmaceuticals - Project management" title="Smartway Pharmaceuticals - Project management">
   <div class="gray-radial-gradient opacity-60 absolute top-0 bottom-0 right-0 left-0"></div>
   <div class="container 3xl:max-w-3xl absolute heading text-white lg:px-36 px-4">
     <h1 class="quarto-font 4xl:text-120px xl:text-85px md:text-6xl sm:text-4xl text-42px leading-none sm:mb-0 mb-16">
@@ -22,7 +22,7 @@
     <a class="hidden sm:block text-lg font-bold flex items-center mb-16"
        href="{{ route('how-we-help.aid-dev.index') }}">
       <img class="inline transform rotate-180 mr-3 w-5 h-5"
-           src="{{ asset('image/icon/icn.svg') }}">Back</a>
+           src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Back</a>
     <h2 class="quarto-font 4xl:text-93px xl:text-62px lg:text-44px text-34px 4xl:leading-102px xl:leading-70px lg:leading-48px leading-40px lg:mb-12 mb-6 4xl:pr-16 sm:tracking-normal -tracking-0.7px sm:mr-0 -mr-2">
       At Smartway, we combine deep Aid Dev sector knowledge with regulatory and pharmaceutical expertise. Your
       dedicated
@@ -38,7 +38,7 @@
       <div class="flex items-center lg:pr-20">
         <div>
           <h2 class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold mt-2 mb-6">Project management systems</h2>
-          <img class="lg:hidden my-8" src="{{ asset('image/iStock-1187114666.png') }}">
+          <img class="lg:hidden my-8" src="{{ asset('image/iStock-1187114666.png') }}" alt="Smartway Pharmaceuticals - Project management systems" title="Smartway Pharmaceuticals - Project management systems">
           <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px">
             <p class="lg:mb-10 mb-6 lg:pr-20">
               Our specialist team combines procurement professionals, pharmacists, project managers and international
@@ -54,18 +54,17 @@
         </div>
       </div>
       <div class="lg:block hidden">
-        <img src="{{ asset('image/iStock-1187114666.png') }}">
+        <img src="{{ asset('image/iStock-1187114666.png') }}" alt="Smartway Pharmaceuticals - Project management systems" title="Smartway Pharmaceuticals - Project management systems">
       </div>
     </div>
     <div class="lg:grid grid-cols-2 lg:mb-28 mb-16">
       <div class="lg:block hidden">
-        <img src="{{ asset('image/SMARThub Aid & Development.svg') }}">
+        <img src="{{ asset('image/SMARThub Aid & Development.svg') }}" alt="Smartway Pharmaceuticals - Real-time inventory and ordering portals" title="Smartway Pharmaceuticals - Real-time inventory and ordering portals">
       </div>
       <div class="flex items-center lg:pl-10">
         <div>
-          <h2 class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px lg:leading-36px leading-28px font-bold mb-6">Real-time inventory and ordering
-            portals</h2>
-          <img class="lg:hidden my-8" src="{{ asset('image/SMARThub Aid & Development.svg') }}">
+          <h2 class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px lg:leading-36px leading-28px font-bold mb-6">Real-time inventory and ordering portals</h2>
+          <img class="lg:hidden my-8" src="{{ asset('image/SMARThub Aid & Development.svg') }}" alt="Smartway Pharmaceuticals - Real-time inventory and ordering portals" title="Smartway Pharmaceuticals - Real-time inventory and ordering portals">
           <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px">
             <p class="lg:mb-10 mb-6 lg:pr-20">
               We can also implement real-time inventory and ordering portals for you, allowing your in-country teams to
@@ -84,7 +83,7 @@
     <div class="lg:grid grid-cols-2 gap-5 lg:mb-32 mb-16">
       <div>
         <h2 class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold mb-8">Regulatory & sector expertise</h2>
-        <img class="lg:hidden my-8" src="{{ asset('image/regulatory_team.jpg') }}">
+        <img class="lg:hidden my-8" src="{{ asset('image/regulatory_team.jpg') }}" alt="Smartway Pharmaceuticals - Regulatory & sector expertise" title="Smartway Pharmaceuticals - Regulatory & sector expertise">
         <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px lg:pr-24">
           We believe regulatory expertise is core to our business success and how we work in partnership with NGOs. We
           bring the advantage of 25 years sourcing and supplying medicines globally. We also have a company objective that
@@ -93,42 +92,42 @@
         </p>
       </div>
       <div class="lg:block hidden">
-        <img class="mt-20" src="{{ asset('image/regulatory_team.jpg') }}">
+        <img class="mt-20" src="{{ asset('image/regulatory_team.jpg') }}" alt="Smartway Pharmaceuticals - Regulatory & sector expertise" title="Smartway Pharmaceuticals - Regulatory & sector expertise">
       </div>
     </div>
-    <h2 class="4xl:text-32px xl:text-2xl text-lg 4xl:leading-37px leading-28px mb-14 lg:pr-0 pr-4">
+   {{-- <h2 class="4xl:text-32px xl:text-2xl text-lg 4xl:leading-37px leading-28px mb-14 lg:pr-0 pr-4">
       Our regulatory team is fully integrated into the Aid Dev project
       <span class="sm:inline block">management group.</span>
-    </h2>
-    <h2 class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold">Meet the Team</h2>
-    <div class="grid lg:grid-cols-3 gap-x-5 lg:gap-y-16 gap-y-8 lg:mt-20 mt-7">
+    </h2>--}}
+   {{-- <h2 class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold">Meet the Team</h2>--}}
+    {{--<div class="grid lg:grid-cols-3 gap-x-5 lg:gap-y-16 gap-y-8 lg:mt-20 mt-7">
       <div class="4xl:text-2xl text-xl">
-        <img class="mb-3" src="{{ asset('image/Robert-team.jpg') }}">
+        <img class="mb-3" src="{{ asset('image/Robert-team.jpg') }}" alt="Smartway Pharmaceuticals - Robert Donnell - Executive Vice President - Medicines Access" title="Smartway Pharmaceuticals - Robert Donnell - Executive Vice President - Medicines Access">
         <p class="text-lochmara font-bold mb-1.5">Robert Donnell</p>
         <p class="font-bold">Executive Vice President - Medicines Access</p>
       </div>
       <div class="4xl:text-2xl text-xl">
-        <img class="mb-3" src="{{ asset('image/Judith-team.jpg') }}">
+        <img class="mb-3" src="{{ asset('image/Judith-team.jpg') }}" alt="Smartway Pharmaceuticals - Judith Asiimwe - Project Manager" title="Smartway Pharmaceuticals - Judith Asiimwe - Project Manager">
         <p class="text-lochmara font-bold mb-1.5">Judith Asiimwe</p>
         <p class="font-bold">Project Manager</p>
       </div>
       <div class="4xl:text-2xl text-xl">
-        <img class="mb-3" src="{{ asset('image/Miral-team.jpg') }}">
+        <img class="mb-3" src="{{ asset('image/Miral-team.jpg') }}" alt="Smartway Pharmaceuticals - Miral Patel - Regulatory Lead" title="Smartway Pharmaceuticals - Miral Patel - Regulatory Lead">
         <p class="text-lochmara font-bold mb-1.5">Miral Patel</p>
         <p class="font-bold">Regulatory Lead</p>
       </div>
-     {{-- <div class="4xl:text-2xl text-xl">
-        <img class="mb-3" src="{{ asset('image/Ross-team.png') }}">
+     <div class="4xl:text-2xl text-xl">
+        <img class="mb-3" src="{{ asset('image/Ross-team.png') }}" alt="Smartway Pharmaceuticals - Ross Hemson - Associate Account Director Aid & Development" title="Smartway Pharmaceuticals - Ross Hemson - Associate Account Director Aid & Development">
         <p class="text-lochmara font-bold mb-1.5">Ross Hemson</p>
         <p class="font-bold">
           <span class="block">Associate Account Director</span>
           <span class="block">Aid & Development</span>
         </p>
-      </div>--}}
-    </div>
-    <div class="text-center lg:my-40 mt-16 mb-20">
+      </div>
+    </div>--}}
+    <div class="text-center lg:my-10 mt-10 mb-10">
       <a href="{{ route('connect-with-us') }}"
-         class="button 4xl:text-28px lg:text-xl text-2xl font-semibold bg-persian-green text-white rounded-full 4xl:py-5 py-3 4xl:px-16 px-10 block sm:inline-block">Talk to the team</a>
+         class="button 4xl:text-28px lg:text-xl text-2xl font-semibold bg-persian-green text-white rounded-full 4xl:py-5 py-3 4xl:px-16 px-10 block sm:inline-block">Contact us</a>
     </div>
   </section>
   @include('front.partials.aid-dev-link')

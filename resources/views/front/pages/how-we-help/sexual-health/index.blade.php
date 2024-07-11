@@ -6,8 +6,8 @@
 @endsection
 
 @section('header-content')
-  <img class="hidden sm:inline-block w-full" src="{{ asset('/image/hero-sexual-health.jpg') }}">
-  <img class="inline-block sm:hidden w-full" src="{{ asset('/image/Sexual_Health_Supply.jpg') }}">
+  <img class="hidden sm:inline-block w-full" src="{{ asset('/image/hero-sexual-health.jpg') }}" alt="Smartway Pharmaceuticals - Sexual Health Supply" title="Smartway Pharmaceuticals - Sexual Health Supply">
+  <img class="inline-block sm:hidden w-full" src="{{ asset('/image/Sexual_Health_Supply.jpg') }}" alt="Smartway Pharmaceuticals - Sexual Health Supply" title="Smartway Pharmaceuticals - Sexual Health Supply">
   <div class="gray-radial-gradient opacity-60 absolute top-0 bottom-0 right-0 left-0"></div>
   <div class="container 3xl:max-w-3xl absolute heading text-white lg:px-36 px-4">
     <h1 class="quarto-font 4xl:text-120px xl:text-85px md:text-6xl sm:text-4xl text-42px leading-none sm:mb-4 -mb-8">
@@ -49,7 +49,7 @@
     <p class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold text-center">Why partner with Smartway?</p>
     <div class="4xl:flex hidden lg:mt-16 mt-7 text-22px pb-4 xl:px-0 px-6">
       <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-5 min-w-308px mr-6">
-        <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/sh-icn1.svg') }}"/>
+        <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/sh-icn1.svg') }}" alt="Smartway Pharmaceuticals - Approved supplier" title="Smartway Pharmaceuticals - Approved supplier"/>
         <p class="font-bold leading-tight mb-10">
           Approved supplier
         </p>
@@ -62,7 +62,7 @@
       </div>
       <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4 min-w-308px mr-6">
         <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5"
-             src="{{ asset('image/sh-icn2.svg') }}"/>
+             src="{{ asset('image/sh-icn2.svg') }}" alt="Smartway Pharmaceuticals - Project management" title="Smartway Pharmaceuticals - Project management"/>
         <p class="font-bold leading-tight mb-10">
           Project management
         </p>
@@ -71,7 +71,7 @@
         </p>
       </div>
       <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4 min-w-308px mr-6">
-        <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/sh-icn3.svg') }}"/>
+        <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/sh-icn3.svg') }}" alt="Smartway Pharmaceuticals - Regulatory expertise / knowledge" title="Smartway Pharmaceuticals - Regulatory expertise / knowledge"/>
         <p class="font-bold leading-tight mb-3">
           Regulatory expertise/ knowledge
         </p>
@@ -81,7 +81,7 @@
         </p>
       </div>
       <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-6 min-w-308px mr-6">
-        <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/sh-icn4.svg') }}"/>
+        <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/sh-icn4.svg') }}" alt="Smartway Pharmaceuticals - Quality is our priority" title="Smartway Pharmaceuticals - Quality is our priority"/>
         <p class="font-bold leading-tight mb-10">
           Quality is our priority
         </p>
@@ -91,7 +91,7 @@
         </p>
       </div>
       <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-2 min-w-308px">
-        <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/sh-icn5.svg') }}"/>
+        <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/sh-icn5.svg') }}" alt="Smartway Pharmaceuticals - Proven experienced team" title="Smartway Pharmaceuticals - Proven experienced team"/>
         <p class="font-bold leading-tight mb-10">
           Proven experienced team
         </p>
@@ -107,7 +107,7 @@
             <div
                 class="glide__slide bg-alabaster bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-5 mr-6">
               <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5"
-                   src="{{ asset('image/sh-icn1.svg') }}"/>
+                   src="{{ asset('image/sh-icn1.svg') }}" alt="Smartway Pharmaceuticals - Approved supplier" title="Smartway Pharmaceuticals - Approved supplier"/>
               <p class="font-bold leading-tight mb-10">
                 Approved supplier
               </p>
@@ -121,7 +121,7 @@
             <div
                 class="glide__slide bg-alabaster bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4 mr-6">
               <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5"
-                   src="{{ asset('image/sh-icn2.svg') }}"/>
+                   src="{{ asset('image/sh-icn2.svg') }}" alt="Smartway Pharmaceuticals - Project management" title="Smartway Pharmaceuticals - Project management"/>
               <p class="font-bold leading-tight mb-10">
                 Project management
               </p>
@@ -132,7 +132,7 @@
             <div
                 class="glide__slide bg-alabaster bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4 mr-6">
               <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5"
-                   src="{{ asset('image/sh-icn3.svg') }}"/>
+                   src="{{ asset('image/sh-icn3.svg') }}" alt="Smartway Pharmaceuticals - Regulatory expertise / knowledge" title="Smartway Pharmaceuticals - Regulatory expertise / knowledge"/>
               <p class="font-bold leading-tight mb-3">
                 Regulatory expertise/ knowledge
               </p>
@@ -144,7 +144,7 @@
             <div
                 class="glide__slide bg-alabaster bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-6">
               <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5"
-                   src="{{ asset('image/sh-icn4.svg') }}"/>
+                   src="{{ asset('image/sh-icn4.svg') }}" alt="Smartway Pharmaceuticals - Quality is our priority" title="Smartway Pharmaceuticals - Quality is our priority"/>
               <p class="font-bold leading-tight mb-10">
                 Quality is our priority
               </p>
@@ -157,7 +157,7 @@
             <div
                 class="glide__slide bg-alabaster bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-2 mr-6">
               <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5"
-                   src="{{ asset('image/sh-icn5.svg') }}"/>
+                   src="{{ asset('image/sh-icn5.svg') }}" alt="Smartway Pharmaceuticals - Proven experienced team" title="Smartway Pharmaceuticals - Proven experienced team"/>
               <p class="font-bold leading-tight mb-10">
                 Proven experienced team
               </p>
@@ -187,7 +187,7 @@
     <div class="grid lg:grid-cols-2 lg:mb-40 mb-12">
       <div class="lg:pr-16">
         <h2 class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold mb-6">Committed to you</h2>
-        <img class="lg:hidden sm:w-3/4 my-7" src="{{ asset('image/Committed_to_you.jpg') }}">
+        <img class="lg:hidden sm:w-3/4 my-7" src="{{ asset('image/Committed_to_you.jpg') }}" alt="Smartway Pharmaceuticals - Committed to you" title="Smartway Pharmaceuticals - Committed to you">
         <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px">
           <p class="lg:mb-10 mb-6">
             Our Sexual Health team’s commitment to the customer allows us to authorise and approve new account
@@ -203,7 +203,7 @@
         </div>
       </div>
       <div class="lg:flex hidden justify-center items-center lg:mt-0 mt-6">
-        <img src="{{ asset('image/Committed_to_you.jpg') }}">
+        <img src="{{ asset('image/Committed_to_you.jpg') }}" alt="Smartway Pharmaceuticals - Committed to you" title="Smartway Pharmaceuticals - Committed to you">
       </div>
     </div>
     <h2 class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold mt-14 lg:mb-4 mb-6">Bespoke Kits</h2>
@@ -214,7 +214,7 @@
     <div class="grid lg:grid-cols-2 lg:mt-28 mt-16">
       <div class="lg:pr-16">
         <h2 class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold lg:mt-10 mt-0 mb-6">Over labelling</h2>
-        <img class="lg:hidden sm:w-3/4 my-7" src="{{ asset('image/Over_labelling.jpg') }}">
+        <img class="lg:hidden sm:w-3/4 my-7" src="{{ asset('image/Over_labelling.jpg') }}" alt="Smartway Pharmaceuticals - Over labelling" title="Smartway Pharmaceuticals - Over labelling">
         <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px">
           Our in-house over labelling department is there to support you through each stage of the process from label
           design
@@ -243,7 +243,7 @@
         </ul>
       </div>
       <div class="lg:flex hidden justify-center items-center lg:mt-0 mt-6">
-        <img src="{{ asset('image/Over_labelling.jpg') }}">
+        <img src="{{ asset('image/Over_labelling.jpg') }}" alt="Smartway Pharmaceuticals - Over labelling" title="Smartway Pharmaceuticals - Over labelling">
       </div>
     </div>
     <div class="text-center mt-20 lg:mb-40 mb-20">
@@ -254,9 +254,8 @@
     <hr class="h-0.5 bg-black lg:mb-40 mb-16">
     <div class="grid lg:grid-cols-2">
       <div class="lg:pr-16">
-        <h2 class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold mb-6">Breakdown of medicine for waste
-          reduction</h2>
-        <img class="lg:hidden sm:w-3/4 my-7" src="{{ asset('image/waste_reduction.jpg') }}">
+        <h2 class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold mb-6">Breakdown of medicine for waste reduction</h2>
+        <img class="lg:hidden sm:w-3/4 my-7" src="{{ asset('image/waste_reduction.jpg') }}" alt="Smartway Pharmaceuticals - Breakdown of medicine for waste reduction" title="Smartway Pharmaceuticals - Breakdown of medicine for waste reduction">
         <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px">
           <p class="lg:mb-10 mb-6">Often, the NHS or private providers find that the required dose of a drug is less
             than the
@@ -273,16 +272,16 @@
         </div>
       </div>
       <div class="lg:flex hidden justify-center items-center lg:mt-0 mt-6">
-        <img src="{{ asset('image/waste_reduction.jpg') }}">
+        <img src="{{ asset('image/waste_reduction.jpg') }}" alt="Smartway Pharmaceuticals - Breakdown of medicine for waste reduction" title="Smartway Pharmaceuticals - Breakdown of medicine for waste reduction">
       </div>
     </div>
     <div class="grid lg:grid-cols-2 lg:mt-52 mt-16">
       <div class="lg:flex hidden justify-center items-center lg:mt-0 mt-6">
-        <img src="{{ asset('image/logistics.jpg') }}">
+        <img src="{{ asset('image/logistics.jpg') }}" alt="Smartway Pharmaceuticals - Third-party logistics" title="Smartway Pharmaceuticals - Third-party logistics">
       </div>
       <div class="lg:pl-16">
         <h2 class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold mb-6">Third-party logistics</h2>
-        <img class="lg:hidden sm:w-3/4 my-7" src="{{ asset('image/logistics.jpg') }}">
+        <img class="lg:hidden sm:w-3/4 my-7" src="{{ asset('image/logistics.jpg') }}" alt="Smartway Pharmaceuticals - Third-party logistics" title="Smartway Pharmaceuticals - Third-party logistics">
         <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px 4xl:pr-10">
           With a UK head office and further hubs within Ireland, Kosovo, India, and Dubai, Smartway is the go-to partner
           for
@@ -309,29 +308,28 @@
         </ul>
       </div>
     </div>
-    <hr class="h-0.5 bg-black lg:my-40 mt-20 mb-16">
-    <h2 class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold">Meet the Team</h2>
-    <div class="grid lg:grid-cols-3 gap-x-5 lg:gap-y-16 gap-y-8 lg:mt-20 mt-7">
+   {{-- <hr class="h-0.5 bg-black lg:my-40 mt-20 mb-16">--}}
+    {{--<h2 class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold">Meet the Team</h2>--}}
+    {{--<div class="grid lg:grid-cols-3 gap-x-5 lg:gap-y-16 gap-y-8 lg:mt-20 mt-7">
       <div class="4xl:text-2xl text-xl">
-        <img class="mb-3" src="{{ asset('image/Giles-team.jpg') }}">
+        <img class="mb-3" src="{{ asset('image/Giles-team.jpg') }}" alt="Smartway Pharmaceuticals - Giles Holford - Head of Sexual Health" title="Smartway Pharmaceuticals - Giles Holford - Head of Sexual Health">
         <p class="text-lochmara font-bold mb-1.5">Giles Holford</p>
         <p class="font-bold">Head of Sexual Health</p>
       </div>
-      {{--<div class="4xl:text-2xl text-xl">
-        <img class="mb-3" src="{{ asset('image/Sharan-team.jpg') }}">
+      <div class="4xl:text-2xl text-xl">
+        <img class="mb-3" src="{{ asset('image/Sharan-team.jpg') }}" alt="Smartway Pharmaceuticals - Sharan Sanghera - Senior Procurement Manager" title="Smartway Pharmaceuticals - Sharan Sanghera - Senior Procurement Manager">
         <p class="text-lochmara font-bold mb-1.5">Sharan Sanghera</p>
         <p class="font-bold">Senior Procurement Manager</p>
-      </div>--}}
+      </div>
       <div class="4xl:text-2xl text-xl">
-        <img class="mb-3" src="{{ asset('image/Miral-team.jpg') }}">
+        <img class="mb-3" src="{{ asset('image/Miral-team.jpg') }}" alt="Smartway Pharmaceuticals - Miral Patel - Regulatory Lead" title="Smartway Pharmaceuticals - Miral Patel - Regulatory Lead">
         <p class="text-lochmara font-bold mb-1.5">Miral Patel</p>
         <p class="font-bold">Regulatory Lead</p>
       </div>
-    </div>
-    <div class="text-center lg:my-40 mt-16 mb-20">
+    </div>--}}
+    <div class="text-center lg:my-10 mt-10 mb-10">
       <a href="{{ route('connect-with-us') }}"
-         class="button 4xl:text-28px lg:text-xl text-2xl font-semibold bg-persian-green text-white rounded-full 4xl:py-5 py-3 px-10 block sm:inline-block">Talk
-        to the team</a>
+         class="button 4xl:text-28px lg:text-xl text-2xl font-semibold bg-persian-green text-white rounded-full 4xl:py-5 py-3 px-10 block sm:inline-block">Contact us</a>
     </div>
   </section>
 @endsection
