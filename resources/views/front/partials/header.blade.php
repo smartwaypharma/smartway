@@ -10,8 +10,8 @@
       <div class="flex justify-between">
         <div class="flex space-x-4">
           <a href="{{ route('home') }}">
-            <img class="4xl:w-full md:w-64 w-32 ml-2" src="{{ asset('image/Smartway_main_logo.svg') }}" alt="Logo">
-            {{--<img class="4xl:w-full md:w-64 w-32 ml-2" src="{{ asset('image/Smartway_Christmas_Logo.svg') }}" alt="Logo">--}}
+            <img class="4xl:w-full md:w-64 w-32 ml-2" src="{{ asset('image/Smartway_main_logo.svg') }}" alt="Smartway Pharmaceuticals logo" title="Smartway Pharmaceuticals logo">
+            {{--<img class="4xl:w-full md:w-64 w-32 ml-2" src="{{ asset('image/Smartway_Christmas_Logo.svg') }}" alt="Logo" alt="Smartway Pharmaceuticals logo" title="Smartway Pharmaceuticals logo">--}}
           </a>
         </div>
         <div class="hidden lg:flex items-center space-x-1 text-white -mb-4">
@@ -31,7 +31,7 @@
             <span>Who we are</span>
             <ul class="dropdown-menu text-lg bg-persian-green absolute px-5 py-6 rounded-lg">
               <li><a href="{{ route('who-we-are.our-history') }}">Our History</a></li>
-              <li><a href="{{ route('who-we-are.meet-the-team') }}">Meet The Team</a></li>
+              {{--<li><a href="{{ route('who-we-are.meet-the-team') }}">Meet The Team</a></li>--}}
               <li><a href="{{ route('who-we-are.regulatory-compliance') }}">Regulatory Compliance</a></li>
               <li><a href="{{ route('who-we-are.social-responsibility') }}">Social Responsibility</a></li>
               <li><a href="{{ route('who-we-are.media-and-resource-centre.index') }}">Media & Resource Centre</a></li>
@@ -78,7 +78,7 @@
       <div class="flex justify-between items-center pb-10 border-b border-white">
         <div class="flex items-center">
           <a href="/" class="block">
-            <img class="4xl:w-full md:w-64 w-32" src="{{ asset('image/Smartway_main_logo.svg') }}" alt="Logo">
+            <img class="4xl:w-full md:w-64 w-32" src="{{ asset('image/Smartway_main_logo.svg') }}" alt="Smartway Pharmaceuticals logo" title="Smartway Pharmaceuticals logo">
           </a>
         </div>
 
@@ -138,7 +138,7 @@
     </div>
     <div class="flex justify-center items-end absolute bottom-10 left-0 right-0">
       <p class="text-lg text-white font-light mr-5">Follow Us:</p>
-      <a href="https://www.linkedin.com/company/smartway-pharmaceuticals/?viewAsMember=true"><img src="{{ asset('image/icon/linkedin-icon.png') }}"></a>
+      <a href="https://www.linkedin.com/company/smartway-pharmaceuticals/?viewAsMember=true"><img src="{{ asset('image/icon/linkedin-icon.png') }}" alt="Smartway Pharmaceuticals - linkedin icon" title="Smartway Pharmaceuticals - linkedin icon"></a>
     </div>
   </div>
   @yield('header-content')
