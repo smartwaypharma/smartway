@@ -84,7 +84,7 @@ Route::group(['prefix' => 'who-you-are', 'as' => 'who-you-are.'] ,function () {
 Route::group(['prefix' => 'who-we-are', 'as' => 'who-we-are.'] ,function () {
     Route::get('our-history', [\App\Http\Controllers\Front\WhoWeAreController::class, 'ourHistory'])->name('our-history');
     Route::get('regulatory-compliance', [\App\Http\Controllers\Front\WhoWeAreController::class, 'regulatoryCompliance'])->name('regulatory-compliance');
-    Route::get('meet-the-team', [\App\Http\Controllers\Front\WhoWeAreController::class, 'meetTheTeam'])->name('meet-the-team');
+    /*Route::get('meet-the-team', [\App\Http\Controllers\Front\WhoWeAreController::class, 'meetTheTeam'])->name('meet-the-team');*/
     // Speculative Application
     Route::get('careers', [\App\Http\Controllers\Front\WhoWeAreController::class, 'careers'])->name('careers');
     Route::get('speculative-application', [\App\Http\Controllers\Front\WhoWeAreController::class, 'speculativeApplication'])->name('speculative-application');

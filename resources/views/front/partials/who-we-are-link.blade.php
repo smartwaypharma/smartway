@@ -19,41 +19,41 @@
             <a class="flex justify-between 4xl:py-4 lg:pt-1.5 lg:pb-2 py-3 border-b-2 border-black"
                href="{{ route('who-we-are.our-history') }}">
               <span>Our History</span> <img
-                  src="{{ asset('image/icon/ic_arrow_forward_right_26.svg') }}">
+                  src="{{ asset('image/icon/ic_arrow_forward_right_26.svg') }}" alt="Smartway Pharmaceuticals - arrow forward right icon" title="Smartway Pharmaceuticals - arrow forward right icon">
             </a>
           @endif
-          @if(request()->route()->getName() != 'who-we-are.meet-the-team')
+          {{--@if(request()->route()->getName() != 'who-we-are.meet-the-team')
             <a class="flex justify-between 4xl:py-4 lg:pt-1.5 lg:pb-2 py-3 border-b-2 border-black"
                href="{{ route('who-we-are.meet-the-team') }}">
               <span>Meet The Team</span> <img
-                  src="{{ asset('image/icon/ic_arrow_forward_right_26.svg') }}">
+                  src="{{ asset('image/icon/ic_arrow_forward_right_26.svg') }}" alt="Smartway Pharmaceuticals - arrow forward right icon" title="Smartway Pharmaceuticals - arrow forward right icon">
             </a>
-          @endif
+          @endif--}}
           @if(request()->route()->getName() != 'who-we-are.regulatory-compliance')
             <a class="flex justify-between 4xl:py-4 lg:pt-1.5 lg:pb-2 py-3 border-b-2 border-black"
                href="{{ route('who-we-are.regulatory-compliance') }}">
               <span>Regulatory Compliance</span> <img
-                  src="{{ asset('image/icon/ic_arrow_forward_right_26.svg') }}">
+                  src="{{ asset('image/icon/ic_arrow_forward_right_26.svg') }}" alt="Smartway Pharmaceuticals - arrow forward right icon" title="Smartway Pharmaceuticals - arrow forward right icon">
             </a>
           @endif
           @if(request()->route()->getName() != 'who-we-are.social-responsibility')
           <a class="flex justify-between 4xl:py-4 lg:pt-1.5 lg:pb-2 py-3 border-b-2 border-black"
              href="{{ route('who-we-are.social-responsibility') }}">
             <span>Social Responsibility</span> <img
-                src="{{ asset('image/icon/ic_arrow_forward_right_26.svg') }}">
+                src="{{ asset('image/icon/ic_arrow_forward_right_26.svg') }}" alt="Smartway Pharmaceuticals - arrow forward right icon" title="Smartway Pharmaceuticals - arrow forward right icon">
           </a>
           @endif
           @if(request()->route()->getName() != 'who-we-are.media-and-resource-centre.index')
             <a class="flex justify-between 4xl:py-4 lg:pt-1.5 lg:pb-2 py-3 border-b-2 border-black"
                href="{{ route('who-we-are.media-and-resource-centre.index') }}">
               <span>Media & Resource Centre</span> <img
-                  src="{{ asset('image/icon/ic_arrow_forward_right_26.svg') }}">
+                  src="{{ asset('image/icon/ic_arrow_forward_right_26.svg') }}" alt="Smartway Pharmaceuticals - arrow forward right icon" title="Smartway Pharmaceuticals - arrow forward right icon">
             </a>
           @endif
           @if(request()->route()->getName() != 'who-we-are.careers')
             <a class="flex justify-between 4xl:py-4 lg:pt-1.5 lg:pb-2 py-3 border-b-2 border-black"
                href="{{ route('who-we-are.careers') }}">
-              <span>Careers & Internships</span> <img src="{{ asset('image/icon/ic_arrow_forward_right_26.svg') }}">
+              <span>Careers & Internships</span> <img src="{{ asset('image/icon/ic_arrow_forward_right_26.svg') }}" alt="Smartway Pharmaceuticals - arrow forward right icon" title="Smartway Pharmaceuticals - arrow forward right icon">
             </a>
           @endif
         </div>
