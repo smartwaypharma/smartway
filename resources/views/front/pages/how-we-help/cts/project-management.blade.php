@@ -6,8 +6,8 @@
 @endsection
 
 @section('header-content')
-  <img class="hidden sm:inline-block w-full" src="{{ asset('/image/team-of-executives-in-the-meeting-at-office-BVMD7KT-1080.png') }}">
-  <img class="sm:hidden inline-block w-full" src="{{ asset('/image/CTS_Project_Management.jpg') }}">
+  <img class="hidden sm:inline-block w-full" src="{{ asset('/image/team-of-executives-in-the-meeting-at-office-BVMD7KT-1080.png') }}" alt="Smartway Pharmaceuticals - Project Management with CTS Knowledge" title="Smartway Pharmaceuticals - Project Management with CTS Knowledge">
+  <img class="sm:hidden inline-block w-full" src="{{ asset('/image/CTS_Project_Management.jpg') }}" alt="Smartway Pharmaceuticals - Project Management with CTS Knowledge" title="Smartway Pharmaceuticals - Project Management with CTS Knowledge">
   <div class="gray-radial-gradient opacity-60 absolute top-0 bottom-0 right-0 left-0"></div>
   <div class="container 3xl:max-w-3xl absolute heading text-white lg:px-36 px-4">
     <h1 class="quarto-font 4xl:text-120px xl:text-85px md:text-6xl sm:text-4xl text-42px leading-none sm:mb-0 mb-16">
@@ -20,7 +20,7 @@
   <section class="container 3xl:max-w-3xl px-4 mt-20">
     <a class="hidden sm:block text-lg font-bold flex items-center mb-16" href="{{ route('how-we-help.cts.index') }}">
       <img class="inline transform rotate-180 mr-3 w-5 h-5"
-           src="{{ asset('image/icon/icn.svg') }}">Back</a>
+           src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Back</a>
     <h2 class="quarto-font 4xl:text-93px xl:text-62px lg:text-44px text-34px 4xl:leading-102px xl:leading-70px lg:leading-48px leading-40px sm:mb-12 mb-6 4xl:pr-4 sm:mr-0 -mr-4">
       At Smartway, we combine deep CTS knowledge with regulatory and pharmaceutical expertise. Your
       <span class="sm:inline block">dedicated</span>
@@ -36,7 +36,7 @@
       <div class="lg:pr-14">
         <div>
           <h2 class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold mt-2 mb-9">Project management systems</h2>
-          <img class="lg:hidden sm:w-3/4 my-8" src="{{ asset('image/iStock-1187114666.png') }}">
+          <img class="lg:hidden sm:w-3/4 my-8" src="{{ asset('image/iStock-1187114666.png') }}" alt="Smartway Pharmaceuticals - Project management systems" title="Smartway Pharmaceuticals - Project management systems">
           <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px">
             <p class="lg:mb-9 mb-6">
               Our specialist CTS team combines procurement professionals, pharmacists, project managers and
@@ -55,18 +55,17 @@
         </div>
       </div>
       <div class="lg:block hidden">
-        <img src="{{ asset('image/iStock-1187114666.png') }}">
+        <img src="{{ asset('image/iStock-1187114666.png') }}" alt="Smartway Pharmaceuticals - Project management systems" title="Smartway Pharmaceuticals - Project management systems">
       </div>
     </div>
     <div class="lg:grid grid-cols-2 lg:mt-40 mt-16 lg:mb-32 mb-16">
       <div class="lg:block hidden">
-        <img src="{{ asset('image/ordering_portals.jpg') }}">
+        <img src="{{ asset('image/ordering_portals.jpg') }}" alt="Smartway Pharmaceuticals - Real-time inventory and ordering portals" title="Smartway Pharmaceuticals - Real-time inventory and ordering portals">
       </div>
       <div class="lg:pl-10 lg:pr-12">
         <div>
-          <h2 class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold mt-2 mb-6">Real-time inventory and ordering
-            portals</h2>
-          <img class="lg:hidden sm:w-3/4 my-8" src="{{ asset('image/ordering_portals.jpg') }}">
+          <h2 class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold mt-2 mb-6">Real-time inventory and ordering portals</h2>
+          <img class="lg:hidden sm:w-3/4 my-8" src="{{ asset('image/ordering_portals.jpg') }}" alt="Smartway Pharmaceuticals - Real-time inventory and ordering portals" title="Smartway Pharmaceuticals - Real-time inventory and ordering portals">
           <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px">
             <p class="lg:mb-9 mb-6">We can also implement real-time inventory and ordering portals for you, allowing
               your in-country teams to
@@ -93,28 +92,27 @@
         culture flows through the whole company.
       </p>
     </div>
-    <h2 class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold lg:mt-16 mt-6">Meet the team</h2>
-    <div class="grid lg:grid-cols-3 gap-x-5 lg:gap-y-16 gap-y-8 lg:mt-20 mt-8">
+   {{-- <h2 class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold lg:mt-16 mt-6">Meet the team</h2>--}}
+    {{--<div class="grid lg:grid-cols-3 gap-x-5 lg:gap-y-16 gap-y-8 lg:mt-20 mt-8">
       <div class="4xl:text-2xl text-xl">
-        <img class="lg:mb-3 mb-2" src="{{ asset('image/Robert-team.jpg') }}">
+        <img class="lg:mb-3 mb-2" src="{{ asset('image/Robert-team.jpg') }}" alt="Smartway Pharmaceuticals - Robert Donnell - Executive Vice President - Medicines Access" title="Smartway Pharmaceuticals - Robert Donnell - Executive Vice President - Medicines Access">
         <p class="text-lochmara leading-37px font-bold mb-1">Robert Donnell</p>
         <p class="font-bold">Executive Vice President - Medicines Access</p>
       </div>
       <div class="4xl:text-2xl text-xl">
-        <img class="lg:mb-3 mb-2" src="{{ asset('image/Amish-team.jpg') }}">
+        <img class="lg:mb-3 mb-2" src="{{ asset('image/Amish-team.jpg') }}" alt="Smartway Pharmaceuticals - Amish Patel - Business Development Manager" title="Smartway Pharmaceuticals - Amish Patel - Business Development Manager">
         <p class="text-lochmara leading-37px font-bold mb-1">Amish Patel</p>
         <p class="font-bold">Business Development Manager</p>
       </div>
       <div class="4xl:text-2xl text-xl">
-        <img class="lg:mb-3 mb-2" src="{{ asset('image/Miral-team.jpg') }}">
+        <img class="lg:mb-3 mb-2" src="{{ asset('image/Miral-team.jpg') }}" alt="Smartway Pharmaceuticals - Miral Patel - Regulatory Lead" title="Smartway Pharmaceuticals - Miral Patel - Regulatory Lead">
         <p class="text-lochmara leading-37px font-bold mb-1">Miral Patel</p>
         <p class="font-bold">Regulatory Lead</p>
       </div>
-    </div>
-    <div class="text-center lg:my-40 mt-16 mb-20">
+    </div>--}}
+    <div class="text-center lg:my-10 mt-10 mb-10">
       <a href="{{ route('connect-with-us') }}"
-         class="button 4xl:text-28px lg:text-xl text-2xl font-semibold bg-persian-green text-white rounded-full 4xl:py-5 py-3 4xl:px-16 px-10 block sm:inline-block">Talk
-        to the team</a>
+         class="button 4xl:text-28px lg:text-xl text-2xl font-semibold bg-persian-green text-white rounded-full 4xl:py-5 py-3 4xl:px-16 px-10 block sm:inline-block">Contact us</a>
     </div>
   </section>
   @include('front.partials.cts-link')

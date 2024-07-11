@@ -6,8 +6,8 @@
 @endsection
 
 @section('header-content')
-  <img class="hidden sm:inline-block w-full" src="{{ asset('/image/Program Stategy & Design.jpeg') }}">
-  <img class="sm:hidden inline-block w-full" src="{{ asset('/image/Program_Strategy_Design.jpg') }}">
+  <img class="hidden sm:inline-block w-full" src="{{ asset('/image/Program Stategy & Design.jpeg') }}" alt="Smartway Pharmaceuticals - Program Strategy & Design" title="Smartway Pharmaceuticals - Program Strategy & Design">
+  <img class="sm:hidden inline-block w-full" src="{{ asset('/image/Program_Strategy_Design.jpg') }}" alt="Smartway Pharmaceuticals - Program Strategy & Design" title="Smartway Pharmaceuticals - Program Strategy & Design">
   <div class="gray-radial-gradient opacity-60 absolute top-0 bottom-0 right-0 left-0"></div>
   <div class="container 3xl:max-w-3xl absolute heading text-white lg:px-36 px-4">
     <h1 class="quarto-font 4xl:text-120px xl:text-85px md:text-6xl sm:text-4xl text-42px leading-none lg:mb-0 mb-5 pr-10">
@@ -21,7 +21,7 @@
   <section class="container 3xl:max-w-3xl px-4 mt-20">
     <a class="hidden sm:block text-lg font-bold flex items-center mb-16" href="{{ route('how-we-help.eap.index') }}">
       <img class="inline transform rotate-180 mr-3 w-5 h-5"
-           src="{{ asset('image/icon/icn.svg') }}">Back</a>
+           src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Back</a>
     <h2 class="quarto-font 4xl:text-93px xl:text-62px lg:text-44px text-34px 4xl:leading-102px xl:leading-70px lg:leading-48px leading-40px sm:mb-12 mb-6">
       At Smartway, we see regulatory strategy and program design as being totally integrated. Our regulatory team comes
       with deep knowledge of the various regulatory schemes and jurisdictions around the world.
@@ -53,7 +53,7 @@
           seamlessly.</span>
       </p>
     </div>
-    <img class="lg:mt-36 mt-20 lg:mb-12 mb-20" src="{{ asset('image/Program_Strategy_infogra_01.svg') }}">
+    <img class="lg:mt-36 mt-20 lg:mb-12 mb-20" src="{{ asset('image/Program_Strategy_infogra_01.svg') }}" alt="Smartway Pharmaceuticals - Discover, Design, Deliver" title="Smartway Pharmaceuticals - Discover, Design, Deliver">
     <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px">
       <div class="grid lg:grid-cols-3 lg:gap-4 gap-16">
         <div class="2xl:pr-16">
@@ -112,7 +112,7 @@
     <div class="lg:grid grid-cols-2 gap-5 lg:mb-32 mb-16">
       <div>
         <h2 class="4xl:text-32px text-22px 4xl:leading-36px leading-28px font-bold mb-4">Our regulatory team</h2>
-        <img class="lg:hidden my-8" src="{{ asset('image/regulatory_team.jpg') }}">
+        <img class="lg:hidden my-8" src="{{ asset('image/regulatory_team.jpg') }}" alt="Smartway Pharmaceuticals - Our regulatory team" title="Smartway Pharmaceuticals - Our regulatory team">
         <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px lg:pr-7">
           We believe regulatory expertise is core to our business success and how we deliver focussed successful access
           programs. We have built up that regulatory knowledge across 25 years of supplying unlicensed therapies globally
@@ -121,35 +121,35 @@
         </p>
       </div>
       <div class="lg:block hidden">
-        <img src="{{ asset('image/regulatory_team.jpg') }}">
+        <img src="{{ asset('image/regulatory_team.jpg') }}" alt="Smartway Pharmaceuticals - Our regulatory team" title="Smartway Pharmaceuticals - Our regulatory team">
       </div>
     </div>
-    <p class="4xl:text-2xl sm:text-xl text-lg lg:leading-none leading-24px ">Our regulatory team is fully integrated into the EAP project management group.</p>
-    <h2 class="4xl:text-2xl sm:text-xl text-22px font-bold lg:mt-9 mt-6">Meet the team</h2>
-    <div class="grid lg:grid-cols-3 gap-x-5 lg:gap-y-16 gap-y-8 mt-9">
+    {{--<p class="4xl:text-2xl sm:text-xl text-lg lg:leading-none leading-24px ">Our regulatory team is fully integrated into the EAP project management group.</p>--}}
+    {{--<h2 class="4xl:text-2xl sm:text-xl text-22px font-bold lg:mt-9 mt-6">Meet the team</h2>--}}
+    {{--<div class="grid lg:grid-cols-3 gap-x-5 lg:gap-y-16 gap-y-8 mt-9">
       <div class="4xl:text-2xl text-xl">
-        <img class="lg:mb-3 mb-2" src="{{ asset('image/Robert-team.jpg') }}">
+        <img class="lg:mb-3 mb-2" src="{{ asset('image/Robert-team.jpg') }}" alt="Smartway Pharmaceuticals - Robert Donnell - Executive Vice President - Medicines Access" title="Smartway Pharmaceuticals - Robert Donnell - Executive Vice President - Medicines Access">
         <p class="text-lochmara leading-37px font-bold mb-1">Robert Donnell</p>
         <p class="font-bold">Executive Vice President - Medicines Access</p>
       </div>
       <div class="4xl:text-2xl text-xl">
-        <img class="lg:mb-3 mb-2" src="{{ asset('image/Nicole-team.jpg') }}">
+        <img class="lg:mb-3 mb-2" src="{{ asset('image/Nicole-team.jpg') }}" alt="Smartway Pharmaceuticals - Nicole Lyons - Head of Regulatory Affairs" title="Smartway Pharmaceuticals - Nicole Lyons - Head of Regulatory Affairs">
         <p class="text-lochmara leading-37px font-bold mb-1">Nicole Lyons</p>
         <p class="font-bold">Head of Regulatory Affairs</p>
       </div>
       <div class="4xl:text-2xl text-xl">
-        <img class="lg:mb-3 mb-2" src="{{ asset('image/Maysa-team.jpg') }}">
+        <img class="lg:mb-3 mb-2" src="{{ asset('image/Maysa-team.jpg') }}" alt="Smartway Pharmaceuticals - Maysa Gamal - Regional Sales Manager – MENA region" title="Smartway Pharmaceuticals - Maysa Gamal - Regional Sales Manager – MENA region">
         <p class="text-lochmara leading-37px font-bold mb-1">Maysa Gamal</p>
         <p class="font-bold">Regional Sales Manager – MENA region</p>
       </div>
-      {{--<div class="4xl:text-2xl text-xl">
+      <div class="4xl:text-2xl text-xl">
         <img class="lg:mb-3 mb-2" src="{{ asset('image/Amy-team.jpg') }}">
         <p class="text-lochmara leading-37px font-bold mb-1">Amy Searle</p>
         <p class="font-bold">Project Manager</p>
-      </div>--}}
-    </div>
-    <div class="text-center lg:my-40 mt-16 mb-20">
-      <a href="{{ route('connect-with-us') }}" class="button 4xl:text-28px lg:text-xl text-2xl font-semibold bg-persian-green text-white rounded-full 4xl:py-5 py-3 4xl:px-16 px-10 block sm:inline-block">Talk to the team</a>
+      </div>
+    </div>--}}
+    <div class="text-center lg:my-10 mt-10 mb-10">
+      <a href="{{ route('connect-with-us') }}" class="button 4xl:text-28px lg:text-xl text-2xl font-semibold bg-persian-green text-white rounded-full 4xl:py-5 py-3 4xl:px-16 px-10 block sm:inline-block">Contact us</a>
     </div>
   </section>
   @include('front.partials.eap-link')
