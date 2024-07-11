@@ -109,7 +109,7 @@
           <span>Who we are</span>
           <ul class="dropdown-menu px-5 pt-10 pb-4 hidden">
             <li class="mb-18px"><a href="{{ route('who-we-are.our-history') }}">Our History</a></li>
-            <li class="mb-18px"><a href="{{ route('who-we-are.meet-the-team') }}">Meet The Team</a></li>
+            {{--<li class="mb-18px"><a href="{{ route('who-we-are.meet-the-team') }}">Meet The Team</a></li>--}}
             <li class="mb-18px"><a href="{{ route('who-we-are.regulatory-compliance') }}">Regulatory Compliance</a></li>
             <li class="mb-18px"><a href="{{ route('who-we-are.social-responsibility') }}">Social Responsibility</a></li>
             <li class="mb-18px"><a href="{{ route('who-we-are.media-and-resource-centre.index') }}">Media & Resource
