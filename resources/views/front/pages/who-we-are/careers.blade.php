@@ -7,9 +7,9 @@
 
 @section('header-content')
   <img class="hidden sm:inline-block w-full"
-       src="{{ asset('/image/professional-business-woman-in-motion-with-blur-in-2021-04-02-21-57-11-utc.png') }}">
+       src="{{ asset('/image/professional-business-woman-in-motion-with-blur-in-2021-04-02-21-57-11-utc.png') }}" alt="Smartway Pharmaceuticals - Careers & Internships" title="Smartway Pharmaceuticals - Careers & Internships">
   <img class="inline-block sm:hidden w-full"
-       src="{{ asset('/image/professional-business-woman-in-motion-with-blur-in-2021-04-02-21-57-11-utc-mobile.png') }}">
+       src="{{ asset('/image/professional-business-woman-in-motion-with-blur-in-2021-04-02-21-57-11-utc-mobile.png') }}" alt="Smartway Pharmaceuticals - Careers & Internships" title="Smartway Pharmaceuticals - Careers & Internships">
   <div class="gray-radial-gradient opacity-60 absolute top-0 bottom-0 right-0 left-0"></div>
   <div class="container 3xl:max-w-3xl absolute heading text-white lg:px-36 px-4">
     <h1 class="quarto-font 4xl:text-120px xl:text-85px md:text-6xl sm:text-4xl text-42px leading-none sm:mb-2 mb-44">
@@ -87,7 +87,7 @@
       <div class="lg:pr-16">
         <a href="{{ route('who-we-are.speculative-application') }}"
            class="quarto-font 4xl:text-62px text-44px leading-none">Speculative Application</a>
-        <img class="lg:hidden my-7 4xl:w-auto sm:w-3/4" src="{{ asset('image/Speculative_Application.jpg') }}">
+        <img class="lg:hidden my-7 4xl:w-auto sm:w-3/4" src="{{ asset('image/Speculative_Application.jpg') }}" alt="Smartway Pharmaceuticals - Speculative Application" title="Smartway Pharmaceuticals - Speculative Application">
         <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px mt-5 xl:mb-16 mb-9">
           <p class="lg:mb-9 mb-5 sm:pr-0 pr-2">
             We are always interested in people who believe that they share our values and purpose. If you think you are
@@ -99,26 +99,26 @@
           <p>
             <span class="sm:inline block">In the meantime, take a look at</span>
             <a href="{{ route('who-we-are.our-history') }}" class="text-lochmara">our history</a>
-            and
-            <a href="{{ route('who-we-are.meet-the-team') }}" class="text-lochmara">meet the team</a>
+            {{--and
+            <a href="{{ route('who-we-are.meet-the-team') }}" class="text-lochmara">meet the team</a>--}}
             pages and find out more
             about our culture <span class="sm:inline block">and business.</span>
           </p>
         </div>
         <a class="4xl:text-2xl xl:text-xl text-md font-bold flex items-center" href="{{ route('who-we-are.speculative-application') }}"><img
-              class="inline mr-4" src="{{ asset('image/icon/icn.svg') }}">Read more</a>
+              class="inline mr-4" src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Read more</a>
       </div>
       <div class="lg:block hidden">
-        <img class="my-auto" src="{{ asset('image/Speculative_Application.jpg') }}">
+        <img class="my-auto" src="{{ asset('image/Speculative_Application.jpg') }}" alt="Smartway Pharmaceuticals - Speculative Application" title="Smartway Pharmaceuticals - Speculative Application">
       </div>
 
       <div class="lg:block hidden">
-        <img src="{{ asset('image/Social_Responsibility.jpg') }}">
+        <img src="{{ asset('image/Social_Responsibility.jpg') }}" alt="Smartway Pharmaceuticals - Environmental, Social & Corporate Responsibility" title="Smartway Pharmaceuticals - Environmental, Social & Corporate Responsibility">
       </div>
       <div class="lg:pl-24 xl:pr-4">
         <a href="{{ route('who-we-are.social-responsibility') }}"
            class="quarto-font 4xl:text-62px text-44px leading-none">Environmental, Social & Corporate Responsibility</a>
-        <img class="lg:hidden my-7 4xl:w-auto sm:w-3/4" src="{{ asset('image/Social_Responsibility.jpg') }}">
+        <img class="lg:hidden my-7 4xl:w-auto sm:w-3/4" src="{{ asset('image/Social_Responsibility.jpg') }}" alt="Smartway Pharmaceuticals - Environmental, Social & Corporate Responsibility" title="Smartway Pharmaceuticals - Environmental, Social & Corporate Responsibility">
         <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px mt-5 xl:mb-16 mb-9">
           <p class="sm:pr-0 pr-2">
             We are committed to being socially accountable – to ourselves, our stakeholders and our customers. We
@@ -132,7 +132,7 @@
         </div>
         <a class="4xl:text-2xl xl:text-xl text-md font-bold flex items-center"
            href="{{ route('who-we-are.social-responsibility') }}"><img
-              class="inline mr-4" src="{{ asset('image/icon/icn.svg') }}">Read more</a>
+              class="inline mr-4" src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Read more</a>
       </div>
     </div>
   </section>
