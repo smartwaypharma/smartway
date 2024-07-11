@@ -65,7 +65,7 @@
       <a href="{{ route('who-we-are.responsible-person-application') }}" class="button pt-3 pb-4 px-10 bg-white-ice rounded-md transition duration-300 font-semibold text-black text-22px" type="submit">Apply</a>
     </div>
   </section>
-  <section class="bg-persian-green 3xl:lg:py-36 pt-2 pb-10 mb-5 text-white">
+ {{-- <section class="bg-persian-green 3xl:lg:py-36 pt-2 pb-10 mb-5 text-white">
     <div class="container 3xl:max-w-3xl px-4 lg:mt-0 mt-8">
       <h2 class="quarto-font 4xl:text-93px xl:text-62px lg:text-44px text-34px lg:text-44px text-34px lg:my-5 mt-0 mb-5">
         Unlicensed Medicines Executive
@@ -80,7 +80,7 @@
       </p>
       <a href="{{ route('who-we-are.unlicensed-medicines-executive') }}" class="button pt-3 pb-4 px-10 bg-white-ice rounded-md transition duration-300 font-semibold text-black text-22px" type="submit">Apply</a>
     </div>
-  </section>
+  </section>--}}
   <section class="container 3xl:max-w-3xl px-4 xl:pb-40 pb-20">
     <hr class="h-0.5 bg-black lg:my-30 mt-16 mb-16">
     <div class="grid lg:grid-cols-2 grid-cols-1 xl:gap-y-40 gap-y-20">
