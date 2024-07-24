@@ -46,7 +46,8 @@ class CreatePost extends Component
         'model.contactus_popup' => 'nullable|string',
         'model.metaTitle' => 'required|nullable|string',
         'model.metaDescription' => 'required|nullable|string',
-        'model.metaKeyword' => 'required|nullable|string'
+        'model.metaKeyword' => 'required|nullable|string',
+        'model.buttonTitle' => 'nullable|string'
     ];
 
     public function render()
@@ -71,9 +72,9 @@ class CreatePost extends Component
     {
         $this->validate();
 
-        if ($this->model->category_id == 2) {
+        if ($this->model->category_id == 2 && $this->text_under_pdf == "") {
             $this->validate([
-                'model.text_under_pdf' => 'required|string|max:65535',
+                'text_under_pdf' => 'required|string|max:65535',
                 'pdf' => 'mimes:pdf|max:2000'
             ]);
         }
@@ -84,16 +85,12 @@ class CreatePost extends Component
             ]);
         }
 
-        if ($this->model->category_id == 2 || $this->model->category_id == 3) {
+        if ($this->model->category_id != 2 || $this->model->category_id == 3) {
             $this->validate([
                 'firstTeamMemberImage' => 'required|image|max:5000',
                 'model.first_team_member_name' => 'required|string',
                 'model.first_team_member_position' => 'required|string',
-                'model.first_team_member_text' => 'required|string|max:65535',
-                'secondTeamMemberImage' => 'required|image|max:5000',
-                'model.second_team_member_name' => 'required|string',
-                'model.second_team_member_position' => 'required|string',
-                'model.second_team_member_text' => 'required|string|max:65535'
+                'model.first_team_member_text' => 'required|string|max:65535'
             ]);
         }
 
@@ -141,8 +138,9 @@ class CreatePost extends Component
         if($this->post_body){
             $this->model->post_body = $this->post_body;
         }
-
-        $this->model->text_under_pdf = $this->text_under_pdf;
+        if($this->text_under_pdf){
+            $this->model->text_under_pdf = $this->text_under_pdf;
+        }
 
         if ($this->model->save()) {
             $this->model->tags()->sync($this->tags);
@@ -151,5 +149,16 @@ class CreatePost extends Component
         session()->flash('message', 'Post successfully created.');
 
         return redirect()->route('admin.post');
+    }
+
+    public function setFirstTeamMemberImageNull()
+    {
+        $this->firstTeamMemberImage = null;
+        $this->model->first_team_member_image = null;
+    }
+    public function setSecondTeamMemberImageNull()
+    {
+        $this->secondTeamMemberImage = null;
+        $this->model->second_team_member_image = null;
     }
 }

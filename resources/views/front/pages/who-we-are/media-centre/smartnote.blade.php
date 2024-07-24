@@ -8,9 +8,9 @@
 
 @section('header-content')
   <img class="hidden sm:inline-block w-full"
-       src="{{ Illuminate\Support\Facades\Storage::url($post->hero_image_for_desktop) }}">
+       src="{{ Illuminate\Support\Facades\Storage::url($post->hero_image_for_desktop) }}" alt="Smartway Pharmaceuticals - SmartNote" title="Smartway Pharmaceuticals - SmartNote">
   <img class="inline-block sm:hidden w-full"
-       src="{{ Illuminate\Support\Facades\Storage::url($post->hero_image_for_mobile) }}">
+       src="{{ Illuminate\Support\Facades\Storage::url($post->hero_image_for_mobile) }}" alt="Smartway Pharmaceuticals - SmartNote" title="Smartway Pharmaceuticals - SmartNote">
   <div class="gray-radial-gradient opacity-60 absolute top-0 bottom-0 right-0 left-0"></div>
   <div class="container 3xl:max-w-3xl absolute heading text-white lg:px-36 px-4 sm:mb-0 mb-44">
     <h1 class="quarto-font 4xl:text-120px xl:text-85px md:text-6xl sm:text-4xl text-42px font-medium -tracking-0.55px leading-none xl:w-1/2">
@@ -25,7 +25,7 @@
     <a class="hidden sm:block text-lg font-bold flex items-center mb-8"
        href="{{ route('who-we-are.media-and-resource-centre.index') }}">
       <img class="inline transform rotate-180 mr-3 w-5 h-5"
-           src="{{ asset('image/icon/icn.svg') }}">Back</a>
+           src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Back</a>
     <p class="opacity-50 text-lg">{{ $post->created_at->format("jS F Y") }}</p>
     <p class="text-lg font-bold lg:mt-1 mt-2 lg:mb-6 mb-1">SmartNote</p>
     <p class="4xl:text-34px sm:text-2xl text-22px font-bold">Introduction</p>
@@ -47,7 +47,7 @@
       </div>
       <div class="2xl:max-w-6xl xl:max-w-4xl 2xl:pl-40 xl:pl-20">
         <img class="xl:-ml-16 xl:mr-0 mx-auto xl:mt-0 mt-10 xl:w-full sm:w-2/3"
-             src="{{ asset('image/SmartNote_logo.svg') }}">
+             src="{{ asset('image/SmartNote_logo.svg') }}" alt="Smartway Pharmaceuticals Logo" title="Smartway Pharmaceuticals Logo">
         <div class="post-content mt-16">
           {!! $post->post_body !!}
         </div>
@@ -66,20 +66,36 @@
         </div>
         <div class="grid lg:grid-cols-2 gap-4 gap-y-16 lg:mt-16 mt-20 xl:pr-10">
           <div>
-            <img src="{{ Illuminate\Support\Facades\Storage::url($post->first_team_member_image) }}">
-            <p class="text-21px font-bold text-lochmara lg:mt-2 mt-3">{{ $post->first_team_member_name }}</p>
-            <p class="text-xl font-bold xl:mt-0 mt-1">{{ $post->first_team_member_position }}</p>
-            <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px lg:mt-11 mt-6 xl:pr-14 pr-3">
-              {{ $post->first_team_member_text }}
-            </p>
+            @if ($post->first_team_member_image)   
+              <img src="{{ Illuminate\Support\Facades\Storage::url($post->first_team_member_image) }}">
+            @endif
+            @if ($post->first_team_member_name)  
+              <p class="text-21px font-bold text-lochmara lg:mt-2 mt-3">{{ $post->first_team_member_name }}</p>
+            @endif
+            @if ($post->first_team_member_position)
+              <p class="text-xl font-bold xl:mt-0 mt-1">{{ $post->first_team_member_position }}</p>
+            @endif
+            @if ($post->first_team_member_text)    
+              <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px lg:mt-11 mt-6 xl:pr-14 pr-3">
+                {{ $post->first_team_member_text }}
+              </p>
+            @endif
           </div>
           <div>
-            <img src="{{ Illuminate\Support\Facades\Storage::url($post->second_team_member_image) }}">
-            <p class="text-21px font-bold text-lochmara lg:mt-2 mt-3">{{ $post->second_team_member_name }}</p>
-            <p class="text-xl font-bold xl:mt-0 mt-1">{{ $post->second_team_member_position }}</p>
-            <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px lg:mt-11 mt-6 xl:pr-11 xl:pr-14 pr-3">
-              {{ $post->second_team_member_text }}
-            </p>
+              @if ($post->second_team_member_image)    
+                <img src="{{ Illuminate\Support\Facades\Storage::url($post->second_team_member_image) }}">
+              @endif
+              @if ($post->second_team_member_name)
+                <p class="text-21px font-bold text-lochmara lg:mt-2 mt-3">{{ $post->second_team_member_name }}</p>
+              @endif
+              @if ($post->second_team_member_position)
+                <p class="text-xl font-bold xl:mt-0 mt-1">{{ $post->second_team_member_position }}</p>
+              @endif
+              @if ($post->second_team_member_text)    
+                <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px lg:mt-11 mt-6 xl:pr-11 xl:pr-14 pr-3">
+                  {{ $post->second_team_member_text }}
+                </p>
+              @endif
           </div>
         </div>
       </div>
@@ -124,7 +140,7 @@
               d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"></path>
         </svg>
         <div class="text-center lg:py-20 py-9 lg:px-28 px-4">
-          <img class="w-auto mx-auto lg:px-5 px-10" src="{{ asset('image/Main_Logo_black.svg') }}" alt="Logo">
+          <img class="w-auto mx-auto lg:px-5 px-10" src="{{ asset('image/Main_Logo_black.svg') }}" alt="Smartway Pharmaceuticals logo" title="Smartway Pharmaceuticals logo">
           <p class="quarto-font xl:text-44px text-34px xl:leading-48px leading-40px lg:my-4 mt-6 mb-2 sm:mx-0 -mx-4">In order to access this content, please fill
             out the form below and we’ll email this SmartNote to you.</p>
           <p class="lg:text-22px lg:leading-37px text-lg leading-24px">Smartway will never share your email address without your permission.</p>
@@ -190,7 +206,7 @@
               d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"></path>
         </svg>
         <div class="text-center lg:py-20 py-10 lg:px-24 px-4">
-          <img class="w-auto mx-auto lg:px-5 px-10" src="{{ asset('image/Main_Logo_black.svg') }}" alt="Logo">
+          <img class="w-auto mx-auto lg:px-5 px-10" src="{{ asset('image/Main_Logo_black.svg') }}" alt="Smartway Pharmaceuticals logo" title="Smartway Pharmaceuticals logo">
           <p class="quarto-font xl:text-64px xl:leading-70px sm:text-54px sm:leading-53px text-34px leading-41px mt-5 lg:mb-3 mb-1">
             Thank you!</p>
           <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px">

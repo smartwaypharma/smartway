@@ -47,7 +47,8 @@ class EditPost extends Component
         'model.contactus_popup' => 'nullable',
         'model.metaTitle' => 'required|nullable|string',
         'model.metaDescription' => 'required|nullable|string',
-        'model.metaKeyword' => 'required|nullable|string'
+        'model.metaKeyword' => 'required|nullable|string',
+        'model.buttonTitle' => 'nullable|string',
     ];
 
     public function render()
@@ -87,7 +88,7 @@ class EditPost extends Component
     {
         $this->validate();
 
-        if ($this->model->category_id == 2) {
+        if ($this->model->category_id == 2 && $this->text_under_pdf == "") {
             $this->validate([
                 'model.text_under_pdf' => 'required|string|max:65535'
             ]);
@@ -99,14 +100,11 @@ class EditPost extends Component
             ]);
         }
 
-        if ($this->model->category_id == 2 || $this->model->category_id == 3) {
+        if ($this->model->category_id != 2 || $this->model->category_id == 3) {
             $this->validate([
                 'model.first_team_member_name' => 'required|string',
                 'model.first_team_member_position' => 'required|string',
                 'model.first_team_member_text' => 'required|string|max:65535',
-                'model.second_team_member_name' => 'required|string',
-                'model.second_team_member_position' => 'required|string',
-                'model.second_team_member_text' => 'required|string|max:65535',
             ]);
         }
 
@@ -125,14 +123,18 @@ class EditPost extends Component
         }
 
         if ($this->firstTeamMemberImage) {
-            Storage::disk('public')->delete($this->model->first_team_member_image);
+            if($this->model->first_team_member_image) {
+                Storage::disk('public')->delete($this->model->first_team_member_image);
+            }
 
             $filename = uniqid() . '.' . $this->firstTeamMemberImage->getClientOriginalExtension();
             $this->model->first_team_member_image = $this->firstTeamMemberImage->storeAs('team-members', $filename, 'public');
         }
 
         if ($this->secondTeamMemberImage) {
-            Storage::disk('public')->delete($this->model->second_team_member_image);
+            if($this->model->second_team_member_image) {
+                Storage::disk('public')->delete($this->model->second_team_member_image);
+            }
 
             $filename = uniqid() . '.' . $this->secondTeamMemberImage->getClientOriginalExtension();
             $this->model->second_team_member_image = $this->secondTeamMemberImage->storeAs('team-members', $filename, 'public');
@@ -148,7 +150,9 @@ class EditPost extends Component
             $this->model->post_body = $this->post_body;
         }
 
-        $this->model->text_under_pdf = $this->text_under_pdf;
+        if($this->text_under_pdf) {
+            $this->model->text_under_pdf = $this->text_under_pdf;
+        }
 
         if ($this->moreArticles) {
             foreach ($this->moreArticles as $key => $value) {
@@ -178,5 +182,32 @@ class EditPost extends Component
         session()->flash('message', 'Post successfully updated.');
 
         return redirect()->route('admin.post');
+    }
+
+    public function setFirstTeamMemberImageNull()
+    {
+        $this->firstTeamMemberImage = null;
+        if($this->model->first_team_member_image) {
+            if(Storage::disk('public')->exists($this->model->first_team_member_image)){
+                Storage::disk('public')->delete($this->model->first_team_member_image);
+            }
+            $this->model->first_team_member_image = null;
+            if ($this->model->save()) {
+                $this->model->tags()->sync($this->tags);
+            }
+        }
+    }
+    public function setSecondTeamMemberImageNull()
+    {
+        $this->secondTeamMemberImage = null;
+        if($this->model->second_team_member_image) {
+            if(Storage::disk('public')->exists($this->model->second_team_member_image)){
+                Storage::disk('public')->delete($this->model->second_team_member_image);
+            }
+            $this->model->second_team_member_image = null;
+            if ($this->model->save()) {
+                $this->model->tags()->sync($this->tags);
+            }
+        }
     }
 }
