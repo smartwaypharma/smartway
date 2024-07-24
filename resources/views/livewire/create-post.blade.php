@@ -161,10 +161,17 @@
                 @if ($model->first_team_member_image || $firstTeamMemberImage)
                   <div class="mt-3 w-1/2">
                     <h4>Preview:</h4>
+                    <button id="setFirstTeamMemberImageNull" class="d-none" wire:click.prevent="setFirstTeamMemberImageNull"></button>
                     @if ($model->first_team_member_image && !$firstTeamMemberImage)
-                      <img src="{{ Illuminate\Support\Facades\Storage::url($model->first_team_member_image) }}">
+                      <span class="image-area pip">
+                        <img src="{{ Illuminate\Support\Facades\Storage::url($model->first_team_member_image) }}">
+                        <span class="firstTeamRemove remove-image" style="display: inline;">&#215;</span>
+                      </span>
                     @else
-                      <img src="{{ $firstTeamMemberImage->temporaryUrl() }}">
+                      <span class="image-area pip">
+                        <img src="{{ $firstTeamMemberImage->temporaryUrl() }}">
+                        <span  class="firstTeamRemove remove-image" style="display: inline;">&#215;</span>
+                      </span>
                     @endif
                   </div>
                 @endif
@@ -214,10 +221,17 @@
                 @if ($model->second_team_member_image || $secondTeamMemberImage)
                   <div class="mt-3 w-1/2">
                     <h4>Preview:</h4>
+                    <button id="setSecondTeamMemberImageNull" class="d-none" wire:click.prevent="setSecondTeamMemberImageNull"></button>
                     @if ($model->second_team_member_image && !$secondTeamMemberImage)
-                      <img src="{{ Illuminate\Support\Facades\Storage::url($model->second_team_member_image) }}">
+                      <span class="image-area pip">
+                        <img src="{{ Illuminate\Support\Facades\Storage::url($model->second_team_member_image) }}">
+                        <span class="secondTeamRemove remove-image" style="display: inline;">&#215;</span>
+                      </span>
                     @else
-                      <img src="{{ $secondTeamMemberImage->temporaryUrl() }}">
+                      <span class="image-area pip">
+                        <img src="{{ $secondTeamMemberImage->temporaryUrl() }}">
+                        <span class="secondTeamRemove remove-image" style="display: inline;">&#215;</span>
+                      </span>
                     @endif
                   </div>
                 @endif
@@ -256,6 +270,13 @@
                    class="border-gray-300 cursor-pointer"
                    id="contactUsPopup" value="1"> Do you want to capture contact details for this post?</label>
             @error('model.contactus_popup') <span class="text-sm text-red-600 mt-2">{{ $message }}</span> @enderror
+          </div>
+          <div class="my-3">
+            <label for="buttonTitle" class="block font-medium text-sm text-gray-700">Button Title</label>
+            <input type="text" wire:model="model.buttonTitle"
+                   class="border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm mt-1 block w-full"
+                   id="buttonTitle">
+            @error('model.buttonTitle') <span class="text-sm text-red-600 mt-2">{{ $message }}</span> @enderror
           </div>
           <div class="my-3">
             <div wire:ignore>
@@ -302,21 +323,20 @@
 
 @push('styles')
   <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
 @endpush
 
 @push('scripts')
 <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
-<script src="https://cdn.ckeditor.com/4.16.1/full/ckeditor.js"></script>
+<script src="https://cdn.ckeditor.com/4.22.1/full/ckeditor.js"></script>
 <script>
   const editor = CKEDITOR.replace('post_body');
   editor.on('change', function(event){
-    console.log(event.editor.getData())
             @this.set('post_body', event.editor.getData());
   })
 
   const editorPdf = CKEDITOR.replace('text_under_pdf');
   editorPdf.on('change', function(event){
-    console.log(event.editor.getData())
             @this.set('text_under_pdf', event.editor.getData());
   })
     /*ClassicEditor.create(document.getElementById("post-body"))
@@ -376,6 +396,15 @@
       $('#moreArticles').on('change', function (e) {
         var data = $('#moreArticles').select2("val");
         @this.set('moreArticles', data);
+      });
+
+      $(document).on('click','.firstTeamRemove',function() {
+        $('#firstTeamMemberImage').val(null);
+        $('#setFirstTeamMemberImageNull').click();
+      });
+      $(document).on('click','.secondTeamRemove',function() {
+        $('#secondTeamMemberImage').val(null);
+        $('#setSecondTeamMemberImageNull').click();
       });
     });
   </script>
