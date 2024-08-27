@@ -24,16 +24,16 @@
   </h1>
   <a href="#tween" class="sm:block hidden absolute right-0 left-0 bottom-10">
     <img class="transform rotate-90 mx-auto"
-         src="{{ asset('image/icon/ic_arrow_forward_16px.svg') }}">
+         src="{{ asset('image/icon/ic_arrow_forward_16px.svg') }}" alt="Smartway Pharmaceuticals - arrow forward icon" title="Smartway Pharmaceuticals - arrow forward icon">
   </a>
   <img id="soundButtonDesktop"
        class="sm:block hidden absolute bottom-5 left-14 cursor-pointer"
        data-state="mute"
-       src="{{ asset('image/icon/Ic_volume_off_40px.png') }}">
+       src="{{ asset('image/icon/Ic_volume_off_40px.png') }}" alt="Smartway Pharmaceuticals - volume off icon" title="Smartway Pharmaceuticals - volume off icon">
   <img id="soundButtonMobile"
        class="sm:hidden block absolute bottom-5 left-4 cursor-pointer"
        data-state="mute"
-       src="{{ asset('image/icon/Ic_volume_off_40px.png') }}">
+       src="{{ asset('image/icon/Ic_volume_off_40px.png') }}" alt="Smartway Pharmaceuticals - volume off icon" title="Smartway Pharmaceuticals - volume off icon">
 @endsection
 
 @section('content')
@@ -93,10 +93,10 @@
               </p>
               <a class="4xl:text-2xl text-md font-bold flex items-center"
                  href="{{ route('how-we-help.aid-dev.index') }}">
-                <img class="inline 4xl:w-auto 4xl:h-auto w-5 h-5 mr-3" src="{{ asset('image/icon/icn-white.svg') }}">Explore
+                <img class="inline 4xl:w-auto 4xl:h-auto w-5 h-5 mr-3" src="{{ asset('image/icon/icn-white.svg') }}" alt="Smartway Pharmaceuticals - white icon" title="Smartway Pharmaceuticals - white icon">Explore
                 more</a>
 
-              <img class="mt-5 lg:w-auto sm:w-3/4" src="{{ asset('image/Aid_Dev.jpg') }}">
+              <img class="mt-5 lg:w-auto sm:w-3/4" src="{{ asset('image/Aid_Dev.jpg') }}" alt="Smartway Pharmaceuticals - Aid & Development" title="Smartway Pharmaceuticals - Aid & Development">
             </div>
             <div id="trigger2" class="lg:pt-40 pt-20">
               <p class="heading 4xl:text-34px lg:text-2xl text-22px font-bold lg:mb-3 mb-7">
@@ -108,10 +108,10 @@
                 RLDs, samples and biosimilar samples.
               </p>
               <a class="4xl:text-2xl text-md font-bold flex items-center" href="{{ route('how-we-help.cts.index') }}">
-                <img class="inline 4xl:w-auto 4xl:h-auto w-5 h-5 mr-3" src="{{ asset('image/icon/icn-white.svg') }}">Explore
+                <img class="inline 4xl:w-auto 4xl:h-auto w-5 h-5 mr-3" src="{{ asset('image/icon/icn-white.svg') }}" alt="Smartway Pharmaceuticals - white icon" title="Smartway Pharmaceuticals - white icon">Explore
                 more</a>
 
-              <img class="mt-5 lg:w-auto sm:w-3/4" src="{{ asset('/image/hero-cts.jpg') }}">
+              <img class="mt-5 lg:w-auto sm:w-3/4" src="{{ asset('/image/hero-cts.jpg') }}" alt="Smartway Pharmaceuticals - Comparator/RLD Supply" title="Smartway Pharmaceuticals - Comparator/RLD Supply">
             </div>
             <div id="trigger3" class="lg:pt-20">
               <p class="heading 4xl:text-34px lg:text-2xl text-22px font-bold lg:mb-3 mb-7">Early Access
@@ -121,10 +121,10 @@
                 Expanded Access, Named Patient and Compassionate Use Programs.
               </p>
               <a class="4xl:text-2xl text-md font-bold flex items-center" href="{{ route('how-we-help.eap.index') }}">
-                <img class="inline 4xl:w-auto 4xl:h-auto w-5 h-5 mr-3" src="{{ asset('image/icon/icn-white.svg') }}">Explore
+                <img class="inline 4xl:w-auto 4xl:h-auto w-5 h-5 mr-3" src="{{ asset('image/icon/icn-white.svg') }}" alt="Smartway Pharmaceuticals - white icon" title="Smartway Pharmaceuticals - white icon">Explore
                 more</a>
 
-              <img class="mt-5 lg:w-auto sm:w-3/4" src="{{ asset('image/EAP.jpg') }}">
+              <img class="mt-5 lg:w-auto sm:w-3/4" src="{{ asset('image/EAP.jpg') }}" alt="Smartway Pharmaceuticals - Early Access Programs (EAP)" title="Smartway Pharmaceuticals - Early Access Programs (EAP)">
             </div>
             <div id="trigger4" class="lg:pt-40 pt-20">
               <p class="heading 4xl:text-34px lg:text-2xl text-22px font-bold lg:mb-3 mb-7">
@@ -135,10 +135,10 @@
               </p>
               <a class="4xl:text-2xl text-md font-bold flex items-center"
                  href="{{ route('how-we-help.hospital-and-pharmacy-supply.index') }}">
-                <img class="inline 4xl:w-auto 4xl:h-auto w-5 h-5 mr-3" src="{{ asset('image/icon/icn-white.svg') }}">Explore
+                <img class="inline 4xl:w-auto 4xl:h-auto w-5 h-5 mr-3" src="{{ asset('image/icon/icn-white.svg') }}" alt="Smartway Pharmaceuticals - white icon" title="Smartway Pharmaceuticals - white icon">Explore
                 more</a>
 
-              <img class="mt-5 lg:w-auto sm:w-3/4" src="{{ asset('image/hero-hospital-pharmacy.jpg') }}">
+              <img class="mt-5 lg:w-auto sm:w-3/4" src="{{ asset('image/hero-hospital-pharmacy.jpg') }}" alt="Smartway Pharmaceuticals - Hospital & Pharmacy Supply" title="Smartway Pharmaceuticals - Hospital & Pharmacy Supply">
             </div>
             <div id="trigger5" class="lg:pt-40 pt-20">
               <p class="heading 4xl:text-34px lg:text-2xl text-22px font-bold lg:mb-3 mb-7">
@@ -154,10 +154,10 @@
               </p>
               <a class="4xl:text-2xl text-md font-bold flex items-center"
                  href="{{ route('how-we-help.international-supply-and-unlicensed-imports.index') }}">
-                <img class="inline 4xl:w-auto 4xl:h-auto w-5 h-5 mr-3" src="{{ asset('image/icon/icn-white.svg') }}">Explore
+                <img class="inline 4xl:w-auto 4xl:h-auto w-5 h-5 mr-3" src="{{ asset('image/icon/icn-white.svg') }}" alt="Smartway Pharmaceuticals - white icon" title="Smartway Pharmaceuticals - white icon">Explore
                 more</a>
 
-              <img class="mt-5 lg:w-auto sm:w-3/4" src="{{ asset('image/International.jpg') }}">
+              <img class="mt-5 lg:w-auto sm:w-3/4" src="{{ asset('image/International.jpg') }}" alt="Smartway Pharmaceuticals - International Supply & Unlicensed Imports" title="Smartway Pharmaceuticals - International Supply & Unlicensed Imports">
             </div>
             <div id="trigger6" class="lg:pt-40 pt-20">
               <p class="heading 4xl:text-34px lg:text-2xl text-22px font-bold lg:mb-3 mb-7">
@@ -170,10 +170,10 @@
               </p>
               <a class="4xl:text-2xl text-md font-bold flex items-center"
                  href="{{ route('how-we-help.sexual-health.index') }}">
-                <img class="inline 4xl:w-auto 4xl:h-auto w-5 h-5 mr-3" src="{{ asset('image/icon/icn-white.svg') }}">Explore
+                <img class="inline 4xl:w-auto 4xl:h-auto w-5 h-5 mr-3" src="{{ asset('image/icon/icn-white.svg') }}" alt="Smartway Pharmaceuticals - white icon" title="Smartway Pharmaceuticals - white icon">Explore
                 more</a>
 
-              <img class="mt-5 lg:w-auto sm:w-3/4" src="{{ asset('/image/hero-sexual-health.jpg') }}">
+              <img class="mt-5 lg:w-auto sm:w-3/4" src="{{ asset('/image/hero-sexual-health.jpg') }}" alt="Smartway Pharmaceuticals - Sexual Health Supply" title="Smartway Pharmaceuticals - Sexual Health Supply">
             </div>
             <div id="trigger7" class="lg:pt-40 pt-20">
               <p class="heading 4xl:text-34px lg:text-2xl text-22px font-bold lg:mb-3 mb-7">
@@ -186,10 +186,10 @@
               </p>
               <a class="4xl:text-2xl text-md font-bold flex items-center"
                  href="{{ route('how-we-help.distribution.index') }}">
-                <img class="inline 4xl:w-auto 4xl:h-auto w-5 h-5 mr-3" src="{{ asset('image/icon/icn-white.svg') }}">Explore
+                <img class="inline 4xl:w-auto 4xl:h-auto w-5 h-5 mr-3" src="{{ asset('image/icon/icn-white.svg') }}" alt="Smartway Pharmaceuticals - white icon" title="Smartway Pharmaceuticals - white icon">Explore
                 more</a>
 
-              <img class="mt-5 lg:w-auto sm:w-3/4" src="{{ asset('image/hero-global-distributions.jpg') }}">
+              <img class="mt-5 lg:w-auto sm:w-3/4" src="{{ asset('image/hero-global-distributions.jpg') }}" alt="Smartway Pharmaceuticals - Specialist Distribution" title="Smartway Pharmaceuticals - Specialist Distribution">
             </div>
           </div>
         </div>
@@ -203,7 +203,7 @@
         <div class="grid lg:grid-cols-3 grid-cols-1 gap-5 lg:mt-38 mt-20 lg:pb-14 pb-8">
           @foreach($posts as $post)
             <div class="js-fade-in-up-tween text-lg lg:leading-28px leading-24px">
-              <img class="lg:w-auto sm:w-3/4" src="{{ Illuminate\Support\Facades\Storage::url($post->hero_image_for_desktop) }}">
+              <img class="lg:w-auto sm:w-3/4" src="{{ Illuminate\Support\Facades\Storage::url($post->hero_image_for_desktop) }}" alt="Smartway Pharmaceuticals - {{ $post->title }}" title="Smartway Pharmaceuticals - {{ $post->title }}">
               <p class="opacity-50 mt-3">{{ $post->created_at->format("d F Y") }}</p>
               <p class="font-bold mt-1 mb-2">{{ $post->category->name }}</p>
               <a href="{{ route('who-we-are.media-and-resource-centre.post', [$post->category->slug, $post->slug]) }}"
@@ -213,30 +213,30 @@
           @endforeach
         </div>
         <a class="4xl:text-2xl text-base font-bold" href="{{ route('who-we-are.media-and-resource-centre.index') }}">
-          <img class="inline mr-4 4xl:w-auto 4xl:h-auto w-5 h-5" src="{{ asset('image/icon/icn.svg') }}">View
+          <img class="inline mr-4 4xl:w-auto 4xl:h-auto w-5 h-5" src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">View
           All</a>
       @endif
     </section>
   </main>
-  {{--<div class="fixed left-0 top-0 z-999999 h-full w-full overflow-y-auto overflow-x-hidden outline-none hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true" id="expopharm">
+  <div class="fixed left-0 top-0 z-999999 h-full w-full overflow-y-auto overflow-x-hidden outline-none hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true" id="expopharm">
     <div class="fixed inset-0 bg-black opacity-50 transition-opacity"></div>
     <div class="fixed inset-0 z-10 overflow-y-auto">
       <div class="sm:w-full sm:max-w-lg h-full flex flex-col items-center justify-center p-4 sm:p-4 mx-auto">
         <div class="relative transform overflow-hidden rounded-3xl text-center shadow-xl transition-all w-full bg-lochmara border-2">
           <div class="text-center mt-3 ml-3 mr-3 mb-3">
-            <h1 class="text-21px font-semibold text-white" id="modal-title">Are you going to Expopharm <br/> this September?</h1>
+            <h1 class="text-21px font-semibold text-white" id="modal-title">Are you going to Expopharm <br/> this October?</h1>
             <div class="mt-3">
               <p class="text-sm text-white font-semibold">You can book a one-on-one meeting with our commercial team and explore how we can collaborate and create a profitable partnership that benefits both of our businesses.</p>
             </div>
           </div>
           <div class="sm:px-6 flex items-center justify-center ml-3 mr-3 mb-5">
-            <a type="button" href="https://calendly.com/smartway-commercial/smartway-expopharm23?month=2023-09" class="bg-persian-green text-white rounded-3xl border-2 py-2 px-4 text-xs font-bold mr-2">Book a meeting via Calendly</a>
+            <a type="button" href="https://calendly.com/smartway-commercial/smartway-expopharm24?month=2024-10" class="bg-persian-green text-white rounded-3xl border-2 py-2 px-4 text-xs font-bold mr-2" target="_blank">Book a meeting via Calendly</a>
             <a type="button" href="#!" class="js-modal-close bg-lochmara text-white rounded-3xl border-2 py-2 px-4 text-xs font-bold">Dismiss</a>
           </div>
         </div>
       </div>
     </div>
-  </div>--}}
+  </div>
 @endsection
 
 @push('scripts')
