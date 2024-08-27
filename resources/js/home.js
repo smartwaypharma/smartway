@@ -156,7 +156,7 @@ window.addEventListener("load", function () {
    $('#MyModal').modal('show');
    }*/
 
-  /*setTimeout(function(){
+  setTimeout(function(){
     if (document.cookie.indexOf("FooBar=true") == -1) {
       document.cookie = "FooBar=true; max-age=86400;";
       $('#expopharm').removeClass("hidden");
@@ -165,6 +165,6 @@ window.addEventListener("load", function () {
 
   $('.js-modal-close').on('click', function () {
     $('#expopharm').addClass('hidden');
-  })*/
+  })
 
 });
