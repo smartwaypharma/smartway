@@ -218,7 +218,7 @@
       @endif
     </section>
   </main>
-  <div class="fixed left-0 top-0 z-999999 h-full w-full overflow-y-auto overflow-x-hidden outline-none hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true" id="expopharm">
+ {{-- <div class="fixed left-0 top-0 z-999999 h-full w-full overflow-y-auto overflow-x-hidden outline-none hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true" id="expopharm">
     <div class="fixed inset-0 bg-black opacity-50 transition-opacity"></div>
     <div class="fixed inset-0 z-10 overflow-y-auto">
       <div class="sm:w-full sm:max-w-lg h-full flex flex-col items-center justify-center p-4 sm:p-4 mx-auto">
@@ -236,7 +236,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div>--}}
 @endsection
 
 @push('scripts')
