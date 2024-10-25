@@ -7,8 +7,8 @@
 
 @section('header-content')
   <img class="hidden sm:inline-block w-full"
-       src="{{ asset('/image/distribution-manager-2021-04-05-21-47-52-utc-header.png') }}">
-  <img class="inline-block sm:hidden w-full" src="{{ asset('/image/Wholesaler_Distributor.jpg') }}">
+       src="{{ asset('/image/distribution-manager-2021-04-05-21-47-52-utc-header.png') }}" alt="Smartway Pharmaceuticals - Wholesaler / Distributor" title="Smartway Pharmaceuticals - Wholesaler / Distributor">
+  <img class="inline-block sm:hidden w-full" src="{{ asset('/image/Wholesaler_Distributor.jpg') }}" alt="Smartway Pharmaceuticals - Wholesaler / Distributor" title="Smartway Pharmaceuticals - Wholesaler / Distributor">
   <div class="gray-radial-gradient opacity-60 absolute top-0 bottom-0 right-0 left-0"></div>
   <div class="container 3xl:max-w-3xl absolute heading text-white lg:px-36 px-4">
     <h1 class="quarto-font 4xl:text-120px xl:text-85px md:text-6xl sm:text-4xl text-42px leading-none mb-2">
@@ -19,7 +19,7 @@
       <span class="xl:block">98 countries, supplying them with products not</span>
       <span class="xl:block">otherwise
           available in their county. We source</span>
-      <span class="xl:block">products from over 25 countries.</span>
+      <span class="xl:block">products from over 40 countries.</span>
     </p>
   </div>
 @endsection
@@ -33,7 +33,7 @@
           We provide a reliable, global source of branded and generic pharmaceuticals from over
           <span class="4xl:block">98 countries.</span>
         </h2>
-        <img class="lg:hidden lg:w-auto sm:w-3/4 mb-7" src="{{ asset('image/reliable_global.jpg') }}">
+        <img class="lg:hidden lg:w-auto sm:w-3/4 mb-7" src="{{ asset('image/reliable_global.jpg') }}" alt="Smartway Pharmaceuticals - We provide a reliable, global source of branded and generic pharmaceuticals from over 98 countries." title="Smartway Pharmaceuticals - We provide a reliable, global source of branded and generic pharmaceuticals from over 98 countries.">
         <p class="4xl:text-32px xl:text-21px lg:text-2xl text-lg 4xl:leading-45px xl:leading-28px leading-24px 4xl:-mr-6 xl:pr-24 pr-4">
           From our bases in the EU, UK, India and UAE, we source globally to obtain the best prices for you. Our network
           of audited, approved suppliers has been built up over 25 years– and we can work with you to build your
@@ -41,7 +41,7 @@
         </p>
       </div>
       <div class="lg:block hidden">
-        <img class="ml-auto mr-0" src="{{ asset('image/reliable_global.jpg') }}">
+        <img class="ml-auto mr-0" src="{{ asset('image/reliable_global.jpg') }}" alt="Smartway Pharmaceuticals - We provide a reliable, global source of branded and generic pharmaceuticals from over 98 countries." title="Smartway Pharmaceuticals - We provide a reliable, global source of branded and generic pharmaceuticals from over 98 countries.">
       </div>
     </div>
     <h3 class="quarto-font 4xl:text-45px lg:text-31px text-34px 4xl:leading-45px lg:leading-34px leading-40px lg:mt-24 mt-6">
@@ -69,7 +69,7 @@
               <span class="block">on a global basis.</span>
             </p>
             <button class="link 4xl:text-2xl xl:text-17px text-2xl font-bold flex items-center absolute"><img
-                  class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}">Explore
+                  class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Explore
               more
             </button>
           </a>
@@ -87,7 +87,7 @@
               <span class="block">globally.</span>
             </p>
             <button class="link 4xl:text-2xl xl:text-17px text-2xl font-bold flex items-center absolute"><img
-                  class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}">Explore
+                  class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Explore
               more
             </button>
           </a>
@@ -106,7 +106,7 @@
               <span class="block">from all countries.</span>
             </p>
             <button class="link 4xl:text-2xl xl:text-17px text-2xl font-bold flex items-center absolute"><img
-                  class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}">Explore
+                  class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Explore
               more
             </button>
           </a>
@@ -125,7 +125,7 @@
               <span class="block">all countries.</span>
             </p>
             <button class="link 4xl:text-2xl xl:text-17px text-2xl font-bold flex items-center absolute"><img
-                  class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}">Explore
+                  class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Explore
               more
             </button>
           </a>
@@ -149,7 +149,7 @@
               <span class="block">of therapies.</span>
             </p>
             <button class="link 4xl:text-2xl xl:text-17px text-2xl font-bold flex items-center absolute"><img
-                  class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}">Explore
+                  class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Explore
               more
             </button>
           </a>
@@ -167,7 +167,7 @@
               <span class="block">global scale.</span>
             </p>
             <button class="link 4xl:text-2xl xl:text-17px text-2xl font-bold flex items-center absolute"><img
-                  class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}">Explore
+                  class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Explore
               more
             </button>
           </a>
@@ -192,7 +192,7 @@
           <span class="block">on a global basis.</span>
         </p>
         <button class="link 4xl:text-2xl xl:text-17px text-2xl font-bold flex items-center absolute"><img
-              class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}">Explore
+              class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Explore
           more
         </button>
       </a>
@@ -208,7 +208,7 @@
           <span class="block">supply ULM to wholesalers globally.</span>
         </p>
         <button class="link 4xl:text-2xl xl:text-17px text-2xl font-bold flex items-center absolute"><img
-              class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}">Explore
+              class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Explore
           more
         </button>
       </a>
@@ -225,7 +225,7 @@
           <span class="block">to medicines from all countries.</span>
         </p>
         <button class="link 4xl:text-2xl xl:text-17px text-2xl font-bold flex items-center absolute"><img
-              class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}">Explore
+              class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Explore
           more
         </button>
       </a>
@@ -242,7 +242,7 @@
           <span class="block">medicines from all countries.</span>
         </p>
         <button class="link 4xl:text-2xl xl:text-17px text-2xl font-bold flex items-center absolute"><img
-              class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}">Explore
+              class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Explore
           more
         </button>
       </a>
@@ -262,7 +262,7 @@
           <span class="block">of therapies.</span>
         </p>
         <button class="link 4xl:text-2xl xl:text-17px text-2xl font-bold flex items-center absolute"><img
-              class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}">Explore
+              class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Explore
           more
         </button>
       </a>
@@ -279,7 +279,7 @@
           <span class="block">on a global scale.</span>
         </p>
         <button class="link 4xl:text-2xl xl:text-17px text-2xl font-bold flex items-center absolute"><img
-              class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}">Explore
+              class="inline filter 4xl:w-7 4xl:h-7 lg:w-5 lg:h-5 w-7 h-7 invert 4xl:mr-4 mr-3" src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Explore
           more
         </button>
       </a>

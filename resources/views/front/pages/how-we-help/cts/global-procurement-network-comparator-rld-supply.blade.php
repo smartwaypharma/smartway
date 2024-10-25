@@ -6,8 +6,8 @@
 @endsection
 
 @section('header-content')
-  <img class="hidden sm:inline-block w-full" src="{{ asset('/image/hero-global-procurement.jpg') }}">
-  <img class="sm:hidden inline-block w-full" src="{{ asset('/image/Global_Procurement-mobile.jpg') }}">
+  <img class="hidden sm:inline-block w-full" src="{{ asset('/image/hero-global-procurement.jpg') }}" alt="Smartway Pharmaceuticals - Global Procurement Network for Comparator and RLD Supply" title="Smartway Pharmaceuticals - Global Procurement Network for Comparator and RLD Supply">
+  <img class="sm:hidden inline-block w-full" src="{{ asset('/image/Global_Procurement-mobile.jpg') }}" alt="Smartway Pharmaceuticals - Global Procurement Network for Comparator and RLD Supply" title="Smartway Pharmaceuticals - Global Procurement Network for Comparator and RLD Supply">
   <div class="gray-radial-gradient opacity-60 absolute top-0 bottom-0 right-0 left-0"></div>
   <div class="container 3xl:max-w-3xl absolute heading text-white lg:px-36 px-4">
     <h1 class="quarto-font 4xl:text-120px xl:text-85px md:text-6xl sm:text-4xl text-42px mb-4">
@@ -22,7 +22,7 @@
   <section class="container 3xl:max-w-3xl px-4 pt-20">
     <a class="hidden sm:block text-lg font-bold flex items-center mb-16" href="{{ route('how-we-help.cts.index') }}">
       <img class="inline transform rotate-180 mr-3 w-5 h-5"
-           src="{{ asset('image/icon/icn.svg') }}">Back</a>
+           src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Back</a>
     <h2 class="quarto-font 4xl:text-93px xl:text-62px lg:text-44px text-34px 4xl:leading-102px xl:leading-70px lg:leading-48px leading-40px sm:mb-12 mb-6">
       Smartway has become known for reliable, consistent supplies of comparators, RLDs and biosimilars.
     </h2>
@@ -39,7 +39,7 @@
         With procurement hubs in
         India, China, EU, UK and the USA, we constantly maintain our supply network, ensuring suppliers meet the
         stringent regulatory approvals required for your trial. Our supply network ranges from direct manufacturers to
-        approved authorised distributors in over 25 countries.
+        approved authorised distributors in over 40 countries.
       </p>
       <p class="4xl:pr-20">
         We work closely with our customers and advisory board to
@@ -56,7 +56,7 @@
           <h2 class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold mb-6">
             <span class="xl:block">Safeguarding quality with audited,</span>
             <span class="xl:block">approved suppliers</span></h2>
-          <img class="lg:hidden sm:w-3/4 my-8" src="{{ asset('image/approved_suppliers.jpg') }}">
+          <img class="lg:hidden sm:w-3/4 my-8" src="{{ asset('image/approved_suppliers.jpg') }}" alt="Smartway Pharmaceuticals - Safeguarding quality with audited, approved suppliers" title="Smartway Pharmaceuticals - Safeguarding quality with audited, approved suppliers">
           <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px">
             <p>
               Smartway only sources from audited and approved suppliers. Irrespective of country or jurisdiction,
@@ -68,7 +68,7 @@
         </div>
       </div>
       <div class="lg:block hidden">
-        <img src="{{ asset('image/approved_suppliers.jpg') }}">
+        <img src="{{ asset('image/approved_suppliers.jpg') }}" alt="Smartway Pharmaceuticals - Safeguarding quality with audited, approved suppliers" title="Smartway Pharmaceuticals - Safeguarding quality with audited, approved suppliers">
       </div>
     </div>
     <div class="text-center sm:mt-36 mt-0 lg:mb-40 mb-20">

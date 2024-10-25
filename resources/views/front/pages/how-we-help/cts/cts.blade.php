@@ -6,8 +6,8 @@
 @endsection
 
 @section('header-content')
-  <img class="hidden sm:inline-block w-full" src="{{ asset('/image/hero-cts.jpg') }}">
-  <img class="inline-block sm:hidden w-full" src="{{ asset('/image/Comparator_RLD_Supply.jpg') }}">
+  <img class="hidden sm:inline-block w-full" src="{{ asset('/image/hero-cts.jpg') }}" alt="Smartway Pharmaceuticals - Comparator/RLD Supply" title="Smartway Pharmaceuticals - Comparator/RLD Supply">
+  <img class="inline-block sm:hidden w-full" src="{{ asset('/image/Comparator_RLD_Supply.jpg') }}" alt="Smartway Pharmaceuticals - Comparator/RLD Supply" title="Smartway Pharmaceuticals - Comparator/RLD Supply">
   <div class="gray-radial-gradient opacity-60 absolute top-0 bottom-0 right-0 left-0"></div>
   <div class="container 3xl:max-w-3xl absolute heading text-white lg:px-36 px-4">
     <h1 class="quarto-font 4xl:text-120px xl:text-85px md:text-6xl sm:text-4xl text-42px leading-none mb-6 sm:mb-0">
@@ -50,7 +50,7 @@
     <p class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold text-center">Why partner with Smartway?</p>
     <div class="xl:grid hidden grid-cols-5 gap-6 lg:mt-16 mt-7 4xl:text-22px text-lg pb-4 xl:px-0 px-6">
       <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 lg:pb-20 pb-16 px-2">
-        <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/cts-icn1.svg') }}"/>
+        <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/cts-icn1.svg') }}" alt="Smartway Pharmaceuticals - Global supply chain capability" title="Smartway Pharmaceuticals - Global supply chain capability"/>
         <p class="font-bold leading-tight mb-3">
           <span class="block">Global supply</span>
           <span class="block">chain capability</span>
@@ -62,7 +62,7 @@
         </p>
       </div>
       <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 lg:pb-20 pb-16 px-4">
-        <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/cts-icn2.svg') }}"/>
+        <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/cts-icn2.svg') }}" alt="Smartway Pharmaceuticals - Extensive product range" title="Smartway Pharmaceuticals - Extensive product range"/>
         <p class="font-bold leading-tight mb-10">
           Extensive product range
         </p>
@@ -72,7 +72,7 @@
       </div>
       <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 lg:pb-20 pb-16">
         <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5"
-             src="{{ asset('image/cts-icn3.svg') }}"/>
+             src="{{ asset('image/cts-icn3.svg') }}" alt="Smartway Pharmaceuticals - Manufacturer relationship" title="Smartway Pharmaceuticals - Manufacturer relationship"/>
         <p class="font-bold leading-tight mb-10">
           Manufacturer relationship
         </p>
@@ -81,7 +81,7 @@
         </p>
       </div>
       <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 lg:pb-20 pb-16 px-4">
-        <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/cts-icn4.svg') }}"/>
+        <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/cts-icn4.svg') }}" alt="Smartway Pharmaceuticals - Project management" title="Smartway Pharmaceuticals - Project management"/>
         <p class="font-bold leading-tight mb-10">
           Project management
         </p>
@@ -90,12 +90,12 @@
         </p>
       </div>
       <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 lg:pb-20 pb-16 px-4">
-        <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/cts-icn5.svg') }}"/>
+        <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/cts-icn5.svg') }}" alt="Smartway Pharmaceuticals - Global procurement" title="Smartway Pharmaceuticals - Global procurement"/>
         <p class="font-bold leading-tight mb-10">
           Global procurement
         </p>
         <p class="px-6">
-          25 countries. Approved and audited supplier network.
+          40 countries. Approved and audited supplier network.
         </p>
       </div>
     </div>
@@ -106,7 +106,7 @@
             <div
                 class="glide__slide my-2 bg-alabaster rounded-10px card-box-shadow text-center pt-10 lg:pb-20 pb-16 px-2 mr-6">
               <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5"
-                   src="{{ asset('image/cts-icn1.svg') }}"/>
+                   src="{{ asset('image/cts-icn1.svg') }}" alt="Smartway Pharmaceuticals - Global supply chain capability" title="Smartway Pharmaceuticals - Global supply chain capability"/>
               <p class="font-bold leading-tight mb-3">
                 <span class="block">Global supply</span>
                 <span class="block">chain capability</span>
@@ -120,7 +120,7 @@
             <div
                 class="glide__slide my-2 bg-alabaster rounded-10px card-box-shadow text-center pt-10 lg:pb-20 pb-16 px-4 mr-6">
               <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5"
-                   src="{{ asset('image/cts-icn2.svg') }}"/>
+                   src="{{ asset('image/cts-icn2.svg') }}" alt="Smartway Pharmaceuticals - Extensive product range" title="Smartway Pharmaceuticals - Extensive product range"/>
               <p class="font-bold leading-tight mb-10">
                 Extensive product range
               </p>
@@ -130,7 +130,7 @@
             </div>
             <div class="glide__slide my-2 bg-alabaster rounded-10px card-box-shadow text-center pt-10 lg:pb-20 pb-16 mr-6">
               <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5"
-                   src="{{ asset('image/cts-icn3.svg') }}"/>
+                   src="{{ asset('image/cts-icn3.svg') }}" alt="Smartway Pharmaceuticals - Manufacturer relationship" title="Smartway Pharmaceuticals - Manufacturer relationship"/>
               <p class="font-bold leading-tight mb-10">
                 Manufacturer relationship
               </p>
@@ -141,7 +141,7 @@
             <div
                 class="glide__slide my-2 bg-alabaster rounded-10px card-box-shadow text-center pt-10 lg:pb-20 pb-16 px-4 mr-6">
               <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5"
-                   src="{{ asset('image/cts-icn4.svg') }}"/>
+                   src="{{ asset('image/cts-icn4.svg') }}" alt="Smartway Pharmaceuticals - Project management" title="Smartway Pharmaceuticals - Project management"/>
               <p class="font-bold leading-tight mb-10">
                 Project management
               </p>
@@ -151,12 +151,12 @@
             </div>
             <div class="glide__slide my-2 bg-alabaster rounded-10px card-box-shadow text-center pt-10 lg:pb-20 pb-16 px-4">
               <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5"
-                   src="{{ asset('image/cts-icn5.svg') }}"/>
+                   src="{{ asset('image/cts-icn5.svg') }}" alt="Smartway Pharmaceuticals - Global procurement" title="Smartway Pharmaceuticals - Global procurement"/>
               <p class="font-bold leading-tight mb-10">
                 Global procurement
               </p>
               <p class="px-6">
-                25 countries. Approved and audited supplier network.
+                40 countries. Approved and audited supplier network.
               </p>
             </div>
           </div>
@@ -185,7 +185,7 @@
            class="quarto-font 4xl:text-62px text-44px leading-none">Global Procurement Network - Comparator,
           <span class="block sm:inline-block">RLD, Supply</span>
         </a>
-        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/Global_Procurement.jpg') }}">
+        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/Global_Procurement.jpg') }}" alt="Smartway Pharmaceuticals - Global Procurement Network - Comparator, RLD, Supply" title="Smartway Pharmaceuticals - Global Procurement Network - Comparator, RLD, Supply">
         <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px mt-5 xl:mb-16 mb-9">
           <p class="lg:mb-9 mb-5 xl:pr-0 pr-4">
             Smartway has become known for reliable, consistent supplies of comparators, RLDs and biosimilars.
@@ -198,14 +198,14 @@
         <a class="4xl:text-2xl xl:text-xl text-md font-bold flex items-center"
            href="{{ route('how-we-help.cts.global-procurement-network-comparator-rld-supply') }}"><img
               class="inline mr-4"
-              src="{{ asset('image/icon/icn.svg') }}">Read more</a>
+              src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Read more</a>
       </div>
       <div class="xl:flex hidden items-center">
-        <img class="my-auto" src="{{ asset('image/Global_Procurement.jpg') }}">
+        <img class="my-auto" src="{{ asset('image/Global_Procurement.jpg') }}" alt="Smartway Pharmaceuticals - Global Procurement Network - Comparator, RLD, Supply" title="Smartway Pharmaceuticals - Global Procurement Network - Comparator, RLD, Supply">
       </div>
 
       <div class="xl:flex hidden items-center">
-        <img src="{{ asset('image/Global_Supply.jpg') }}">
+        <img src="{{ asset('image/Global_Supply.jpg') }}" alt="Smartway Pharmaceuticals - Global supply Chain Capability" title="Smartway Pharmaceuticals - Global supply Chain Capability">
       </div>
       <div class="xl:pl-24 xl:pr-9">
         <a href="{{ route('how-we-help.cts.global-supply-chain-capability') }}"
@@ -213,7 +213,7 @@
           <span class="block">Global Supply</span>
           <span class="block">Chain Capability</span>
         </a>
-        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/Global_Supply.jpg') }}">
+        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/Global_Supply.jpg') }}" alt="Smartway Pharmaceuticals - Global supply Chain Capability" title="Smartway Pharmaceuticals - Global supply Chain Capability">
         <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px mt-5 xl:mb-16 mb-9">
           <p class="lg:mb-9 mb-5">
             Smartway supplies pharmaceuticals to over 98 countries across the globe. In the last 5 years, we’ve shipped
@@ -226,14 +226,14 @@
         </div>
         <a class="4xl:text-2xl xl:text-xl text-md font-bold flex items-center"
            href="{{ route('how-we-help.cts.global-supply-chain-capability') }}">
-          <img class="inline mr-4" src="{{ asset('image/icon/icn.svg') }}">Read more</a>
+          <img class="inline mr-4" src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Read more</a>
       </div>
 
       <div class="xl:pr-24">
         <a href="{{ route('how-we-help.cts.project-management') }}"
            class="quarto-font 4xl:text-62px text-44px leading-none sm:mr-0 -mr-4 block">
           Project Management</a>
-        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/team-of-executives-in-the-meeting-at-office-BVMD7KT.png') }}">
+        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/team-of-executives-in-the-meeting-at-office-BVMD7KT.png') }}" alt="Smartway Pharmaceuticals - Project management" title="Smartway Pharmaceuticals - Project management">
         <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px mt-5 xl:mb-16 mb-9">
           <p>
             At Smartway, we combine deep CTS knowledge with regulatory and pharmaceutical expertise. Your dedicated
@@ -244,19 +244,19 @@
         </div>
         <a class="4xl:text-2xl xl:text-xl text-md font-bold flex items-center"
            href="{{ route('how-we-help.cts.project-management') }}"><img
-              class="inline mr-4" src="{{ asset('image/icon/icn.svg') }}">Read more</a>
+              class="inline mr-4" src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Read more</a>
       </div>
       <div class="xl:flex hidden items-center">
-        <img class="my-auto" src="{{ asset('image/team-of-executives-in-the-meeting-at-office-BVMD7KT.png') }}">
+        <img class="my-auto" src="{{ asset('image/team-of-executives-in-the-meeting-at-office-BVMD7KT.png') }}" alt="Smartway Pharmaceuticals - Project management" title="Smartway Pharmaceuticals - Project management">
       </div>
 
       <div class="xl:flex hidden items-center">
-        <img class="my-auto" src="{{ asset('image/iStock-1156054183.png') }}">
+        <img class="my-auto" src="{{ asset('image/iStock-1156054183.png') }}" alt="Smartway Pharmaceuticals - Resource Centre" title="Smartway Pharmaceuticals - Resource Centre">
       </div>
       <div class="xl:pl-24 xl:pr-4">
         <a href="{{ route('who-we-are.media-and-resource-centre.index') }}"
            class="quarto-font 4xl:text-62px text-44px leading-none">Resource Centre</a>
-        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/iStock-1156054183.png') }}">
+        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/iStock-1156054183.png') }}" alt="Smartway Pharmaceuticals - Resource Centre" title="Smartway Pharmaceuticals - Resource Centre">
         <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px mt-5 xl:mb-16 mb-9">
           <p>
             Our team regularly provide updates and briefings on relevant topics including regulatory and market updates.
@@ -266,7 +266,7 @@
         </div>
         <a class="4xl:text-2xl xl:text-xl text-md font-bold flex items-center"
            href="{{ route('who-we-are.media-and-resource-centre.index') }}">
-          <img class="inline mr-4" src="{{ asset('image/icon/icn.svg') }}">Read more</a>
+          <img class="inline mr-4" src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Read more</a>
       </div>
     </div>
   </section>
