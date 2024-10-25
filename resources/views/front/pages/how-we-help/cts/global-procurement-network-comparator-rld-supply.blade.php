@@ -28,8 +28,7 @@
     </h2>
     <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px 4xl:pr-20">
       <p class="sm:mb-9 mb-6">
-        We have an unrivalled supply network from major pharmaceutical manufacturers and distributors across 25
-        countries.
+        We have an unrivalled supply network from major pharmaceutical manufacturers and distributors across 40 countries.
       </p>
       <p class="sm:mb-9 mb-6">
         We develop long term relationships with our suppliers, so we can source products rapidly and at low
