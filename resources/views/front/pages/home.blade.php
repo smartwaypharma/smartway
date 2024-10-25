@@ -44,7 +44,7 @@
           medicines on a global level.</h2>
         <div class="4xl:text-22px text-lg 4xl:leading-28px leading-24px lg:pr-4">
           <p class="lg:mb-7 mb-6">
-            Using our experience, regulatory expertise and network of suppliers from over 25 countries, we provide
+            Using our experience, regulatory expertise and network of suppliers from over 40 countries, we provide
             access to over 87% of the world health system from our distribution hubs in the EU, UK, Dubai, India and
             more.
           </p>
