@@ -6,8 +6,8 @@
 @endsection
 
 @section('header-content')
-  <img class="hidden sm:inline-block w-full" src="{{ asset('/image/iStock-1267603648.png') }}">
-  <img class="inline-block sm:hidden w-full" src="{{ asset('/image/Early_Access_Programs.jpg') }}">
+  <img class="hidden sm:inline-block w-full" src="{{ asset('/image/iStock-1267603648.png') }}" alt="Smartway Pharmaceuticals - Early Access Programs" title="Smartway Pharmaceuticals - Early Access Programs">
+  <img class="inline-block sm:hidden w-full" src="{{ asset('/image/Early_Access_Programs.jpg') }}" alt="Smartway Pharmaceuticals - Early Access Programs" title="Smartway Pharmaceuticals - Early Access Programs">
   <div class="gray-radial-gradient opacity-60 absolute top-0 bottom-0 right-0 left-0"></div>
   <div class="container 3xl:max-w-3xl absolute heading text-white lg:px-36 px-4">
     <h1 class="quarto-font 4xl:text-120px xl:text-85px md:text-6xl sm:text-4xl text-42px leading-none mb-2">
@@ -31,15 +31,14 @@
     </p>
     <div class="lg:grid grid-cols-2 gap-5 sm:mt-32 mt-16">
       <div>
-        <img class="mx-auto lg:mx-0 lg:w-auto sm:w-2/3 w-full" src="{{ asset('image/graphic.svg') }}">
+        <img class="mx-auto lg:mx-0 lg:w-auto sm:w-2/3 w-full" src="{{ asset('image/graphic.svg') }}" alt="Smartway Pharmaceuticals - End-to-end solutions" title="Smartway Pharmaceuticals - End-to-end solutions">
       </div>
       <div class="flex items-center mt-20 lg:mt-0">
         <div>
           <p class="4xl:text-32px xl:text-2xl text-lg 4xl:leading-37px xl:leading-28px leading-24px font-semibold lg:mb-28 mb-16">
-            <span class="xl:block">Over the last 20 years, we’ve gained the</span>
-            <span class="xl:block">experience it takes to strategically advice,</span>
-            <span class="xl:block">design, initiate and
-            manage global or regional</span>
+            <span class="xl:block">Over the last 20 years, we’ve gained the </span>
+            <span class="xl:block">experience it takes to strategically advise, </span>
+            <span class="xl:block">design, initiate and manage global or regional </span>
             <span class="xl:block">programs with you.</span>
           </p>
           <p class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold mb-6 text-center lg:text-left">
@@ -66,7 +65,7 @@
     <p class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold text-center">Why partner with Smartway?</p>
     <div class="xl:grid hidden grid-cols-5 gap-6 lg:mt-16 mt-7 4xl:text-22px text-lg pb-4 xl:px-0 px-6">
       <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-5">
-        <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/icn1.svg') }}"/>
+        <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/icn1.svg') }}" alt="Smartway Pharmaceuticals - Global distribution / hub network" title="Smartway Pharmaceuticals - Global distribution / hub network"/>
         <p class="font-bold leading-tight mb-3">
           <span class="block">Global distribution/</span>
           <span class="block">hub network</span>
@@ -76,7 +75,7 @@
         </p>
       </div>
       <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4">
-        <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/icn2.svg') }}"/>
+        <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/icn2.svg') }}" alt="Smartway Pharmaceuticals - Best in class ordering/RWD portal" title="Smartway Pharmaceuticals - Best in class ordering/RWD portal"/>
         <p class="font-bold leading-tight mb-3">
           <span class="block">Best in class</span>
           <span class="block">ordering/RWD portal</span>
@@ -88,7 +87,7 @@
       </div>
       <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4">
         <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5"
-             src="{{ asset('image/icn3.svg') }}"/>
+             src="{{ asset('image/icn3.svg') }}" alt="Smartway Pharmaceuticals - Regulatory expertise / knowledge" title="Smartway Pharmaceuticals - Regulatory expertise / knowledge"/>
         <p class="font-bold leading-tight mb-3">
           <span class="block">Regulatory expertise</span>
           <span class="block">/knowledge</span>
@@ -98,7 +97,7 @@
         </p>
       </div>
       <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4">
-        <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/icn4.svg') }}"/>
+        <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/icn4.svg') }}" alt="Smartway Pharmaceuticals - Specialist provider" title="Smartway Pharmaceuticals - Specialist provider"/>
         <p class="font-bold leading-tight mb-10">
           Specialist provider
         </p>
@@ -110,7 +109,7 @@
         </p>
       </div>
       <div class="bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4">
-        <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/icn5.svg') }}"/>
+        <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/icn5.svg') }}" alt="Smartway Pharmaceuticals - Experienced team" title="Smartway Pharmaceuticals - Experienced team"/>
         <p class="font-bold leading-tight mb-10">
           Experienced team
         </p>
@@ -124,7 +123,7 @@
         <div class="glide__track" data-glide-el="track">
           <div class="glide__slides">
             <div class="glide__slide bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-5 mr-6 my-2">
-              <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/icn1.svg') }}"/>
+              <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/icn1.svg') }}" alt="Smartway Pharmaceuticals - Global distribution / hub network" title="Smartway Pharmaceuticals - Global distribution / hub network"/>
               <p class="font-bold leading-tight mb-3">
                 <span class="block">Global distribution/</span>
                 <span class="block">hub network</span>
@@ -134,7 +133,7 @@
               </p>
             </div>
             <div class="glide__slide bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4 mr-6 my-2">
-              <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/icn2.svg') }}"/>
+              <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/icn2.svg') }}" alt="Smartway Pharmaceuticals - Best in class ordering/RWD portal" title="Smartway Pharmaceuticals - Best in class ordering/RWD portal"/>
               <p class="font-bold leading-tight mb-3">
                 <span class="block">Best in class</span>
                 <span class="block">ordering/RWD portal</span>
@@ -146,7 +145,7 @@
             </div>
             <div class="glide__slide bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4 mr-6 my-2">
               <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5"
-                   src="{{ asset('image/icn3.svg') }}"/>
+                   src="{{ asset('image/icn3.svg') }}" alt="Smartway Pharmaceuticals - Regulatory expertise / knowledge" title="Smartway Pharmaceuticals - Regulatory expertise / knowledge"/>
               <p class="font-bold leading-tight mb-3">
                 <span class="block">Regulatory expertise</span>
                 <span class="block">/knowledge</span>
@@ -156,7 +155,7 @@
               </p>
             </div>
             <div class="glide__slide bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4 mr-6 my-2">
-              <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/icn4.svg') }}"/>
+              <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/icn4.svg') }}" alt="Smartway Pharmaceuticals - Specialist provider" title="Smartway Pharmaceuticals - Specialist provider"/>
               <p class="font-bold leading-tight mb-10">
                 Specialist provider
               </p>
@@ -168,7 +167,7 @@
               </p>
             </div>
             <div class="glide__slide bg-alabaster rounded-10px card-box-shadow text-center pt-10 pb-20 px-4 my-2">
-              <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/icn5.svg') }}"/>
+              <img class="circle-box-shadow w-50 h-50 rounded-full mx-auto mb-5" src="{{ asset('image/icn5.svg') }}" alt="Smartway Pharmaceuticals - Experienced team" title="Smartway Pharmaceuticals - Experienced team"/>
               <p class="font-bold leading-tight mb-10">
                 Experienced team
               </p>
@@ -200,7 +199,7 @@
       <div class="xl:pr-20">
         <a href="{{ route('how-we-help.eap.what-is-an-eap') }}"
            class="quarto-font 4xl:text-62px text-44px leading-none">What is an EAP?</a>
-        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/iStock-1220518444.png') }}">
+        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/iStock-1220518444.png') }}" alt="Smartway Pharmaceuticals - What is an EAP?" title="Smartway Pharmaceuticals - What is an EAP?">
         <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px mt-5 xl:mb-16 mb-9">
           <p class="lg:mb-9 mb-5">
             An Early Access Program (EAP) gives access to innovative therapies that are not available in the country of
@@ -212,19 +211,19 @@
           </p>
         </div>
         <a class="4xl:text-2xl xl:text-xl text-md font-bold flex items-center" href="{{ route('how-we-help.eap.what-is-an-eap') }}"><img
-              class="inline mr-4" src="{{ asset('image/icon/icn.svg') }}">Read more</a>
+              class="inline mr-4" src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Read more</a>
       </div>
       <div class="xl:flex hidden items-center">
-        <img class="my-auto" src="{{ asset('image/iStock-1220518444.png') }}">
+        <img class="my-auto" src="{{ asset('image/iStock-1220518444.png') }}" alt="Smartway Pharmaceuticals - What is an EAP?" title="Smartway Pharmaceuticals - What is an EAP?">
       </div>
 
       <div class="xl:flex hidden items-center">
-        <img src="{{ asset('image/iStock-1127397327.png') }}">
+        <img src="{{ asset('image/iStock-1127397327.png') }}" alt="Smartway Pharmaceuticals - Consultancy" title="Smartway Pharmaceuticals - Consultancy">
       </div>
       <div class="xl:pl-24 xl:pr-8">
         <a href="{{ route('how-we-help.eap.consultancy') }}"
            class="quarto-font 4xl:text-62px text-44px leading-none">Consultancy</a>
-        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/iStock-1127397327.png') }}">
+        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/iStock-1127397327.png') }}" alt="Smartway Pharmaceuticals - Consultancy" title="Smartway Pharmaceuticals - Consultancy">
         <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px mt-5 xl:mb-16 mb-9">
           <p class="xl:mb-9 mb-5">
             EAPs are complicated. They are affected by numerous variables – not just regulatory jurisdictions, but also
@@ -239,13 +238,13 @@
         </div>
         <a class="4xl:text-2xl xl:text-xl text-md font-bold flex items-center"
            href="{{ route('how-we-help.eap.consultancy') }}"><img
-              class="inline mr-4" src="{{ asset('image/icon/icn.svg') }}">Read more</a>
+              class="inline mr-4" src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Read more</a>
       </div>
 
       <div class="xl:pr-16">
         <a href="{{ route('how-we-help.eap.program-strategy-and-design') }}"
            class="quarto-font 4xl:text-62px text-44px leading-none sm:pr-0 pr-10 block">Program Strategy & Design</a>
-        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/Program Stategy & Design.jpeg') }}">
+        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/Program Stategy & Design.jpeg') }}" alt="Smartway Pharmaceuticals - Program Strategy & Design" title="Smartway Pharmaceuticals - Program Strategy & Design">
         <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px mt-5 xl:mb-16 mb-9">
           <p class="xl:mb-9 mb-5">
             At Smartway, we see regulatory strategy and program design as being totally integrated. Our regulatory team
@@ -258,21 +257,21 @@
           </p>
         </div>
         <a class="4xl:text-2xl xl:text-xl text-md font-bold flex items-center"
-           href="{{ route('how-we-help.eap.program-strategy-and-design') }}"><img class="inline mr-4"
-                                                                                  src="{{ asset('image/icon/icn.svg') }}">Read
+           href="{{ route('how-we-help.eap.program-strategy-and-design') }}">
+           <img class="inline mr-4" src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Read
           more</a>
       </div>
       <div class="xl:flex hidden items-center">
-        <img class="my-auto" src="{{ asset('image/Program Stategy & Design.jpeg') }}">
+        <img class="my-auto" src="{{ asset('image/Program Stategy & Design.jpeg') }}" alt="Smartway Pharmaceuticals - Program Strategy & Design" title="Smartway Pharmaceuticals - Program Strategy & Design">
       </div>
 
       <div class="xl:flex hidden items-center">
-        <img class="my-auto" src="{{ asset('image/iStock-1250153388.png') }}">
+        <img class="my-auto" src="{{ asset('image/iStock-1250153388.png') }}" alt="Smartway Pharmaceuticals - Real World Data" title="Smartway Pharmaceuticals - Real World Data">
       </div>
       <div class="xl:pl-24 xl:pr-1">
         <a href="{{ route('how-we-help.eap.real-world-data') }}"
            class="quarto-font 4xl:text-62px text-44px leading-none">Real World Data</a>
-        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/iStock-1250153388.png') }}">
+        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/iStock-1250153388.png') }}" alt="Smartway Pharmaceuticals - Real World Data" title="Smartway Pharmaceuticals - Real World Data">
         <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px mt-5 xl:mb-16 mb-9">
           <p class="xl:mb-9 mb-5">
             EAPs are designed to allow patient access to new therapies, but they can also provide an opportunity to
@@ -286,14 +285,13 @@
         </div>
         <a class="4xl:text-2xl xl:text-xl text-md font-bold flex items-center"
            href="{{ route('how-we-help.eap.real-world-data') }}"><img
-              class="inline mr-4" src="{{ asset('image/icon/icn.svg') }}">Read more</a>
+              class="inline mr-4" src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Read more</a>
       </div>
 
       <div class="xl:pr-12">
         <a href="{{ route('how-we-help.eap.global-supply-chain-capability') }}"
-           class="quarto-font 4xl:text-62px text-44px leading-none sm:pr-0 pr-10 block">Global Supply Chain
-          Capability</a>
-        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/Global_Supply_Chain_Capability.jpg') }}">
+           class="quarto-font 4xl:text-62px text-44px leading-none sm:pr-0 pr-10 block">Global Supply Chain Capability</a>
+        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/Global_Supply_Chain_Capability.jpg') }}" alt="Smartway Pharmaceuticals - Global Supply Chain Capability" title="Smartway Pharmaceuticals - Global Supply Chain Capability">
         <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px mt-5 xl:mb-28 mb-9">
           <p class="xl:mb-9 mb-5">
             Smartway distributes pre-approval therapies to over 98 countries across the globe. In the last 5 years,
@@ -305,21 +303,21 @@
           </p>
         </div>
         <a class="4xl:text-2xl xl:text-xl text-md font-bold flex items-center"
-           href="{{ route('how-we-help.eap.global-supply-chain-capability') }}"><img class="inline mr-4"
-                                                                                     src="{{ asset('image/icon/icn.svg') }}">Read
+           href="{{ route('how-we-help.eap.global-supply-chain-capability') }}">
+           <img class="inline mr-4" src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Read
           more</a>
       </div>
       <div class="xl:flex hidden items-center">
-        <img class="my-auto" src="{{ asset('image/Global_Supply_Chain_Capability.jpg')}}">
+        <img class="my-auto" src="{{ asset('image/Global_Supply_Chain_Capability.jpg')}}" alt="Smartway Pharmaceuticals - Global Supply Chain Capability" title="Smartway Pharmaceuticals - Global Supply Chain Capability">
       </div>
 
       <div class="xl:flex hidden items-center">
-        <img class="my-auto" src="{{ asset('image/iStock-1152449705.png') }}">
+        <img class="my-auto" src="{{ asset('image/iStock-1152449705.png') }}" alt="Smartway Pharmaceuticals - Project Management" title="Smartway Pharmaceuticals - Project Management">
       </div>
       <div class="xl:pl-24">
         <a href="{{ route('how-we-help.eap.project-management') }}"
            class="quarto-font 4xl:text-62px text-44px leading-none block sm:mr-0 -mr-2">Project Management</a>
-        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/iStock-1152449705.png') }}">
+        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/iStock-1152449705.png') }}" alt="Smartway Pharmaceuticals - Project Management" title="Smartway Pharmaceuticals - Project Management">
         <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px mt-5 xl:mb-16 mb-9">
           <p class="xl:mb-9 mb-5">
             Your EAP project will be led by dedicated project managers while also bringing in expertise from across
@@ -333,13 +331,13 @@
         </div>
         <a class="4xl:text-2xl xl:text-xl text-md font-bold flex items-center"
            href="{{ route('how-we-help.eap.project-management') }}"><img
-              class="inline mr-4" src="{{ asset('image/icon/icn.svg') }}">Read more</a>
+              class="inline mr-4" src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Read more</a>
       </div>
 
       <div class="xl:pr-16">
         <a href="{{ route('how-we-help.eap.stakeholder-support') }}"
            class="quarto-font 4xl:text-62px text-44px leading-none">Stakeholder Support</a>
-        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/iStock-522306444.png') }}">
+        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/iStock-522306444.png') }}" alt="Smartway Pharmaceuticals - Stakeholder Support" title="Smartway Pharmaceuticals - Stakeholder Support">
         <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px mt-5 xl:mb-16 mb-9">
           <p>
             We unapologetically put the patient at the heart of every program. We understand your objectives and deliver
@@ -349,19 +347,19 @@
         </div>
         <a class="4xl:text-2xl xl:text-xl text-md font-bold flex items-center"
            href="{{ route('how-we-help.eap.stakeholder-support') }}"><img
-              class="inline mr-4" src="{{ asset('image/icon/icn.svg') }}">Read more</a>
+              class="inline mr-4" src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Read more</a>
       </div>
       <div class="xl:flex hidden items-center">
-        <img class="my-auto" src="{{ asset('image/iStock-522306444.png') }}">
+        <img class="my-auto" src="{{ asset('image/iStock-522306444.png') }}" alt="Smartway Pharmaceuticals - Stakeholder Support" title="Smartway Pharmaceuticals - Stakeholder Support">
       </div>
 
       <div class="xl:flex hidden items-center">
-        <img class="my-auto" src="{{ asset('image/Resource_Centre.jpg') }}">
+        <img class="my-auto" src="{{ asset('image/Resource_Centre.jpg') }}" alt="Smartway Pharmaceuticals - Resource Centre" title="Smartway Pharmaceuticals - Resource Centre">
       </div>
       <div class="xl:pl-24 xl:pr-5">
         <a href="{{ route('who-we-are.media-and-resource-centre.index') }}"
            class="quarto-font 4xl:text-62px text-44px leading-none">Resource Centre</a>
-        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/Resource_Centre.jpg') }}">
+        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/Resource_Centre.jpg') }}" alt="Smartway Pharmaceuticals - Resource Centre" title="Smartway Pharmaceuticals - Resource Centre">
         <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px mt-5 xl:mb-28 mb-9">
           <p>
             EAP is a rapidly changing area. The Smartway team is constantly conducting regulatory horizon scanning and
@@ -372,7 +370,7 @@
         </div>
         <a class="4xl:text-2xl xl:text-xl text-md font-bold flex items-center"
            href="{{ route('who-we-are.media-and-resource-centre.index') }}"><img
-              class="inline mr-4" src="{{ asset('image/icon/icn.svg') }}">Read more</a>
+              class="inline mr-4" src="{{ asset('image/icon/icn.svg') }}" alt="Smartway Pharmaceuticals - arrow icon" title="Smartway Pharmaceuticals - arrow icon">Read more</a>
       </div>
     </div>
   </section>
