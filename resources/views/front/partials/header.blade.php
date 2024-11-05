@@ -10,7 +10,8 @@
       <div class="flex justify-between">
         <div class="flex space-x-4">
           <a href="{{ route('home') }}">
-            <img class="4xl:w-full md:w-64 w-32 ml-2" src="{{ asset('image/Smartway_main_logo.svg') }}" alt="Smartway Pharmaceuticals logo" title="Smartway Pharmaceuticals logo">
+            {{--<img class="4xl:w-full md:w-64 w-32 ml-2" src="{{ asset('image/Smartway_main_logo.svg') }}" alt="Smartway Pharmaceuticals logo" title="Smartway Pharmaceuticals logo">--}}
+            <img class="4xl:w-full md:w-64 w-32 ml-2" src="{{ asset('image/SPLWorldDayWhite.svg') }}" alt="Smartway Pharmaceuticals logo" title="Smartway Pharmaceuticals logo">
             {{--<img class="4xl:w-full md:w-64 w-32 ml-2" src="{{ asset('image/Smartway_Christmas_Logo.svg') }}" alt="Logo" alt="Smartway Pharmaceuticals logo" title="Smartway Pharmaceuticals logo">--}}
           </a>
         </div>
@@ -78,7 +79,8 @@
       <div class="flex justify-between items-center pb-10 border-b border-white">
         <div class="flex items-center">
           <a href="/" class="block">
-            <img class="4xl:w-full md:w-64 w-32" src="{{ asset('image/Smartway_main_logo.svg') }}" alt="Smartway Pharmaceuticals logo" title="Smartway Pharmaceuticals logo">
+            <img class="4xl:w-full md:w-64 w-32" src="{{ asset('image/SPLWorldDayWhite.svg') }}" alt="Smartway Pharmaceuticals logo" title="Smartway Pharmaceuticals logo">
+            {{--<img class="4xl:w-full md:w-64 w-32" src="{{ asset('image/Smartway_main_logo.svg') }}" alt="Smartway Pharmaceuticals logo" title="Smartway Pharmaceuticals logo">--}}
           </a>
         </div>
 
