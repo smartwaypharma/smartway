@@ -7,9 +7,9 @@
 
 @section('header-content')
   <img class="hidden sm:inline-block w-full"
-       src="{{ asset('/image/modern-open-space-office-interior-with-blurred-bus-2021-04-05-22-56-05-utc.png') }}">
+       src="{{ asset('/image/modern-open-space-office-interior-with-blurred-bus-2021-04-05-22-56-05-utc.png') }}" alt="Smartway Pharmaceuticals - Media & Resource centre" title="Smartway Pharmaceuticals - Media & Resource centre">
   <img class="inline-block sm:hidden w-full"
-       src="{{ asset('/image/modern-open-space-office-interior-with-blurred-bus-2021-04-05-22-56-05-utc-mobile.png') }}">
+       src="{{ asset('/image/modern-open-space-office-interior-with-blurred-bus-2021-04-05-22-56-05-utc-mobile.png') }}" alt="Smartway Pharmaceuticals - Media & Resource centre" title="Smartway Pharmaceuticals - Media & Resource centre">
   <div class="gray-radial-gradient opacity-60 absolute top-0 bottom-0 right-0 left-0"></div>
   <div class="container 3xl:max-w-3xl absolute heading text-white lg:px-36 px-4">
     <h1 class="quarto-font 4xl:text-120px xl:text-85px md:text-6xl sm:text-4xl text-42px leading-none sm:mb-0 mb-44">
@@ -68,23 +68,24 @@
         </p>
       </div>
       <div class="bg-persian-green text-center xl:py-6 pt-8 pb-10 px-6">
-        <h3 class="quarto-font text-white 4xl:text-82px xl:text-54px lg:text-54px text-40px leading-none">Smartway
-          Webinars</h3>
+        <h3 class="quarto-font text-white 4xl:text-82px xl:text-54px lg:text-54px text-40px leading-none">Smartway Webinars</h3>
         <p class="text-white font-bold 4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px lg:px-16 px-6 lg:mt-4 mt-1">
-            - upcoming webinar soon to be announced
+          Click below to register for<br> our upcoming webinar
         </p>
-        <p class="text-black font-bold 4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px lg:px-16 px-6 lg:mt-4 mt-1">
+        <!-- <p class="text-black font-bold 4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px lg:px-16 px-6 lg:mt-4 mt-1">
          In the meantime, read our latest blog
-        </p>
+        </p> -->
         <div class="hidden sm:inline-block text-center mt-8">
-          <a href="{{ isset($ourLatestBlogLink) ? $ourLatestBlogLink->value : '' }}"
+          <a href="https://www.smartwaypharma.co.uk/how-we-help/eap"
              class="button mt-6 sm:mt-0 block text-center sm:inline-block 4xl:text-28px lg:text-xl text-2xl font-semibold 4xl:py-5 py-3.5 4xl:px-11 px-8 bg-white rounded-full">
-            {{ isset($latestBlogTitle) ? $latestBlogTitle->value : 'See Our Latest Blog' }}</a>
+            <span class="block">What Medical Affairs professionals</span> <span class="block">need to know about EAPs</span>
+          </a>
         </div>
         <div class="inline-block sm:hidden text-center mt-3">
-          <a href="{{ isset($ourLatestBlogLink) ? $ourLatestBlogLink->value : '' }}"
+          <a href="https://www.smartwaypharma.co.uk/how-we-help/eap"
              class="button mt-0 sm:mt-0 block text-center sm:inline-block 4xl:text-28px lg:text-xl text-sm font-semibold 4xl:py-5 py-3.5 4xl:px-11 px-8 bg-white rounded-full">
-            {{ isset($latestBlogTitle) ? $latestBlogTitle->value : 'See Our Latest Blog' }}</a>
+            <span class="block">What Medical Affairs professionals</span> <span class="block">need to know about EAPs</span>
+          </a>
         </div>
       </div>
     </div>
@@ -115,14 +116,14 @@
     <div class="xl:hidden my-12">
       <div class="flex items-center justify-between">
         <p class="font-bold">Filter by type</p>
-        <button class="js-modal-open" data-modal="filterModal"><img src="{{ asset('image/icon/filter_icn.svg') }}">
+        <button class="js-modal-open" data-modal="filterModal"><img src="{{ asset('image/icon/filter_icn.svg') }}" alt="Smartway Pharmaceuticals - filter icon" title="Smartway Pharmaceuticals - filter icon">
         </button>
       </div>
     </div>
     <div class="grid lg:grid-cols-3 gap-x-5 gap-y-16 lg:mt-20 js-posts">
       @foreach($posts as $post)
         <div class="text-lg lg:leading-28px leading-24px">
-          <img class="lg:w-auto sm:w-3/4" src="{{ Illuminate\Support\Facades\Storage::url($post->hero_image_for_desktop) }}">
+          <img class="lg:w-auto sm:w-3/4" src="{{ Illuminate\Support\Facades\Storage::url($post->hero_image_for_desktop) }}" alt="Smartway Pharmaceuticals - {{ $post->title }}" title="Smartway Pharmaceuticals - {{ $post->title }}">
           <p class="opacity-50 mt-3">{{ $post->created_at->format("d F Y") }}</p>
           <p class="font-bold mt-1 mb-2">{{ $post->category->name }}</p>
           <a href="{{ route('who-we-are.media-and-resource-centre.post', [$post->category->slug, $post->slug]) }}"

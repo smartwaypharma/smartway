@@ -19,6 +19,129 @@
 @endsection
 
 @section('content')
+  <section class="hidden lg:block bg-lochmara text-center w-full absolute bottom-0 xl:py-5 py-5 px-5">
+    <div class="container 3xl:max-w-3xl">
+      <p class="text-white 4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px mb-1">
+        Upcoming Webinar
+      </p>
+      <h3 class="text-white font-bold 4xl:text-32px text-22px leading-28px mb-4">What Medical Affairs professionals need to know about EAP</h3>
+      <p class="text-white italic 4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px">
+        Choose your session and secure your spot:
+      </p>
+
+      <div class="hidden sm:inline-block flex flex-wrap items-center justify-center">
+        <div class="sm:grid lg:grid-cols-3 sm:grid-cols-2 gap-16">
+          <div class="text-center mt-4">
+            <a href="https://events.teams.microsoft.com/event/fc0f03c8-5ec1-4a4c-aad3-000f15be5fd5@cde3b514-2449-4e8a-ad7b-2a4cea68d519" target="_blank" class="button mt-6 sm:mt-0 block text-center sm:inline-block 4xl:text-16px lg:text-sm text-sm font-semibold 4xl:py-5 py-3.5 4xl:px-11 px-8 bg-white rounded-full">
+              <span class="block">Wed, 4th Dec – 10.00 PST /</span>
+              <span class="block">13.00 EST / 19.00 CET</span>
+            </a>
+          </div>
+
+          <div class="text-center mt-4">
+            <a href="https://events.teams.microsoft.com/event/dc2797b6-ed83-44aa-8801-93d5fb448ef0@cde3b514-2449-4e8a-ad7b-2a4cea68d519" target="_blank" class="button mt-6 sm:mt-0 block text-center sm:inline-block 4xl:text-16px lg:text-sm text-sm font-semibold 4xl:py-5 py-3.5 4xl:px-11 px-8 bg-white rounded-full">
+              <span class="block">Mon, 9th Dec – 7.00 PST /</span>
+              <span class="block">10.00 EST / 16.00 CET</span>
+            </a>
+          </div>
+
+          <div class="text-center mt-4">
+            <a href="https://events.teams.microsoft.com/event/f02a334e-c875-4b89-99c1-0582b708a7ce@cde3b514-2449-4e8a-ad7b-2a4cea68d519" target="_blank" class="button mt-6 sm:mt-0 block text-center sm:inline-block 4xl:text-16px lg:text-sm text-sm font-semibold 4xl:py-5 py-3.5 4xl:px-11 px-8 bg-white rounded-full">
+              <span class="block">Wed, 11th Dec – 10.00 PST /</span>
+              <span class="block">13.00 EST / 19.00 CET</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="inline-block sm:hidden flex flex-wrap items-center justify-center">
+        <div class="sm:grid lg:grid-cols-3 sm:grid-cols-2 gap-16">
+          <div class="text-center mt-4">
+            <a href="https://events.teams.microsoft.com/event/fc0f03c8-5ec1-4a4c-aad3-000f15be5fd5@cde3b514-2449-4e8a-ad7b-2a4cea68d519" target="_blank" class="button mt-0 sm:mt-0 block text-center sm:inline-block 4xl:text-28px lg:text-xl text-sm font-semibold 4xl:py-5 py-3.5 4xl:px-11 px-8 bg-white rounded-full">
+              <span class="block">Weds 4th Dec – 10.00 PST /</span>
+              <span class="block">13.00 EST / 19.00 CET</span>
+            </a>
+          </div>
+
+          <div class="text-center mt-4">
+            <a href="https://events.teams.microsoft.com/event/dc2797b6-ed83-44aa-8801-93d5fb448ef0@cde3b514-2449-4e8a-ad7b-2a4cea68d519" target="_blank" class="button mt-0 sm:mt-0 block text-center sm:inline-block 4xl:text-28px lg:text-xl text-sm font-semibold 4xl:py-5 py-3.5 4xl:px-11 px-8 bg-white rounded-full">
+              <span class="block">Mon 9th Dec – 7.00 PST /</span>
+              <span class="block">10.00 EST / 16.00 CET</span>
+            </a>
+          </div>
+
+          <div class="text-center mt-4">
+            <a href="https://events.teams.microsoft.com/event/f02a334e-c875-4b89-99c1-0582b708a7ce@cde3b514-2449-4e8a-ad7b-2a4cea68d519" target="_blank" class="button mt-0 sm:mt-0 block text-center sm:inline-block 4xl:text-28px lg:text-xl text-sm font-semibold 4xl:py-5 py-3.5 4xl:px-11 px-8 bg-white rounded-full">
+              <span class="block">Weds 11th Dec – 10.00 PST /</span>
+              <span class="block">13.00 EST / 19.00 CET</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block lg:hidden bg-lochmara text-center w-full xl:py-5 py-5 px-5">
+    <div class="container 3xl:max-w-3xl">
+      <p class="text-white 4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px mb-1">
+        Upcoming Webinar
+      </p>
+      <h3 class="text-white font-bold 4xl:text-32px text-22px leading-28px mb-4">What Medical Affairs professionals need to know about EAP</h3>
+      <p class="text-white italic 4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px">
+        Choose your session and secure your spot:
+      </p>
+
+      <div class="hidden sm:inline-block flex flex-wrap items-center justify-center">
+        <div class="sm:grid lg:grid-cols-3 sm:grid-cols-2 gap-16">
+          <div class="text-center mt-4">
+            <a href="https://events.teams.microsoft.com/event/fc0f03c8-5ec1-4a4c-aad3-000f15be5fd5@cde3b514-2449-4e8a-ad7b-2a4cea68d519" target="_blank" class="button mt-6 sm:mt-0 block text-center sm:inline-block 4xl:text-16px lg:text-sm text-sm font-semibold 4xl:py-5 py-3.5 4xl:px-11 px-8 bg-white rounded-full">
+              <span class="block">Wed, 4th Dec – 10.00 PST /</span>
+              <span class="block">13.00 EST / 19.00 CET</span>
+            </a>
+          </div>
+
+          <div class="text-center mt-4">
+            <a href="https://events.teams.microsoft.com/event/dc2797b6-ed83-44aa-8801-93d5fb448ef0@cde3b514-2449-4e8a-ad7b-2a4cea68d519" target="_blank" class="button mt-6 sm:mt-0 block text-center sm:inline-block 4xl:text-16px lg:text-sm text-sm font-semibold 4xl:py-5 py-3.5 4xl:px-11 px-8 bg-white rounded-full">
+              <span class="block">Mon, 9th Dec – 7.00 PST /</span>
+              <span class="block">10.00 EST / 16.00 CET</span>
+            </a>
+          </div>
+
+          <div class="text-center mt-4">
+            <a href="https://events.teams.microsoft.com/event/f02a334e-c875-4b89-99c1-0582b708a7ce@cde3b514-2449-4e8a-ad7b-2a4cea68d519" target="_blank" class="button mt-6 sm:mt-0 block text-center sm:inline-block 4xl:text-16px lg:text-sm text-sm font-semibold 4xl:py-5 py-3.5 4xl:px-11 px-8 bg-white rounded-full">
+              <span class="block">Wed, 11th Dec – 10.00 PST /</span>
+              <span class="block">13.00 EST / 19.00 CET</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="inline-block sm:hidden flex flex-wrap items-center justify-center">
+        <div class="sm:grid lg:grid-cols-3 sm:grid-cols-2 gap-16">
+          <div class="text-center mt-4">
+            <a href="https://events.teams.microsoft.com/event/fc0f03c8-5ec1-4a4c-aad3-000f15be5fd5@cde3b514-2449-4e8a-ad7b-2a4cea68d519" target="_blank" class="button mt-0 sm:mt-0 block text-center sm:inline-block 4xl:text-28px lg:text-xl text-sm font-semibold 4xl:py-5 py-3.5 4xl:px-11 px-8 bg-white rounded-full">
+              <span class="block">Weds 4th Dec – 10.00 PST /</span>
+              <span class="block">13.00 EST / 19.00 CET</span>
+            </a>
+          </div>
+
+          <div class="text-center mt-4">
+            <a href="https://events.teams.microsoft.com/event/dc2797b6-ed83-44aa-8801-93d5fb448ef0@cde3b514-2449-4e8a-ad7b-2a4cea68d519" target="_blank" class="button mt-0 sm:mt-0 block text-center sm:inline-block 4xl:text-28px lg:text-xl text-sm font-semibold 4xl:py-5 py-3.5 4xl:px-11 px-8 bg-white rounded-full">
+              <span class="block">Mon 9th Dec – 7.00 PST /</span>
+              <span class="block">10.00 EST / 16.00 CET</span>
+            </a>
+          </div>
+
+          <div class="text-center mt-4">
+            <a href="https://events.teams.microsoft.com/event/f02a334e-c875-4b89-99c1-0582b708a7ce@cde3b514-2449-4e8a-ad7b-2a4cea68d519" target="_blank" class="button mt-0 sm:mt-0 block text-center sm:inline-block 4xl:text-28px lg:text-xl text-sm font-semibold 4xl:py-5 py-3.5 4xl:px-11 px-8 bg-white rounded-full">
+              <span class="block">Weds 11th Dec – 10.00 PST /</span>
+              <span class="block">13.00 EST / 19.00 CET</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="container 3xl:max-w-3xl px-4 lg:mt-40 sm:mt-20 mt-8">
     <h2 class="quarto-font 4xl:text-93px xl:text-62px lg:text-44px text-34px 4xl:leading-102px xl:leading-70px lg:leading-48px leading-40px mb-12">
       <span class="4xl:block">Smartway designs, implements and manages</span>
