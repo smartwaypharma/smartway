@@ -3,7 +3,7 @@
     <div class="sm:flex justify-between items-center 2xl:py-20 lg:py-14 py-10">
       <div>
         <a href="/">
-          <img class="2xl:w-64 w-44" src="{{ asset('image/Smartway_main_logo.svg') }}" alt="Logo">
+          <img class="2xl:w-64 w-44" src="{{ asset('image/Smartway_main_logo.svg') }}" alt="Smartway Pharmaceuticals logo" title="Smartway Pharmaceuticals logo">
         </a>
       </div>
       <a href="{{ route('connect-with-us') }}"
@@ -47,7 +47,7 @@
           <p class="text-22px sm:text-2xl mb-6 -mr-3 sm:mr-0">Do your best work among a caring community of diverse
             talents.</p>
           <a class="text-2xl flex" href="{{ route('who-we-are.careers') }}">
-            <img class="mr-2.5" src="{{ asset('image/icon/ic_arrow_forward_16px.svg') }}">
+            <img class="mr-2.5" src="{{ asset('image/icon/ic_arrow_forward_16px.svg') }}" alt="Smartway Pharmaceuticals - arrow forward icon" title="Smartway Pharmaceuticals - arrow forward icon">
             Join us</a>
         </div>
       </div>
@@ -56,7 +56,7 @@
           <p class="4xl:text-2xl lg:text-base text-2xl font-bold 2xxl:mb-7 mb-4">CAREERS</p>
           <p class="4xl:text-2xl lg:text-base text-2xl 2xl:mb-7 mb-3">Do your best work among a caring community of diverse talents.</p>
           <a class="4xl:text-2xl sm:text-17px flex" href="{{ route('who-we-are.careers') }}">Join us
-            <img class="ml-2.5" src="{{ asset('image/icon/ic_arrow_forward_16px.svg') }}"></a>
+            <img class="ml-2.5" src="{{ asset('image/icon/ic_arrow_forward_16px.svg') }}" alt="Smartway Pharmaceuticals - arrow forward icon" title="Smartway Pharmaceuticals - arrow forward icon"></a>
         </div>
       </div>
     </div>
@@ -66,8 +66,25 @@
             class="mr-2.5 4xl:w-19px w-3 4xl:h-19px h-3 rounded-full 4xl:border-6px border-3.5px border-persian-green mt-9 sm:mt-0"></div>
         <span>© Copyright Smartway {{ now()->format('Y') }}. All rights reserved.</span></div>
       <a href="https://www.linkedin.com/company/smartway-pharmaceuticals/?viewAsMember=true" target="_blank">
-        <img class="2xl:w-auto 2xl:h-auto w-7 h-7" src="{{ asset('image/icon/linkedin-icon.png') }}">
+        <img class="2xl:w-auto 2xl:h-auto w-7 h-7" src="{{ asset('image/icon/linkedin-icon.png') }}" alt="Smartway Pharmaceuticals - linkedin icon" title="Smartway Pharmaceuticals - linkedin icon">
       </a>
     </div>
   </div>
+  <script type="text/javascript">
+    _linkedin_partner_id = "3232052";
+    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+    window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+  </script><script type="text/javascript">
+    (function(l) {
+      if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
+        window.lintrk.q=[]}
+      var s = document.getElementsByTagName("script")[0];
+      var b = document.createElement("script");
+      b.type = "text/javascript";b.async = true;
+      b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+      s.parentNode.insertBefore(b, s);})(window.lintrk);
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=3232052&fmt=gif" />
+  </noscript>
 </footer>

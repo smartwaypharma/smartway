@@ -32,21 +32,21 @@
       <div class="hidden sm:inline-block flex flex-wrap items-center justify-center">
         <div class="sm:grid lg:grid-cols-3 sm:grid-cols-2 gap-16">
           <div class="text-center mt-4">
-            <a href="https://events.teams.microsoft.com/event/fc0f03c8-5ec1-4a4c-aad3-000f15be5fd5@cde3b514-2449-4e8a-ad7b-2a4cea68d519" target="_blank" class="button mt-6 sm:mt-0 block text-center sm:inline-block 4xl:text-16px lg:text-sm text-sm font-semibold 4xl:py-5 py-3.5 4xl:px-11 px-8 bg-white rounded-full">
+            <a href="https://events.teams.microsoft.com/event/fc0f03c8-5ec1-4a4c-aad3-000f15be5fd5@cde3b514-2449-4e8a-ad7b-2a4cea68d519" target="_blank" class="button mt-6 sm:mt-0 block text-center sm:inline-block 4xl:text-16px lg:text-sm text-sm font-semibold 4xl:py-5 py-3.5 4xl:px-11 px-8 bg-white rounded-full" onclick="trackLinkedInEvent()">
               <span class="block">Wed, 4th Dec – 10.00 PST /</span>
               <span class="block">13.00 EST / 19.00 CET</span>
             </a>
           </div>
 
           <div class="text-center mt-4">
-            <a href="https://events.teams.microsoft.com/event/dc2797b6-ed83-44aa-8801-93d5fb448ef0@cde3b514-2449-4e8a-ad7b-2a4cea68d519" target="_blank" class="button mt-6 sm:mt-0 block text-center sm:inline-block 4xl:text-16px lg:text-sm text-sm font-semibold 4xl:py-5 py-3.5 4xl:px-11 px-8 bg-white rounded-full">
+            <a href="https://events.teams.microsoft.com/event/dc2797b6-ed83-44aa-8801-93d5fb448ef0@cde3b514-2449-4e8a-ad7b-2a4cea68d519" target="_blank" class="button mt-6 sm:mt-0 block text-center sm:inline-block 4xl:text-16px lg:text-sm text-sm font-semibold 4xl:py-5 py-3.5 4xl:px-11 px-8 bg-white rounded-full" onclick="trackLinkedInEvent()">
               <span class="block">Mon, 9th Dec – 7.00 PST /</span>
               <span class="block">10.00 EST / 16.00 CET</span>
             </a>
           </div>
 
           <div class="text-center mt-4">
-            <a href="https://events.teams.microsoft.com/event/f02a334e-c875-4b89-99c1-0582b708a7ce@cde3b514-2449-4e8a-ad7b-2a4cea68d519" target="_blank" class="button mt-6 sm:mt-0 block text-center sm:inline-block 4xl:text-16px lg:text-sm text-sm font-semibold 4xl:py-5 py-3.5 4xl:px-11 px-8 bg-white rounded-full">
+            <a href="https://events.teams.microsoft.com/event/f02a334e-c875-4b89-99c1-0582b708a7ce@cde3b514-2449-4e8a-ad7b-2a4cea68d519" target="_blank" class="button mt-6 sm:mt-0 block text-center sm:inline-block 4xl:text-16px lg:text-sm text-sm font-semibold 4xl:py-5 py-3.5 4xl:px-11 px-8 bg-white rounded-full" onclick="trackLinkedInEvent()">
               <span class="block">Wed, 11th Dec – 10.00 PST /</span>
               <span class="block">13.00 EST / 19.00 CET</span>
             </a>
@@ -501,4 +501,10 @@
 
 @push('scripts')
   <script src="{{ mix('js/why-partner-slider.js') }}" defer></script>
+<script type="text/javascript">
+  function trackLinkedInConversion() {
+    window.lintrk('track', { conversion_id: 20539801 });
+    console.log("LinkedIn Conversion Event Triggered");
+  }
+</script>
 @endpush
