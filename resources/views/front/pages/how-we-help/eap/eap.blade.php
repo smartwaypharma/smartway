@@ -502,7 +502,7 @@
 @push('scripts')
   <script src="{{ mix('js/why-partner-slider.js') }}" defer></script>
 <script type="text/javascript">
-  function trackLinkedInConversion() {
+  function trackLinkedInEvent() {
     window.lintrk('track', { conversion_id: 20539801 });
     console.log("LinkedIn Conversion Event Triggered");
   }
