@@ -32,8 +32,8 @@
       <div class="hidden sm:inline-block flex flex-wrap items-center justify-center">
         <div class="sm:grid lg:grid-cols-3 sm:grid-cols-2 gap-16">
           <div class="text-center mt-4">
-            <a href="https://events.teams.microsoft.com/event/fc0f03c8-5ec1-4a4c-aad3-000f15be5fd5@cde3b514-2449-4e8a-ad7b-2a4cea68d519" target="_blank" class="button mt-6 sm:mt-0 block text-center sm:inline-block 4xl:text-16px lg:text-sm text-sm font-semibold 4xl:py-5 py-3.5 4xl:px-11 px-8 bg-white rounded-full" onclick="trackLinkedInEvent()">
-              <span class="block">Wed, 4th Dec – 10.00 PST /</span>
+            <a href="https://events.teams.microsoft.com/event/7b229a5f-8663-41d4-b10d-84de5cd587a4@cde3b514-2449-4e8a-ad7b-2a4cea68d519" target="_blank" class="button mt-6 sm:mt-0 block text-center sm:inline-block 4xl:text-16px lg:text-sm text-sm font-semibold 4xl:py-5 py-3.5 4xl:px-11 px-8 bg-white rounded-full" onclick="trackLinkedInEvent()">
+              <span class="block">Mon, 16th Dec – 10.00 PST /</span>
               <span class="block">13.00 EST / 19.00 CET</span>
             </a>
           </div>
@@ -57,8 +57,8 @@
       <div class="inline-block sm:hidden flex flex-wrap items-center justify-center">
         <div class="sm:grid lg:grid-cols-3 sm:grid-cols-2 gap-16">
           <div class="text-center mt-4">
-            <a href="https://events.teams.microsoft.com/event/fc0f03c8-5ec1-4a4c-aad3-000f15be5fd5@cde3b514-2449-4e8a-ad7b-2a4cea68d519" target="_blank" class="button mt-0 sm:mt-0 block text-center sm:inline-block 4xl:text-28px lg:text-xl text-sm font-semibold 4xl:py-5 py-3.5 4xl:px-11 px-8 bg-white rounded-full">
-              <span class="block">Weds 4th Dec – 10.00 PST /</span>
+            <a href="https://events.teams.microsoft.com/event/7b229a5f-8663-41d4-b10d-84de5cd587a4@cde3b514-2449-4e8a-ad7b-2a4cea68d519" target="_blank" class="button mt-0 sm:mt-0 block text-center sm:inline-block 4xl:text-28px lg:text-xl text-sm font-semibold 4xl:py-5 py-3.5 4xl:px-11 px-8 bg-white rounded-full">
+              <span class="block">Mon 16th Dec – 10.00 PST /</span>
               <span class="block">13.00 EST / 19.00 CET</span>
             </a>
           </div>
