@@ -2,19 +2,20 @@
 
 namespace App\Http\Controllers\Front;
 
-use App\Http\Controllers\Controller;
-use App\Mail\SendSmartNote;
-use App\Mail\SendPost;
-use App\Mail\SendEnquiry;
-use App\Mail\SendAutomatedResponse;
-use App\Models\Category;
-use App\Models\EnquiryData;
-use App\Models\Filter;
 use App\Models\Post;
+use App\Mail\SendPost;
+use App\Models\Filter;
+use App\Models\Category;
 use App\Models\Settings;
-use App\Models\SmartNotesFormData;
-use App\Models\ContactUsFormData;
+use App\Mail\SendEnquiry;
+use App\Mail\SendSmartNote;
+use App\Models\EnquiryData;
 use Illuminate\Http\Request;
+use App\Models\ContactUsFormData;
+use App\Models\SmartNotesFormData;
+use App\Mail\SendAutomatedResponse;
+use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Storage;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
@@ -47,12 +48,15 @@ class PostController extends Controller
             })->orderBy('created_at', 'desc')
             ->paginate(12);
 
+        $category = Category::all();
+
         return view('front.pages.who-we-are.media-resource-centre', compact(
             'latestBlogTitle',
             'ourLatestBlogLink',
             'posts',
             'filters',
-            'selectedFilters'
+            'selectedFilters',
+            'category',
         ));
     }
 
@@ -77,6 +81,11 @@ class PostController extends Controller
             $posts = $posts->whereHas('tags', function ($q) use ($filters) {
                 $q->whereIn('tag_id', $filters);
             });
+        }
+
+        if ($request->categories != null) {
+            $categories = explode(',', $request->categories);
+            $posts = $posts->whereIn('category_id', $categories);
         }
 
         $posts = $posts
@@ -123,7 +132,22 @@ class PostController extends Controller
             'lastname' => 'required|string|max:255',
             'email' => 'required|email',
             'company' => 'nullable|string|max:255',
+            'cf-turnstile-response' => 'required'
         ]);
+
+        $response = Http::withOptions([
+            'verify' => false,
+        ])->asForm()->post('https://challenges.cloudflare.com/turnstile/v0/siteverify', [
+            'secret' => env('TURNSTILE_SECRET_KEY'),
+            'response' => $request->input('cf-turnstile-response'),
+            'remoteip' => $request->ip(),
+        ]);
+    
+        $result = $response->json();
+
+        if (!$result['success']) {
+            return back()->withErrors(['turnstile' => 'Turnstile verification failed. Please try again.']);
+        }
 
         Mail::to([
             ['email' => $request['email'], 'name' => $request->firstname . ' ' . $request->lastname],

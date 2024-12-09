@@ -6,8 +6,8 @@
 @endsection
 
 @section('header-content')
-  <img class="hidden sm:inline-block w-full" src="{{ asset('/image/african-american-businesswomen-talking-on-an-offic-38CT32K-header.png') }}">
-  <img class="inline-block sm:hidden w-full" src="{{ asset('/image/connect_mobile_hero.jpeg') }}">
+  <img class="hidden sm:inline-block w-full" src="{{ asset('/image/african-american-businesswomen-talking-on-an-offic-38CT32K-header.png') }}" alt="Smartway Pharmaceuticals - Don’t hesitate to get in touch." title="Smartway Pharmaceuticals - Don’t hesitate to get in touch.">
+  <img class="inline-block sm:hidden w-full" src="{{ asset('/image/connect_mobile_hero.jpeg') }}" alt="Smartway Pharmaceuticals - Don’t hesitate to get in touch." title="Smartway Pharmaceuticals - Don’t hesitate to get in touch.">
   <div class="gray-radial-gradient opacity-60 absolute top-0 bottom-0 right-0 left-0"></div>
   <h1 class="container 3xl:max-w-3xl absolute heading quarto-font 4xl:text-120px xl:text-85px md:text-6xl sm:text-4xl text-42px text-white leading-none lg:px-36 pl-4 pr-24 mb-2">
     <span class="2xl:block">Don’t hesitate</span>
@@ -19,7 +19,7 @@
   <section class="container lg:mt-16 mt-9 lg:mb-38 mb-20 px-4 relative">
     <a href="https://www.linkedin.com/company/smartway-pharmaceuticals/?viewAsMember=true"
        class="flex justify-end lg:pt-2 lg:pb-7">
-     <img class="filter invert lg:relative absolute -top-4" src="{{ asset('image/icon/linkedin-icon.png') }}">
+     <img class="filter invert lg:relative absolute -top-4" src="{{ asset('image/icon/linkedin-icon.png') }}" alt="Smartway Pharmaceuticals - linkedin icon" title="Smartway Pharmaceuticals - linkedin icon">
     </a>
     <div class="grid lg:grid-cols-2">
       <div>
@@ -108,6 +108,7 @@
             <div class="text-red-500 text-xs">{{ $message }}</div>
             @enderror
           </div>
+          
           <div class="w-full">
             <label class="inline-flex">
               <input type="checkbox" name="policy"
@@ -117,6 +118,12 @@
             @error('policy')
             <div class="text-red-500 text-xs">The agree to smartway’s privacy policy and terms of use field is required.</div>
             @enderror
+          </div>
+          <div class="w-full pt-7 text-center">
+              <div class="cf-turnstile" data-sitekey="{{ env('TURNSTILE_SITE_KEY') }}"></div>
+              @error('turnstile')
+                <div class="text-red-500 text-xs">{{ $message }}</div>
+              @enderror
           </div>
           <button class="4xl:text-28px lg:text-xl text-2xl font-semibold bg-persian-green text-white rounded-full 4xl:py-5 xl:py-4 py-3 4xl:px-20 px-10 block w-full mt-16" type="submit">
             Submit
@@ -139,7 +146,7 @@
               d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"></path>
         </svg>
         <div class="text-center xl:py-36 lg:py-16 py-10 px-5">
-          <img class="w-auto mx-auto px-5" src="{{ asset('image/Main_Logo_black.svg') }}" alt="Logo">
+          <img class="w-auto mx-auto px-5" src="{{ asset('image/Main_Logo_black.svg') }}" alt="Smartway Pharmaceuticals logo" title="Smartway Pharmaceuticals logo">
           <p class="quarto-font xl:text-64px xl:leading-70px sm:text-54px sm:leading-53px text-42px leading-41px lg:my-10 my-7">Thank you for contacting us!</p>
           <div class="lg:text-2xl sm:text-xl text-lg lg:leading-37px leading-24px max-w-810px mx-auto">
             <p class="lg:mb-10 mb-6 lg:px-16 px-2">We’ve received your enquiry and one of our team members will respond to you within 48
@@ -156,4 +163,5 @@
 
 @push('scripts')
   <script src="{{ mix('js/connect-with-us.js') }}" defer></script>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 @endpush
