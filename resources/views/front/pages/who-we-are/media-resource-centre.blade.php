@@ -20,6 +20,40 @@
 @endsection
 
 @section('content')
+  <div id="categoryFilterModal" class="js-modal fixed z-999999 inset-0 overflow-y-auto hidden" aria-labelledby="modal-title"
+       role="dialog"
+       aria-modal="true">
+    <div class="flex items-start justify-center min-h-screen text-center bg-black text-white">
+      <svg style="fill: white;" class="js-category-modal-close w-4 h-4 absolute top-5 right-5 cursor-pointer z-10"
+           xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+        <path
+            d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"></path>
+      </svg>
+      <div
+          class="inline-block align-bottom text-left transform transition-all sm:align-middle w-full pt-12 pb-16 px-5">
+        <p class="text-22px font-bold mb-6">Filter by category</p>
+        <div>
+          @foreach($category as $filter)
+            <div>
+              <label
+                  class="filter-button-mobile js-category-filter-button"
+                  data-name="{{$filter->name}}" data-id="{{$filter->id}}">
+                <input class="js-category-filter-checkbox" type="checkbox" name="filter{{ $filter->id }}"
+                       value="{{ $filter->id }}">
+                <span>{{ $filter->name }}</span>
+              </label>
+            </div>
+          @endforeach
+        </div>
+        <div class="flex justify-center text-xl mt-48">
+          <button type="button" class="underline mr-9 text-white js-clear-category-filters cursor-pointer">Clear all</button>
+          <button type="button"
+                  class="js-category-apply-filter-button bg-white text-black px-18px pt-2 pb-10.5px cursor-pointer">Apply Filters
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
   <div id="filterModal" class="js-modal fixed z-999999 inset-0 overflow-y-auto hidden" aria-labelledby="modal-title"
        role="dialog"
        aria-modal="true">
@@ -92,6 +126,26 @@
     <div class="xl:block hidden">
       <form id="filterForm" class="bg-black text-white px-10 pt-10 pb-6 mt-16 4xl:text-2xl xl:text-xl text-2xl">
         @csrf
+        <div class="flex justify-between mb-5">
+          <div>
+            <p class="font-semibold">Filter by category</p>
+          </div>
+          <div class="flex items-center">
+            <button type="button" class="underline js-clear-category-filters cursor-pointer">Clear all</button>
+          </div>
+        </div>
+        <div class="flex flex-wrap mt-5 -ml-3 mb-5">
+          @foreach($category as $filter)
+            <label
+                class="filter-button-desktop js-category-filter-button"
+                data-name="{{$filter->name}}" data-id="{{$filter->id}}">
+              <input class="js-category-filter-checkbox" type="checkbox" name="filter{{ $filter->id }}"
+                     value="{{ $filter->id }}">
+              <span class="ml-2">{{ $filter->name }}</span>
+            </label>
+          @endforeach
+        </div>
+
         <div class="flex justify-between">
           <div>
             <p class="font-semibold">Filter by type</p>
@@ -114,6 +168,11 @@
       </form>
     </div>
     <div class="xl:hidden my-12">
+      <div class="flex items-center justify-between mb-5">
+        <p class="font-bold">Filter by Category</p>
+        <button class="js-category-modal-open" data-modal="categoryFilterModal"><img src="{{ asset('image/icon/filter_icn.svg') }}" alt="Smartway Pharmaceuticals - filter icon" title="Smartway Pharmaceuticals - filter icon">
+        </button>
+      </div>
       <div class="flex items-center justify-between">
         <p class="font-bold">Filter by type</p>
         <button class="js-modal-open" data-modal="filterModal"><img src="{{ asset('image/icon/filter_icn.svg') }}" alt="Smartway Pharmaceuticals - filter icon" title="Smartway Pharmaceuticals - filter icon">

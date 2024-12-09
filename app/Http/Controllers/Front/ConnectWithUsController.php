@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers\Front;
 
-use App\Http\Controllers\Controller;
-use App\Mail\ConnectUsNotification;
 use Illuminate\Http\Request;
+use App\Mail\ConnectUsNotification;
+use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Session;
 
@@ -25,7 +26,22 @@ class ConnectWithUsController extends Controller
             'work_email' => 'required|email',
             'message' => 'required',
             'policy' => 'required',
+            'cf-turnstile-response' => 'required'
         ]);
+
+        $response = Http::withOptions([
+            'verify' => false,
+        ])->asForm()->post('https://challenges.cloudflare.com/turnstile/v0/siteverify', [
+            'secret' => env('TURNSTILE_SECRET_KEY'),
+            'response' => $request->input('cf-turnstile-response'),
+            'remoteip' => $request->ip(),
+        ]);
+    
+        $result = $response->json();
+
+        if (!$result['success']) {
+            return back()->withErrors(['turnstile' => 'Turnstile verification failed. Please try again.']);
+        }
 
         Mail::to([
             ['email' => env('MAIL_TO_ADDRESS')]

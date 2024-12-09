@@ -182,6 +182,9 @@
                   placeholder="Company"
               />
             </div>
+            <div class="w-full mb-11">
+                <div class="cf-turnstile" data-sitekey="{{ env('TURNSTILE_SITE_KEY') }}"></div>
+            </div>
             <button id="smartnoteSubmit" class="button w-full lg:mt-4 lg:text-28px text-2xl font-semibold bg-persian-green text-white rounded-full py-3"
                     type="submit">
               Submit
@@ -224,4 +227,5 @@
 
 @push('scripts')
   <script src="{{ mix('js/smartnote.js') }}" defer></script>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 @endpush
