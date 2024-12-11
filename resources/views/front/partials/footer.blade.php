@@ -29,7 +29,8 @@
           <p class="4xl:text-2xl lg:text-base text-2xl font-bold 2xl:mb-7 sm:mb-4 mb-7">INFO</p>
           <p class="2xl:mb-5 sm:mb-2 mb-5">Registered in the UK: 8481191</p>
           <p class="2xl:mb-5 sm:mb-2 mb-5"><a href="{{ route('regulatory-information') }}">Regulatory Information</a></p>
-          <p><a href="{{ asset('pdf/Terms_and_conditions_of_supply.pdf') }}" target="_blank">Terms and Conditions</a></p>
+          <p class="mb-5"><a href="{{ asset('pdf/Terms_and_conditions_of_supply.pdf') }}" target="_blank">Terms and Conditions</a></p>
+          <p class="2xl:mb-5 sm:mb-2 mb-5"><a href="{{ route('connect-with-us') }}" class="text-persian-green"><b>See our Christmas operating schedule</b></a></p>
         </div>
         <hr class="sm:hidden divide-white my-8">
         <div class="lg:pl-10 pl-0">
