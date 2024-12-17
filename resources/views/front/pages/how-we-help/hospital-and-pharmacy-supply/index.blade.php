@@ -342,7 +342,7 @@
       </div>
 
     </div>
-    <hr class="h-0.5 bg-black lg:my-40 mt-20 mb-16">
+    {{--  <hr class="h-0.5 bg-black lg:my-40 mt-20 mb-16">
     <h2 class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold">Meet the Team</h2>
     <div class="grid lg:grid-cols-3 gap-x-5 lg:gap-y-16 gap-y-8 lg:mt-20 mt-7">
       <div class="4xl:text-2xl text-xl">
@@ -365,7 +365,7 @@
       <a href="{{ route('connect-with-us') }}"
          class="button 4xl:text-28px lg:text-xl text-2xl font-semibold bg-persian-green text-white rounded-full 4xl:py-5 py-3 px-10 block sm:inline-block">Talk
         to the team</a>
-    </div>
+    </div>  --}}
   </section>
 @endsection
 
