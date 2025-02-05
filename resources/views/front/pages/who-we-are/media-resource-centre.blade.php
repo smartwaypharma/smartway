@@ -101,25 +101,12 @@
           A collection of news, articles, insights, and white papers
         </p>
       </div>
-      <div class="bg-persian-green text-center xl:py-6 pt-8 pb-10 px-6">
-        <h3 class="quarto-font text-white 4xl:text-82px xl:text-54px lg:text-54px text-40px leading-none">Smartway Webinars</h3>
-        <p class="text-white font-bold 4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px lg:px-16 px-6 lg:mt-4 mt-1">
-          Click below to register for<br> our upcoming webinar
-        </p>
-        <!-- <p class="text-black font-bold 4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px lg:px-16 px-6 lg:mt-4 mt-1">
-         In the meantime, read our latest blog
-        </p> -->
-        <div class="hidden sm:inline-block text-center mt-8">
-          <a href="https://www.smartwaypharma.co.uk/how-we-help/eap"
-             class="button mt-6 sm:mt-0 block text-center sm:inline-block 4xl:text-28px lg:text-xl text-2xl font-semibold 4xl:py-5 py-3.5 4xl:px-11 px-8 bg-white rounded-full">
-            <span class="block">What Medical Affairs professionals</span> <span class="block">need to know about EAPs</span>
-          </a>
-        </div>
-        <div class="inline-block sm:hidden text-center mt-3">
-          <a href="https://www.smartwaypharma.co.uk/how-we-help/eap"
-             class="button mt-0 sm:mt-0 block text-center sm:inline-block 4xl:text-28px lg:text-xl text-sm font-semibold 4xl:py-5 py-3.5 4xl:px-11 px-8 bg-white rounded-full">
-            <span class="block">What Medical Affairs professionals</span> <span class="block">need to know about EAPs</span>
-          </a>
+      <div class="bg-persian-green text-center xl:py-6 pt-8 pb-10 px-6 flex items-center justify-center">
+        <div>
+          <h3 class="quarto-font text-white 4xl:text-82px xl:text-54px lg:text-54px text-40px leading-none">Smartway Webinars</h3>
+          <p class="text-white font-bold 4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px lg:px-16 px-6 lg:mt-4 mt-1">
+            Dates To Be Announced Soon!
+          </p>
         </div>
       </div>
     </div>
