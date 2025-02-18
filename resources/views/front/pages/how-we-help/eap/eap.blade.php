@@ -16,10 +16,15 @@
       <span class="xl:block">Design, implementation and global management of Expanded Access,</span>
       <span class="xl:block">Early Access, Compassionate Use and Named Patient Programs</span>
   </div>
+  <div class="hidden lg:block bg-lochmara text-center w-full absolute bottom-0 xl:py-8 py-8 px-5">
+    <div class="container 3xl:max-w-3xl">
+      <h3 class="text-white font-bold 4xl:text-32px text-22px leading-28px">Upcoming Webinar Series</h3>
+    </div>
+  </div>
 @endsection
 
 @section('content')
-  <section class="hidden lg:block bg-lochmara text-center w-full absolute bottom-0 xl:py-5 py-5 px-5">
+  {{--  <section class="hidden lg:block bg-lochmara text-center w-full absolute bottom-0 xl:py-5 py-5 px-5">
     <div class="container 3xl:max-w-3xl">
       <p class="text-white 4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px mb-1">
         Upcoming Webinar
@@ -35,9 +40,118 @@
       </p>
       <h3 class="text-white font-bold 4xl:text-32px text-22px leading-28px mb-4">Dates To Be Announced Soon!</h3>
     </div>
+  </section>  --}}
+
+  <section class="hidden lg:block w-full xl:py-5 py-5 px-5">
+    <div class="container 3xl:max-w-3xl"> 
+      <div class="text-center">
+        <p class="4xl:text-32px xl:text-21px lg:text-2xl text-lg 4xl:leading-45px xl:leading-28px leading-24px mt-8 mb-8">
+          Select from multiple available dates and time slots
+        </p>
+      </div>
+      <div class="webinar-btns">
+        <div class="flex items-center justify-between p-6 mb-2 text-white bg-lochmara">
+          <div>
+            <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px pr-5">
+              HOW EAP'S CONTRIBUTE TO A SUCCESSFUL PHYSICIAN & PATIENT GROUP ENGAGEMENT STRATEGY
+            </p>
+          </div>
+          <div>
+            <a href="https://beacons.ai/smartwaypharma/webinar1" target="_blank" class="pt-3 pb-4 px-10 bg-white rounded-full shadow-none text-black border border-black text-22px" type="submit">Register</a>
+          </div>
+        </div>
+        <div class="flex items-center justify-between p-6 mb-2 text-white bg-persian-green">
+          <div>
+            <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px pr-5">
+              EAP - COUNTRY DEEP DIVE: THE REGULATORY AND FUNDING MECHANISMS, LINKS TO REIMBURSEMENT, PHYSICIAN TAKE UP, AND MANAGEMENT BEST PRACTICE
+            </p>
+          </div>
+          <div>
+            <a href="https://beacons.ai/smartwaypharma/webinar2" target="_blank" class="pt-3 pb-4 px-10 bg-white rounded-full shadow-none text-black border border-black text-22px" type="submit">Register</a>
+          </div>
+        </div>
+        <div class="flex items-center justify-between p-6 mb-2 text-white bg-lochmara">
+          <div>
+            <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px pr-5">
+              THE COMMERCIAL CONSIDERATIONS OF EAPS - HOW NON-PROMOTIONAL ACTIVITIES CAN IMPACT COMMERCIALIZATION AND LAUNCHES
+            </p>
+          </div>
+          <div>
+            <a href="https://beacons.ai/smartwaypharma/webinar3" target="_blank" class="pt-3 pb-4 px-10 bg-white rounded-full shadow-none text-black border border-black text-22px" type="submit">Register</a>
+          </div>
+        </div>
+        <div class="flex items-center justify-between p-6 mb-2 text-white bg-persian-green">
+          <div>
+            <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px pr-5">
+              ARE EAPS SUITABLE FOR EMERGING BIOTECHS? WHY AND HOW THESE PROGRAMS CAN BE IMPLEMENTED BY SMALL TEAMS WITH LIMITED RESOURCES AND DELIVER SUBSTANTIAL BENEFITS.
+            </p>
+          </div>
+          <div>
+            <a href="https://beacons.ai/smartwaypharma/webinar4" target="_blank" class="pt-3 pb-4 px-10 bg-white rounded-full shadow-none text-black border border-black text-22px" type="submit">Register</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+
+  <section class="block lg:hidden bg-lochmara text-center w-full xl:py-5 py-5 px-5">
+    <div class="container 3xl:max-w-3xl">
+      <h3 class="text-white font-bold 4xl:text-32px text-22px leading-28px">Upcoming Webinar Series</h3>
+    </div>
+  </section>
+  <section class="block lg:hidden w-full xl:py-5 py-5 px-5">
+    <div class="container 3xl:max-w-3xl"> 
+      <div class="text-center">
+        <p class="4xl:text-32px xl:text-21px lg:text-2xl text-lg 4xl:leading-45px xl:leading-28px leading-24px mt-12 mb-12">
+          Select from multiple available dates and time slots
+        </p>
+      </div>
+      <div class="webinar-btns">
+        <div class="flex flex-wrap items-center justify-center p-6 mb-2 text-white bg-lochmara">
+          <div>
+            <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px text-center pb-5">
+              HOW EAP'S CONTRIBUTE TO A SUCCESSFUL PHYSICIAN & PATIENT GROUP ENGAGEMENT STRATEGY
+            </p>
+          </div>
+          <div>
+            <a href="https://beacons.ai/smartwaypharma/webinar1" target="_blank" class="pt-3 pb-4 px-10 bg-white rounded-full shadow-none text-black border border-black text-22px" type="submit">Register</a>
+          </div>
+        </div>
+        <div class="flex flex-wrap items-center justify-center p-6 mb-2 text-white bg-persian-green">
+          <div>
+            <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px text-center pb-5">
+              EAP - COUNTRY DEEP DIVE: THE REGULATORY AND FUNDING MECHANISMS, LINKS TO REIMBURSEMENT, PHYSICIAN TAKE UP, AND MANAGEMENT BEST PRACTICE
+            </p>
+          </div>
+          <div>
+            <a href="https://beacons.ai/smartwaypharma/webinar2" target="_blank" class="pt-3 pb-4 px-10 bg-white rounded-full shadow-none text-black border border-black text-22px" type="submit">Register</a>
+          </div>
+        </div>
+        <div class="flex flex-wrap items-center justify-center p-6 mb-2 text-white bg-lochmara">
+          <div>
+            <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px text-center pb-5">
+              THE COMMERCIAL CONSIDERATIONS OF EAPS - HOW NON-PROMOTIONAL ACTIVITIES CAN IMPACT COMMERCIALIZATION AND LAUNCHES
+            </p>
+          </div>
+          <div>
+            <a href="https://beacons.ai/smartwaypharma/webinar3" target="_blank" class="pt-3 pb-4 px-10 bg-white rounded-full shadow-none text-black border border-black text-22px" type="submit">Register</a>
+          </div>
+        </div>
+        <div class="flex flex-wrap items-center justify-center p-6 mb-2 text-white bg-persian-green">
+          <div>
+            <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px text-center pb-5">
+              ARE EAPS SUITABLE FOR EMERGING BIOTECHS? WHY AND HOW THESE PROGRAMS CAN BE IMPLEMENTED BY SMALL TEAMS WITH LIMITED RESOURCES AND DELIVER SUBSTANTIAL BENEFITS.
+            </p>
+          </div>
+          <div>
+            <a href="https://beacons.ai/smartwaypharma/webinar4" target="_blank" class="pt-3 pb-4 px-10 bg-white rounded-full shadow-none text-black border border-black text-22px" type="submit">Register</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section class="container 3xl:max-w-3xl px-4 lg:mt-40 sm:mt-20 mt-8">
+  <section class="container 3xl:max-w-3xl px-4 lg:mt-28 sm:mt-20 mt-8">
     <h2 class="quarto-font 4xl:text-93px xl:text-62px lg:text-44px text-34px 4xl:leading-102px xl:leading-70px lg:leading-48px leading-40px mb-12">
       <span class="4xl:block">Smartway designs, implements and manages</span>
       <span class="4xl:block">global programs that empower access to</span>
