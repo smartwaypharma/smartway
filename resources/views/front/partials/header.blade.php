@@ -1,9 +1,9 @@
-{{--<section class="bg-lochmara text-white p-3">
+<section class="bg-lochmara text-white p-3">
   <div class="container 3xl:max-w-3xl px-4 text-center text-white">
     <p class="4xl:text-34px xl:text-2xl text-22px font-bold">
       Our telephone lines are currently down. Please email us with any enquiries you may have.</p>
   </div>
-</section>--}}
+</section>
 <header id="top" class="w-full relative">
   <nav class="inset-x-0 z-50 absolute 4xl:text-2xl text-lg mt-2 sm:mt-10">
     <div class="container 3xl:max-w-3xl 4xl:pl-3 px-4">
@@ -11,9 +11,8 @@
         <div class="flex space-x-4">
           <a href="{{ route('home') }}">
             <img class="4xl:w-full md:w-64 w-32 ml-2" src="{{ asset('image/Smartway_main_logo.svg') }}" alt="Smartway Pharmaceuticals logo" title="Smartway Pharmaceuticals logo">
-            {{-- <img class="4xl:w-full md:w-64 w-32 ml-2" src="{{ asset('image/SPLWorldDayWhite.svg') }}" alt="Smartway Pharmaceuticals logo" title="Smartway Pharmaceuticals logo"> --}}
-            {{-- <img class="4xl:w-full md:w-64 w-32 ml-2" src="{{ asset('image/Smartway_Christmas_Logo.svg') }}" alt="Logo" alt="Smartway Pharmaceuticals logo" title="Smartway Pharmaceuticals logo"> --}}
-            {{--  <img class="4xl:w-full md:w-64 w-32 ml-2" src="{{ asset('image/Smartway_Christmas_Logo_1.svg') }}" alt="Logo" alt="Smartway Pharmaceuticals logo" title="Smartway Pharmaceuticals logo">  --}}
+            {{--<img class="4xl:w-full md:w-64 w-32 ml-2" src="{{ asset('image/SPLWorldDayWhite.svg') }}" alt="Smartway Pharmaceuticals logo" title="Smartway Pharmaceuticals logo">--}}
+            {{--<img class="4xl:w-full md:w-64 w-32 ml-2" src="{{ asset('image/Smartway_Christmas_Logo.svg') }}" alt="Logo" alt="Smartway Pharmaceuticals logo" title="Smartway Pharmaceuticals logo">--}}
           </a>
         </div>
         <div class="hidden lg:flex items-center space-x-1 text-white -mb-4">
@@ -26,6 +25,7 @@
               <li><a href="{{ route('who-you-are.wholesaler-distributor') }}">Wholesaler/Distributor</a></li>
               <li><a href="{{ route('who-you-are.aid-and-development') }}">Aid & Development</a></li>
               <li><a href="{{ route('who-you-are.patient') }}">Patient</a></li>
+              <li><a href="{{ route('how-we-help.strategic-investments.index') }}">Entrepreneur/Founder </a></li>
             </ul>
           </div>
           <div
@@ -38,6 +38,7 @@
               <li><a href="{{ route('who-we-are.social-responsibility') }}">Social Responsibility</a></li>
               <li><a href="{{ route('who-we-are.media-and-resource-centre.index') }}">Media & Resource Centre</a></li>
               <li><a href="{{ route('who-we-are.careers') }}">Careers & Internships</a></li>
+              <li><a href="{{ route('how-we-help.strategic-investments.index') }}">Strategic Investments</a></li>
             </ul>
           </div>
           <div
@@ -52,6 +53,7 @@
                   Supply & Unlicensed Imports</a></li>
               <li><a href="{{ route('how-we-help.sexual-health.index') }}">Sexual Health Supply</a></li>
               <li><a href="{{ route('how-we-help.distribution.index') }}">Specialist Distribution</a></li>
+              <li><a href="{{ route('how-we-help.strategic-investments.index') }}">Strategic Investments</a></li>
             </ul>
           </div>
           <div class="3xl:p-4 p-3 mb-1">
@@ -80,9 +82,8 @@
       <div class="flex justify-between items-center pb-10 border-b border-white">
         <div class="flex items-center">
           <a href="/" class="block">
-            <img class="4xl:w-full md:w-64 w-32" src="{{ asset('image/SPLWorldDayWhite.svg') }}" alt="Smartway Pharmaceuticals logo" title="Smartway Pharmaceuticals logo">
-            {{-- <img class="4xl:w-full md:w-64 w-32" src="{{ asset('image/Smartway_main_logo.svg') }}" alt="Smartway Pharmaceuticals logo" title="Smartway Pharmaceuticals logo"> --}}
-            {{--  <img class="4xl:w-full md:w-64 w-32" src="{{ asset('image/Smartway_Christmas_Logo_1.svg') }}" alt="Smartway Pharmaceuticals logo" title="Smartway Pharmaceuticals logo">  --}}
+           {{-- <img class="4xl:w-full md:w-64 w-32" src="{{ asset('image/SPLWorldDayWhite.svg') }}" alt="Smartway Pharmaceuticals logo" title="Smartway Pharmaceuticals logo">--}}
+            <img class="4xl:w-full md:w-64 w-32" src="{{ asset('image/Smartway_main_logo.svg') }}" alt="Smartway Pharmaceuticals logo" title="Smartway Pharmaceuticals logo">
           </a>
         </div>
 
@@ -106,6 +107,7 @@
             </li>
             <li class="mb-18px"><a href="{{ route('who-you-are.aid-and-development') }}">Aid & Development</a></li>
             <li><a href="{{ route('who-you-are.patient') }}">Patient</a></li>
+            <li><a href="{{ route('how-we-help.strategic-investments.index') }}">Entrepreneur/Founder </a></li>
           </ul>
         </div>
         <div
@@ -120,6 +122,7 @@
                 Centre</a>
             </li>
             <li><a href="{{ route('who-we-are.careers') }}">Careers & Internships</a></li>
+            <li><a href="{{ route('how-we-help.strategic-investments.index') }}">Strategic Investments</a></li>
           </ul>
         </div>
         <div
@@ -135,6 +138,7 @@
                 Supply & Unlicensed Imports</a></li>
             <li class="mb-18px"><a href="{{ route('how-we-help.sexual-health.index') }}">Sexual Health Supply</a></li>
             <li><a href="{{ route('how-we-help.distribution.index') }}">Specialist Distribution</a></li>
+            <li><a href="{{ route('how-we-help.strategic-investments.index') }}">Strategic Investments</a></li>
           </ul>
         </div>
         <a href="{{ route('connect-with-us') }}">Connect with us</a>
