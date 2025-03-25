@@ -25,7 +25,7 @@
               <li><a href="{{ route('who-you-are.wholesaler-distributor') }}">Wholesaler/Distributor</a></li>
               <li><a href="{{ route('who-you-are.aid-and-development') }}">Aid & Development</a></li>
               <li><a href="{{ route('who-you-are.patient') }}">Patient</a></li>
-              <li><a href="{{ route('how-we-help.strategic-investments.index') }}">Entrepreneur/Founder </a></li>
+              {{--<li><a href="{{ route('how-we-help.strategic-investments.index') }}">Entrepreneur/Founder </a></li>--}}
             </ul>
           </div>
           <div
@@ -38,7 +38,7 @@
               <li><a href="{{ route('who-we-are.social-responsibility') }}">Social Responsibility</a></li>
               <li><a href="{{ route('who-we-are.media-and-resource-centre.index') }}">Media & Resource Centre</a></li>
               <li><a href="{{ route('who-we-are.careers') }}">Careers & Internships</a></li>
-              <li><a href="{{ route('how-we-help.strategic-investments.index') }}">Strategic Investments</a></li>
+              {{--<li><a href="{{ route('how-we-help.strategic-investments.index') }}">Strategic Investments</a></li>--}}
             </ul>
           </div>
           <div
@@ -53,7 +53,7 @@
                   Supply & Unlicensed Imports</a></li>
               <li><a href="{{ route('how-we-help.sexual-health.index') }}">Sexual Health Supply</a></li>
               <li><a href="{{ route('how-we-help.distribution.index') }}">Specialist Distribution</a></li>
-              <li><a href="{{ route('how-we-help.strategic-investments.index') }}">Strategic Investments</a></li>
+              {{--<li><a href="{{ route('how-we-help.strategic-investments.index') }}">Strategic Investments</a></li>--}}
             </ul>
           </div>
           <div class="3xl:p-4 p-3 mb-1">
@@ -107,7 +107,7 @@
             </li>
             <li class="mb-18px"><a href="{{ route('who-you-are.aid-and-development') }}">Aid & Development</a></li>
             <li><a href="{{ route('who-you-are.patient') }}">Patient</a></li>
-            <li><a href="{{ route('how-we-help.strategic-investments.index') }}">Entrepreneur/Founder </a></li>
+            {{--<li><a href="{{ route('how-we-help.strategic-investments.index') }}">Entrepreneur/Founder </a></li>--}}
           </ul>
         </div>
         <div
@@ -122,7 +122,7 @@
                 Centre</a>
             </li>
             <li><a href="{{ route('who-we-are.careers') }}">Careers & Internships</a></li>
-            <li><a href="{{ route('how-we-help.strategic-investments.index') }}">Strategic Investments</a></li>
+           {{-- <li><a href="{{ route('how-we-help.strategic-investments.index') }}">Strategic Investments</a></li>--}}
           </ul>
         </div>
         <div
@@ -138,7 +138,7 @@
                 Supply & Unlicensed Imports</a></li>
             <li class="mb-18px"><a href="{{ route('how-we-help.sexual-health.index') }}">Sexual Health Supply</a></li>
             <li><a href="{{ route('how-we-help.distribution.index') }}">Specialist Distribution</a></li>
-            <li><a href="{{ route('how-we-help.strategic-investments.index') }}">Strategic Investments</a></li>
+            {{--<li><a href="{{ route('how-we-help.strategic-investments.index') }}">Strategic Investments</a></li>--}}
           </ul>
         </div>
         <a href="{{ route('connect-with-us') }}">Connect with us</a>
