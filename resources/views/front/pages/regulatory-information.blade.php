@@ -3,13 +3,14 @@
 @section('meta')
   <title>We are Regulated by MHRA for the Distribution of Medicines</title>
   <meta name="description" content="Smartway (UK) Ltd holds a WDA (human medicines) and a WDA (veterinary medicine) issued by the Medicines and Healthcare products Regulatory Agency (MHRA). We are a leading international wholesale distributor of pharmaceuticals in the UK.">
+  <meta name="robots" content="noindex, noarchive">
 @endsection
 
 @section('header-content')
   <img class="hidden sm:inline-block w-full"
-       src="{{ asset('/image/Regulatory_Information_hero.jpeg') }}">
+       src="{{ asset('/image/Regulatory_Information_hero.jpeg') }}" alt="Smartway Pharmaceuticals - Regulatory Information" title="Smartway Pharmaceuticals - Regulatory Information">
   <img class="sm:hidden inline-block w-full"
-       src="{{ asset('/image/Regulatory_Information_hero_mobile.jpeg') }}">
+       src="{{ asset('/image/Regulatory_Information_hero_mobile.jpeg') }}" alt="Smartway Pharmaceuticals - Regulatory Information" title="Smartway Pharmaceuticals - Regulatory Information">
   <div class="gray-radial-gradient opacity-60 absolute top-0 bottom-0 right-0 left-0"></div>
   <div class="container 3xl:max-w-3xl absolute heading text-white lg:px-36 px-4 sm:mb-0 mb-32">
     <h1 class="quarto-font 4xl:text-120px xl:text-85px md:text-6xl sm:text-4xl text-42px leading-none text-42px -mb-5">
