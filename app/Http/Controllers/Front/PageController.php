@@ -25,6 +25,9 @@ class PageController extends Controller
 
     public function regulatoryInformation()
     {
-        return view('front.pages.regulatory-information');
+        $response = response()->view('front.pages.regulatory-information');
+        $response->header('X-Robots-Tag', 'noindex, noarchive');
+        return $response;
+        //return view('front.pages.regulatory-information');
     }
 }
