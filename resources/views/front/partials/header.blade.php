@@ -1,9 +1,9 @@
-<section class="bg-lochmara text-white p-3">
+{{--<section class="bg-lochmara text-white p-3">
   <div class="container 3xl:max-w-3xl px-4 text-center text-white">
     <p class="4xl:text-34px xl:text-2xl text-22px font-bold">
       Our telephone lines are currently down. Please email us with any enquiries you may have.</p>
   </div>
-</section>
+</section>--}}
 <header id="top" class="w-full relative">
   <nav class="inset-x-0 z-50 absolute 4xl:text-2xl text-lg mt-2 sm:mt-10">
     <div class="container 3xl:max-w-3xl 4xl:pl-3 px-4">
