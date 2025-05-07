@@ -9,7 +9,7 @@
   <img class="hidden sm:inline-block w-full" src="{{ asset('/image/hero-hospital-pharmacy.jpg') }}" alt="Smartway Pharmaceuticals - Hospital & Pharmacy Supply" title="Smartway Pharmaceuticals - Hospital & Pharmacy Supply">
   <img class="inline-block sm:hidden w-full" src="{{ asset('/image/hero-hospital-pharmacy-mobile.jpg') }}" alt="Smartway Pharmaceuticals - Hospital & Pharmacy Supply" title="Smartway Pharmaceuticals - Hospital & Pharmacy Supply">
   <div class="gray-radial-gradient opacity-60 absolute top-0 bottom-0 right-0 left-0"></div>
-  <div class="container 3xl:max-w-3xl absolute heading text-white lg:px-36 px-4 mt-16">
+  <div class="container 3xl:max-w-3xl absolute heading text-white lg:px-36 px-4">
     <h1 class="quarto-font 4xl:text-120px xl:text-85px md:text-6xl sm:text-4xl text-42px leading-none mb-3">
       Hospital & Pharmacy Supply
     </h1>
@@ -17,6 +17,16 @@
       <span class="xl:block">Shortages, Unlicensed Medicines, Imported Medicines, Specials, Not yet</span>
       <span class="xl:block">Launched Medicines and Emergency Supply</span>
     </p>
+  </div>
+  <div class="hidden lg:block bg-lochmara text-center w-full absolute bottom-0 xl:py-5 py-5 px-5">
+    <div class="container 3xl:max-w-3xl">
+      <h3 class="text-white 4xl:text-25px text-lg leading-32px">
+        <a href="https://www.smartwaypharma.co.uk/who-we-are/media-and-resource-centre/news/introducing-smartmed-smartways-new-portal-for-unlicensed-medicines">
+          <span class="block font-bold pb-3">SmartMed is Launching Soon!</span>
+          <span class="block">Developed by Smartway, this new digital portal will give healthcare professionals faster, easier access to essential information on unlicensed medicines — helping them make better informed decisions for their patients.</span>
+        </a>
+      </h3>
+    </div>
   </div>
 @endsection
 
