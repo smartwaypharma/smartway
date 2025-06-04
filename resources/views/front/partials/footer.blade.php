@@ -31,6 +31,7 @@
           <p class="2xl:mb-5 sm:mb-2 mb-5"><a href="{{ route('regulatory-information') }}">Regulatory Information</a></p>
           <p class="2xl:mb-5 sm:mb-2 mb-5"><a href="{{ asset('pdf/Terms_and_conditions_of_supply.pdf') }}" target="_blank">Terms and Conditions of Supply</a></p>
           <p class="mb-5"><a href="{{ asset('pdf/Terms_and_conditions_of_purchase.pdf') }}" target="_blank">Terms and Conditions of Purchasing</a></p>
+          {{--<p class="mb-5"><a href="{{ route('how-we-help.strategic-investments.index') }}" target="_blank">Looking for investment?</a></p>--}}
         </div>
         <hr class="sm:hidden divide-white my-8">
         <div class="lg:pl-10 pl-0">
