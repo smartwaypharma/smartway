@@ -18,20 +18,38 @@
       <span class="xl:block">Launched Medicines and Emergency Supply</span>
     </p>
   </div>
-  <div class="hidden lg:block bg-lochmara text-center w-full absolute bottom-0 xl:py-5 py-5 px-5">
-    <div class="container 3xl:max-w-3xl">
-      <h3 class="text-white 4xl:text-25px text-lg leading-32px">
-        <a href="https://www.smartwaypharma.co.uk/who-we-are/media-and-resource-centre/news/introducing-smartmed-smartways-new-portal-for-unlicensed-medicines">
-          <span class="block font-bold pb-3">SmartMed is Launching Soon!</span>
-          <span class="block">Developed by Smartway, this new digital portal will give healthcare professionals faster, easier access to essential information on unlicensed medicines — helping them make better informed decisions for their patients.</span>
-        </a>
-      </h3>
-    </div>
-  </div>
 @endsection
 
 @section('content')
-  <section class="container 3xl:max-w-3xl px-4 lg:mt-40 mt-10">
+  <section class="container 3xl:max-w-3xl px-4 pt-12">
+    <div class="grid lg:grid-cols-2">
+      <div class="lg:pr-16">
+        <h2 class="quarto-font 4xl:text-64px xl:text-44px text-34px 4xl:leading-70px xl:leading-48px leading-40px xl:tracking-0.35px 4xl:mb-14 lg:mb-10 mb-7 4xl:pr-4 xl:pr-20 pr-4">
+          <span class="block">SmartMed:</span>
+          <span class="block">Your Trusted Portal for</span>
+          <span class="block">Unlicensed Medicines</span>
+        </h2>
+        <img class="lg:hidden lg:w-auto sm:w-3/4 mb-7" src="{{ asset('/image/SmartMed.png') }}">
+        <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px">
+          SmartMed is a powerful digital portal created to <span class="font-bold">support hospital pharmacists, technicians,</span> and <span class="font-bold">clinicians</span> with fast, reliable access to essential information on unlicensed medicines. Developed in consultation with NHS colleagues, SmartMed serves as a <span class="font-bold">one-stop resource</span> that reduces the time and effort required to source critical documentation.
+        </p>
+      </div>
+      <div class="lg:block hidden">
+        <img class="mr-auto ml-0" src="{{ asset('/image/SmartMed.png') }}">
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1">
+      <h2 class="lg:block hidden 4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold mt-10">Why Choose SmartMed?</h2>
+      <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px mt-5">
+        <p>SmartMed centralises access to product documentation, batch-specific data, and support materials in one convenient platform. It also delivers real-time updates on market shortages, API disruptions, and regulatory changes —empowering healthcare professionals to <span class="font-bold">make better-informed decisions quickly</span>. By streamlining the sourcing process and easing administrative load, <span class="font-bold">SmartMed helps healthcare teams save time and stay focused on patient care.</span></p>
+      </div>
+      <div class="text-center lg:mt-20 mt-10">
+        <a href="https://smartmed.smartwaypharma.com" target="_blank" class="button 4xl:text-28px lg:text-xl text-2xl font-semibold bg-persian-green text-white rounded-full 4xl:py-5 py-3 px-10 block sm:inline-block">Create Your SmartMed Account Now</a>
+      </div>
+    </div>
+  </section>
+  <section class="container 3xl:max-w-3xl px-4 lg:mt-20 mt-10">
     <h2 class="quarto-font 4xl:text-93px xl:text-62px lg:text-44px text-34px 4xl:leading-102px xl:leading-70px lg:leading-48px leading-40px lg:mb-12 mb-6">
       <span class="4xl:block">Smartway is the global leader in empowering</span>
       <span class="4xl:block">access to medicines and pharmaceuticals that are in shortage or not immediately available.</span>
@@ -40,11 +58,11 @@
       We help ﻿healthcare professionals including ﻿physicians and pharmacists ﻿urgently ﻿obtain the medicines ﻿for hospitals and pharmacies ﻿which they cannot get ﻿for their patients ﻿through their normal distribution channels. <br />
       In the last almost 30 years, we’ve built a global supply network for a wide range of ﻿medicines.
     </p>
-    <div class="text-center lg:my-40 mt-16">
+    <div class="text-center lg:my-20 mt-16">
       <a href="mailto:ulm@smartwaypharma.co.uk"
          class="button 4xl:text-28px lg:text-xl text-2xl font-semibold bg-persian-green text-white rounded-full 4xl:py-5 py-3 px-10 block sm:inline-block">Click here for urgent assistance</a>
     </div>
-    <div class="grid lg:grid-cols-2 grid-cols-1 gap-5 lg:mt-44 mt-9 lg:mb-40 mb-16">
+    <div class="grid lg:grid-cols-2 grid-cols-1 gap-5 lg:mt-20 mt-9 lg:mb-20 mb-16">
       <div>
         <img class="lg:hidden mb-9" src="{{ asset('image/iStock-1251044352.png') }}" alt="Smartway Pharmaceuticals - Smartway is the global leader in empowering.." title="Smartway Pharmaceuticals - Smartway is the global leader in empowering..">
         <ul class="font-semibold 4xl:text-32px text-2xl lg:-tracking-0.8px -tracking-0.4px">
@@ -93,7 +111,7 @@
       </p>
     </div>
     <h2 class="lg:block hidden 4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold mt-14">We are dedicated to empowering access to medicines.</h2>
-    <div class="grid lg:grid-cols-2 grid-cols-1 gap-5 lg:mt-44 mt-9 lg:mb-40 mb-16">
+    <div class="grid lg:grid-cols-2 grid-cols-1 gap-5 lg:mt-20 mt-9 lg:mb-20 mb-16">
       <div>
         <a href="{{ route('how-we-help.sexual-health.index') }}"><img src="{{ asset('image/SexualHealthH.jpg') }}" alt="Smartway Pharmaceuticals - Sexual Health Supply" title="Smartway Pharmaceuticals - Sexual Health Supply"></a>
       </div>
@@ -109,7 +127,7 @@
          class="button 4xl:text-28px lg:text-xl text-2xl font-semibold bg-persian-green text-white rounded-full 4xl:py-5 py-3 px-10 block sm:inline-block">Click here for exclusive supply and innovative new medicines
       </a>
     </div>--}}
-    <hr class="h-0.5 bg-black lg:my-40 my-20">
+    <hr class="h-0.5 bg-black lg:my-20 my-10">
   </section>
   <section class="container 3xl:max-w-3xl px-4">
     <p class="4xl:text-32px xl:text-2xl text-22px 4xl:leading-37px leading-28px font-bold text-center">Why partner with Smartway?</p>
@@ -243,7 +261,7 @@
          class="button 4xl:text-28px lg:text-xl text-2xl font-semibold bg-persian-green text-white rounded-full 4xl:py-5 py-3 px-10 block sm:inline-block">How
         can we help?</a>
     </div>
-    <hr class="h-0.5 bg-black lg:my-40 my-20">
+    <hr class="h-0.5 bg-black lg:my-20 my-10">
   </section>
   <section class="container 3xl:max-w-3xl px-4 lg:mb-40 mb-20">
     <div class="grid xl:grid-cols-2 grid-cols-1 lg:gap-y-40 gap-y-20">
