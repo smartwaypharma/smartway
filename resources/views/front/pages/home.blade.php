@@ -230,7 +230,7 @@
             </div>
           </div>
           <div class="sm:px-6 flex items-center justify-center ml-3 mr-3 mb-4">
-            <a type="button" href="https://outlook.office.com/book/SmartwayExpoPharm20251@smartwaypharma.co.uk/s/mlYzrTeMaEiqqyejSkwYJA2?ismsaljsauthenabled" target="_blank" class="bg-persian-green text-white rounded-3xl border-2 py-2 px-4 text-xs font-bold mr-2">Book a meeting with Us</a>
+            <a type="button" href="https://outlook.office.com/book/SmartwayExpoPharm20251@smartwaypharma.co.uk/s/mlYzrTeMaEiqqyejSkwYJA2?ismsaljsauthenabled" target="_blank" class="bg-persian-green text-white rounded-3xl border-2 py-2 px-4 text-xs font-bold mr-2">Book a meeting with us</a>
             <a type="button" href="#!" class="js-modal-close bg-lochmara text-white rounded-3xl border-2 py-2 px-4 text-xs font-bold">Dismiss</a>
           </div>
         </div>
