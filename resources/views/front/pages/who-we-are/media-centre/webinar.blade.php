@@ -55,20 +55,36 @@
         </div>
         <div class="grid lg:grid-cols-2 gap-4 gap-y-16 lg:mt-16 mt-20 xl:pr-10">
           <div>
-            <img src="{{ Illuminate\Support\Facades\Storage::url($post->first_team_member_image) }}">
-            <p class="text-21px font-bold text-lochmara lg:mt-2 mt-3">{{ $post->first_team_member_name }}</p>
-            <p class="text-xl font-bold xl:mt-0 mt-1">{{ $post->first_team_member_position }}</p>
-            <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px lg:mt-11 mt-6 xl:pr-14 pr-3">
-              {{ $post->first_team_member_text }}
-            </p>
+            @if ($post->first_team_member_image)
+              <img src="{{ Illuminate\Support\Facades\Storage::url($post->first_team_member_image) }}">
+            @endif
+            @if ($post->first_team_member_name) 
+              <p class="text-21px font-bold text-lochmara lg:mt-2 mt-3">{{ $post->first_team_member_name }}</p>
+            @endif
+            @if ($post->first_team_member_position) 
+              <p class="text-xl font-bold xl:mt-0 mt-1">{{ $post->first_team_member_position }}</p>
+            @endif
+            @if ($post->first_team_member_text) 
+              <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px lg:mt-11 mt-6 xl:pr-14 pr-3">
+                {{ $post->first_team_member_text }}
+              </p>
+            @endif
           </div>
           <div>
-            <img src="{{ Illuminate\Support\Facades\Storage::url($post->second_team_member_image) }}">
-            <p class="text-21px font-bold text-lochmara lg:mt-2 mt-3">{{ $post->second_team_member_name }}</p>
-            <p class="text-xl font-bold xl:mt-0 mt-1">{{ $post->second_team_member_position }}</p>
-            <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px lg:mt-11 mt-6 xl:pr-11 xl:pr-14 pr-3">
-              {{ $post->second_team_member_text }}
-            </p>
+            @if ($post->second_team_member_image)
+              <img src="{{ Illuminate\Support\Facades\Storage::url($post->second_team_member_image) }}">
+            @endif
+            @if ($post->second_team_member_name)
+              <p class="text-21px font-bold text-lochmara lg:mt-2 mt-3">{{ $post->second_team_member_name }}</p>
+            @endif
+            @if ($post->second_team_member_position)
+              <p class="text-xl font-bold xl:mt-0 mt-1">{{ $post->second_team_member_position }}</p>
+            @endif
+            @if ($post->second_team_member_text)
+              <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px lg:mt-11 mt-6 xl:pr-11 xl:pr-14 pr-3">
+                {{ $post->second_team_member_text }}
+              </p>
+            @endif
           </div>
         </div>
       </div>
