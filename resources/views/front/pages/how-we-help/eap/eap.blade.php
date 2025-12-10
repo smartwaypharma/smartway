@@ -53,14 +53,14 @@
         <div class="flex items-center justify-between p-6 mb-2 text-white bg-lochmara">
           <div>
             <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px pr-5">
-              HOW EAP'S CONTRIBUTE TO A SUCCESSFUL PHYSICIAN & PATIENT GROUP ENGAGEMENT STRATEGY
+            Key points for EAP in 2026, what’s changed in ‘25 and how will this impact setting up EAP in 2026 and onwards.
             </p>
           </div>
           <div>
-            <a href="https://beacons.ai/smartwaypharma/webinar1" target="_blank" class="pt-3 pb-4 px-10 bg-white rounded-full shadow-none text-black border border-black text-22px" type="submit">Register</a>
+            <a href="https://beacons.ai/smartwaypharma" target="_blank" class="pt-3 pb-4 px-10 bg-white rounded-full shadow-none text-black border border-black text-22px" type="submit">Register</a>
           </div>
         </div>
-        <div class="flex items-center justify-between p-6 mb-2 text-white bg-persian-green">
+        {{--<div class="flex items-center justify-between p-6 mb-2 text-white bg-persian-green">
           <div>
             <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px pr-5">
               EAP - COUNTRY DEEP DIVE: THE REGULATORY AND FUNDING MECHANISMS, LINKS TO REIMBURSEMENT, PHYSICIAN TAKE UP, AND MANAGEMENT BEST PRACTICE
@@ -89,7 +89,7 @@
           <div>
             <a href="https://beacons.ai/smartwaypharma/webinar4" target="_blank" class="pt-3 pb-4 px-10 bg-white rounded-full shadow-none text-black border border-black text-22px" type="submit">Register</a>
           </div>
-        </div>
+        </div>--}}
       </div>
     </div>
   </section> 
