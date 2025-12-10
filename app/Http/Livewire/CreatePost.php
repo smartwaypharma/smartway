@@ -85,14 +85,14 @@ class CreatePost extends Component
             ]);
         }
 
-        if ($this->model->category_id != 2 || $this->model->category_id == 3) {
-            $this->validate([
-                'firstTeamMemberImage' => 'required|image|max:5000',
-                'model.first_team_member_name' => 'required|string',
-                'model.first_team_member_position' => 'required|string',
-                'model.first_team_member_text' => 'required|string|max:65535'
-            ]);
-        }
+        // if ($this->model->category_id != 2 || $this->model->category_id == 3) {
+        //     $this->validate([
+        //         'firstTeamMemberImage' => 'required|image|max:5000',
+        //         'model.first_team_member_name' => 'required|string',
+        //         'model.first_team_member_position' => 'required|string',
+        //         'model.first_team_member_text' => 'required|string|max:65535'
+        //     ]);
+        // }
 
         if ($this->heroImageForDesktop) {
             $filename = uniqid() . '.' . $this->heroImageForDesktop->getClientOriginalExtension();
