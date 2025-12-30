@@ -76,7 +76,15 @@
         </li>
         <li class="flex lg:items-center items-baseline mb-4">
           <div class="mr-2.5 4xl:w-19px w-3 4xl:h-19px h-3 rounded-full 4xl:border-6px border-3.5px border-lochmara mt-9 sm:mt-0"></div>
+          <a href="{{ asset('pdf/Customer_information_sheet.pdf') }}" target="_blank" class="underline">Download our customer useful information sheet</a>
+        </li>
+        <li class="flex lg:items-center items-baseline mb-4">
+          <div class="mr-2.5 4xl:w-19px w-3 4xl:h-19px h-3 rounded-full 4xl:border-6px border-3.5px border-lochmara mt-9 sm:mt-0"></div>
           <a href="{{ asset('pdf/Terms_and_conditions_of_purchase.pdf') }}" target="_blank" class="underline">Download our terms and conditions of purchase</a>
+        </li>
+        <li class="flex lg:items-center items-baseline mb-4">
+          <div class="mr-2.5 4xl:w-19px w-3 4xl:h-19px h-3 rounded-full 4xl:border-6px border-3.5px border-lochmara mt-9 sm:mt-0"></div>
+          <a href="{{ asset('pdf/Supplier_information_sheet.pdf') }}" target="_blank" class="underline">Download our supplier useful information sheet</a>
         </li>
         <li class="flex lg:items-center items-baseline mb-4">
           <div class="mr-2.5 4xl:w-19px w-3 4xl:h-19px h-3 rounded-full 4xl:border-6px border-3.5px border-lochmara mt-9 sm:mt-0"></div>
