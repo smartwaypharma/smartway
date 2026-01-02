@@ -43,7 +43,7 @@
           <p class="text-persian-green 4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px 4xl:pr-10 lg:mb-5 mb-3 "><i class="fa fa-envelope"></i> <a href="mailto:info@smartwaypharma.co.uk" class="ml-4">info@smartwaypharma.co.uk</a></p>
           <p class="text-persian-green 4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px 4xl:pr-10 lg:mb-5 mb-3"><i class="fa fa-phone"></i> <a class=" ml-4" href="tel:+442085457711">0208 545 7711</a></p>
           
-          <div class="hours-info w-full relative z-999999 mt-12 mr-5">
+          {{--  <div class="hours-info w-full relative z-999999 mt-12 mr-5">
             <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px 4xl:pr-10 lg:mb-5 mb-3">
               <span style="color: #bf0a0a;" class="font-bold">Christmas Operating Schedule 2025</span>
             </p>
@@ -101,7 +101,7 @@
               <span style="color: #bf0a0a; font-family: 'Madelyn-Trial-Regular';">Sending warm holiday wishes to you and your loved ones!</span>
             </p>
             <img class="w-32 xl:-ml-16 absolute -top-10 left-4 z-10 opacity-30" src="{{ asset('image/christmas-tree-img.png') }}" alt="Tree Icon">
-          </div>
+          </div>  --}}
       </div>
       <div>
         <form class="max-w-xl mx-auto px-4" method="post" action="{{ route('connect-with-us-form.submit') }}">
