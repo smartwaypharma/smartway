@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [\App\Http\Controllers\Front\PageController::class, 'index'])->name('home');
 Route::get('regulatory-information', [\App\Http\Controllers\Front\PageController::class, 'regulatoryInformation'])->name('regulatory-information');
+Route::get('email-disclaimer', [\App\Http\Controllers\Front\PageController::class, 'emailDisclaimer'])->name('email-disclaimer');
 
 Route::group(['prefix' => 'how-we-help', 'as' => 'how-we-help.'] ,function () {
     Route::group(['prefix' => 'eap', 'as' => 'eap.'], function () {
