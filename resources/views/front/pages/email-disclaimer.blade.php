@@ -39,6 +39,9 @@
       <p class="lg:mb-9 mb-5">
         Supplier Information Sheets, Customer Information Sheets and other corporate or regulatory materials published on our website are provided for general information and operational guidance only and do not, of themselves, form part of any contract unless expressly incorporated by written agreement.
       </p>
+      <p class="lg:mb-9 mb-5">
+        <strong>Last updated: 12 January 2026</strong>
+      </p>
     </div>
   </section>
 @endsection
