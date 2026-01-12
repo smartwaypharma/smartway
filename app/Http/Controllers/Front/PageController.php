@@ -27,4 +27,9 @@ class PageController extends Controller
     {
         return view('front.pages.regulatory-information');
     }
+
+    public function emailDisclaimer()
+    {
+        return view('front.pages.email-disclaimer');
+    }
 }
