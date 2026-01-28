@@ -38,7 +38,7 @@
       <p class="lg:mb-6 4xl:pr-24 pr-4">
         With our knowledge of the
         pharmaceutical supply chain and distribution, we’ll manage the entire process so your trials can progress
-        without delay to manage the entire process so your trials can progress with no delays.
+        without delay.
       </p>
       <p class="lg:block hidden font-bold">
         We’re dedicated to empowering access to medicines.
