@@ -69,6 +69,10 @@ Route::group(['prefix' => 'how-we-help', 'as' => 'how-we-help.'] ,function () {
         Route::get('/end-to-end-service', [\App\Http\Controllers\Front\DistributionController::class, 'endToEndService'])->name('end-to-end-service');
         Route::get('/stakeholder-support', [\App\Http\Controllers\Front\DistributionController::class, 'stakeholderSupport'])->name('stakeholder-support');
     });
+    
+    Route::group(['prefix' => 'market-access-and-product-commercialisation', 'as' => 'market-access-and-product-commercialisation.'], function () {
+        Route::get('/',[\App\Http\Controllers\Front\MarketAccessAndProductCommercialisationController::class, 'index'])->name('index');
+    });
 });
 
 Route::group(['prefix' => 'who-you-are', 'as' => 'who-you-are.'] ,function () {
