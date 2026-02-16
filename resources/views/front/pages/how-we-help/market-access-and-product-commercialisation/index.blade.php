@@ -36,27 +36,26 @@
         <ul class="4xl:text-28px text-lg font-semibold -tracking-0.5px mt-6 mb-6">
           <li class="flex items-center">
             <div class="bg-persian-green text-white w-4 h-4 rounded-full flex items-center justify-center mr-3"></div>
-            Entry into the UK or other regulated markets
+            <div class="flex-1">Entry into the UK or other regulated markets</div>
+          <li class="flex items-center lg:my-5 my-8">
+            <div class="bg-persian-green text-white w-4 h-4 rounded-full flex items-center justify-center mr-3"></div>
+            <div class="flex-1">A partner to support regulatory approval and commercial launch</div>
           </li>
           <li class="flex items-center lg:my-5 my-8">
             <div class="bg-persian-green text-white w-4 h-4 rounded-full flex items-center justify-center mr-3"></div>
-            A partner to support regulatory approval and commercial launch
+            <div class="flex-1">Long‑term licensed supply and lifecycle management</div>
           </li>
           <li class="flex items-center lg:my-5 my-8">
             <div class="bg-persian-green text-white w-4 h-4 rounded-full flex items-center justify-center mr-3"></div>
-            Long‑term licensed supply and lifecycle management
+            <div class="flex-1">An alternative to building and maintaining in-country commercial infrastructure, including established access to community pharmacy, hospital and specialist healthcare networks</div>
           </li>
           <li class="flex items-center lg:my-5 my-8">
             <div class="bg-persian-green text-white w-4 h-4 rounded-full flex items-center justify-center mr-3"></div>
-            An alternative to building and maintaining in-country commercial infrastructure, including established access to community pharmacy, hospital and specialist healthcare networks
-          </li>
-          <li class="flex items-center lg:my-5 my-8">
-            <div class="bg-persian-green text-white w-4 h-4 rounded-full flex items-center justify-center mr-3"></div>
-            Expansion, structured relaunch or lifecycle optimisation within the UK market
+            <div class="flex-1">Expansion, structured relaunch or lifecycle optimisation within the UK market</div>
           </li>
           <li class="flex items-center">
             <div class="bg-persian-green text-white w-4 h-4 rounded-full flex items-center justify-center mr-3"></div>
-            Portfolio / product divestment, structured asset transfer or selective product carve-out within the UK market
+            <div class="flex-1">Portfolio / product divestment, structured asset transfer or selective product carve-out within the UK market</div>
           </li>
         </ul>
         <p class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px ">
