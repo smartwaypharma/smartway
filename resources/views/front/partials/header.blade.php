@@ -54,6 +54,7 @@
                   Supply & Unlicensed Imports</a></li>
               <li><a href="{{ route('how-we-help.sexual-health.index') }}">Sexual Health Supply</a></li>
               <li><a href="{{ route('how-we-help.distribution.index') }}">Specialist Distribution</a></li>
+              <li><a href="{{ route('how-we-help.market-access-and-product-commercialisation.index') }}">Market Access & Product Commercialisation</a></li>
               {{--<li><a href="{{ route('how-we-help.strategic-investments.index') }}">Strategic Investments</a></li>--}}
             </ul>
           </div>
@@ -138,7 +139,8 @@
             <li class="mb-18px"><a href="{{ route('how-we-help.international-supply-and-unlicensed-imports.index') }}">International
                 Supply & Unlicensed Imports</a></li>
             <li class="mb-18px"><a href="{{ route('how-we-help.sexual-health.index') }}">Sexual Health Supply</a></li>
-            <li><a href="{{ route('how-we-help.distribution.index') }}">Specialist Distribution</a></li>
+            <li class="mb-18px"><a href="{{ route('how-we-help.distribution.index') }}">Specialist Distribution</a></li>
+            <li><a href="{{ route('how-we-help.market-access-and-product-commercialisation.index') }}">Market Access & Product Commercialisation</a></li>
             {{--<li><a href="{{ route('how-we-help.strategic-investments.index') }}">Strategic Investments</a></li>--}}
           </ul>
         </div>
