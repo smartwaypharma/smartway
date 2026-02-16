@@ -7,7 +7,7 @@
 
 @section('header-content')
   <img class="hidden sm:inline-block w-full" src="{{ asset('/image/hero-market-access.jpg') }}" alt="Smartway Pharmaceuticals - Market Access & Product Commercialisation" title="Smartway Pharmaceuticals - Market Access & Product Commercialisation">
-  <img class="inline-block sm:hidden w-full" src="{{ asset('/image/hero-market-access-mobile.png') }}" alt="Smartway Pharmaceuticals - Market Access & Product Commercialisation" title="Smartway Pharmaceuticals - Market Access & Product Commercialisation">
+  <img class="inline-block sm:hidden w-full" src="{{ asset('/image/hero-market-access-mobile.jpg') }}" alt="Smartway Pharmaceuticals - Market Access & Product Commercialisation" title="Smartway Pharmaceuticals - Market Access & Product Commercialisation">
   <div class="gray-radial-gradient opacity-60 absolute top-0 bottom-0 right-0 left-0"></div>
   <div class="container 3xl:max-w-3xl absolute heading text-white lg:px-36 px-4">
     <h1 class="quarto-font 4xl:text-120px xl:text-85px md:text-6xl sm:text-4xl text-42px leading-none mb-3">
@@ -76,7 +76,7 @@
     <div class="grid xl:grid-cols-2 grid-cols-1 lg:gap-y-20 gap-y-10">
       <div class="xl:pr-32">
         <a href="#" class="quarto-font 4xl:text-62px text-44px leading-none">In‑licensing and product selection</a>
-        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/in‑licensing-and-product-selection.jpg') }}" alt="Smartway Pharmaceuticals - Pharmaceutical, Device & Equipment Supply" title="Smartway Pharmaceuticals - Pharmaceutical, Device & Equipment Supply">
+        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/in‑licensing-and-product-selection.jpg') }}" alt="Smartway Pharmaceuticals - In‑licensing and product selection" title="Smartway Pharmaceuticals - In‑licensing and product selection">
         <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px mt-5 xl:mb-16 mb-9">
           <p>
             We enter into structured inward licensing arrangements for products aligned with Smartway’s therapeutic focus, regulatory expertise and supply capabilities. Each opportunity is assessed for regulatory feasibility, commercial sustainability and long-term supply resilience. 
@@ -85,7 +85,7 @@
         </div>
       </div>
       <div class="xl:flex hidden items-center">
-        <img class="my-auto" src="{{ asset('image/in‑licensing-and-product-selection.jpg') }}" alt="Smartway Pharmaceuticals - Pharmaceutical, Device & Equipment Supply" title="Smartway Pharmaceuticals - Pharmaceutical, Device & Equipment Supply">
+        <img class="my-auto" src="{{ asset('image/in‑licensing-and-product-selection.jpg') }}" alt="Smartway Pharmaceuticals - In‑licensing and product selection" title="Smartway Pharmaceuticals - In‑licensing and product selection">
       </div>
     </div>
     <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px mt-10 mb-10 lg:mb-0 4xl:pr-20">
@@ -96,11 +96,11 @@
 
     <div class="grid xl:grid-cols-2 grid-cols-1 lg:mt-20 mt-10 lg:mb-20 mb-10">
       <div class="xl:flex hidden items-center">
-        <img src="{{ asset('image/regulatory-strategy-and-execution.jpg') }}" alt="Smartway Pharmaceuticals - Global Distribution & Storage Network" title="Smartway Pharmaceuticals - Global Distribution & Storage Network">
+        <img src="{{ asset('image/regulatory-strategy-and-execution.jpg') }}" alt="Smartway Pharmaceuticals - Regulatory strategy and execution" title="Smartway Pharmaceuticals - Regulatory strategy and execution">
       </div>
       <div class="xl:pl-24">
         <a href="#" class="quarto-font 4xl:text-62px text-44px leading-none">Regulatory strategy and execution</a>
-        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/regulatory-strategy-and-execution.jpg') }}" alt="Smartway Pharmaceuticals - Global Distribution & Storage Network" title="Smartway Pharmaceuticals - Global Distribution & Storage Network">
+        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/regulatory-strategy-and-execution.jpg') }}" alt="Smartway Pharmaceuticals - Regulatory strategy and execution" title="Smartway Pharmaceuticals - Regulatory strategy and execution">
         <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px mt-5 xl:mb-16 mb-9 xl:pr-5">
           <p class="lg:mb-9 mb-5">
             Smartway supports regulatory strategy and execution, including dossier development, remediation and submission, as well as ongoing regulatory maintenance. We work closely with partners and regulatory authorities to support approval and continued compliance throughout the product lifecycle.
@@ -112,7 +112,7 @@
     <div class="grid xl:grid-cols-2 grid-cols-1 lg:mt-20 mt-10 lg:mb-20 mb-10">
       <div class="xl:pr-28">
         <a href="#" class="quarto-font 4xl:text-62px text-44px leading-none">Licensed supply and commercial launch</a>
-        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/licensed-supply-and-commercial-launch.jpg') }}" alt="Smartway Pharmaceuticals - Kitting" title="Smartway Pharmaceuticals - Kitting">
+        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/licensed-supply-and-commercial-launch.jpg') }}" alt="Smartway Pharmaceuticals - Licensed supply and commercial launch" title="Smartway Pharmaceuticals - Licensed supply and commercial launch">
         <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px mt-5 xl:mb-16 mb-9">
           <p>
             Approved products are supported through licensed manufacture and supply arrangements, underpinned by Smartway’s established national distribution infrastructure serving community pharmacy, 
@@ -121,17 +121,17 @@
         </div>
       </div>
       <div class="xl:flex hidden items-center">
-        <img class="my-auto" src="{{ asset('image/licensed-supply-and-commercial-launch.jpg') }}" alt="Smartway Pharmaceuticals - Kitting" title="Smartway Pharmaceuticals - Kitting">
+        <img class="my-auto" src="{{ asset('image/licensed-supply-and-commercial-launch.jpg') }}" alt="Smartway Pharmaceuticals - Licensed supply and commercial launch" title="Smartway Pharmaceuticals - Licensed supply and commercial launch">
       </div>
     </div>
 
     <div class="grid xl:grid-cols-2 grid-cols-1 lg:gap-y-20 gap-y-10">
       <div class="xl:flex hidden items-center">
-        <img class="my-auto" src="{{ asset('image/lifecycle-and-portfolio-management.jpg') }}" alt="Smartway Pharmaceuticals - Project Management" title="Smartway Pharmaceuticals - Project Management">
+        <img class="my-auto" src="{{ asset('image/lifecycle-and-portfolio-management.jpg') }}" alt="Smartway Pharmaceuticals - Lifecycle and portfolio management" title="Smartway Pharmaceuticals - Lifecycle and portfolio management">
       </div>
       <div class="xl:pl-24">
         <a href="#" class="quarto-font 4xl:text-62px text-44px leading-none sm:mr-0 -mr-4 block">Lifecycle and portfolio management</a>
-        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/lifecycle-and-portfolio-management.jpg') }}" alt="Smartway Pharmaceuticals - Project Management" title="Smartway Pharmaceuticals - Project Management">
+        <img class="xl:hidden sm:w-3/4 my-7" src="{{ asset('image/lifecycle-and-portfolio-management.jpg') }}" alt="Smartway Pharmaceuticals - Lifecycle and portfolio management" title="Smartway Pharmaceuticals - Lifecycle and portfolio management">
         <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px mt-5 xl:mb-16 mb-9 xl:pr-8">
           <p class="4xl:-mr-3">
             Beyond initial launch, Smartway provides ongoing commercial, regulatory and supply chain management to support sustainable access, continuity of supply and long‑term portfolio value.
@@ -141,7 +141,7 @@
 
       <div class="xl:pr-24">
         <a href="#" class="quarto-font 4xl:text-62px text-44px leading-none">From access to approval</a>
-        <img class="lg:hidden my-7" src="{{ asset('image/from-access-to-approval.jpg') }}" alt="Smartway Pharmaceuticals - Resource Centre" title="Smartway Pharmaceuticals - Resource Centre">
+        <img class="lg:hidden my-7" src="{{ asset('image/from-access-to-approval.jpg') }}" alt="Smartway Pharmaceuticals - From access to approval" title="Smartway Pharmaceuticals - From access to approval">
         <div class="4xl:text-2xl sm:text-xl text-lg 4xl:leading-37px leading-24px mt-5 xl:mb-16 mb-9">
           <p class="lg:mb-9 mb-5">
             While Smartway supports early access and unlicensed supply where clinically appropriate, our market access and commercialisation activities are focused on transitioning products into licensed, sustainable supply.
@@ -151,7 +151,7 @@
         
       </div>
       <div class="lg:flex hidden items-center">
-        <img class="my-auto" src="{{ asset('image/from-access-to-approval.jpg') }}" alt="Smartway Pharmaceuticals - Resource Centre" title="Smartway Pharmaceuticals - Resource Centre">
+        <img class="my-auto" src="{{ asset('image/from-access-to-approval.jpg') }}" alt="Smartway Pharmaceuticals - From access to approval" title="Smartway Pharmaceuticals - From access to approval">
       </div>
     </div>
 
